@@ -1,0 +1,16 @@
+{
+ "dataset": "MHD_64",
+ "members": [
+  "MHD_64_mr30ryd_vrmse_gate_s1",
+  "MHD_64_vanilla_vrmse_gate_s1"
+ ],
+ "valid": {
+  "MHD_64_mr30ryd_vrmse_gate_s1": 0.17269286513328552,
+  "MHD_64_vanilla_vrmse_gate_s1": 0.17261821031570435,
+  "E-ft": 0.17262773215770721
+ },
+ "selected": "MHD_64_vanilla_vrmse_gate_s1",
+ "full_test": 0.1725376546382904,
+ "full_test_median": 0.170064777135849,
+ "full_test_n": 960
+}

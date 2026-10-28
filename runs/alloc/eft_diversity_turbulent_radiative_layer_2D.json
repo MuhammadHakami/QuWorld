@@ -1,0 +1,5 @@
+{
+ "turbulent_radiative_layer_2D_mr30ryd ~ turbulent_radiative_layer_2D_vanilla": 0.9985007958279716,
+ "turbulent_radiative_layer_2D_mr30ryd ~ turbulent_radiative_layer_2D_mlp30": 0.9971541629897224,
+ "turbulent_radiative_layer_2D_vanilla ~ turbulent_radiative_layer_2D_mlp30": 0.9975945469405916
+}

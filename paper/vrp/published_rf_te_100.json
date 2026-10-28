@@ -1,0 +1,12 @@
+{
+ "source": "RouteFinder (Berto et al., arXiv 2406.15007, TMLR 2025), Table 1, RF-TE, n=100, 1000 test instances, gap vs HGS-PyVRP",
+ "obj": {"CVRP": 15.857, "VRPTW": 26.235, "OVRP": 10.121, "VRPL": 16.051, "VRPB": 14.942, "OVRPTW": 17.327,
+         "VRPBL": 15.528, "VRPBLTW": 30.688, "VRPBTW": 30.241, "VRPLTW": 26.689, "OVRPB": 10.772, "OVRPBL": 10.778,
+         "OVRPBLTW": 19.551, "OVRPBTW": 19.550, "OVRPL": 10.120, "OVRPLTW": 17.327},
+ "gap_pct": {"CVRP": 1.505, "VRPTW": 3.178, "OVRP": 4.055, "VRPL": 1.827, "VRPB": 3.952, "OVRPTW": 2.346,
+             "VRPBL": 5.039, "VRPBLTW": 2.923, "VRPBTW": 2.619, "VRPLTW": 3.579, "OVRPB": 4.208, "OVRPBL": 4.262,
+             "OVRPBLTW": 2.048, "OVRPBTW": 2.042, "OVRPL": 4.052, "OVRPLTW": 2.347},
+ "or_tools_gap_pct": {"CVRP": 4.178, "VRPTW": 1.506, "OVRP": 2.732, "VRPL": 5.302, "VRPB": 3.853, "OVRPTW": 0.583,
+             "VRPBL": 4.338, "VRPBLTW": 2.770, "VRPBTW": 1.597, "VRPLTW": 1.899, "OVRPB": 2.315, "OVRPBL": 2.363,
+             "OVRPBLTW": 0.767, "OVRPBTW": 0.757, "OVRPL": 2.791, "OVRPLTW": 0.728}
+}

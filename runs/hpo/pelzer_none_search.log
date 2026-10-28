@@ -1,0 +1,242 @@
+[I 2026-09-21 13:27:54,380] A new study created in RDB with name: pelzer-none
+[hpo] pelzer/none: 0 complete trials on file, target 12
+[hpo-vanilla-s1337] step 100 loss 0.000222 val_mae 0.0459C pat 0.102 best 0.0459@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.001120 val_mae 0.0344C pat 0.084 best 0.0344@200 34s
+[hpo-vanilla-s1337] step 300 loss 0.000786 val_mae 0.0393C pat 0.093 best 0.0344@200 51s
+[hpo-vanilla-s1337] step 400 loss 0.000365 val_mae 0.0403C pat 0.097 best 0.0344@200 67s
+[hpo-vanilla-s1337] step 500 loss 0.000509 val_mae 0.0389C pat 0.093 best 0.0344@200 84s
+[hpo] trial 0 vanilla {'lr': 4.648627768440918e-05, 'steps': 500, 'batch': 100} -> valid 0.034395 (85s)
+[I 2026-09-21 13:29:19,774] Trial 0 finished with value: 0.03439514711499214 and parameters: {'lr': 4.648627768440918e-05, 'steps': 500, 'batch': 100}. Best is trial 0 with value: 0.03439514711499214.
+[hpo-vanilla-s1337] step 100 loss 0.000215 val_mae 0.0451C pat 0.101 best 0.0451@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.001020 val_mae 0.0362C pat 0.091 best 0.0362@200 33s
+[hpo-vanilla-s1337] step 300 loss 0.000762 val_mae 0.0370C pat 0.093 best 0.0362@200 50s
+[hpo-vanilla-s1337] step 400 loss 0.000333 val_mae 0.0373C pat 0.090 best 0.0362@200 66s
+[hpo-vanilla-s1337] step 500 loss 0.000465 val_mae 0.0373C pat 0.086 best 0.0362@200 83s
+[hpo-vanilla-s1337] step 600 loss 0.000420 val_mae 0.0360C pat 0.084 best 0.0360@600 99s
+[hpo-vanilla-s1337] step 700 loss 0.000383 val_mae 0.0385C pat 0.090 best 0.0360@600 116s
+[hpo-vanilla-s1337] step 800 loss 0.000168 val_mae 0.0371C pat 0.089 best 0.0360@600 133s
+[hpo-vanilla-s1337] step 900 loss 0.000304 val_mae 0.0414C pat 0.091 best 0.0360@600 149s
+[hpo-vanilla-s1337] step 1000 loss 0.000410 val_mae 0.0326C pat 0.076 best 0.0326@1000 166s
+[hpo-vanilla-s1337] step 1100 loss 0.000740 val_mae 0.0333C pat 0.076 best 0.0326@1000 183s
+[hpo-vanilla-s1337] step 1200 loss 0.000313 val_mae 0.0396C pat 0.087 best 0.0326@1000 199s
+[hpo-vanilla-s1337] step 1300 loss 0.000526 val_mae 0.0412C pat 0.110 best 0.0326@1000 216s
+[hpo-vanilla-s1337] step 1400 loss 0.000170 val_mae 0.0358C pat 0.077 best 0.0326@1000 233s
+[hpo-vanilla-s1337] step 1500 loss 0.000212 val_mae 0.0318C pat 0.068 best 0.0318@1500 249s
+[hpo-vanilla-s1337] step 1600 loss 0.000122 val_mae 0.0331C pat 0.077 best 0.0318@1500 266s
+[hpo-vanilla-s1337] step 1700 loss 0.000339 val_mae 0.0341C pat 0.076 best 0.0318@1500 283s
+[hpo-vanilla-s1337] step 1800 loss 0.000181 val_mae 0.0378C pat 0.094 best 0.0318@1500 299s
+[hpo-vanilla-s1337] step 1900 loss 0.003387 val_mae 0.0302C pat 0.062 best 0.0302@1900 316s
+[hpo-vanilla-s1337] step 2000 loss 0.000395 val_mae 0.0507C pat 0.092 best 0.0302@1900 333s
+[hpo] trial 1 vanilla {'lr': 5.6204293636310565e-05, 'steps': 2000, 'batch': 100} -> valid 0.030180 (333s)
+[I 2026-09-21 13:34:52,978] Trial 1 finished with value: 0.030180437490344048 and parameters: {'lr': 5.6204293636310565e-05, 'steps': 2000, 'batch': 100}. Best is trial 1 with value: 0.030180437490344048.
+[hpo-vanilla-s1337] step 100 loss 0.000417 val_mae 0.0636C pat 0.177 best 0.0636@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.000867 val_mae 0.0788C pat 0.171 best 0.0636@100 33s
+[hpo-vanilla-s1337] step 300 loss 0.000795 val_mae 0.0619C pat 0.183 best 0.0619@300 50s
+[hpo-vanilla-s1337] step 400 loss 0.000514 val_mae 0.0584C pat 0.146 best 0.0584@400 67s
+[hpo-vanilla-s1337] step 500 loss 0.000411 val_mae 0.0596C pat 0.187 best 0.0584@400 84s
+[hpo] trial 2 vanilla {'lr': 0.00021157325996459705, 'steps': 500, 'batch': 100} -> valid 0.058443 (84s)
+[I 2026-09-21 13:36:16,896] Trial 2 finished with value: 0.05844283103942871 and parameters: {'lr': 0.00021157325996459705, 'steps': 500, 'batch': 100}. Best is trial 1 with value: 0.030180437490344048.
+[hpo-vanilla-s1337] step 100 loss 0.000206 val_mae 0.0438C pat 0.105 best 0.0438@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.001120 val_mae 0.0342C pat 0.082 best 0.0342@200 33s
+[hpo-vanilla-s1337] step 300 loss 0.000891 val_mae 0.0382C pat 0.097 best 0.0342@200 50s
+[hpo-vanilla-s1337] step 400 loss 0.000417 val_mae 0.0422C pat 0.099 best 0.0342@200 67s
+[hpo-vanilla-s1337] step 500 loss 0.000497 val_mae 0.0401C pat 0.098 best 0.0342@200 83s
+[hpo-vanilla-s1337] step 600 loss 0.000416 val_mae 0.0321C pat 0.072 best 0.0321@600 100s
+[hpo-vanilla-s1337] step 700 loss 0.000375 val_mae 0.0337C pat 0.077 best 0.0321@600 116s
+[hpo-vanilla-s1337] step 800 loss 0.000145 val_mae 0.0342C pat 0.083 best 0.0321@600 133s
+[hpo-vanilla-s1337] step 900 loss 0.000504 val_mae 0.0322C pat 0.071 best 0.0321@600 149s
+[hpo-vanilla-s1337] step 1000 loss 0.000518 val_mae 0.0331C pat 0.078 best 0.0321@600 166s
+[hpo-vanilla-s1337] step 1100 loss 0.000692 val_mae 0.0357C pat 0.085 best 0.0321@600 183s
+[hpo-vanilla-s1337] step 1200 loss 0.000279 val_mae 0.0322C pat 0.071 best 0.0321@600 199s
+[hpo-vanilla-s1337] step 1300 loss 0.000352 val_mae 0.0347C pat 0.083 best 0.0321@600 216s
+[hpo-vanilla-s1337] step 1400 loss 0.000183 val_mae 0.0295C pat 0.060 best 0.0295@1400 233s
+[hpo-vanilla-s1337] step 1500 loss 0.000240 val_mae 0.0344C pat 0.074 best 0.0295@1400 249s
+[hpo-vanilla-s1337] step 1600 loss 0.000157 val_mae 0.0299C pat 0.060 best 0.0295@1400 266s
+[hpo-vanilla-s1337] step 1700 loss 0.000383 val_mae 0.0402C pat 0.094 best 0.0295@1400 283s
+[hpo-vanilla-s1337] step 1800 loss 0.000207 val_mae 0.0331C pat 0.073 best 0.0295@1400 300s
+[hpo-vanilla-s1337] step 1900 loss 0.002731 val_mae 0.0285C pat 0.060 best 0.0285@1900 316s
+[hpo-vanilla-s1337] step 2000 loss 0.000236 val_mae 0.0303C pat 0.063 best 0.0285@1900 333s
+[hpo-vanilla-s1337] step 2100 loss 0.000242 val_mae 0.0304C pat 0.065 best 0.0285@1900 350s
+[hpo-vanilla-s1337] step 2200 loss 0.000278 val_mae 0.0322C pat 0.072 best 0.0285@1900 366s
+[hpo-vanilla-s1337] step 2300 loss 0.000495 val_mae 0.0400C pat 0.086 best 0.0285@1900 383s
+[hpo-vanilla-s1337] step 2400 loss 0.000181 val_mae 0.0392C pat 0.090 best 0.0285@1900 400s
+[hpo-vanilla-s1337] step 2500 loss 0.000309 val_mae 0.0294C pat 0.064 best 0.0285@1900 416s
+[hpo-vanilla-s1337] step 2600 loss 0.000259 val_mae 0.0311C pat 0.069 best 0.0285@1900 433s
+[hpo-vanilla-s1337] step 2700 loss 0.000324 val_mae 0.0358C pat 0.086 best 0.0285@1900 450s
+[hpo-vanilla-s1337] step 2800 loss 0.000313 val_mae 0.0350C pat 0.086 best 0.0285@1900 466s
+[hpo-vanilla-s1337] step 2900 loss 0.000141 val_mae 0.0328C pat 0.070 best 0.0285@1900 483s
+[hpo-vanilla-s1337] step 3000 loss 0.000198 val_mae 0.0308C pat 0.066 best 0.0285@1900 500s
+[hpo] trial 3 vanilla {'lr': 2.9912552529665834e-05, 'steps': 3000, 'batch': 100} -> valid 0.028498 (500s)
+[I 2026-09-21 13:44:36,968] Trial 3 finished with value: 0.028498396277427673 and parameters: {'lr': 2.9912552529665834e-05, 'steps': 3000, 'batch': 100}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.000424 val_mae 0.0642C pat 0.174 best 0.0642@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.000878 val_mae 0.0880C pat 0.197 best 0.0642@100 33s
+[hpo-vanilla-s1337] step 300 loss 0.000865 val_mae 0.0583C pat 0.167 best 0.0583@300 50s
+[hpo-vanilla-s1337] step 400 loss 0.000700 val_mae 0.0651C pat 0.190 best 0.0583@300 66s
+[hpo-vanilla-s1337] step 500 loss 0.000425 val_mae 0.0736C pat 0.230 best 0.0583@300 82s
+[hpo-vanilla-s1337] step 600 loss 0.000645 val_mae 0.0585C pat 0.171 best 0.0583@300 99s
+[hpo-vanilla-s1337] step 700 loss 0.000833 val_mae 0.0565C pat 0.153 best 0.0565@700 116s
+[hpo-vanilla-s1337] step 800 loss 0.000484 val_mae 0.0751C pat 0.233 best 0.0565@700 132s
+[hpo-vanilla-s1337] step 900 loss 0.000403 val_mae 0.0802C pat 0.179 best 0.0565@700 149s
+[hpo-vanilla-s1337] step 1000 loss 0.000703 val_mae 0.0552C pat 0.133 best 0.0552@1000 166s
+[hpo-vanilla-s1337] step 1100 loss 0.000782 val_mae 0.0514C pat 0.133 best 0.0514@1100 182s
+[hpo-vanilla-s1337] step 1200 loss 0.000307 val_mae 0.0587C pat 0.131 best 0.0514@1100 199s
+[hpo-vanilla-s1337] step 1300 loss 0.000549 val_mae 0.0693C pat 0.155 best 0.0514@1100 216s
+[hpo-vanilla-s1337] step 1400 loss 0.000143 val_mae 0.0364C pat 0.092 best 0.0364@1400 233s
+[hpo-vanilla-s1337] step 1500 loss 0.000535 val_mae 0.0564C pat 0.158 best 0.0364@1400 249s
+[hpo] trial 4 vanilla {'lr': 0.0002577271221849025, 'steps': 1500, 'batch': 100} -> valid 0.036447 (250s)
+[I 2026-09-21 13:48:46,559] Trial 4 finished with value: 0.03644716367125511 and parameters: {'lr': 0.0002577271221849025, 'steps': 1500, 'batch': 100}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.001195 val_mae 0.0620C pat 0.172 best 0.0620@100 9s
+[hpo-vanilla-s1337] step 200 loss 0.000440 val_mae 0.0504C pat 0.123 best 0.0504@200 17s
+[hpo-vanilla-s1337] step 300 loss 0.000507 val_mae 0.0439C pat 0.114 best 0.0439@300 26s
+[hpo-vanilla-s1337] step 400 loss 0.000361 val_mae 0.0454C pat 0.107 best 0.0439@300 35s
+[hpo-vanilla-s1337] step 500 loss 0.001766 val_mae 0.0396C pat 0.096 best 0.0396@500 43s
+[hpo-vanilla-s1337] step 600 loss 0.000521 val_mae 0.0348C pat 0.080 best 0.0348@600 52s
+[hpo-vanilla-s1337] step 700 loss 0.000747 val_mae 0.0514C pat 0.120 best 0.0348@600 61s
+[hpo-vanilla-s1337] step 800 loss 0.001921 val_mae 0.0383C pat 0.085 best 0.0348@600 69s
+[hpo-vanilla-s1337] step 900 loss 0.000646 val_mae 0.0654C pat 0.159 best 0.0348@600 78s
+[hpo-vanilla-s1337] step 1000 loss 0.000804 val_mae 0.0432C pat 0.110 best 0.0348@600 87s
+[hpo-vanilla-s1337] step 1100 loss 0.000663 val_mae 0.0534C pat 0.127 best 0.0348@600 96s
+[hpo-vanilla-s1337] step 1200 loss 0.000689 val_mae 0.0393C pat 0.092 best 0.0348@600 104s
+[hpo-vanilla-s1337] step 1300 loss 0.000436 val_mae 0.0391C pat 0.096 best 0.0348@600 113s
+[hpo-vanilla-s1337] step 1400 loss 0.000585 val_mae 0.0420C pat 0.093 best 0.0348@600 122s
+[hpo-vanilla-s1337] step 1500 loss 0.000372 val_mae 0.0522C pat 0.108 best 0.0348@600 130s
+[hpo-vanilla-s1337] step 1600 loss 0.000285 val_mae 0.0389C pat 0.101 best 0.0348@600 139s
+[hpo-vanilla-s1337] step 1700 loss 0.000326 val_mae 0.0407C pat 0.113 best 0.0348@600 148s
+[hpo-vanilla-s1337] step 1800 loss 0.000241 val_mae 0.0497C pat 0.109 best 0.0348@600 156s
+[hpo-vanilla-s1337] step 1900 loss 0.000314 val_mae 0.0502C pat 0.118 best 0.0348@600 165s
+[hpo-vanilla-s1337] step 2000 loss 0.000306 val_mae 0.0363C pat 0.086 best 0.0348@600 174s
+[hpo-vanilla-s1337] step 2100 loss 0.000238 val_mae 0.0424C pat 0.095 best 0.0348@600 182s
+[hpo-vanilla-s1337] step 2200 loss 0.000301 val_mae 0.0368C pat 0.079 best 0.0348@600 191s
+[hpo-vanilla-s1337] step 2300 loss 0.000337 val_mae 0.0399C pat 0.094 best 0.0348@600 200s
+[hpo-vanilla-s1337] step 2400 loss 0.000362 val_mae 0.0400C pat 0.088 best 0.0348@600 208s
+[hpo-vanilla-s1337] step 2500 loss 0.000418 val_mae 0.0316C pat 0.075 best 0.0316@2500 217s
+[hpo-vanilla-s1337] step 2600 loss 0.000515 val_mae 0.0343C pat 0.079 best 0.0316@2500 226s
+[hpo-vanilla-s1337] step 2700 loss 0.000350 val_mae 0.0492C pat 0.097 best 0.0316@2500 234s
+[hpo-vanilla-s1337] step 2800 loss 0.000155 val_mae 0.0495C pat 0.105 best 0.0316@2500 243s
+[hpo-vanilla-s1337] step 2900 loss 0.000340 val_mae 0.0366C pat 0.088 best 0.0316@2500 251s
+[hpo-vanilla-s1337] step 3000 loss 0.000571 val_mae 0.0405C pat 0.086 best 0.0316@2500 260s
+[hpo] trial 5 vanilla {'lr': 3.4543815231763e-05, 'steps': 3000, 'batch': 50} -> valid 0.031595 (260s)
+[I 2026-09-21 13:53:06,506] Trial 5 finished with value: 0.03159506246447563 and parameters: {'lr': 3.4543815231763e-05, 'steps': 3000, 'batch': 50}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.000262 val_mae 0.0490C pat 0.112 best 0.0490@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.001045 val_mae 0.0405C pat 0.094 best 0.0405@200 34s
+[hpo-vanilla-s1337] step 300 loss 0.001029 val_mae 0.0398C pat 0.103 best 0.0398@300 50s
+[hpo-vanilla-s1337] step 400 loss 0.000392 val_mae 0.0338C pat 0.079 best 0.0338@400 67s
+[hpo-vanilla-s1337] step 500 loss 0.000521 val_mae 0.0454C pat 0.112 best 0.0338@400 84s
+[hpo-vanilla-s1337] step 600 loss 0.000483 val_mae 0.0446C pat 0.115 best 0.0338@400 100s
+[hpo-vanilla-s1337] step 700 loss 0.000446 val_mae 0.0475C pat 0.106 best 0.0338@400 117s
+[hpo-vanilla-s1337] step 800 loss 0.000268 val_mae 0.0522C pat 0.150 best 0.0338@400 134s
+[hpo-vanilla-s1337] step 900 loss 0.000344 val_mae 0.0456C pat 0.098 best 0.0338@400 150s
+[hpo-vanilla-s1337] step 1000 loss 0.000552 val_mae 0.0371C pat 0.102 best 0.0338@400 167s
+[hpo-vanilla-s1337] step 1100 loss 0.000787 val_mae 0.0374C pat 0.081 best 0.0338@400 184s
+[hpo-vanilla-s1337] step 1200 loss 0.000377 val_mae 0.0438C pat 0.102 best 0.0338@400 200s
+[hpo-vanilla-s1337] step 1300 loss 0.000769 val_mae 0.0406C pat 0.089 best 0.0338@400 217s
+[hpo-vanilla-s1337] step 1400 loss 0.000172 val_mae 0.0385C pat 0.089 best 0.0338@400 234s
+[hpo-vanilla-s1337] step 1500 loss 0.000252 val_mae 0.0508C pat 0.128 best 0.0338@400 250s
+[hpo-vanilla-s1337] step 1600 loss 0.000143 val_mae 0.0492C pat 0.152 best 0.0338@400 267s
+[hpo-vanilla-s1337] step 1700 loss 0.000430 val_mae 0.0469C pat 0.130 best 0.0338@400 284s
+[hpo-vanilla-s1337] step 1800 loss 0.000166 val_mae 0.0405C pat 0.127 best 0.0338@400 300s
+[hpo-vanilla-s1337] step 1900 loss 0.003034 val_mae 0.0464C pat 0.092 best 0.0338@400 317s
+[hpo-vanilla-s1337] step 2000 loss 0.000437 val_mae 0.0398C pat 0.104 best 0.0338@400 334s
+[hpo-vanilla-s1337] step 2100 loss 0.000243 val_mae 0.0291C pat 0.055 best 0.0291@2100 351s
+[hpo-vanilla-s1337] step 2200 loss 0.000272 val_mae 0.0368C pat 0.099 best 0.0291@2100 367s
+[hpo-vanilla-s1337] step 2300 loss 0.000169 val_mae 0.0698C pat 0.210 best 0.0291@2100 384s
+[hpo-vanilla-s1337] step 2400 loss 0.000201 val_mae 0.0499C pat 0.093 best 0.0291@2100 401s
+[hpo-vanilla-s1337] step 2500 loss 0.000297 val_mae 0.0410C pat 0.097 best 0.0291@2100 417s
+[hpo-vanilla-s1337] step 2600 loss 0.000178 val_mae 0.0346C pat 0.086 best 0.0291@2100 433s
+[hpo-vanilla-s1337] step 2700 loss 0.000592 val_mae 0.0357C pat 0.085 best 0.0291@2100 450s
+[hpo-vanilla-s1337] step 2800 loss 0.000317 val_mae 0.0616C pat 0.191 best 0.0291@2100 466s
+[hpo-vanilla-s1337] step 2900 loss 0.000314 val_mae 0.0523C pat 0.200 best 0.0291@2100 483s
+[hpo-vanilla-s1337] step 3000 loss 0.000323 val_mae 0.0530C pat 0.108 best 0.0291@2100 500s
+[hpo] trial 6 vanilla {'lr': 9.724353664030917e-05, 'steps': 3000, 'batch': 100} -> valid 0.029101 (500s)
+[I 2026-09-21 14:01:26,540] Trial 6 finished with value: 0.029100559651851654 and parameters: {'lr': 9.724353664030917e-05, 'steps': 3000, 'batch': 100}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.001446 val_mae 0.1040C pat 0.181 best 0.1040@100 9s
+[hpo-vanilla-s1337] step 200 loss 0.000591 val_mae 0.0476C pat 0.120 best 0.0476@200 17s
+[hpo-vanilla-s1337] step 300 loss 0.000700 val_mae 0.1121C pat 0.195 best 0.0476@200 26s
+[hpo-vanilla-s1337] step 400 loss 0.000668 val_mae 0.0792C pat 0.204 best 0.0476@200 35s
+[hpo-vanilla-s1337] step 500 loss 0.001485 val_mae 0.0768C pat 0.177 best 0.0476@200 44s
+[hpo-vanilla-s1337] step 600 loss 0.000575 val_mae 0.0497C pat 0.116 best 0.0476@200 52s
+[hpo-vanilla-s1337] step 700 loss 0.000569 val_mae 0.0785C pat 0.187 best 0.0476@200 61s
+[hpo-vanilla-s1337] step 800 loss 0.002428 val_mae 0.0493C pat 0.128 best 0.0476@200 70s
+[hpo-vanilla-s1337] step 900 loss 0.001008 val_mae 0.0670C pat 0.140 best 0.0476@200 79s
+[hpo-vanilla-s1337] step 1000 loss 0.000683 val_mae 0.0538C pat 0.175 best 0.0476@200 88s
+[hpo-vanilla-s1337] step 1100 loss 0.000731 val_mae 0.1058C pat 0.220 best 0.0476@200 96s
+[hpo-vanilla-s1337] step 1200 loss 0.001081 val_mae 0.0664C pat 0.185 best 0.0476@200 105s
+[hpo-vanilla-s1337] step 1300 loss 0.001331 val_mae 0.1058C pat 0.189 best 0.0476@200 113s
+[hpo-vanilla-s1337] step 1400 loss 0.000443 val_mae 0.0893C pat 0.164 best 0.0476@200 122s
+[hpo-vanilla-s1337] step 1500 loss 0.000375 val_mae 0.0565C pat 0.128 best 0.0476@200 131s
+[hpo-vanilla-s1337] step 1600 loss 0.000313 val_mae 0.0406C pat 0.110 best 0.0406@1600 140s
+[hpo-vanilla-s1337] step 1700 loss 0.000493 val_mae 0.0542C pat 0.142 best 0.0406@1600 148s
+[hpo-vanilla-s1337] step 1800 loss 0.000374 val_mae 0.0585C pat 0.141 best 0.0406@1600 157s
+[hpo-vanilla-s1337] step 1900 loss 0.000507 val_mae 0.0439C pat 0.119 best 0.0406@1600 166s
+[hpo-vanilla-s1337] step 2000 loss 0.000366 val_mae 0.0489C pat 0.157 best 0.0406@1600 174s
+[hpo-vanilla-s1337] step 2100 loss 0.000365 val_mae 0.0653C pat 0.176 best 0.0406@1600 183s
+[hpo-vanilla-s1337] step 2200 loss 0.000472 val_mae 0.0477C pat 0.136 best 0.0406@1600 191s
+[hpo-vanilla-s1337] step 2300 loss 0.000768 val_mae 0.0822C pat 0.176 best 0.0406@1600 200s
+[hpo-vanilla-s1337] step 2400 loss 0.003412 val_mae 0.0967C pat 0.178 best 0.0406@1600 209s
+[hpo-vanilla-s1337] step 2500 loss 0.000979 val_mae 0.0652C pat 0.203 best 0.0406@1600 217s
+[hpo] trial 7 vanilla {'lr': 0.00015523986809747167, 'steps': 2500, 'batch': 50} -> valid 0.040590 (218s)
+[I 2026-09-21 14:05:04,351] Trial 7 finished with value: 0.040590256452560425 and parameters: {'lr': 0.00015523986809747167, 'steps': 2500, 'batch': 50}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.001116 val_mae 0.0819C pat 0.234 best 0.0819@100 9s
+[hpo-vanilla-s1337] step 200 loss 0.002438 val_mae 0.0720C pat 0.187 best 0.0720@200 17s
+[hpo-vanilla-s1337] step 300 loss 0.001822 val_mae 0.3015C pat 0.281 best 0.0720@200 26s
+[hpo-vanilla-s1337] step 400 loss 0.000808 val_mae 0.1156C pat 0.194 best 0.0720@200 35s
+[hpo-vanilla-s1337] step 500 loss 0.001209 val_mae 0.0843C pat 0.237 best 0.0720@200 43s
+[hpo] trial 8 vanilla {'lr': 0.0004824699225803987, 'steps': 500, 'batch': 50} -> valid 0.072041 (44s)
+[I 2026-09-21 14:05:48,150] Trial 8 finished with value: 0.07204124331474304 and parameters: {'lr': 0.0004824699225803987, 'steps': 500, 'batch': 50}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.000189 val_mae 0.0412C pat 0.106 best 0.0412@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.001080 val_mae 0.0346C pat 0.082 best 0.0346@200 33s
+[hpo-vanilla-s1337] step 300 loss 0.000974 val_mae 0.0399C pat 0.095 best 0.0346@200 50s
+[hpo-vanilla-s1337] step 400 loss 0.000439 val_mae 0.0378C pat 0.092 best 0.0346@200 67s
+[hpo-vanilla-s1337] step 500 loss 0.000481 val_mae 0.0444C pat 0.102 best 0.0346@200 83s
+[hpo-vanilla-s1337] step 600 loss 0.000457 val_mae 0.0320C pat 0.072 best 0.0320@600 100s
+[hpo-vanilla-s1337] step 700 loss 0.000419 val_mae 0.0337C pat 0.078 best 0.0320@600 116s
+[hpo-vanilla-s1337] step 800 loss 0.000149 val_mae 0.0347C pat 0.084 best 0.0320@600 133s
+[hpo-vanilla-s1337] step 900 loss 0.000704 val_mae 0.0309C pat 0.067 best 0.0309@900 149s
+[hpo-vanilla-s1337] step 1000 loss 0.000551 val_mae 0.0339C pat 0.080 best 0.0309@900 166s
+[hpo-vanilla-s1337] step 1100 loss 0.000656 val_mae 0.0345C pat 0.081 best 0.0309@900 183s
+[hpo-vanilla-s1337] step 1200 loss 0.000328 val_mae 0.0324C pat 0.076 best 0.0309@900 199s
+[hpo-vanilla-s1337] step 1300 loss 0.000329 val_mae 0.0323C pat 0.072 best 0.0309@900 216s
+[hpo-vanilla-s1337] step 1400 loss 0.000166 val_mae 0.0313C pat 0.068 best 0.0309@900 233s
+[hpo-vanilla-s1337] step 1500 loss 0.000224 val_mae 0.0330C pat 0.072 best 0.0309@900 250s
+[hpo] trial 9 vanilla {'lr': 2.0994275748700836e-05, 'steps': 1500, 'batch': 100} -> valid 0.030859 (250s)
+[I 2026-09-21 14:09:58,087] Trial 9 finished with value: 0.03085917979478836 and parameters: {'lr': 2.0994275748700836e-05, 'steps': 1500, 'batch': 100}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.001041 val_mae 0.0460C pat 0.114 best 0.0460@100 9s
+[hpo-vanilla-s1337] step 200 loss 0.000441 val_mae 0.0492C pat 0.112 best 0.0460@100 17s
+[hpo-vanilla-s1337] step 300 loss 0.000518 val_mae 0.0418C pat 0.108 best 0.0418@300 26s
+[hpo-vanilla-s1337] step 400 loss 0.000335 val_mae 0.0401C pat 0.097 best 0.0401@400 35s
+[hpo-vanilla-s1337] step 500 loss 0.001776 val_mae 0.0415C pat 0.104 best 0.0401@400 43s
+[hpo] trial 10 vanilla {'lr': 2.287309304780856e-05, 'steps': 500, 'batch': 50} -> valid 0.040074 (44s)
+[I 2026-09-21 14:10:41,860] Trial 10 finished with value: 0.04007396101951599 and parameters: {'lr': 2.287309304780856e-05, 'steps': 500, 'batch': 50}. Best is trial 3 with value: 0.028498396277427673.
+[hpo-vanilla-s1337] step 100 loss 0.000227 val_mae 0.0470C pat 0.105 best 0.0470@100 17s
+[hpo-vanilla-s1337] step 200 loss 0.000929 val_mae 0.0376C pat 0.092 best 0.0376@200 33s
+[hpo-vanilla-s1337] step 300 loss 0.000855 val_mae 0.0408C pat 0.112 best 0.0376@200 50s
+[hpo-vanilla-s1337] step 400 loss 0.000338 val_mae 0.0325C pat 0.074 best 0.0325@400 67s
+[hpo-vanilla-s1337] step 500 loss 0.000447 val_mae 0.0383C pat 0.093 best 0.0325@400 84s
+[hpo-vanilla-s1337] step 600 loss 0.000436 val_mae 0.0415C pat 0.117 best 0.0325@400 100s
+[hpo-vanilla-s1337] step 700 loss 0.000393 val_mae 0.0437C pat 0.094 best 0.0325@400 117s
+[hpo-vanilla-s1337] step 800 loss 0.000196 val_mae 0.0445C pat 0.114 best 0.0325@400 134s
+[hpo-vanilla-s1337] step 900 loss 0.000315 val_mae 0.0405C pat 0.088 best 0.0325@400 150s
+[hpo-vanilla-s1337] step 1000 loss 0.000362 val_mae 0.0343C pat 0.087 best 0.0325@400 167s
+[hpo-vanilla-s1337] step 1100 loss 0.000738 val_mae 0.0362C pat 0.083 best 0.0325@400 184s
+[hpo-vanilla-s1337] step 1200 loss 0.000381 val_mae 0.0432C pat 0.094 best 0.0325@400 200s
+[hpo-vanilla-s1337] step 1300 loss 0.000713 val_mae 0.0431C pat 0.114 best 0.0325@400 217s
+[hpo-vanilla-s1337] step 1400 loss 0.000184 val_mae 0.0382C pat 0.083 best 0.0325@400 234s
+[hpo-vanilla-s1337] step 1500 loss 0.000236 val_mae 0.0351C pat 0.079 best 0.0325@400 250s
+[hpo-vanilla-s1337] step 1600 loss 0.000118 val_mae 0.0388C pat 0.115 best 0.0325@400 266s
+[hpo-vanilla-s1337] step 1700 loss 0.000382 val_mae 0.0426C pat 0.107 best 0.0325@400 283s
+[hpo-vanilla-s1337] step 1800 loss 0.000182 val_mae 0.0376C pat 0.097 best 0.0325@400 297s
+[hpo-vanilla-s1337] step 1900 loss 0.003265 val_mae 0.0360C pat 0.079 best 0.0325@400 311s
+[hpo-vanilla-s1337] step 2000 loss 0.000437 val_mae 0.0514C pat 0.097 best 0.0325@400 326s
+[hpo-vanilla-s1337] step 2100 loss 0.000245 val_mae 0.0296C pat 0.057 best 0.0296@2100 340s
+[hpo-vanilla-s1337] step 2200 loss 0.000263 val_mae 0.0396C pat 0.110 best 0.0296@2100 356s
+[hpo-vanilla-s1337] step 2300 loss 0.000279 val_mae 0.0499C pat 0.146 best 0.0296@2100 373s
+[hpo-vanilla-s1337] step 2400 loss 0.000187 val_mae 0.0474C pat 0.095 best 0.0296@2100 390s
+[hpo-vanilla-s1337] step 2500 loss 0.000343 val_mae 0.0356C pat 0.087 best 0.0296@2100 407s
+[hpo-vanilla-s1337] step 2600 loss 0.000161 val_mae 0.0326C pat 0.085 best 0.0296@2100 423s
+[hpo-vanilla-s1337] step 2700 loss 0.000480 val_mae 0.0332C pat 0.081 best 0.0296@2100 439s
+[hpo-vanilla-s1337] step 2800 loss 0.000300 val_mae 0.0622C pat 0.231 best 0.0296@2100 454s
+[hpo-vanilla-s1337] step 2900 loss 0.000263 val_mae 0.0401C pat 0.110 best 0.0296@2100 468s
+[hpo-vanilla-s1337] step 3000 loss 0.000234 val_mae 0.0398C pat 0.080 best 0.0296@2100 482s
+[hpo] trial 11 vanilla {'lr': 7.138399282818836e-05, 'steps': 3000, 'batch': 100} -> valid 0.029592 (482s)
+[I 2026-09-21 14:18:44,304] Trial 11 finished with value: 0.029592281207442284 and parameters: {'lr': 7.138399282818836e-05, 'steps': 3000, 'batch': 100}. Best is trial 3 with value: 0.028498396277427673.
+[hpo] pelzer/none search done: best valid 0.028498 {'lr': 2.9912552529665834e-05, 'steps': 3000, 'batch': 100}

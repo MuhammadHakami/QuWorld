@@ -1,0 +1,23 @@
+[I 2026-09-22 09:06:09,194] A new study created in RDB with name: sophelio-q_ms2
+[hpo] sophelio/q: 0 complete trials on file, target 10
+[hpo] trial 0 q30-L=4-geo=ring-sp=0.7-link=independent {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256, 'L': 4, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} -> valid -0.702609 (778s)
+[I 2026-09-22 09:19:06,872] Trial 0 finished with value: -0.702609 and parameters: {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256, 'L': 4, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'}. Best is trial 0 with value: -0.702609.
+[hpo] trial 1 q30-L=2-geo=ring-sp=0.7-link=independent {'lr': 0.0006171719817888396, 'epochs': 60, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} -> valid -0.723711 (1314s)
+[I 2026-09-22 09:41:01,239] Trial 1 finished with value: -0.7237105 and parameters: {'lr': 0.0006171719817888396, 'epochs': 60, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 2 q30-L=2-geo=grid-sp=0.7-link=shared {'lr': 0.0014506555027854584, 'epochs': 80, 'batch': 512, 'L': 2, 'geo': 'grid', 'sp': 0.7, 'link': 'shared'} -> valid -0.703718 (1345s)
+[I 2026-09-22 10:03:26,325] Trial 2 finished with value: -0.7037184999999999 and parameters: {'lr': 0.0014506555027854584, 'epochs': 80, 'batch': 512, 'L': 2, 'geo': 'grid', 'sp': 0.7, 'link': 'shared'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 3 q30-L=4-geo=grid-sp=0.7-link=shared {'lr': 0.0003986656578951343, 'epochs': 30, 'batch': 512, 'L': 4, 'geo': 'grid', 'sp': 0.7, 'link': 'shared'} -> valid -0.695434 (705s)
+[I 2026-09-22 10:15:11,836] Trial 3 finished with value: -0.6954345 and parameters: {'lr': 0.0003986656578951343, 'epochs': 30, 'batch': 512, 'L': 4, 'geo': 'grid', 'sp': 0.7, 'link': 'shared'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 4 q30-L=3-geo=ring-sp=0.7-link=independent {'lr': 0.0004104155605133619, 'epochs': 60, 'batch': 256, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} -> valid -0.701628 (1292s)
+[I 2026-09-22 10:36:44,164] Trial 4 finished with value: -0.7016275000000001 and parameters: {'lr': 0.0004104155605133619, 'epochs': 60, 'batch': 256, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 5 q30-L=2-geo=ring-sp=0.7-link=independent {'lr': 0.0002209773810093886, 'epochs': 60, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} -> valid -0.713318 (1302s)
+[I 2026-09-22 10:58:26,286] Trial 5 finished with value: -0.7133185 and parameters: {'lr': 0.0002209773810093886, 'epochs': 60, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 6 q30-L=2-geo=grid-sp=1.0-link=independent {'lr': 0.0029663491031631274, 'epochs': 80, 'batch': 128, 'L': 2, 'geo': 'grid', 'sp': 1.0, 'link': 'independent'} -> valid -0.697117 (1716s)
+[I 2026-09-22 11:27:02,466] Trial 6 finished with value: -0.6971165 and parameters: {'lr': 0.0029663491031631274, 'epochs': 80, 'batch': 128, 'L': 2, 'geo': 'grid', 'sp': 1.0, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 7 q30-L=2-geo=ring-sp=0.7-link=independent {'lr': 0.0016604809989676454, 'epochs': 30, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} -> valid -0.719371 (677s)
+[I 2026-09-22 11:38:20,029] Trial 7 finished with value: -0.719371 and parameters: {'lr': 0.0016604809989676454, 'epochs': 30, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 8 q30-L=4-geo=chain-sp=1.5-link=independent {'lr': 0.00040852439250368684, 'epochs': 50, 'batch': 128, 'L': 4, 'geo': 'chain', 'sp': 1.5, 'link': 'independent'} -> valid -0.712075 (1636s)
+[I 2026-09-22 12:05:36,221] Trial 8 finished with value: -0.7120755 and parameters: {'lr': 0.00040852439250368684, 'epochs': 50, 'batch': 128, 'L': 4, 'geo': 'chain', 'sp': 1.5, 'link': 'independent'}. Best is trial 1 with value: -0.7237105.
+[hpo] trial 9 q30-L=3-geo=ring-sp=0.7-link=shared {'lr': 0.0011332372161884938, 'epochs': 80, 'batch': 128, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'shared'} -> valid -0.748890 (2117s)
+[I 2026-09-22 12:40:53,517] Trial 9 finished with value: -0.7488900000000001 and parameters: {'lr': 0.0011332372161884938, 'epochs': 80, 'batch': 128, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'shared'}. Best is trial 9 with value: -0.7488900000000001.
+[hpo] sophelio/q search done: best valid -0.748890 {'lr': 0.0011332372161884938, 'epochs': 80, 'batch': 128, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'shared'}

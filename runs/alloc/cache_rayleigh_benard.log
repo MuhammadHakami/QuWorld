@@ -1,0 +1,9 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[cache] rayleigh_benard train static: 400 windows 28s
+[cache] rayleigh_benard train: 3000 windows 400s
+[cache] train.pt: N=3000 DC 0.0852 | oracle@30 0.2880 proxy@30 0.1627 static@30 0.1847 random@30 0.0004
+[cache] rayleigh_benard valid: 600 windows 81s
+[cache] valid.pt: N=600 DC 0.0833 | oracle@30 0.3137 proxy@30 0.1956 static@30 0.1932 random@30 0.0004
+[cache] rayleigh_benard test: 1200 windows 148s
+[cache] test.pt: N=1200 DC 0.0860 | oracle@30 0.3113 proxy@30 0.1871 static@30 0.1938 random@30 0.0005

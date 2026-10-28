@@ -1,0 +1,19 @@
+{
+ "best_val_mae_c": 0.07347734272480011,
+ "best_step": 1900,
+ "train_loss": 0.0014728783862665296,
+ "train_seconds": 2353.5483417510986,
+ "stage": "pretrain",
+ "lr": 0.0001,
+ "seed": 1337,
+ "steps": 3000,
+ "num_params": 7756609,
+ "device": "cuda",
+ "checkpoint": "/home/mohhakami/Documents/paper/quworld/runs/pelzer_unet/pretrain_lr0.0001_s1337.pt",
+ "val": {
+  "mae_c": 0.07347734272480011,
+  "pat_0p1": 0.15366820991039276,
+  "max_err_c": 1.0592024326324463,
+  "mse_norm": 0.0014370419085025787
+ }
+}

@@ -1,0 +1,1218 @@
+{
+ "compiled_at": "2026-09-27T23:08:15+03:00",
+ "compiled_for": "doc 35 \u00a737 routing: published-SoTA column for the RouteFinder EAL-MD and RRNCO rows",
+ "method": "Numbers copied from arXiv PDF text (pdftotext); tables parsed by script and spot-checked by hand against the text (RouteFinder v4 Table 11 EAL row, RRNCO v2 Table 1 ACVRP rows, RADAR v1/v2 Table 3 ACVRP rows re-read by the compiler). Averages marked computed_by_us are unweighted means of the per-variant gaps printed in the paper (the papers print none for these rows).",
+ "routefinder_eal_md": {
+  "row": "RouteFinder RF-TE fine-tuned with Efficient Adapter Layers (EAL) to the 16 unseen multi-depot (MD) variants, n=100, 3 depots",
+  "source": {
+   "arxiv": "2406.15007",
+   "title": "RouteFinder: Towards Foundation Models for Vehicle Routing Problems",
+   "venue": "TMLR 09/2025",
+   "version": "v4 (identical in v3)",
+   "table": "Table 11 (App. D.7.1); budget text App. D.7 / Sec. 5.3",
+   "url": "https://arxiv.org/pdf/2406.15007v4"
+  },
+  "published_protocol": {
+   "finetune": "10 epochs x 10,000 sampled instances (Sec. 5.3, App. D.7); lr not restated for MD (\"similarly to the main experiments\"; run_eal.py default 3e-4, batch 128)",
+   "test": "RouteFinder MD test files, 1,000 instances per variant (Table 3 caption; Table 11 caption does not restate)",
+   "decode": "greedy multi-start + x8 dihedral augmentation",
+   "gap_reference": "HGS-PyVRP (20 s per instance for n=100 in Sec. 5; not restated for MD)",
+   "seeds": "not stated for Table 11 (run_eal.py default num_runs=3)",
+   "precision": "not stated; RL4COTrainer default precision is 16-mixed (rl4co/utils/trainer.py) and run_eal.py does not override it"
+  },
+  "sota": {
+   "method": "RF-TE + EAL",
+   "avg_gap_pct_16_MD_computed_by_us": 8.58,
+   "best_cell": "MDOVRPBLTW 5.60%",
+   "worst_cell": "MDVRPBL 12.70%"
+  },
+  "other_rows_avg_gap_pct_computed_by_us": {
+   "OR-Tools": 2.426,
+   "RF-TE\u2205": 33.779,
+   "Train (scratch)": 21.979,
+   "AL": 19.685,
+   "EAL": 8.58
+  },
+  "per_variant": {
+   "mdcvrp": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": false,
+     "duration_limit": false,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 11.89,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 12.52,
+     "gap_pct": 5.27
+    },
+    "RF-TE\u2205": {
+     "obj": 15.98,
+     "gap_pct": 35.02
+    },
+    "Train (scratch)": {
+     "obj": 14.44,
+     "gap_pct": 21.59
+    },
+    "AL": {
+     "obj": 14.23,
+     "gap_pct": 19.84
+    },
+    "EAL": {
+     "obj": 12.96,
+     "gap_pct": 9.14
+    }
+   },
+   "mdovrp": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": false,
+     "duration_limit": false,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 7.97,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 8.16,
+     "gap_pct": 2.33
+    },
+    "RF-TE\u2205": {
+     "obj": 10.18,
+     "gap_pct": 27.82
+    },
+    "Train (scratch)": {
+     "obj": 9.88,
+     "gap_pct": 23.87
+    },
+    "AL": {
+     "obj": 9.67,
+     "gap_pct": 21.28
+    },
+    "EAL": {
+     "obj": 8.64,
+     "gap_pct": 8.37
+    }
+   },
+   "mdvrpb": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": false,
+     "duration_limit": false,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 11.64,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 12.22,
+     "gap_pct": 5.01
+    },
+    "RF-TE\u2205": {
+     "obj": 15.05,
+     "gap_pct": 29.53
+    },
+    "Train (scratch)": {
+     "obj": 14.86,
+     "gap_pct": 27.75
+    },
+    "AL": {
+     "obj": 14.84,
+     "gap_pct": 27.57
+    },
+    "EAL": {
+     "obj": 13.05,
+     "gap_pct": 12.15
+    }
+   },
+   "mdvrpl": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": false,
+     "duration_limit": true,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 11.9,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 12.52,
+     "gap_pct": 5.24
+    },
+    "RF-TE\u2205": {
+     "obj": 16.2,
+     "gap_pct": 36.76
+    },
+    "Train (scratch)": {
+     "obj": 14.5,
+     "gap_pct": 21.99
+    },
+    "AL": {
+     "obj": 14.33,
+     "gap_pct": 20.51
+    },
+    "EAL": {
+     "obj": 12.99,
+     "gap_pct": 9.31
+    }
+   },
+   "mdvrptw": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": true,
+     "duration_limit": false,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 19.33,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 19.62,
+     "gap_pct": 1.55
+    },
+    "RF-TE\u2205": {
+     "obj": 26.51,
+     "gap_pct": 37.64
+    },
+    "Train (scratch)": {
+     "obj": 23.33,
+     "gap_pct": 20.82
+    },
+    "AL": {
+     "obj": 22.64,
+     "gap_pct": 17.18
+    },
+    "EAL": {
+     "obj": 21.14,
+     "gap_pct": 9.43
+    }
+   },
+   "mdovrptw": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": true,
+     "duration_limit": false,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 13.0,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 13.09,
+     "gap_pct": 0.74
+    },
+    "RF-TE\u2205": {
+     "obj": 17.48,
+     "gap_pct": 34.96
+    },
+    "Train (scratch)": {
+     "obj": 15.48,
+     "gap_pct": 19.16
+    },
+    "AL": {
+     "obj": 15.05,
+     "gap_pct": 15.81
+    },
+    "EAL": {
+     "obj": 13.81,
+     "gap_pct": 6.24
+    }
+   },
+   "mdovrpb": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": false,
+     "duration_limit": false,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 8.69,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 8.87,
+     "gap_pct": 2.15
+    },
+    "RF-TE\u2205": {
+     "obj": 10.82,
+     "gap_pct": 24.74
+    },
+    "Train (scratch)": {
+     "obj": 10.76,
+     "gap_pct": 23.84
+    },
+    "AL": {
+     "obj": 10.69,
+     "gap_pct": 23.12
+    },
+    "EAL": {
+     "obj": 9.46,
+     "gap_pct": 8.88
+    }
+   },
+   "mdovrpl": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": false,
+     "duration_limit": true,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 7.97,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 8.16,
+     "gap_pct": 2.33
+    },
+    "RF-TE\u2205": {
+     "obj": 10.18,
+     "gap_pct": 27.84
+    },
+    "Train (scratch)": {
+     "obj": 9.89,
+     "gap_pct": 24.07
+    },
+    "AL": {
+     "obj": 9.69,
+     "gap_pct": 21.45
+    },
+    "EAL": {
+     "obj": 8.64,
+     "gap_pct": 8.33
+    }
+   },
+   "mdvrpbl": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": false,
+     "duration_limit": true,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 11.68,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 12.22,
+     "gap_pct": 4.66
+    },
+    "RF-TE\u2205": {
+     "obj": 15.62,
+     "gap_pct": 33.98
+    },
+    "Train (scratch)": {
+     "obj": 15.05,
+     "gap_pct": 28.91
+    },
+    "AL": {
+     "obj": 14.95,
+     "gap_pct": 28.03
+    },
+    "EAL": {
+     "obj": 13.16,
+     "gap_pct": 12.7
+    }
+   },
+   "mdvrpbtw": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": true,
+     "duration_limit": false,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 22.03,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 22.4,
+     "gap_pct": 1.69
+    },
+    "RF-TE\u2205": {
+     "obj": 30.36,
+     "gap_pct": 38.36
+    },
+    "Train (scratch)": {
+     "obj": 26.43,
+     "gap_pct": 20.03
+    },
+    "AL": {
+     "obj": 25.81,
+     "gap_pct": 17.19
+    },
+    "EAL": {
+     "obj": 23.88,
+     "gap_pct": 8.42
+    }
+   },
+   "mdvrpltw": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": true,
+     "duration_limit": true,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 19.35,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 19.66,
+     "gap_pct": 1.58
+    },
+    "RF-TE\u2205": {
+     "obj": 26.93,
+     "gap_pct": 39.69
+    },
+    "Train (scratch)": {
+     "obj": 23.41,
+     "gap_pct": 21.08
+    },
+    "AL": {
+     "obj": 22.7,
+     "gap_pct": 17.33
+    },
+    "EAL": {
+     "obj": 21.18,
+     "gap_pct": 9.47
+    }
+   },
+   "mdovrpbl": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": false,
+     "duration_limit": true,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 8.69,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 8.87,
+     "gap_pct": 2.13
+    },
+    "RF-TE\u2205": {
+     "obj": 10.82,
+     "gap_pct": 24.78
+    },
+    "Train (scratch)": {
+     "obj": 10.77,
+     "gap_pct": 24.02
+    },
+    "AL": {
+     "obj": 10.7,
+     "gap_pct": 23.14
+    },
+    "EAL": {
+     "obj": 9.46,
+     "gap_pct": 8.85
+    }
+   },
+   "mdovrpbtw": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": true,
+     "duration_limit": false,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 14.369,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 14.49,
+     "gap_pct": 0.87
+    },
+    "RF-TE\u2205": {
+     "obj": 19.59,
+     "gap_pct": 36.95
+    },
+    "Train (scratch)": {
+     "obj": 16.86,
+     "gap_pct": 17.41
+    },
+    "AL": {
+     "obj": 16.47,
+     "gap_pct": 14.66
+    },
+    "EAL": {
+     "obj": 15.18,
+     "gap_pct": 5.61
+    }
+   },
+   "mdovrpltw": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": true,
+     "duration_limit": true,
+     "backhaul": false,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 13.0,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 13.09,
+     "gap_pct": 0.7
+    },
+    "RF-TE\u2205": {
+     "obj": 17.48,
+     "gap_pct": 34.95
+    },
+    "Train (scratch)": {
+     "obj": 15.5,
+     "gap_pct": 19.28
+    },
+    "AL": {
+     "obj": 15.07,
+     "gap_pct": 15.98
+    },
+    "EAL": {
+     "obj": 13.81,
+     "gap_pct": 6.24
+    }
+   },
+   "mdvrpbltw": {
+    "attributes": {
+     "open_route": false,
+     "time_windows": true,
+     "duration_limit": true,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 22.06,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 22.43,
+     "gap_pct": 1.7
+    },
+    "RF-TE\u2205": {
+     "obj": 30.86,
+     "gap_pct": 40.49
+    },
+    "Train (scratch)": {
+     "obj": 26.52,
+     "gap_pct": 20.3
+    },
+    "AL": {
+     "obj": 25.84,
+     "gap_pct": 17.16
+    },
+    "EAL": {
+     "obj": 23.94,
+     "gap_pct": 8.54
+    }
+   },
+   "mdovrpbltw": {
+    "attributes": {
+     "open_route": true,
+     "time_windows": true,
+     "duration_limit": true,
+     "backhaul": true,
+     "mixed_backhaul": false,
+     "multi_depot": true
+    },
+    "HGS-PyVRP": {
+     "obj": 14.37,
+     "gap_pct": null
+    },
+    "OR-Tools": {
+     "obj": 14.49,
+     "gap_pct": 0.86
+    },
+    "RF-TE\u2205": {
+     "obj": 19.6,
+     "gap_pct": 36.96
+    },
+    "Train (scratch)": {
+     "obj": 16.88,
+     "gap_pct": 17.54
+    },
+    "AL": {
+     "obj": 16.48,
+     "gap_pct": 14.71
+    },
+    "EAL": {
+     "obj": 15.17,
+     "gap_pct": 5.6
+    }
+   }
+  },
+  "no_other_finetuning_results": "No other paper found reports fine-tuning (EAL-style or otherwise) on RouteFinder MD test files. Zero-shot only on the same MD files: POLAR+PLE (arXiv 2608.24859 v1, Table 9) 21.39% avg over the 16 MD variants (computed_by_us), FiLMMeD(CaDA) 23.74%, RF-TE 33.78%. FiLMMeD (2604.28102), URS (2509.23413) and CCL (2603.01667) report MD numbers on their own MD instances; not comparable.",
+  "ours_test": {
+   "register_q30-geo=3d_bf16_s1 (Table-1 row)": {
+    "file": "runs/routefinder/s23/eal_md_q30-geo=3d_s1.json",
+    "precision": "bf16-mixed",
+    "params": 1715198,
+    "mean_gap_pct": 8.623,
+    "delta_vs_published_EAL_pp": 0.043,
+    "variants_below_published": 6,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.372,
+     "mdovrp": 8.467,
+     "mdvrpb": 12.197,
+     "mdvrpl": 9.586,
+     "mdvrptw": 9.418,
+     "mdovrptw": 6.183,
+     "mdovrpb": 8.922,
+     "mdovrpl": 8.379,
+     "mdvrpbl": 12.817,
+     "mdvrpbtw": 8.409,
+     "mdvrpltw": 9.59,
+     "mdovrpbl": 8.92,
+     "mdovrpbtw": 5.461,
+     "mdovrpltw": 6.175,
+     "mdvrpbltw": 8.599,
+     "mdovrpbltw": 5.48
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.23,
+     "mdovrp": 0.1,
+     "mdvrpb": 0.05,
+     "mdvrpl": 0.28,
+     "mdvrptw": -0.01,
+     "mdovrptw": -0.06,
+     "mdovrpb": 0.04,
+     "mdovrpl": 0.05,
+     "mdvrpbl": 0.12,
+     "mdvrpbtw": -0.01,
+     "mdvrpltw": 0.12,
+     "mdovrpbl": 0.07,
+     "mdovrpbtw": -0.15,
+     "mdovrpltw": -0.07,
+     "mdvrpbltw": 0.06,
+     "mdovrpbltw": -0.12
+    }
+   },
+   "vanilla_bf16_s1": {
+    "file": "runs/routefinder/s23/eal_md_vanilla_s1.json",
+    "precision": "bf16-mixed",
+    "params": 1678336,
+    "mean_gap_pct": 8.687,
+    "delta_vs_published_EAL_pp": 0.107,
+    "variants_below_published": 3,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.274,
+     "mdovrp": 8.425,
+     "mdvrpb": 12.146,
+     "mdvrpl": 9.391,
+     "mdvrptw": 9.704,
+     "mdovrptw": 6.221,
+     "mdovrpb": 8.808,
+     "mdovrpl": 8.387,
+     "mdvrpbl": 12.704,
+     "mdvrpbtw": 8.765,
+     "mdvrpltw": 9.815,
+     "mdovrpbl": 8.843,
+     "mdovrpbtw": 5.649,
+     "mdovrpltw": 6.279,
+     "mdvrpbltw": 8.859,
+     "mdovrpbltw": 5.717
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.13,
+     "mdovrp": 0.06,
+     "mdvrpb": -0.0,
+     "mdvrpl": 0.08,
+     "mdvrptw": 0.27,
+     "mdovrptw": -0.02,
+     "mdovrpb": -0.07,
+     "mdovrpl": 0.06,
+     "mdvrpbl": 0.0,
+     "mdvrpbtw": 0.34,
+     "mdvrpltw": 0.35,
+     "mdovrpbl": -0.01,
+     "mdovrpbtw": 0.04,
+     "mdovrpltw": 0.04,
+     "mdvrpbltw": 0.32,
+     "mdovrpbltw": 0.12
+    }
+   },
+   "mlp_q30-geo=3d-mlp_bf16_s1": {
+    "file": "runs/routefinder/s23/eal_md_q30-geo=3d-mlp_s1.json",
+    "precision": "bf16-mixed",
+    "params": 1715057,
+    "mean_gap_pct": 8.774,
+    "delta_vs_published_EAL_pp": 0.194,
+    "variants_below_published": 5,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.362,
+     "mdovrp": 8.384,
+     "mdvrpb": 11.902,
+     "mdvrpl": 9.424,
+     "mdvrptw": 10.106,
+     "mdovrptw": 6.371,
+     "mdovrpb": 8.839,
+     "mdovrpl": 8.321,
+     "mdvrpbl": 12.573,
+     "mdvrpbtw": 9.185,
+     "mdvrpltw": 10.075,
+     "mdovrpbl": 8.795,
+     "mdovrpbtw": 5.761,
+     "mdovrpltw": 6.471,
+     "mdvrpbltw": 9.098,
+     "mdovrpbltw": 5.717
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.22,
+     "mdovrp": 0.01,
+     "mdvrpb": -0.25,
+     "mdvrpl": 0.11,
+     "mdvrptw": 0.68,
+     "mdovrptw": 0.13,
+     "mdovrpb": -0.04,
+     "mdovrpl": -0.01,
+     "mdvrpbl": -0.13,
+     "mdvrpbtw": 0.76,
+     "mdvrpltw": 0.61,
+     "mdovrpbl": -0.06,
+     "mdovrpbtw": 0.15,
+     "mdovrpltw": 0.23,
+     "mdvrpbltw": 0.56,
+     "mdovrpbltw": 0.12
+    }
+   },
+   "vanilla_fp32_s1 (ladder K=0)": {
+    "file": "runs/routefinder/full/eal_md_vanilla_s1.json",
+    "precision": "32",
+    "params": 1678336,
+    "mean_gap_pct": 8.528,
+    "delta_vs_published_EAL_pp": -0.052,
+    "variants_below_published": 11,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.159,
+     "mdovrp": 8.126,
+     "mdvrpb": 12.033,
+     "mdvrpl": 9.337,
+     "mdvrptw": 9.511,
+     "mdovrptw": 6.22,
+     "mdovrpb": 8.774,
+     "mdovrpl": 8.132,
+     "mdvrpbl": 12.823,
+     "mdvrpbtw": 8.374,
+     "mdvrpltw": 9.503,
+     "mdovrpbl": 8.68,
+     "mdovrpbtw": 5.553,
+     "mdovrpltw": 6.182,
+     "mdvrpbltw": 8.462,
+     "mdovrpbltw": 5.576
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.02,
+     "mdovrp": -0.24,
+     "mdvrpb": -0.12,
+     "mdvrpl": 0.03,
+     "mdvrptw": 0.08,
+     "mdovrptw": -0.02,
+     "mdovrpb": -0.11,
+     "mdovrpl": -0.2,
+     "mdvrpbl": 0.12,
+     "mdvrpbtw": -0.05,
+     "mdvrpltw": 0.03,
+     "mdovrpbl": -0.17,
+     "mdovrpbtw": -0.06,
+     "mdovrpltw": -0.06,
+     "mdvrpbltw": -0.08,
+     "mdovrpbltw": -0.02
+    }
+   },
+   "route30_fp32_s1": {
+    "file": "runs/routefinder/full/eal_md_route30_s1.json",
+    "precision": "32",
+    "params": 1688771,
+    "mean_gap_pct": 8.587,
+    "delta_vs_published_EAL_pp": 0.007,
+    "variants_below_published": 6,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.144,
+     "mdovrp": 8.326,
+     "mdvrpb": 12.056,
+     "mdvrpl": 9.316,
+     "mdvrptw": 9.506,
+     "mdovrptw": 6.372,
+     "mdovrpb": 8.937,
+     "mdovrpl": 8.259,
+     "mdvrpbl": 12.761,
+     "mdvrpbtw": 8.416,
+     "mdvrpltw": 9.449,
+     "mdovrpbl": 8.808,
+     "mdovrpbtw": 5.618,
+     "mdovrpltw": 6.361,
+     "mdvrpbltw": 8.442,
+     "mdovrpbltw": 5.622
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.0,
+     "mdovrp": -0.04,
+     "mdvrpb": -0.09,
+     "mdvrpl": 0.01,
+     "mdvrptw": 0.08,
+     "mdovrptw": 0.13,
+     "mdovrpb": 0.06,
+     "mdovrpl": -0.07,
+     "mdvrpbl": 0.06,
+     "mdvrpbtw": -0.0,
+     "mdvrpltw": -0.02,
+     "mdovrpbl": -0.04,
+     "mdovrpbtw": 0.01,
+     "mdovrpltw": 0.12,
+     "mdvrpbltw": -0.1,
+     "mdovrpbltw": 0.02
+    }
+   },
+   "route30-mlp_fp32_s1": {
+    "file": "runs/routefinder/full/eal_md_route30-mlp_s1.json",
+    "precision": "32",
+    "params": 1688726,
+    "mean_gap_pct": 8.56,
+    "delta_vs_published_EAL_pp": -0.02,
+    "variants_below_published": 8,
+    "per_variant_gap_pct": {
+     "mdcvrp": 9.297,
+     "mdovrp": 8.205,
+     "mdvrpb": 12.329,
+     "mdvrpl": 9.413,
+     "mdvrptw": 9.431,
+     "mdovrptw": 6.079,
+     "mdovrpb": 8.671,
+     "mdovrpl": 8.124,
+     "mdvrpbl": 12.953,
+     "mdvrpbtw": 8.537,
+     "mdvrpltw": 9.477,
+     "mdovrpbl": 8.72,
+     "mdovrpbtw": 5.514,
+     "mdovrpltw": 6.099,
+     "mdvrpbltw": 8.578,
+     "mdovrpbltw": 5.528
+    },
+    "per_variant_delta_pp": {
+     "mdcvrp": 0.16,
+     "mdovrp": -0.16,
+     "mdvrpb": 0.18,
+     "mdvrpl": 0.1,
+     "mdvrptw": 0.0,
+     "mdovrptw": -0.16,
+     "mdovrpb": -0.21,
+     "mdovrpl": -0.21,
+     "mdvrpbl": 0.25,
+     "mdvrpbtw": 0.12,
+     "mdvrpltw": 0.01,
+     "mdovrpbl": -0.13,
+     "mdovrpbtw": -0.1,
+     "mdovrpltw": -0.14,
+     "mdvrpbltw": 0.04,
+     "mdovrpbltw": -0.07
+    }
+   }
+  }
+ },
+ "routefinder_16_standard_variants_context": {
+  "note": "Not our benchmark row (single-depot, no fine-tuning); context for \"is RF-TE still SoTA\". Same RouteFinder test files, 1,000/variant, n=100, gap vs HGS-PyVRP.",
+  "RF-TE": {
+   "source": {
+    "arxiv": "2406.15007",
+    "version": "v4",
+    "table": "Table 1"
+   },
+   "avg_gap_pct": 3.124,
+   "per_variant_gap_pct": {
+    "CVRP": 1.505,
+    "VRPTW": 3.178,
+    "OVRP": 4.055,
+    "VRPL": 1.827,
+    "VRPB": 3.952,
+    "OVRPTW": 2.346,
+    "VRPBL": 5.039,
+    "VRPBLTW": 2.923,
+    "VRPBTW": 2.619,
+    "VRPLTW": 3.579,
+    "OVRPB": 4.208,
+    "OVRPBL": 4.262,
+    "OVRPBLTW": 2.048,
+    "OVRPBTW": 2.042,
+    "OVRPL": 4.052,
+    "OVRPLTW": 2.347
+   },
+   "our_reproduction_avg_gap_pct": 3.126
+  },
+  "newer_methods_same_test_set": [
+   {
+    "name": "CaDA",
+    "arxiv": "2412.00346",
+    "title_verified": "CaDA: Cross-Problem Routing Solver with Constraint-Aware Dual-Attention",
+    "venue": "ICML 2025 (PMLR 267, li25bi); arXiv has only v1 (2024-11-30)",
+    "version_read": "v1",
+    "source": {
+     "arxiv": "2412.00346",
+     "version": "v1",
+     "table": "TABLE III (per-variant) and Fig. 3 (average gap bars)",
+     "url": "https://arxiv.org/pdf/2412.00346v1"
+    },
+    "avg_gap_pct_n100_16_variants_computed_by_us": {
+     "HGS-PyVRP": 0.0,
+     "OR-Tools": 2.405,
+     "MTPOMO": 3.966,
+     "MVMoE": 3.682,
+     "RF-POMO": 3.645,
+     "RF-MoE": 3.385,
+     "RF-TE": 3.131,
+     "CaDA": 2.814
+    },
+    "protocol": "RouteFinder's published test set, 1K instances per variant, n=50 and n=100; greedy rollout with x8 aug; gap vs HGS-PyVRP (10 s / 20 s per instance); baselines re-run by CaDA (RF rows differ slightly from RF's own Table 1).",
+    "md_note": "none"
+   },
+   {
+    "name": "MoSES",
+    "arxiv": "2510.21453",
+    "title_verified": "Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts under State-Decomposable MDP",
+    "venue": "NeurIPS 2025",
+    "version_read": "v1",
+    "source": {
+     "arxiv": "2510.21453",
+     "version": "v1",
+     "table": "Table 1",
+     "url": "https://arxiv.org/pdf/2510.21453v1"
+    },
+    "avg_gap_pct_n100_16_variants_computed_by_us": {
+     "HGS-PyVRP": 0.0,
+     "OR-Tools": 2.405,
+     "MTPOMO": 3.871,
+     "MVMoE": 3.682,
+     "RF-POMO": 3.566,
+     "RF-MoE": 3.384,
+     "RF-TE": 3.125,
+     "MoSES(RF)": 2.782,
+     "CaDA": 2.765,
+     "MoSES(CaDA)": 2.631
+    },
+    "protocol": "1K test instances, greedy multi-start x8 aug, gap vs HGS-PyVRP (10 s/20 s per instance, 16 cores). CaDA is their re-implementation (avg 2.765 % vs CaDA-paper 2.814 %).",
+    "md_note": "none (LoRA experts; no fine-tuning to MD)"
+   },
+   {
+    "name": "FiLMMeD",
+    "arxiv": "2604.28102",
+    "title_verified": "FiLMMeD: Feature-wise Linear Modulation for Cross-Problem Multi-Depot Vehicle Routing",
+    "venue": "preprint (v1 2026-04-30)",
+    "version_read": "v1",
+    "source": {
+     "arxiv": "2604.28102",
+     "version": "v1",
+     "table": "Table 9 (16 single-depot, RF setting)",
+     "url": "https://arxiv.org/pdf/2604.28102v1"
+    },
+    "avg_gap_pct_n100_16_variants_computed_by_us": {
+     "HGS-PyVRP": 0.0,
+     "OR-Tools": 2.405,
+     "MTPOMO": 3.966,
+     "MVMoE": 3.682,
+     "RouteFinder": 3.131,
+     "CaDA": 2.814,
+     "FiLMMeD-CaDA": 2.498,
+     "CaDA\u2020": 2.622,
+     "FiLMMeD-CaDA\u2020": 2.351
+    },
+    "protocol": "see paper",
+    "md_note": null
+   },
+   {
+    "name": "CCL (Chain-of-Context Learning)",
+    "arxiv": "2603.01667",
+    "title_verified": "Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs",
+    "venue": "ICLR 2026",
+    "version_read": "v1",
+    "source": {
+     "arxiv": "2603.01667",
+     "version": "v1",
+     "table": "Table 1 (16 ID), Tables 7/8 (32 OOD per task, zero-shot)",
+     "url": "https://arxiv.org/pdf/2603.01667v1"
+    },
+    "avg_gap_pct_n100_16_variants_computed_by_us": {
+     "HGS-PyVRP": 0.0,
+     "MTPOMO": 3.966,
+     "MVMoE": 3.682,
+     "RF-TE": 3.131,
+     "CaDA": 2.877,
+     "CaDA\u2020": 2.546,
+     "CCL": 2.245,
+     "CCL\u2020": 1.909
+    },
+    "protocol": "1,000 test instances, gap vs HGS-PyVRP, greedy multi-start x8 aug; CCL uses stochastic test-time node refinement (P_ts); CaDA re-implemented in RF framework; \u2020 = +ReLD.",
+    "md_note": "zero-shot only, no fine-tuning"
+   },
+   {
+    "name": "POLAR + PLE ('Ours')",
+    "arxiv": "2608.24859",
+    "title_verified": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+    "venue": "preprint (v1 2026-08-25)",
+    "version_read": "v1",
+    "source": {
+     "arxiv": "2608.24859",
+     "version": "v1",
+     "table": "Table 1 (16 ID) and Table 9 (32 unseen, zero-shot, n=100)",
+     "url": "https://arxiv.org/pdf/2608.24859v1"
+    },
+    "avg_gap_pct_n100_16_variants_computed_by_us": {
+     "PyVRP": 0.0,
+     "OR-Tools": 2.405,
+     "MTPOMO": 3.966,
+     "MVMoE": 3.682,
+     "RouteFinder": 3.131,
+     "CaDA": 2.814,
+     "FiLMMeD(CaDA)": 2.498,
+     "MoSES(CaDA)": 2.631,
+     "Ours": 2.102
+    },
+    "protocol": "RF synthetic test sets, 1,000 instances per variant, n=50 and n=100; greedy POMO multi-start + x8 aug; PyVRP 10 s/20 s single core, 16 cores; no LS at test time.",
+    "md_note": "zero-shot on RF MD test set (see eal_md.other_papers_on_same_RF_MD_test_set)"
+   }
+  ],
+  "best_published_avg_gap_pct_n100": {
+   "method": "CCL\u2020 (CCL + ReLD)",
+   "arxiv": "2603.01667",
+   "venue": "ICLR 2026",
+   "table": "Table 1",
+   "value_computed_by_us": 1.909,
+   "caveat": "CCL uses stochastic test-time node refinement; not the plain greedy x8 protocol"
+  },
+  "best_published_plain_protocol_avg_gap_pct_n100": {
+   "method": "POLAR+PLE",
+   "arxiv": "2608.24859",
+   "table": "Table 1",
+   "value_computed_by_us": 2.102,
+   "caveat": "preprint (Aug 2026)"
+  }
+ },
+ "rrnco": {
+  "source": {
+   "arxiv": "2503.16159",
+   "title_v2": "RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization",
+   "title_v1": "Neural Combinatorial Optimization for Real-World Routing",
+   "venue": "ICLR 2026",
+   "version": "v2 (camera-ready)",
+   "table": "Table 1",
+   "url": "https://arxiv.org/pdf/2503.16159v2"
+  },
+  "protocol": "1,280 test instances per split, n=100, x8 augmentation of coordinates + greedy (repo test.py: 100/101 multi-starts), batch 32; gap vs best-known: LKH3 (ATSP), PyVRP (ACVRP, ACVRPTW)",
+  "file_to_column": {
+   "rcvrp_n100_seed3333_in_distribution.npz": "In-distribution",
+   "rcvrp_n100_seed3333_out_of_distribution.npz": "Out-of-distribution (city)",
+   "rcvrp_n100_seed3333_in_distribution_cluster.npz": "Out-of-distribution (cluster)"
+  },
+  "ACVRP": {
+   "reference_PyVRP_cost": {
+    "in_dist": 69.739,
+    "ood_city": 70.488,
+    "ood_cluster": 22.553
+   },
+   "RRNCO_v2": {
+    "in_dist": [
+     72.145,
+     3.45
+    ],
+    "ood_city": [
+     73.01,
+     3.578
+    ],
+    "ood_cluster": [
+     23.282,
+     3.231
+    ]
+   },
+   "RRNCO_v1": {
+    "in_dist": 72.145,
+    "ood_city": 72.999,
+    "ood_cluster": 23.28
+   },
+   "best_other_in_RRNCO_table": {
+    "method": "MatNet",
+    "in_dist": [
+     74.801,
+     7.258
+    ],
+    "ood_city": [
+     75.722,
+     7.425
+    ],
+    "ood_cluster": [
+     24.844,
+     10.158
+    ]
+   },
+   "OR-Tools": {
+    "in_dist": [
+     72.597,
+     4.097
+    ],
+    "ood_city": [
+     73.286,
+     3.969
+    ],
+    "ood_cluster": [
+     23.576,
+     4.538
+    ]
+   },
+   "SOTA_RADAR": {
+    "arxiv": "2603.03388",
+    "title": "RADAR: Learning to Route with Asymmetry-aware Distance Representations",
+    "venue": "ICLR 2026",
+    "table": "Table 3 (v1 = v2)",
+    "in_dist": [
+     71.557,
+     2.61
+    ],
+    "ood_city": [
+     72.336,
+     2.62
+    ],
+    "ood_cluster": [
+     23.137,
+     2.59
+    ],
+    "note": "same RRNCO test sets (\"test sets remain unchanged\"), 1,280 instances, x8 aug; RADAR quotes RRNCO v1 numbers"
+   },
+   "ours_anchor_released_checkpoint": {
+    "in_dist": 72.16,
+    "ood_city": 73.005,
+    "ood_cluster": 23.279,
+    "logs": [
+     "runs/routefinder/rrnco_test_in_distribution.log",
+     "runs/routefinder/rrnco_test_out_of_distribution.log",
+     "runs/routefinder/rrnco_test_in_distribution_cluster.log"
+    ],
+    "gap_pct_vs_PyVRP_computed_by_us": {
+     "in_dist": 3.472,
+     "ood_city": 3.571,
+     "ood_cluster": 3.219
+    }
+   }
+  },
+  "ATSP": {
+   "RRNCO_v2": {
+    "in_dist": [
+     39.078,
+     1.799
+    ],
+    "ood_city": [
+     39.785,
+     2.268
+    ],
+    "ood_cluster": [
+     12.444,
+     2.25
+    ]
+   },
+   "SOTA_RADAR": {
+    "in_dist": [
+     38.671,
+     0.74
+    ],
+    "ood_city": [
+     39.272,
+     0.95
+    ],
+    "ood_cluster": [
+     12.314,
+     1.18
+    ]
+   },
+   "LKH3": {
+    "in_dist": 38.387,
+    "ood_city": 38.903,
+    "ood_cluster": 12.17
+   }
+  },
+  "ACVRPTW": {
+   "RRNCO_v2": {
+    "in_dist": [
+     122.466,
+     3.736
+    ],
+    "ood_city": [
+     122.986,
+     3.775
+    ],
+    "ood_cluster": [
+     40.937,
+     4.29
+    ]
+   },
+   "RRNCO_v1_as_quoted_by_RADAR": {
+    "in_dist": [
+     122.693,
+     3.93
+    ],
+    "ood_city": [
+     123.249,
+     4.0
+    ],
+    "ood_cluster": [
+     41.077,
+     4.65
+    ]
+   },
+   "SOTA_RADAR": {
+    "in_dist": [
+     121.26,
+     2.71
+    ],
+    "ood_city": [
+     121.841,
+     2.81
+    ],
+    "ood_cluster": [
+     40.459,
+     3.07
+    ]
+   },
+   "PyVRP": {
+    "in_dist": 118.056,
+    "ood_city": 118.513,
+    "ood_cluster": 39.253
+   }
+  },
+  "verdict": "RRNCO is the best method in its own Table 1 among neural methods, but RADAR (ICLR 2026) beats it on all 9 cells of the same test sets; our anchor reproduces RRNCO, so on ACVRP our anchor (3.47 / 3.57 / 3.22% vs PyVRP) is 0.86 / 0.95 / 0.63 pp behind RADAR (2.61 / 2.62 / 2.59%)."
+ },
+ "draft_from_literature_agent": "full extraction incl. MTPOMO/MVMoE/ReLD/MTL-KD/SHIELD/URS/FiLMMeD rows: runs/strat/routing/published_sota_extraction_full.json"
+}

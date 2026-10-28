@@ -1,0 +1,18 @@
+\begin{tabular}{llcccccccc}
+\toprule
+Row & core & seeds & deterministic VRMSE & energy score & ES / det. & ensemble-mean VRMSE & spread--skill & ES, tuned $\tau$ & dressed (e) \\
+\midrule
+TRL2D & register & 3 & 0.1922 & 0.1593 & 0.829 & 0.1941 & 0.58 & 0.1517 (3) & 0.1469 (3) \\
+ & MLP & 3 & 0.1922 & 0.1612 & 0.839 & 0.1944 & 0.57 & 0.1578 (3) & 0.1470 (3) \\
+& \multicolumn{9}{l}{\footnotesize register vs MLP on the energy score: +1.2\% (3/3 seeds, paired $p=0.06$); tuned $\tau$: +3.9\% (3/3, $p=0.08$)} \\
+shear\_flow & register & 3 & 0.0207 & 0.0170 & 0.822 & 0.0226 & 1.03 & 0.0171 (3) & 0.0189 (3) \\
+ & MLP & 3 & 0.0213 & 0.0179 & 0.839 & 0.0231 & 1.07 & 0.0179 (3) & 0.0190 (3) \\
+& \multicolumn{9}{l}{\footnotesize register vs MLP on the energy score: +4.6\% (3/3 seeds, paired $p=0.07$); tuned $\tau$: +4.5\% (3/3, $p=0.14$)} \\
+rayleigh\_benard$^\dagger$ & register & 3 & 0.0426 & 0.0352 & 0.827 & 0.0444 & 0.77 & 0.0350 (3) & 0.0368 (3) \\
+ & MLP & 3 & 0.0428 & 0.0356 & 0.831 & 0.0447 & 0.88 & 0.0358 (3) & 0.0369 (3) \\
+& \multicolumn{9}{l}{\footnotesize register vs MLP on the energy score: +1.0\% (2/3 seeds, paired $p=0.36$); tuned $\tau$: +2.3\% (3/3, $p=0.06$)} \\
+MHD\_64 & register & 3 & 0.1733 & 0.1419 & 0.818 & 0.1761 & 0.63 & 0.1419 (3) & 0.1280 (3) \\
+ & MLP & 3 & 0.1733 & 0.1392 & 0.803 & 0.1769 & 0.79 & 0.1387 (3) & 0.1281 (3) \\
+& \multicolumn{9}{l}{\footnotesize register vs MLP on the energy score: -1.9\% (1/3 seeds, paired $p=0.34$); tuned $\tau$: -2.3\% (1/3, $p=0.33$)} \\
+\bottomrule
+\end{tabular}

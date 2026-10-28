@@ -1,0 +1,37 @@
+{
+ "cfg": {
+  "k": 64,
+  "width": 512,
+  "depth": 4,
+  "drop": 0.05,
+  "lr": 0.0029070187121564652,
+  "batch": 4096,
+  "epochs": 30,
+  "w_scal": 0.9219772166898658,
+  "gamma": 0.2532916025397821,
+  "lags": "none",
+  "thomson": false,
+  "quantum": "none",
+  "qcfg": null,
+  "k_lo": 32,
+  "q_layers": 4,
+  "seed": 2,
+  "edge_w": 2.0
+ },
+ "params": 2155013,
+ "train_seconds": 179.74498581886292,
+ "trainable_params": 2155013,
+ "valid_quick": {
+  "r2_psi": 0.999074125470546,
+  "r2_efit_q95": 0.9953287643257327,
+  "r2_efit_beta_n": 0.994726320678774,
+  "r2_efit_li": 0.9529987266827435,
+  "r2_efit_r_axis": 0.9680673916160196,
+  "r2_efit_z_axis": 0.9894815667604857,
+  "proxy": 0.8927814127214216
+ },
+ "history": [],
+ "tag": "fix_ip_s2",
+ "arm": "ip",
+ "peak_gpu_gib": 3.146327018737793
+}

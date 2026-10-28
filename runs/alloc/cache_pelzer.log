@@ -1,0 +1,3 @@
+[cache] train.pt: N=700 DC 0.0497 | oracle@30 0.6498 proxy@30 0.3179 static@30 0.4524 random@30 0.0063
+[cache] valid.pt: N=200 DC 0.0540 | oracle@30 0.6428 proxy@30 0.3265 static@30 0.4423 random@30 0.0092
+[cache] test.pt: N=100 DC 0.0471 | oracle@30 0.6473 proxy@30 0.3209 static@30 0.4588 random@30 0.0116

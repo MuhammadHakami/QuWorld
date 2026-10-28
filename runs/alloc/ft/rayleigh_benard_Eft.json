@@ -1,0 +1,18 @@
+{
+ "dataset": "rayleigh_benard",
+ "members": [
+  "rayleigh_benard_mr30ryd_vrmse_gate_s1_pre",
+  "rayleigh_benard_vanilla_vrmse_gate_s1_pre",
+  "rayleigh_benard_mlp30_vrmse_gate_s1_pre"
+ ],
+ "valid": {
+  "rayleigh_benard_mr30ryd_vrmse_gate_s1_pre": 0.04221053421497345,
+  "rayleigh_benard_vanilla_vrmse_gate_s1_pre": 0.043966103345155716,
+  "rayleigh_benard_mlp30_vrmse_gate_s1_pre": 0.043626442551612854,
+  "E-ft": 0.03999956324696541
+ },
+ "selected": "E-ft",
+ "full_test": 0.040267251431941986,
+ "full_test_median": 0.024785280227661133,
+ "full_test_n": 34300
+}

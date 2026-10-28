@@ -1,0 +1,2 @@
+[s33t] VALID replay passed for 20 checkpoints
+[s33t] promotion holds on TEST {"shear_flow__gate_vanilla_s1337": {"register_B2loss_minus_A": [-0.0010135734817742006, -0.0009081566833512265], "register_lower_n": 2, "mlp_B2loss_minus_A (descriptive)": [-0.0008522660427780944, -0.00166884437654791]}, "rayleigh_benard__gatest_vanilla_s1337": {"register_B2loss_minus_A": [-0.0006700570604717682, -0.0010189212768994885], "register_lower_n": 2, "mlp_B2loss_minus_A (descriptive)": [-0.000960474147809573, -0.0013119732570563841]}}

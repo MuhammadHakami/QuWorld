@@ -1,0 +1,2434 @@
+{
+ "protocol": "doc 35 \u00a737 (exploratory; TEST never loaded)",
+ "seed": 0,
+ "created": "2026-09-27T22:48:07+03:00",
+ "strata": "Ma regime (0.7 | 2) x t0 bin (4 equal bins over t0 = 3..98)",
+ "time_bins": [
+  [
+   3,
+   26
+  ],
+  [
+   27,
+   50
+  ],
+  [
+   51,
+   74
+  ],
+  [
+   75,
+   98
+  ]
+ ],
+ "samples": {
+  "valid": [
+   {
+    "traj": 0,
+    "t0": 9,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 14,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 17,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 20,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 27,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 30,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 42,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 45,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 64,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 65,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 67,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 71,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 75,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 84,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 89,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 92,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 7,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 19,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 22,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 24,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 28,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 33,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 38,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 50,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 51,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 53,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 67,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 73,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 83,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 86,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 87,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 91,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 10,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 18,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 24,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 26,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 30,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 35,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 40,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 46,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 57,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 58,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 60,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 62,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 83,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 86,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 91,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 94,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 11,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 14,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 16,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 18,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 32,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 44,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 45,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 49,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 58,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 60,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 69,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 74,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 76,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 91,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 93,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 97,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 12,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 21,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 22,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 23,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 28,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 36,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 39,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 50,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 58,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 63,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 64,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 71,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 76,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 79,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 91,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 96,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 13,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 16,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 20,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 25,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 28,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 38,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 47,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 58,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 64,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 72,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 73,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 83,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 85,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 86,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 90,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 4,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 9,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 12,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 20,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 29,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 30,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 46,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 51,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 65,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 71,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 72,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 83,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 93,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 95,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 6,
+    "t0": 97,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 10,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 11,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 22,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 26,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 30,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 45,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 46,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 59,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 61,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 62,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 66,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 75,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 79,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 91,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 92,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 3,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 10,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 18,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 22,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 33,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 37,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 46,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 48,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 52,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 59,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 64,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 65,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 78,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 87,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 93,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 95,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 7,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 8,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 22,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 26,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 33,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 40,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 44,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 47,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 52,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 57,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 61,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 63,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 89,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 92,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 93,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 98,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   }
+  ],
+  "train": [
+   {
+    "traj": 4,
+    "t0": 4,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 8,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 15,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 28,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 2,
+    "t0": 36,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 45,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 60,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 0,
+    "t0": 68,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 71,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 1,
+    "t0": 76,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 4,
+    "t0": 77,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 3,
+    "t0": 81,
+    "Ma": 0.7,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 11,
+    "t0": 16,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 21,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 5,
+    "t0": 24,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 35,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 8,
+    "t0": 37,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 12,
+    "t0": 50,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 51,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 66,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 11,
+    "t0": 68,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 7,
+    "t0": 78,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 9,
+    "t0": 89,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 12,
+    "t0": 95,
+    "Ma": 0.7,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 20,
+    "t0": 4,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 15,
+    "t0": 10,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 19,
+    "t0": 19,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 20,
+    "t0": 33,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 20,
+    "t0": 39,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 18,
+    "t0": 42,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 14,
+    "t0": 64,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 13,
+    "t0": 70,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 18,
+    "t0": 74,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 16,
+    "t0": 76,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 20,
+    "t0": 91,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 20,
+    "t0": 94,
+    "Ma": 0.7,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 22,
+    "t0": 15,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 27,
+    "t0": 20,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 25,
+    "t0": 25,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 28,
+    "t0": 34,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 21,
+    "t0": 39,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 25,
+    "t0": 43,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 28,
+    "t0": 51,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 25,
+    "t0": 60,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 25,
+    "t0": 64,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 26,
+    "t0": 82,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 25,
+    "t0": 94,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 22,
+    "t0": 96,
+    "Ma": 0.7,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_2.hdf5"
+   },
+   {
+    "traj": 36,
+    "t0": 16,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 29,
+    "t0": 17,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 29,
+    "t0": 25,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 30,
+    "t0": 38,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 34,
+    "t0": 40,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 32,
+    "t0": 49,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 29,
+    "t0": 52,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 31,
+    "t0": 68,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 32,
+    "t0": 71,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 36,
+    "t0": 80,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 30,
+    "t0": 95,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 35,
+    "t0": 96,
+    "Ma": 0.7,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_0.7_Ms_7.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 9,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 38,
+    "t0": 23,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 24,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 40,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 43,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 38,
+    "t0": 46,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 42,
+    "t0": 56,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 59,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 40,
+    "t0": 66,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 86,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 37,
+    "t0": 91,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 41,
+    "t0": 98,
+    "Ma": 2.0,
+    "Ms": 0.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.5.hdf5"
+   },
+   {
+    "traj": 48,
+    "t0": 7,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 49,
+    "t0": 8,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 52,
+    "t0": 20,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 51,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 50,
+    "t0": 33,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 48,
+    "t0": 38,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 50,
+    "t0": 61,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 48,
+    "t0": 69,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 52,
+    "t0": 73,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 48,
+    "t0": 76,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 49,
+    "t0": 88,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 47,
+    "t0": 94,
+    "Ma": 2.0,
+    "Ms": 0.7,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_0.7.hdf5"
+   },
+   {
+    "traj": 56,
+    "t0": 11,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 53,
+    "t0": 18,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 56,
+    "t0": 25,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 58,
+    "t0": 27,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 55,
+    "t0": 47,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 59,
+    "t0": 50,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 59,
+    "t0": 67,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 58,
+    "t0": 69,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 54,
+    "t0": 72,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 57,
+    "t0": 83,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 57,
+    "t0": 84,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 53,
+    "t0": 91,
+    "Ma": 2.0,
+    "Ms": 1.5,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_1.5.hdf5"
+   },
+   {
+    "traj": 66,
+    "t0": 7,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 63,
+    "t0": 12,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 67,
+    "t0": 23,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 67,
+    "t0": 30,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 61,
+    "t0": 31,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 68,
+    "t0": 36,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 68,
+    "t0": 51,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 66,
+    "t0": 52,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 68,
+    "t0": 70,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 68,
+    "t0": 84,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 62,
+    "t0": 86,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 64,
+    "t0": 87,
+    "Ma": 2.0,
+    "Ms": 2.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_2.hdf5"
+   },
+   {
+    "traj": 71,
+    "t0": 6,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 71,
+    "t0": 8,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 75,
+    "t0": 22,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 0,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 72,
+    "t0": 40,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 76,
+    "t0": 48,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 69,
+    "t0": 49,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 1,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 72,
+    "t0": 51,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 71,
+    "t0": 60,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 73,
+    "t0": 61,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 2,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 74,
+    "t0": 77,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 71,
+    "t0": 81,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   },
+   {
+    "traj": 75,
+    "t0": 96,
+    "Ma": 2.0,
+    "Ms": 7.0,
+    "tbin": 3,
+    "file": "MHD_Ma_2_Ms_7.hdf5"
+   }
+  ]
+ },
+ "files_valid": [
+  {
+   "file": "MHD_Ma_0.7_Ms_0.5.hdf5",
+   "Ma": 0.7,
+   "Ms": 0.5,
+   "first": 0,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_0.7.hdf5",
+   "Ma": 0.7,
+   "Ms": 0.7,
+   "first": 1,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_1.5.hdf5",
+   "Ma": 0.7,
+   "Ms": 1.5,
+   "first": 2,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_2.hdf5",
+   "Ma": 0.7,
+   "Ms": 2.0,
+   "first": 3,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_7.hdf5",
+   "Ma": 0.7,
+   "Ms": 7.0,
+   "first": 4,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_2_Ms_0.5.hdf5",
+   "Ma": 2.0,
+   "Ms": 0.5,
+   "first": 5,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_2_Ms_0.7.hdf5",
+   "Ma": 2.0,
+   "Ms": 0.7,
+   "first": 6,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_2_Ms_1.5.hdf5",
+   "Ma": 2.0,
+   "Ms": 1.5,
+   "first": 7,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_2_Ms_2.hdf5",
+   "Ma": 2.0,
+   "Ms": 2.0,
+   "first": 8,
+   "n": 1
+  },
+  {
+   "file": "MHD_Ma_2_Ms_7.hdf5",
+   "Ma": 2.0,
+   "Ms": 7.0,
+   "first": 9,
+   "n": 1
+  }
+ ],
+ "counts_valid": {
+  "Ma0.7_b0": 20,
+  "Ma0.7_b1": 20,
+  "Ma0.7_b2": 20,
+  "Ma0.7_b3": 20,
+  "Ma2.0_b0": 20,
+  "Ma2.0_b1": 20,
+  "Ma2.0_b2": 20,
+  "Ma2.0_b3": 20
+ },
+ "files_train": [
+  {
+   "file": "MHD_Ma_0.7_Ms_0.5.hdf5",
+   "Ma": 0.7,
+   "Ms": 0.5,
+   "first": 0,
+   "n": 5
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_0.7.hdf5",
+   "Ma": 0.7,
+   "Ms": 0.7,
+   "first": 5,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_1.5.hdf5",
+   "Ma": 0.7,
+   "Ms": 1.5,
+   "first": 13,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_2.hdf5",
+   "Ma": 0.7,
+   "Ms": 2.0,
+   "first": 21,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_0.7_Ms_7.hdf5",
+   "Ma": 0.7,
+   "Ms": 7.0,
+   "first": 29,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_2_Ms_0.5.hdf5",
+   "Ma": 2.0,
+   "Ms": 0.5,
+   "first": 37,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_2_Ms_0.7.hdf5",
+   "Ma": 2.0,
+   "Ms": 0.7,
+   "first": 45,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_2_Ms_1.5.hdf5",
+   "Ma": 2.0,
+   "Ms": 1.5,
+   "first": 53,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_2_Ms_2.hdf5",
+   "Ma": 2.0,
+   "Ms": 2.0,
+   "first": 61,
+   "n": 8
+  },
+  {
+   "file": "MHD_Ma_2_Ms_7.hdf5",
+   "Ma": 2.0,
+   "Ms": 7.0,
+   "first": 69,
+   "n": 8
+  }
+ ],
+ "counts_train": {
+  "Ma0.7_b0": 15,
+  "Ma0.7_b1": 15,
+  "Ma0.7_b2": 15,
+  "Ma0.7_b3": 15,
+  "Ma2.0_b0": 15,
+  "Ma2.0_b1": 15,
+  "Ma2.0_b2": 15,
+  "Ma2.0_b3": 15
+ }
+}

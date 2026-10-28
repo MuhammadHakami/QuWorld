@@ -1,0 +1,32 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+  16/34300 windows, running mean 1.4925, 4s
+  1532/34300 windows, running mean 0.3836, 178s
+  3036/34300 windows, running mean 0.3995, 350s
+  4540/34300 windows, running mean 0.3771, 529s
+  6056/34300 windows, running mean 0.3790, 711s
+  7560/34300 windows, running mean 0.4435, 891s
+  9064/34300 windows, running mean 0.5809, 1071s
+  10580/34300 windows, running mean 0.6344, 1253s
+  12084/34300 windows, running mean 0.6967, 1435s
+  13588/34300 windows, running mean 0.7345, 1615s
+  15092/34300 windows, running mean 0.7232, 1793s
+  16608/34300 windows, running mean 0.7512, 1969s
+  18112/34300 windows, running mean 0.7508, 2149s
+  19616/34300 windows, running mean 0.7560, 2329s
+  21132/34300 windows, running mean 0.7403, 2514s
+  22636/34300 windows, running mean 0.7436, 2702s
+  24140/34300 windows, running mean 0.7364, 2885s
+  25656/34300 windows, running mean 0.7233, 3064s
+  27160/34300 windows, running mean 0.7203, 3244s
+  28664/34300 windows, running mean 0.7112, 3422s
+  30180/34300 windows, running mean 0.7009, 3601s
+  31684/34300 windows, running mean 0.6861, 3781s
+  33188/34300 windows, running mean 0.6790, 3960s
+---
+dataset:        rayleigh_benard
+source:         official (vanilla, backbone cnext)
+n_windows:      34300 (175 traj x 196 starts)
+mean_vrmse:     0.6679   (published TFNO 0.6566, CNextU-net 0.6699)
+median_vrmse:   0.0345
+eval_seconds:   4090

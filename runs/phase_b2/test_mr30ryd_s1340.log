@@ -1,0 +1,9 @@
+loading hybrid checkpoint, variant=mr30ryd
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+model_dir:      runs/phase_b2/mr30ryd_s1340.pt
+num_params:     18758692
+test_windows:   873
+mean_vrmse:     0.2230   (published CNextU-net: 0.1956)
+median_vrmse:   0.2149
+per_window csv: runs/phase_b2/test_mr30ryd_s1340.csv

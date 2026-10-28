@@ -1,0 +1,27 @@
+{
+ "variant": "vanilla",
+ "seed": 1337,
+ "thomson": false,
+ "n_shots": 200,
+ "n_test_shots": 20,
+ "n_features": 21,
+ "epochs": 40,
+ "batch": 128,
+ "lr": 0.0008141553118632134,
+ "num_params": 3129121,
+ "train_seconds": 352.02687215805054,
+ "score_seconds": 14.992445945739746,
+ "test_R2": 0.9693750143051147,
+ "test_MSE": 0.0006864162278361619,
+ "test_SSIM": 0.9685084278771852,
+ "official": {
+  "S": 0.71553,
+  "r2_psi": 0.984767,
+  "r2_qb": 0.146811,
+  "dlcfs": 0.072239,
+  "consistency": 0.295551,
+  "psi_sign": 1
+ },
+ "final_val_loss": 0.0006093297488405369,
+ "score_split": "val"
+}

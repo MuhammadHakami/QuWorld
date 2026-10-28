@@ -1,0 +1,68 @@
+{
+ "row": "shear_flow",
+ "windows": 21952,
+ "persistence_mean": 0.0645969566901591,
+ "persistence_median": 0.034726640209555626,
+ "trunks": {
+  "runs/well2d/shear_flow/cnext/mlp30_s1337_test.csv": {
+   "trunk_mean": 0.28267212677660347,
+   "trunk_median": 0.0139025,
+   "trunk_beats_persistence_share": 0.5936588921282799,
+   "oracle_min_mean": 0.03710272587882402
+  },
+  "runs/well2d/shear_flow/cnext/mlp30_s1338_test.csv": {
+   "trunk_mean": 0.25496296665451895,
+   "trunk_median": 0.0150575,
+   "trunk_beats_persistence_share": 0.5893312682215743,
+   "oracle_min_mean": 0.038004038524818616
+  },
+  "runs/well2d/shear_flow/cnext/mlp30_s1339_test.csv": {
+   "trunk_mean": 0.22406503325437319,
+   "trunk_median": 0.013441999999999999,
+   "trunk_beats_persistence_share": 0.6230867346938775,
+   "oracle_min_mean": 0.03639416010472781
+  },
+  "runs/well2d/shear_flow/cnext/mr30ryd_s1337_test.csv": {
+   "trunk_mean": 0.22969810595845483,
+   "trunk_median": 0.012659,
+   "trunk_beats_persistence_share": 0.6270043731778425,
+   "oracle_min_mean": 0.03613353831150864
+  },
+  "runs/well2d/shear_flow/cnext/mr30ryd_s1338_test.csv": {
+   "trunk_mean": 0.22363578079446064,
+   "trunk_median": 0.0162055,
+   "trunk_beats_persistence_share": 0.5864158163265306,
+   "oracle_min_mean": 0.038582857737799056
+  },
+  "runs/well2d/shear_flow/cnext/mr30ryd_s1339_test.csv": {
+   "trunk_mean": 0.3445159831905977,
+   "trunk_median": 0.017031,
+   "trunk_beats_persistence_share": 0.5398141399416909,
+   "oracle_min_mean": 0.03876156729317435
+  },
+  "runs/well2d/shear_flow/cnext/official_test.csv": {
+   "trunk_mean": 0.9946116438593294,
+   "trunk_median": 0.0472645,
+   "trunk_beats_persistence_share": 0.4534894314868805,
+   "oracle_min_mean": 0.052366897038610576
+  },
+  "runs/well2d/shear_flow/cnext/vanilla_s1337_test.csv": {
+   "trunk_mean": 0.30115417050838195,
+   "trunk_median": 0.0171435,
+   "trunk_beats_persistence_share": 0.5485149416909622,
+   "oracle_min_mean": 0.03896976904784557
+  },
+  "runs/well2d/shear_flow/cnext/vanilla_s1338_test.csv": {
+   "trunk_mean": 0.28090549908892126,
+   "trunk_median": 0.0160825,
+   "trunk_beats_persistence_share": 0.5651876822157434,
+   "oracle_min_mean": 0.03818124416573458
+  },
+  "runs/well2d/shear_flow/cnext/vanilla_s1339_test.csv": {
+   "trunk_mean": 0.2235954036989796,
+   "trunk_median": 0.014129,
+   "trunk_beats_persistence_share": 0.607006195335277,
+   "oracle_min_mean": 0.03684387583317184
+  }
+ }
+}

@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.45ms
+Installed 1 package in 1ms
+---
+variant:        cg30
+rollout_k:      4
+val_vrmse_1:    0.505508
+val_vrmse_8:    0.845424
+train_loss:     0.074093
+num_steps:      2000
+num_params:     1339836
+train_seconds:  746.6
+peak_vram_mb:   1287.3

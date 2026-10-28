@@ -1,0 +1,16 @@
+{
+ "variant": "none",
+ "seed": 1337,
+ "steps": 1500,
+ "val_mae_c": 0.08129211515188217,
+ "test_mae_c": 0.07204105705022812,
+ "test_pat_0p1": 0.17717285454273224,
+ "test_max_err_c": 1.2177284955978394,
+ "train_loss": 0.0004632945638149977,
+ "num_params": 446553,
+ "train_seconds": 34.72162747383118,
+ "n_train": 70,
+ "n_val": 20,
+ "n_test": 10,
+ "device": "cuda"
+}

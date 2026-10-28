@@ -1,0 +1,1 @@
+{"target": "analog", "omega": 16.0, "core": "mlpsin", "seed": 1, "valid_r2": -3.9713253080275734e-05, "test_r2": -3.947511802948611e-05, "params_core": 75, "seconds": 65.26114916801453}

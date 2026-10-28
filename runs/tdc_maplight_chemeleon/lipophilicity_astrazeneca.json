@@ -1,0 +1,28 @@
+{
+ "endpoint": "lipophilicity_astrazeneca",
+ "model": "MapLight CatBoost CPU exact [maplight+chemeleon]",
+ "metric": "mae",
+ "higher_is_better": false,
+ "test_mean": 0.5566,
+ "test_sd": 0.0032000000000000028,
+ "test_per_seed": [
+  0.56,
+  0.552,
+  0.557,
+  0.554,
+  0.56
+ ],
+ "official_evaluate_many": [
+  0.557,
+  0.003
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 4611,
+ "seconds": 331.4058129787445
+}

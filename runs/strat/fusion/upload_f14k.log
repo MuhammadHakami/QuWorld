@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json; print(json.load(open('/tmp/tmp.hveMO7pmKd/ds.json'))['key'])
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'key'
+[upload] F14K id  2026-10-16T04:11:43+03:00
+[retry] after deleting superseded F8 (986025) for storage 2026-10-16T04:43:06+03:00
+
+[upload] F14K id 991617 2026-10-16T04:45:16+03:00
+[score] F14K 991617 Finished {'d3d_S': '0.9958930000', 'g_ratio': '0.0000000000', 'mast_S': '0.0000000000', 'd3d_r2_psi': '0.9998510000', 'd3d_r2_qb': '0.9972910000', 'd3d_dlcfs': '0.0091730000', 'd3d_consistency': '0.9864930000', 'mast_r2_psi': '0.0000000000', 'mast_r2_qb': '0.0000000000', 'mast_dlcfs': '0.0000000000', 'mast_consistency': '0.0000000000'} 2026-10-16T04:51:22+03:00
+UPLOAD_F14K_DONE 2026-10-16T04:51:22+03:00

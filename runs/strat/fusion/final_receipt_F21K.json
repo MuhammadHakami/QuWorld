@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "receiptId": "FW-714795A2",
+ "receivedAt": "2026-10-27T23:11:21Z",
+ "filesFound": [
+  "diii_d_private_test.npz"
+ ],
+ "websiteEntries": 1,
+ "hfCheck": "verified",
+ "duplicate": null,
+ "error": null,
+ "cand": "F21K",
+ "repo_id": "Moka/fusion-final-preds",
+ "revision": "abece02dae92ca7554f28cbdeae125c2cb349384"
+}

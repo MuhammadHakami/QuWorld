@@ -1,0 +1,90 @@
+Uninstalled 1 package in 1ms
+Installed 1 package in 3ms
+field->RGB matrix (rows R,G,B; cols density,pressure,vx,vy):
+tensor([[ 0.6056,  0.3422, -0.6570, -0.2908],
+        [ 0.5191, -0.4580,  0.4788, -0.5399],
+        [-0.3374,  0.6505,  0.2984, -0.6115]])
+null (lost) direction: [0.5, 0.5, 0.5, 0.5]  gain=0.3
+cache: train (72, 101, 4, 128, 384)  valid (9, 101, 4, 128, 384)
+skip train_000 (exists)
+train_001: video (3, 101, 480, 832) uint8, clip 2.678%, 121.0 MB
+train_002: video (3, 101, 480, 832) uint8, clip 6.217%, 121.0 MB
+train_003: video (3, 101, 480, 832) uint8, clip 2.727%, 121.0 MB
+train_004: video (3, 101, 480, 832) uint8, clip 2.829%, 121.0 MB
+train_005: video (3, 101, 480, 832) uint8, clip 3.987%, 121.0 MB
+train_006: video (3, 101, 480, 832) uint8, clip 1.948%, 121.0 MB
+train_007: video (3, 101, 480, 832) uint8, clip 3.072%, 121.0 MB
+train_008: video (3, 101, 480, 832) uint8, clip 3.149%, 121.0 MB
+train_009: video (3, 101, 480, 832) uint8, clip 0.819%, 121.0 MB
+train_010: video (3, 101, 480, 832) uint8, clip 2.701%, 121.0 MB
+train_011: video (3, 101, 480, 832) uint8, clip 0.680%, 121.0 MB
+train_012: video (3, 101, 480, 832) uint8, clip 1.865%, 121.0 MB
+train_013: video (3, 101, 480, 832) uint8, clip 0.756%, 121.0 MB
+train_014: video (3, 101, 480, 832) uint8, clip 3.545%, 121.0 MB
+train_015: video (3, 101, 480, 832) uint8, clip 0.856%, 121.0 MB
+train_016: video (3, 101, 480, 832) uint8, clip 0.628%, 121.0 MB
+train_017: video (3, 101, 480, 832) uint8, clip 0.149%, 121.0 MB
+train_018: video (3, 101, 480, 832) uint8, clip 0.541%, 121.0 MB
+train_019: video (3, 101, 480, 832) uint8, clip 0.518%, 121.0 MB
+train_020: video (3, 101, 480, 832) uint8, clip 0.574%, 121.0 MB
+train_021: video (3, 101, 480, 832) uint8, clip 0.272%, 121.0 MB
+train_022: video (3, 101, 480, 832) uint8, clip 0.361%, 121.0 MB
+train_023: video (3, 101, 480, 832) uint8, clip 0.804%, 121.0 MB
+train_024: video (3, 101, 480, 832) uint8, clip 0.300%, 121.0 MB
+train_025: video (3, 101, 480, 832) uint8, clip 0.202%, 121.0 MB
+train_026: video (3, 101, 480, 832) uint8, clip 0.103%, 121.0 MB
+train_027: video (3, 101, 480, 832) uint8, clip 0.061%, 121.0 MB
+train_028: video (3, 101, 480, 832) uint8, clip 0.058%, 121.0 MB
+train_029: video (3, 101, 480, 832) uint8, clip 0.132%, 121.0 MB
+train_030: video (3, 101, 480, 832) uint8, clip 0.161%, 121.0 MB
+train_031: video (3, 101, 480, 832) uint8, clip 0.099%, 121.0 MB
+train_032: video (3, 101, 480, 832) uint8, clip 0.003%, 121.0 MB
+train_033: video (3, 101, 480, 832) uint8, clip 0.028%, 121.0 MB
+train_034: video (3, 101, 480, 832) uint8, clip 0.017%, 121.0 MB
+train_035: video (3, 101, 480, 832) uint8, clip 0.010%, 121.0 MB
+train_036: video (3, 101, 480, 832) uint8, clip 0.023%, 121.0 MB
+train_037: video (3, 101, 480, 832) uint8, clip 0.033%, 121.0 MB
+train_038: video (3, 101, 480, 832) uint8, clip 0.056%, 121.0 MB
+train_039: video (3, 101, 480, 832) uint8, clip 0.015%, 121.0 MB
+train_040: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_041: video (3, 101, 480, 832) uint8, clip 0.003%, 121.0 MB
+train_042: video (3, 101, 480, 832) uint8, clip 0.002%, 121.0 MB
+train_043: video (3, 101, 480, 832) uint8, clip 0.001%, 121.0 MB
+train_044: video (3, 101, 480, 832) uint8, clip 0.006%, 121.0 MB
+train_045: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_046: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_047: video (3, 101, 480, 832) uint8, clip 0.003%, 121.0 MB
+train_048: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_049: video (3, 101, 480, 832) uint8, clip 0.003%, 121.0 MB
+train_050: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_051: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_052: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_053: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_054: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_055: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_056: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_057: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_058: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_059: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_060: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_061: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_062: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_063: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_064: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_065: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_066: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_067: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_068: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_069: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_070: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+train_071: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+skip valid_000 (exists)
+valid_001: video (3, 101, 480, 832) uint8, clip 3.083%, 121.0 MB
+valid_002: video (3, 101, 480, 832) uint8, clip 0.194%, 121.0 MB
+valid_003: video (3, 101, 480, 832) uint8, clip 0.117%, 121.0 MB
+valid_004: video (3, 101, 480, 832) uint8, clip 0.005%, 121.0 MB
+valid_005: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+valid_006: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+valid_007: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+valid_008: video (3, 101, 480, 832) uint8, clip 0.000%, 121.0 MB
+done: 79 rendered -> /home/mohhakami/Documents/paper/quworld/data/phase_c/renders

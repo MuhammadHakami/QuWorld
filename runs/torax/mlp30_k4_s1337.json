@@ -1,0 +1,12 @@
+{
+ "variant": "mlp30",
+ "seed": 1337,
+ "steps": 1000,
+ "k": 4,
+ "test_vrmse_1": 0.005253060658772787,
+ "test_vrmse_8": 0.027781286676015173,
+ "train_loss": 7.87255703471601e-05,
+ "num_params": 48562,
+ "train_seconds": 107.30033159255981,
+ "device": "cuda"
+}

@@ -1,0 +1,48 @@
+round2 start 2026-08-17T13:19:03+03:00 target=10000 k=4
+arm vanilla s1337 attempt 1 2026-08-17T13:19:03+03:00
+arm vanilla s1337 attempt 2 2026-08-17T13:59:42+03:00
+arm vanilla s1337 attempt 3 2026-08-17T14:40:04+03:00
+arm vanilla s1337 DONE 2026-08-17T15:03:53+03:00
+paired-stats td_vanilla_s1337 appended 2026-08-17T15:04:08+03:00
+arm mr30ryd s1337 attempt 1 2026-08-17T15:04:08+03:00
+arm mr30ryd s1337 attempt 2 2026-08-17T15:44:49+03:00
+arm mr30ryd s1337 attempt 3 2026-08-17T16:25:12+03:00
+arm mr30ryd s1337 DONE 2026-08-17T16:55:31+03:00
+paired-stats td_mr30ryd_s1337 appended 2026-08-17T16:55:46+03:00
+arm mlp30 s1337 attempt 1 2026-08-17T16:55:46+03:00
+arm mlp30 s1337 attempt 2 2026-08-17T17:36:31+03:00
+arm mlp30 s1337 attempt 3 2026-08-17T18:16:53+03:00
+arm mlp30 s1337 DONE 2026-08-17T18:40:49+03:00
+paired-stats td_mlp30_s1337 appended 2026-08-17T18:41:04+03:00
+arm vanilla s1338 attempt 1 2026-08-17T18:41:04+03:00
+arm vanilla s1338 attempt 2 2026-08-17T19:21:48+03:00
+arm vanilla s1338 attempt 3 2026-08-17T20:02:10+03:00
+arm vanilla s1338 DONE 2026-08-17T20:26:03+03:00
+paired-stats td_vanilla_s1338 appended 2026-08-17T20:26:18+03:00
+arm mr30ryd s1338 attempt 1 2026-08-17T20:26:18+03:00
+arm mr30ryd s1338 attempt 2 2026-08-17T21:07:03+03:00
+arm mr30ryd s1338 attempt 3 2026-08-17T21:47:26+03:00
+arm mr30ryd s1338 DONE 2026-08-17T22:17:32+03:00
+paired-stats td_mr30ryd_s1338 appended 2026-08-17T22:17:47+03:00
+arm mlp30 s1338 attempt 1 2026-08-17T22:17:47+03:00
+arm mlp30 s1338 attempt 2 2026-08-17T22:58:31+03:00
+arm mlp30 s1338 attempt 3 2026-08-17T23:38:53+03:00
+arm mlp30 s1338 DONE 2026-08-18T00:02:51+03:00
+paired-stats td_mlp30_s1338 appended 2026-08-18T00:03:06+03:00
+arm vanilla s1339 attempt 1 2026-08-18T00:03:06+03:00
+arm vanilla s1339 attempt 2 2026-08-18T00:43:49+03:00
+arm vanilla s1339 attempt 3 2026-08-18T01:24:12+03:00
+arm vanilla s1339 DONE 2026-08-18T01:48:05+03:00
+paired-stats td_vanilla_s1339 appended 2026-08-18T01:48:20+03:00
+arm mr30ryd s1339 attempt 1 2026-08-18T01:48:20+03:00
+arm mr30ryd s1339 attempt 2 2026-08-18T02:29:06+03:00
+arm mr30ryd s1339 attempt 3 2026-08-18T03:09:29+03:00
+arm mr30ryd s1339 DONE 2026-08-18T03:39:24+03:00
+paired-stats td_mr30ryd_s1339 appended 2026-08-18T03:39:40+03:00
+arm mlp30 s1339 attempt 1 2026-08-18T03:39:40+03:00
+arm mlp30 s1339 attempt 2 2026-08-18T04:20:23+03:00
+arm mlp30 s1339 attempt 3 2026-08-18T05:00:46+03:00
+arm mlp30 s1339 DONE 2026-08-18T05:24:37+03:00
+paired-stats td_mlp30_s1339 appended 2026-08-18T05:24:53+03:00
+=== single-shot test evals ===
+ROUND2_DONE 2026-08-18T05:24:56+03:00

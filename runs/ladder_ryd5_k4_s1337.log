@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.65ms
+Installed 1 package in 2ms
+---
+variant:        ryd5
+rollout_k:      4
+val_vrmse_1:    0.504240
+val_vrmse_8:    0.924464
+train_loss:     0.068459
+num_steps:      2000
+num_params:     1332710
+train_seconds:  281.8
+peak_vram_mb:   1210.4

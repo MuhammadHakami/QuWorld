@@ -1,0 +1,1 @@
+{"row": "pelzer", "arm": "cls_only", "seed": 1, "trunk_test": 0.11245475790141075, "test": 0.10588273422921748, "test_rel_gain": 0.05844149055885184, "test_captured": 0.08633810472887145, "valid": 0.11073493399418156, "epochs": 19, "seconds": 1.357311725616455, "tethers": null, "params_core": 116}

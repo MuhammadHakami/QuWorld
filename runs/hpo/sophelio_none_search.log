@@ -1,0 +1,23 @@
+[I 2026-09-21 18:36:43,588] A new study created in RDB with name: sophelio-none
+[hpo] sophelio/none: 0 complete trials on file, target 10
+[hpo] trial 0 vanilla {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256} -> valid -0.732446 (309s)
+[I 2026-09-21 18:41:52,699] Trial 0 finished with value: -0.732446 and parameters: {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256}. Best is trial 0 with value: -0.732446.
+[hpo] trial 1 vanilla {'lr': 0.0008141553118632134, 'epochs': 40, 'batch': 128} -> valid -0.715530 (388s)
+[I 2026-09-21 18:48:20,396] Trial 1 finished with value: -0.71553 and parameters: {'lr': 0.0008141553118632134, 'epochs': 40, 'batch': 128}. Best is trial 0 with value: -0.732446.
+[hpo] trial 2 vanilla {'lr': 0.0005692784284287945, 'epochs': 60, 'batch': 256} -> valid -0.736242 (561s)
+[I 2026-09-21 18:57:41,928] Trial 2 finished with value: -0.736242 and parameters: {'lr': 0.0005692784284287945, 'epochs': 60, 'batch': 256}. Best is trial 2 with value: -0.736242.
+[hpo] trial 3 vanilla {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512} -> valid -0.717024 (637s)
+[I 2026-09-21 19:08:19,079] Trial 3 finished with value: -0.717024 and parameters: {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512}. Best is trial 2 with value: -0.736242.
+[hpo] trial 4 vanilla {'lr': 0.0015669724980111157, 'epochs': 40, 'batch': 256} -> valid -0.721794 (386s)
+[I 2026-09-21 19:14:45,166] Trial 4 finished with value: -0.721794 and parameters: {'lr': 0.0015669724980111157, 'epochs': 40, 'batch': 256}. Best is trial 2 with value: -0.736242.
+[hpo] trial 5 vanilla {'lr': 0.00032350177497393866, 'epochs': 70, 'batch': 256} -> valid -0.727209 (618s)
+[I 2026-09-21 19:25:03,283] Trial 5 finished with value: -0.727209 and parameters: {'lr': 0.00032350177497393866, 'epochs': 70, 'batch': 256}. Best is trial 2 with value: -0.736242.
+[hpo] trial 6 vanilla {'lr': 0.000618251688865731, 'epochs': 80, 'batch': 128} -> valid -0.729194 (485s)
+[I 2026-09-21 19:33:08,474] Trial 6 finished with value: -0.729194 and parameters: {'lr': 0.000618251688865731, 'epochs': 80, 'batch': 128}. Best is trial 2 with value: -0.736242.
+[hpo] trial 7 vanilla {'lr': 0.00022102636840860493, 'epochs': 60, 'batch': 128} -> valid -0.723974 (401s)
+[I 2026-09-21 19:39:49,504] Trial 7 finished with value: -0.723974 and parameters: {'lr': 0.00022102636840860493, 'epochs': 60, 'batch': 128}. Best is trial 2 with value: -0.736242.
+[hpo] trial 8 vanilla {'lr': 0.0029549815896083216, 'epochs': 80, 'batch': 256} -> valid -0.736925 (532s)
+[I 2026-09-21 19:48:41,363] Trial 8 finished with value: -0.736925 and parameters: {'lr': 0.0029549815896083216, 'epochs': 80, 'batch': 256}. Best is trial 8 with value: -0.736925.
+[hpo] trial 9 vanilla {'lr': 0.0014710045394516996, 'epochs': 80, 'batch': 256} -> valid -0.733286 (532s)
+[I 2026-09-21 19:57:33,758] Trial 9 finished with value: -0.733286 and parameters: {'lr': 0.0014710045394516996, 'epochs': 80, 'batch': 256}. Best is trial 8 with value: -0.736925.
+[hpo] sophelio/none search done: best valid -0.736925 {'lr': 0.0029549815896083216, 'epochs': 80, 'batch': 256}

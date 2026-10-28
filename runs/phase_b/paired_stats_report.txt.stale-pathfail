@@ -1,0 +1,2 @@
+--- test_*.csv ---
+paper/phase_b/run_overnight_detached.sh: line 61: uv: command not found

@@ -1,0 +1,40 @@
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "t": 1790488166.931889}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "test": 0.020533576142455774, "t": 1790488180.5638928}
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "t": 1790488180.578031}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "test": 0.02081683204472823, "t": 1790488194.0193727}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "t": 1790488194.0334718}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "test": 0.042473834626401474, "t": 1790488197.7551665}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "t": 1790488197.7687252}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "test": 0.04267594644955476, "t": 1790488201.6595092}
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "t": 1790488201.6733246}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "test": 0.020717873974291003, "t": 1790488206.0073462}
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "t": 1790488206.021182}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "test": 0.021571800785059825, "t": 1790488209.508803}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "t": 1790488209.5139294}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "test": 0.04259532613509344, "t": 1790488210.7757475}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "t": 1790488210.788823}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "test": 0.043244918635066014, "t": 1790488212.1988974}
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "cls_only_gate", 1], "t": 1790488212.2124634}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "cls_only_gate", 1], "test": 0.02342787298651365, "t": 1790488216.1245203}
+{"STARTED": ["A", "shear_flow__gate_vanilla_s1337", "cls_only_gate", 2], "t": 1790488216.1386085}
+{"FINISHED": ["A", "shear_flow__gate_vanilla_s1337", "cls_only_gate", 2], "test": 0.02358531978352231, "t": 1790488220.2598076}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "cls_only_gate", 1], "t": 1790488220.273599}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "cls_only_gate", 1], "test": 0.045110467937075065, "t": 1790488221.4411786}
+{"STARTED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "cls_only_gate", 2], "t": 1790488221.446145}
+{"FINISHED": ["A", "rayleigh_benard__gatest_vanilla_s1337", "cls_only_gate", 2], "test": 0.04492833859697119, "t": 1790488222.849656}
+{"STARTED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "t": 1790488222.864117}
+{"FINISHED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "test": 0.019520002660681574, "t": 1790488235.7348518}
+{"STARTED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "t": 1790488235.7487428}
+{"FINISHED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "test": 0.019908675361377002, "t": 1790488249.0191693}
+{"STARTED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "t": 1790488249.0233903}
+{"FINISHED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 1], "test": 0.041803777565929706, "t": 1790488252.7199032}
+{"STARTED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "t": 1790488252.733597}
+{"FINISHED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_ryd_gate_rs_dyn", 2], "test": 0.04165702517265527, "t": 1790488256.3667018}
+{"STARTED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "t": 1790488256.3718545}
+{"FINISHED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "test": 0.01986560793151291, "t": 1790488260.7648795}
+{"STARTED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "t": 1790488260.7786918}
+{"FINISHED": ["B2loss", "shear_flow__gate_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "test": 0.019902956408511915, "t": 1790488264.7605097}
+{"STARTED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "t": 1790488264.7740881}
+{"FINISHED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 1], "test": 0.041634851987283866, "t": 1790488266.1718314}
+{"STARTED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "t": 1790488266.1849089}
+{"FINISHED": ["B2loss", "rayleigh_benard__gatest_vanilla_s1337", "adrc_mlp_gate_rs_dyn", 2], "test": 0.04193294537800963, "t": 1790488267.590955}

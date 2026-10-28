@@ -1,0 +1,70 @@
+Uninstalled 1 package in 0.32ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse1=0.1902 vrmse8=0.6073 free=88G (checkpoint start, td k=4, SELECTION=rollout)
+val_check step=296 vrmse1=0.2896 vrmse8=0.5800 loss=0.06343 free=86G
+val_check step=597 vrmse1=0.3248 vrmse8=0.7530 loss=0.14184 free=87G
+val_check step=897 vrmse1=0.3358 vrmse8=0.6586 loss=0.03497 free=87G
+val_check step=1197 vrmse1=0.3647 vrmse8=0.6092 loss=0.06716 free=87G
+val_check step=1497 vrmse1=0.3388 vrmse8=0.6776 loss=0.01894 free=87G
+val_check step=1797 vrmse1=0.3548 vrmse8=0.6259 loss=0.08695 free=87G
+val_check step=2097 vrmse1=0.3326 vrmse8=0.7089 loss=0.10867 free=87G
+val_check step=2397 vrmse1=0.3521 vrmse8=0.6102 loss=0.03558 free=87G
+val_check step=2697 vrmse1=0.3391 vrmse8=0.6888 loss=0.03261 free=87G
+val_check step=2997 vrmse1=0.3749 vrmse8=0.6388 loss=0.25299 free=87G
+val_check step=3297 vrmse1=0.3397 vrmse8=0.6183 loss=0.03954 free=87G
+val_check step=3597 vrmse1=0.3567 vrmse8=0.6934 loss=0.05392 free=87G
+---
+variant:        mr30ryd
+td_k:           4
+val_vrmse_8:    0.579990  # SELECTION metric (rollout)
+num_steps:      3673
+train_seconds:  2420.0
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1339.pt
+Uninstalled 1 package in 0.46ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=3673 vrmse=0.5800 free=89G (RESUMED)
+val_check step=3966 vrmse1=0.3333 vrmse8=0.6392 loss=0.10116 free=87G
+val_check step=4264 vrmse1=0.3370 vrmse8=0.6752 loss=0.10929 free=87G
+val_check step=4561 vrmse1=0.3387 vrmse8=0.5837 loss=0.12238 free=86G
+val_check step=4859 vrmse1=0.3546 vrmse8=0.6367 loss=0.04173 free=87G
+val_check step=5157 vrmse1=0.3482 vrmse8=0.5791 loss=0.03056 free=87G
+val_check step=5455 vrmse1=0.3422 vrmse8=0.6124 loss=0.03196 free=87G
+val_check step=5753 vrmse1=0.3514 vrmse8=0.5946 loss=0.03338 free=87G
+val_check step=6051 vrmse1=0.3305 vrmse8=0.6251 loss=0.08969 free=87G
+val_check step=6349 vrmse1=0.3399 vrmse8=0.6422 loss=0.17584 free=87G
+val_check step=6647 vrmse1=0.3436 vrmse8=0.6472 loss=0.16513 free=87G
+val_check step=6945 vrmse1=0.3339 vrmse8=0.6176 loss=0.11070 free=87G
+val_check step=7243 vrmse1=0.3499 vrmse8=0.6082 loss=0.08845 free=87G
+---
+variant:        mr30ryd
+td_k:           4
+val_vrmse_8:    0.579135  # SELECTION metric (rollout)
+num_steps:      7314
+train_seconds:  2420.0
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1339.pt
+Uninstalled 1 package in 0.60ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=7314 vrmse=0.5791 free=89G (RESUMED)
+val_check step=7607 vrmse1=0.3268 vrmse8=0.5996 loss=0.09090 free=87G
+val_check step=7905 vrmse1=0.3278 vrmse8=0.6246 loss=0.10187 free=87G
+val_check step=8203 vrmse1=0.3414 vrmse8=0.5642 loss=0.04340 free=87G
+val_check step=8501 vrmse1=0.3470 vrmse8=0.6301 loss=0.05329 free=87G
+val_check step=8799 vrmse1=0.3448 vrmse8=0.6174 loss=0.09659 free=87G
+val_check step=9097 vrmse1=0.3317 vrmse8=0.5963 loss=0.06619 free=87G
+val_check step=9395 vrmse1=0.3588 vrmse8=0.6641 loss=0.06048 free=87G
+val_check step=9693 vrmse1=0.3342 vrmse8=0.6005 loss=0.02411 free=87G
+val_check step=9991 vrmse1=0.3401 vrmse8=0.6010 loss=0.15493 free=87G
+target_reached steps=10000 best=0.564202
+---
+variant:        mr30ryd
+td_k:           4
+val_vrmse_8:    0.564202  # SELECTION metric (rollout)
+num_steps:      10000
+train_seconds:  1792.1
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1339.pt

@@ -1,0 +1,74 @@
+{
+ "row": "rayleigh_benard",
+ "windows": 34300,
+ "persistence_mean": 0.20242276238679408,
+ "persistence_median": 0.17490583658218384,
+ "trunks": {
+  "runs/well2d/rayleigh_benard/cnext/mlp30_s1337_test.csv": {
+   "trunk_mean": 0.571157882857143,
+   "trunk_median": 0.0353825,
+   "trunk_beats_persistence_share": 0.8446938775510204,
+   "oracle_min_mean": 0.0479514443468988
+  },
+  "runs/well2d/rayleigh_benard/cnext/mlp30_s1338_test.csv": {
+   "trunk_mean": 0.5157705130903791,
+   "trunk_median": 0.033789,
+   "trunk_beats_persistence_share": 0.843935860058309,
+   "oracle_min_mean": 0.047058339411577194
+  },
+  "runs/well2d/rayleigh_benard/cnext/mlp30_s1339_test.csv": {
+   "trunk_mean": 0.4956767679008746,
+   "trunk_median": 0.034944,
+   "trunk_beats_persistence_share": 0.8467055393586006,
+   "oracle_min_mean": 0.04777466054783706
+  },
+  "runs/well2d/rayleigh_benard/cnext/mr30ryd_s1337_test.csv": {
+   "trunk_mean": 0.43963991653061224,
+   "trunk_median": 0.030513,
+   "trunk_beats_persistence_share": 0.8510204081632653,
+   "oracle_min_mean": 0.04402514856472673
+  },
+  "runs/well2d/rayleigh_benard/cnext/mr30ryd_s1338_test.csv": {
+   "trunk_mean": 0.47030544271137026,
+   "trunk_median": 0.0330185,
+   "trunk_beats_persistence_share": 0.8487755102040816,
+   "oracle_min_mean": 0.04649281894209481
+  },
+  "runs/well2d/rayleigh_benard/cnext/mr30ryd_s1339_test.csv": {
+   "trunk_mean": 0.3562789478717201,
+   "trunk_median": 0.030525,
+   "trunk_beats_persistence_share": 0.8538483965014577,
+   "oracle_min_mean": 0.0440210972035146
+  },
+  "runs/well2d/rayleigh_benard/cnext/official_test.csv": {
+   "trunk_mean": 0.6678587368513119,
+   "trunk_median": 0.034466,
+   "trunk_beats_persistence_share": 0.8397959183673469,
+   "oracle_min_mean": 0.04771083120261909
+  },
+  "runs/well2d/rayleigh_benard/cnext/vanilla_s1337_test.csv": {
+   "trunk_mean": 0.4302679133819242,
+   "trunk_median": 0.0324945,
+   "trunk_beats_persistence_share": 0.8455102040816327,
+   "oracle_min_mean": 0.04587728382958078
+  },
+  "runs/well2d/rayleigh_benard/cnext/vanilla_s1338_test.csv": {
+   "trunk_mean": 0.4054532321282799,
+   "trunk_median": 0.0321165,
+   "trunk_beats_persistence_share": 0.8494752186588921,
+   "oracle_min_mean": 0.04577161198245696
+  },
+  "runs/well2d/rayleigh_benard/cnext/vanilla_s1339_test.csv": {
+   "trunk_mean": 0.5331667456851312,
+   "trunk_median": 0.034334500000000004,
+   "trunk_beats_persistence_share": 0.8468804664723032,
+   "oracle_min_mean": 0.047688249682439496
+  },
+  "runs/well2d/rayleigh_benard/cnext_official_test.csv": {
+   "trunk_mean": 0.6678587368513119,
+   "trunk_median": 0.034466,
+   "trunk_beats_persistence_share": 0.8397959183673469,
+   "oracle_min_mean": 0.04771083120261909
+  }
+ }
+}

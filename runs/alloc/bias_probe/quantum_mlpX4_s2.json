@@ -1,0 +1,1 @@
+{"target": "quantum", "omega": 1.0, "core": "mlpX4", "seed": 2, "valid_r2": 0.19375566302837488, "test_r2": 0.19288701117301965, "params_core": 327, "seconds": 6.3738672733306885}

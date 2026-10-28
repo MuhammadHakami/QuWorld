@@ -1,0 +1,28 @@
+{
+ "endpoint": "vdss_lombardo",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "spearman",
+ "higher_is_better": true,
+ "test_mean": 0.7094,
+ "test_sd": 0.006468384651518498,
+ "test_per_seed": [
+  0.7,
+  0.716,
+  0.717,
+  0.709,
+  0.705
+ ],
+ "official_evaluate_many": [
+  0.709,
+  0.006
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 110.37573766708374
+}

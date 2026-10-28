@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.66ms
+Installed 1 package in 2ms
+---
+variant:        mr30ryd
+val_vrmse_1:    0.432400
+val_vrmse_8:    0.941804
+train_loss:     0.022604
+num_steps:      5392
+num_params:     1338576
+train_seconds:  300.0
+peak_vram_mb:   416.4

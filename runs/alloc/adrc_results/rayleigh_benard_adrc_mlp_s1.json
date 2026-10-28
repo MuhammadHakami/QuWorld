@@ -1,0 +1,1 @@
+{"row": "rayleigh_benard", "arm": "adrc_mlp", "seed": 1, "trunk_test": 0.6401042560488408, "test": 0.27930426381742185, "test_rel_gain": 0.5636581679030259, "test_captured": 0.15368780687307323, "valid": 0.31239331338737175, "epochs": 11, "seconds": 17.477430820465088, "tethers": [0.1353939175605774, 0.0, 0.11406192928552628], "params_core": 267}

@@ -1,0 +1,32 @@
+% ICLR 2027 statements (outside the page limit). DRAFT 2026-09-06 for author review.
+% Include after the bibliography: \input{statements}
+
+\section*{AI use statement}
+This work was carried out by the authors with an AI coding agent (Anthropic's
+Claude Code) used as an executing research assistant throughout the project.
+Under the authors' direction and standing instructions, the agent implemented
+the quantum-layer and training code, ran and monitored the experiments,
+computed the statistics, produced the figures, drafted and
+revised the manuscript text, and performed literature searches. All hypotheses,
+pre-registered decision rules, benchmark choices, and claims were set by the
+authors, who reviewed the code, the numbers, and the text; every reported number
+regenerates from the released scripts. Literature citations suggested by the
+agent were verified against the publishers' or arXiv records before inclusion.
+No generated data or fabricated results were used; the agent's role is
+analogous to that of a research engineer following a written protocol.
+
+\section*{Reproducibility statement}
+All experiments run on a single workstation with roughly 120\,GiB of unified
+memory and regenerate from one command per table (Section~\ref{sec:protocol};
+\texttt{REPRODUCE.md} in the code release). Code, executed logs, and the
+pre-registration record will be released on acceptance; for review,
+pre-registration is therefore self-attested. The released repository contains
+the quantum-layer implementation with its unit tests, the checkpoint-surgery
+and temporal-difference fine-tuning code, the evaluation scripts for the official
+and sliding-start rollout protocols, the pre-registration notes with their
+timestamps and decision rules, all training logs and evaluation arrays behind
+every table and figure, and the exact package lock file. The official CNextU-net
+checkpoint and The Well data are public; download instructions are included.
+Statistical procedures (paired Wilcoxon tests, Holm correction, trajectory
+cluster bootstrap) are implemented in tested modules and their outputs are
+committed alongside the arrays they were computed from.

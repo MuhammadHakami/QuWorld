@@ -1,0 +1,1 @@
+{"row": "MHD_64", "arm": "frozen_ryd", "seed": 1, "gate": false, "trunk_test": 0.5446799498366888, "test": 0.5392169479969257, "test_rel_gain": 0.010029746535375694, "test_captured": 0.022704854161998796, "valid": 0.541153289160593, "epochs": 39, "seconds": 388.2042429447174, "tethers": [0.0, 0.0, 0.0], "params_core": 332, "bands_test": null, "trunk0_test": null}

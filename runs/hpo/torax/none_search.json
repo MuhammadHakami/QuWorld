@@ -1,0 +1,14 @@
+{
+ "bench": "torax",
+ "arm": "none",
+ "trials": 16,
+ "best_value": 0.015215134780321802,
+ "best_params": {
+  "lr": 0.001408184447515237,
+  "steps": 1750,
+  "batch": 32,
+  "wd": 0.0
+ },
+ "best_variant": "none",
+ "search_seed": 1337
+}

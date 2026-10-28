@@ -1,0 +1,28 @@
+{
+ "endpoint": "clearance_hepatocyte_az",
+ "model": "MapLight CatBoost CPU exact [maplight+chemeleon]",
+ "metric": "spearman",
+ "higher_is_better": true,
+ "test_mean": 0.42940000000000006,
+ "test_sd": 0.02778920653779089,
+ "test_per_seed": [
+  0.406,
+  0.412,
+  0.445,
+  0.407,
+  0.477
+ ],
+ "official_evaluate_many": [
+  0.429,
+  0.028
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 4611,
+ "seconds": 255.99325704574585
+}

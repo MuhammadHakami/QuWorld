@@ -1,0 +1,5 @@
+[I 2026-09-22 00:11:16,156] Using an existing study with `study_name='sophelio-q'` instead of creating a new one.
+[hpo] final sophelio/q seed 1337: test -0.773174
+[hpo] final sophelio/q seed 1338: test -0.771512
+[hpo] final sophelio/q seed 1339: test -0.804295
+[hpo] sophelio/q FINAL test -0.782994 ± 0.018466

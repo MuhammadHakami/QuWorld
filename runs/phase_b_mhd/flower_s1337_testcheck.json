@@ -1,0 +1,7 @@
+{
+ "ckpt": "runs/phase_b_mhd/flower_s1337.pt",
+ "step": 5694,
+ "logged_valid": 0.14814059436321259,
+ "valid_repro": 0.14814069867134094,
+ "reader_max_abs_diff": 0.0
+}

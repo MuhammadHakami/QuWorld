@@ -1,0 +1,65 @@
+{
+ "R_axis": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.9640456147556064,
+  "r2_ok_only": 0.9640456147556064,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.23163620392613055
+ },
+ "Z_axis": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.9713735940193338,
+  "r2_ok_only": 0.9713735940193338,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.35925155396640945
+ },
+ "kappa": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.8915731026394002,
+  "r2_ok_only": 0.8915731026394002,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.22741893094674495
+ },
+ "tri_top": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.962271817851212,
+  "r2_ok_only": 0.962271817851212,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.230217384267439
+ },
+ "tri_bot": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.973718421543507,
+  "r2_ok_only": 0.973718421543507,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.3065434714244107
+ },
+ "volume": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.9603731618016781,
+  "r2_ok_only": 0.9603731618016781,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.26167308222269
+ },
+ "li": {
+  "frames": 7758,
+  "fails": 0,
+  "lcfs_fails": 0,
+  "r2": 0.9492872220097414,
+  "r2_ok_only": 0.9492872220097414,
+  "share_fail": 0.0,
+  "share_top1pct_ok": 0.5511446931734373
+ }
+}

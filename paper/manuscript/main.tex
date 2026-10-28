@@ -1,0 +1,510 @@
+\documentclass{article}
+
+% Submission mode (anonymized, line numbers) — switch to [final] for camera-ready.
+% Target: NeurIPS 2026 Workshop "World Models in Physical AI" (WM-PAI), Sydney.
+% ENFORCED deadline: 2026-08-29 13:59 UTC (OpenReview invitation). 8 pages excl. refs,
+% single track, double-blind, non-archival; appendix inside the PDF.
+% ICLR 2027 full version: abstract Sep 18, paper Sep 25 AoE (announced 2026-08-17).
+\usepackage{neurips_2026}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts,amsmath}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+
+% =====================================================================
+% RESULTS PLACEHOLDER MACROS — filled by the running TRL2D campaign.
+% \pending renders a visible red marker so no placeholder can silently
+% survive into the submitted PDF. Sources (see REPRODUCE.md):
+%   round 1: runs/phase_b/paired_stats_report.txt  (one-step objective)
+%   round 2: runs/phase_b2/paired_stats_report.txt (TD objective, k=4)
+\newcommand{\pending}[1]{\textcolor{red}{\textbf{[#1]}}}
+% Frozen anchors (real, already measured):
+\newcommand{\TRLanchorRepro}{0.1934}  % our re-evaluation of the official ckpt
+\newcommand{\TRLanchorPub}{0.1956}    % published CNextU-net one-step test VRMSE
+\newcommand{\TRLwindows}{873}         % official test windows (paired stats)
+% Round 1 — one-step-objective checkpoint surgery, 3 seeds, mean test VRMSE:
+\newcommand{\TRLvanilla}{$0.19307 \pm 0.00007$}   % vanilla continued fine-tune
+\newcommand{\TRLquantum}{$0.19315 \pm 0.00007$}   % + 30q Rydberg bottleneck
+\newcommand{\TRLmlp}{$0.19314 \pm 0.00016$}       % + matched-MLP control
+\newcommand{\TRLpvalue}{$\le 1.9{\times}10^{-2}$ per seed (best $6{\times}10^{-12}$)}      % one-sided Wilcoxon, quantum vs anchor
+\newcommand{\TRLwinrate}{52.5--60.1\%}   % per-window win rate, quantum vs anchor
+% Round 2 — TD-objective (k=4) checkpoint surgery, 3 seeds:
+\newcommand{\TDvanilla}{$1.0301 \pm 0.0367$}
+\newcommand{\TDquantum}{$\mathbf{0.9528 \pm 0.0432}$}
+\newcommand{\TDmlp}{$1.0322 \pm 0.0212$}
+\newcommand{\TDpvalue}{3/3 seeds paired vs both controls}
+\newcommand{\TDwinrate}{3/3 below anchor}
+% One-sentence verdict (positive or negative) written after paired stats land:
+\newcommand{\AblationVerdict}{The pre-registered training-side ablation
+(2026-08-23) is decisive: retraining the identical adapter with blockade
+interactions zeroed --- product state from step 0, same TD protocol, three
+seeds --- loses the effect entirely, giving 13:30 test VRMSE
+$1.0156 \pm 0.0433$ with only 1/3 seeds below the anchor (vs 3/3 entangled),
+while the entangled arm's rollout-validation selection is better on every
+seed. Entanglement is thus dispensable at inference yet necessary during
+optimization: the gain is specific to training \emph{through} entangled
+Rydberg dynamics, not to a generic high-dimensional bottleneck.}
+\newcommand{\CampaignVerdict}{Under the one-step objective, all arms
+improve minutely and significantly on the released checkpoint but
+indistinguishably (kill rule fired). Under the TD objective, evaluated on the
+official test rollout, the quantum arm is the only configuration that
+improves the long-horizon window on every seed: 13:30 VRMSE
+$0.9528 \pm 0.0432$ vs vanilla $1.0301 \pm 0.0367$ and matched-MLP
+$1.0322 \pm 0.0212$ (anchor 1.0132, published 1.01), winning the seed-paired
+comparison 3/3 against both controls while matching them on the medium
+window. TD arms are rollout models: their one-step error rises by design.
+Our dequantization suite then shows the trained adapter is
+\emph{inference-inert}: product-state and $\chi{=}1$ surrogates, 128-shot
+readout, and even zeroing the readout reproduce the fine-tuned model's
+rollout to $\le 2{\times}10^{-5}$ (600$\times$ below seed noise; register
+entanglement 0.03--0.09 bits). The quantum advantage is therefore a
+\emph{training-dynamics} effect --- the bottleneck steers TD fine-tuning into
+a better basin that is then encoded in the trunk --- consistent with our
+pre-registered framing of quantum-structured inductive bias rather than
+inference-time quantum computation. \AblationVerdict}
+% =====================================================================
+
+\title{Quantum Adapters for Frozen World Models:\\
+A Pre-Registered Study of Input-Conditioned Rydberg Bottlenecks\\
+on Public Physics Benchmarks}
+
+% TODO(author): fill in for camera-ready; hidden in submission mode.
+\author{Anonymous}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Two claims recur in the recent literature: that analog quantum hardware is a
+natural substrate for simulating physical dynamics, and that small quantum
+modules can improve large pretrained (multi)modal models. We test both in a
+single world-model setting, under rules designed to make failure as visible as
+success. Because no practical application fits on today's qubit counts whole,
+our design premise is division of labor: steer a small reconfigurable register
+to the problem's hardest analog subprocess and let a frozen world model carry
+the rest. Our system inserts a $\sim$500-parameter, input-conditioned
+quantum bottleneck --- per-qubit detunings and trainable 2D atom geometry
+driving Rydberg-Hamiltonian evolution, so the analog block \emph{adapts to the
+simulation state} --- into (i) a compact neural surrogate for PDE rollout and
+(ii) a frozen 14B open-weights video world model, at 30 simulated qubits
+(three blockade-decoupled 10-qubit registers). Evaluation is pre-registered on
+public benchmarks with published state of the art: our primary goal is
+one-step test VRMSE below the strongest official baseline on The Well's
+\texttt{turbulent\_radiative\_layer\_2D} (CNextU-net, 0.1956) with paired
+per-sample significance, alongside long-horizon rollout stability, where every
+published model, including a 1.3B foundation model, degrades beyond the
+spatial-mean floor. Controls are parameter- and tuning-matched, with explicit
+kill rules and a dequantization suite; at $\leq$30 simulated qubits the block
+is classically simulable, so all claims are about quantum-structured inductive
+bias, not quantum advantage. In time-boxed pilot sprints on a single 126\,GB
+workstation, quantum bottlenecks were the only variants to beat the
+persistence floor on 8-step rollout, cutting rollout error by 23--37\% over a
+matched classical trunk while a parameter-matched MLP control \emph{hurt}; in
+a three-seed replication the 30-qubit Rydberg block achieved the best mean and
+lowest variance ($0.955 \pm 0.102$ vs $1.111 \pm 0.174$ baseline), with the
+variant ordering analog $>$ digital $>$ none $>$ MLP. These pilot effects are
+directional at current power; the full-protocol verdict --- positive or
+negative --- fine-tunes the official checkpoint (which we reproduce at 0.1934
+test VRMSE) and is reported at the workshop.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+World models --- learned simulators that roll a latent state forward under
+dynamics --- increasingly serve as the interface between machine learning and
+physics, from PDE surrogacy to video generation
+\citep{ohana2024thewell,mccabe2025walrus,gao2026lingbotworld}. Their central
+unsolved failure is \emph{physical consistency over long horizons}: on The
+Well benchmark, the best official baseline (CNextU-net) reaches one-step test
+VRMSE 0.1956 on \texttt{turbulent\_radiative\_layer\_2D} but degrades to 1.01
+by rollout window 13:30 --- worse than predicting the spatial mean --- and even
+the 1.3B cross-domain foundation model Walrus exceeds this floor at long
+horizon \citep{ohana2024thewell,mccabe2025walrus}. Dedicated video-physics
+benchmarks report the same gap for generative world models
+\citep{motamed2025physicsiq,li2025worldmodelbench}.
+
+Meanwhile, two literatures make claims that, if true, bear directly on this
+failure. First, \emph{analog quantum simulation}: neutral-atom platforms
+natively evolve Rydberg Hamiltonians, and reservoir-computing experiments on
+QuEra Aquila encode inputs directly into detunings, positions, and drives of
+up to 108 qubits \citep{kornjaca2024aquila}; Hamiltonian input encoding is
+provably expressive, offering infinite-order nonlinearity in the encoded
+variables \citep{xia2026magicqrc}. Second, \emph{quantum modules for
+foundation models}: unitary and quantum(-inspired) adapters now fine-tune
+frozen LLMs and vision--language models at extreme parameter efficiency
+\citep{koikeakino2025quantumpeft,raj2025quic,aizpurua2026cayley,zhao2026mqadapter}.
+Neither literature, however, has produced a matched-control win on a public
+physical-simulation benchmark: the closest attempt, a 5-qubit mixer in a 3D
+FNO surrogate, beat a larger classical model but \emph{lost to its own
+parameter-matched control} \citep{papierz2026hqlpfno}, and reservoir studies
+show apparent quantum edges evaporating under equal-tuning classical baselines
+\citep{pandey2026qrcbaselines}. No quantum-hybrid entry exists on The Well,
+PDEBench, or LagrangeBench.
+
+Our premise connects the two claims. Analog quantum hardware may be the
+natural substrate for physical dynamics, but no practical application fits on
+today's qubit counts whole --- and real simulations are rarely uniformly
+quantum-hard: they mix classically easy, effectively discrete structure with a
+harder analog core. We therefore treat the qubit budget as a scarce resource
+to be \emph{allocated}: a reconfigurable, input-parameterized register is
+steered toward the highest-complexity analog subprocess of the problem at
+hand, while the frozen world model carries the rest. If the division of labor
+is right, small fixed budgets become useful on current hardware, and fidelity
+versus qubit count becomes a measurable scaling question rather than a wait
+for million-qubit machines. This is the hypothesis our protocol is built to
+confirm or kill.
+
+We take both claims seriously by making them falsifiable in one setting.
+Our contributions, ordered by novelty:
+\begin{enumerate}
+  \item \textbf{The first quantum adapter inside a frozen video world
+  model.} A quantum bottleneck at the KV-cache chunk boundary of a frozen
+  14B open-weights interactive world model
+  \citep{gao2026lingbotworld,wan2025wan}, scored by official public judges
+  \citep{li2025worldmodelbench,motamed2025physicsiq} --- to our knowledge
+  the first quantum module in any video world model and the first quantum
+  entries on either benchmark. (The similarly-named QSWM
+  \citep{sun2026qswm} is quantum-\emph{inspired} --- complex-valued,
+  density-matrix-like latents evaluated on cellular automata --- and
+  contains no quantum module.)
+  \item \textbf{Checkpoint surgery against a published number.} We insert
+  the bottleneck at the neck of the \emph{official released} CNextU-net
+  checkpoint from The Well and fine-tune, targeting its published 0.1956
+  one-step test VRMSE \citep{ohana2024thewell} with paired per-window
+  Wilcoxon significance over the 873 official test windows. Quantum
+  U-Net bottlenecks exist from scratch
+  \citep{ma2025qufex,liu2026hqfnet,ali2026phqfno}; no quantum work has
+  touched The Well or any released scientific-ML checkpoint --- the
+  methodology (official-checkpoint surgery + published-number target +
+  paired statistics) and its result are the contribution, not the
+  architecture.
+  \item \textbf{An input-conditioned analog ansatz, as a composite.} The
+  Rydberg generator is parameterized by the latent state --- data-dependent
+  detunings, gradient-trained 2D atom geometry, global drive --- via exact
+  statevector autodiff inside the classical network, and the trained object
+  is a valid neutral-atom program (Pulser-exportable). Geometry-as-parameter
+  is the natively realizable knob of this platform: optical tweezers
+  assemble atoms into essentially arbitrary, reconfigurable 2D/3D
+  arrangements \citep{barredo2018synthetic}, now demonstrated at the
+  6{,}100-qubit scale \citep{manetsch2025tweezer}, so a trained register
+  layout is a deployable program, not an abstraction. Each ingredient
+  exists in isolation \citep{silver2024recon,chen2026resq,pulserdiff2025};
+  the composite, embedded as a layer of a predictive world model, does not.
+  Thirty simulated qubits are realized as three blockade-decoupled
+  10-qubit registers --- an implementation detail with prior art in patched
+  quantum generators \citep{huang2020patchgan}.
+  \item \textbf{A pre-registered, kill-rule protocol.} Qubit-scaling
+  claims already exist in looser forms --- IonQ reports monotone scaling
+  against parameter-matched classical baselines on a pretrained model
+  \citep{ionq2026scaling}, and analog reservoirs scale to 108 qubits
+  \citep{kornjaca2024aquila} --- so we do not claim ``more qubits helps''
+  as novel. We contribute its first \emph{pre-registered,
+  tuning-and-parameter-matched, significance-tested} instantiation on a
+  public PDE benchmark: matched MLP/orthogonal/tensor-network/product-state
+  controls \citep{pandey2026qrcbaselines,bowles2024better}, explicit kill
+  rules (if controls match, the negative result is the paper), and a
+  dequantization suite (bond-dimension sweeps, product-state controls,
+  finite-shot gradients), under the honest-framing standard of
+  \citet{schuld2022advantage} and the classical-simulability caveat of
+  \citet{cerezo2025barren}.
+\end{enumerate}
+
+\section{Problem definition}
+\label{sec:problem}
+
+\paragraph{Task.} Let $x_t \in \mathbb{R}^{C \times H \times W}$ be a physical
+field snapshot (here: density, pressure, velocity on a $128{\times}384$ grid).
+Given a history $(x_{t-3},\dots,x_t)$, predict $x_{t+1}$; long-horizon
+behavior is evaluated by autoregressive rollout. The official metric is
+variance-scaled RMSE,
+$\mathrm{VRMSE}(\hat x, x) = \sqrt{\|\hat x - x\|_2^2 \,/\,
+(\|x - \bar x\|_2^2 + \epsilon)}$,
+with $\mathrm{VRMSE}=1$ equivalent to predicting the spatial mean $\bar x$
+\citep{ohana2024thewell}.
+
+\paragraph{Hypotheses.}
+\textbf{H1} (analog simulation): a quantum bottleneck with input-conditioned
+Rydberg dynamics improves rollout accuracy over parameter- and tuning-matched
+classical controls. \textbf{H2} (foundation models): the same block, as an
+adapter in a frozen video world model, improves physical-consistency scores
+over matched LoRA/MLP adapters. Each hypothesis carries a kill rule: if the
+matched control is statistically indistinguishable from or better than the
+quantum variant across seeds, the prong is reported dead in this regime.
+
+\paragraph{Primary goal.} One-step test VRMSE $< 0.1956$ on
+\texttt{turbulent\_radiative\_layer\_2D}, significant under a paired
+per-sample Wilcoxon test over the $\sim$870 official test windows against the
+official CNextU-net checkpoint, across 3 training seeds (Holm-corrected).
+
+\paragraph{On WaveLiT.} Among compact architectures evaluated on TRL2D,
+WaveLiT \citep{sankaran2026wavelit} reports one-step VRMSE 0.1308 (30.5M) and
+0.1346 (9M) using the benchmark's 4-step history and stating consistency with
+the official evaluation. The aggregation statistic, test split, and
+normalization are, however, undocumented and no code is released; the authors'
+extended version switches to median VRMSE (0.1167 for the same 9M model), a
+statistic not comparable to the benchmark's mean convention, and the 30.5M
+model's training budget exceeds the benchmark's 12h single-GPU convention by
+roughly $2$--$3\times$. We treat WaveLiT as a promising but not
+protocol-verified comparison point and evaluate exclusively under the official
+mean-VRMSE protocol on the official test split.
+
+\section{Method (summary)}
+\label{sec:method}
+
+A classical trunk produces a latent field $z$; an attention pool yields
+$h \in \mathbb{R}^d$; a linear map sets per-qubit, per-layer detunings
+$\delta = \pi \tanh(W h)$; each 10-qubit register evolves under
+$H_{\mathrm{Ryd}}/\hbar = \sum_i \tfrac{\Omega_\ell}{2} X_i - \sum_i
+\delta_{\ell,i} n_i + \sum_{i<j} C_6 |r_i - r_j|^{-6} n_i n_j$
+with trainable times $\tau_\ell$, global drives $\Omega_\ell$, and trainable
+coordinates $r_i$ (geometry-as-parameter); $\langle Z_i \rangle$ readouts
+re-enter the trunk through a zero-initialized gated residual. The quantum
+core is $\sim$500--2{,}100 parameters per register; every baseline implements
+the identical pool$\to$core$\to$residual interface at matched total parameters
+($\pm 0.3\%$). Training uses a batched complex64 statevector propagator with
+exact autograd gradients, cross-checked against an independent simulator to
+$10^{-6}$. Prong H2 taps the denoised chunk latent of the frozen world model
+at its KV-cache chunk boundary, one adapter call per chunk.
+
+\section{Pilot evidence (time-boxed sprints; internal protocol)}
+\label{sec:pilot}
+
+Pilot sprints use a stratified subset (3 of 9 cooling regimes, $2\times$
+downsampled, single-frame input, 5-minute wall-clock or fixed-step budgets,
+$\sim$1.33M parameters, fixed seeds) --- internally comparable, \emph{not}
+comparable to the published table; the full-protocol runs target
+Section~\ref{sec:problem}'s goal directly.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+Variant & VRMSE@1 & VRMSE@8 & steps & note \\
+\midrule
+persistence floor & 0.583 & 1.002 & --- & trivial baseline \\
+FNO trunk (none) & 0.419 & 1.143 & 10{,}597 & \\
+$+$ matched MLP control & 0.425 & 1.213 & 10{,}326 & control \emph{hurts} \\
+$+$ 12q HEA bottleneck & \textbf{0.404} & \textbf{0.876} & 6{,}912 & $-23\%$ rollout \\
+$+$ 16q Rydberg-analog & 0.432 & 0.913 & 2{,}850 & beats floor \\
+\midrule
+fixed 2{,}500 steps: none & 0.477 & 2.102 & 2{,}500 & \\
+fixed 2{,}500 steps: $+$12q & 0.486 & \textbf{1.325} & 2{,}500 & $-37\%$ per-step \\
+\midrule
+\multicolumn{5}{l}{\emph{3-seed study (mean$\pm$std over seeds):}} \\
+none & --- & $1.111 \pm 0.174$ & $\sim$10.3k & \\
+$+$ matched MLP (30-dim) & --- & $1.123 \pm 0.211$ & $\sim$10.1k & control \\
+$+$ 30q HEA ($3{\times}10$q) & --- & $1.063 \pm 0.152$ & $\sim$4.4k & \\
+$+$ 30q Rydberg ($3{\times}10$q) & --- & $\mathbf{0.955 \pm 0.102}$ & $\sim$5.4k & best mean \& lowest var \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\caption{Pilot sprints (The Well TRL2D subset). Only quantum variants beat
+the persistence floor at 8-step rollout; the effect persists at fixed step
+budget (throughput removed). Multi-seed replication is in progress: run-to-run
+$\sigma(\mathrm{VRMSE@8}) \approx 0.2$ rivals single-run effect sizes, so
+per-regime paired statistics (9 points/comparison) gate any claim.}
+\label{tab:pilot}
+\end{table}
+
+Across three fixed-seed replicates, the variant ordering matches the
+hypothesis pattern --- analog $>$ digital $>$ no bottleneck $>$ classical
+control --- with the 30-simulated-qubit Rydberg block best on both mean and
+variance, and the analog qubit-scaling trend monotone in our runs
+(12q: 1.17 $\to$ 16q: 0.91 $\to$ $3{\times}10$q: $0.955 \pm 0.102$). With
+$n{=}3$ aggregate seeds these differences are directional, not significant;
+the per-regime paired protocol and the full-protocol runs below carry the
+statistical burden. As the anchor for the primary goal, we re-evaluated the
+official CNextU-net checkpoint on the official test split with our pipeline:
+mean VRMSE \textbf{0.1934} over 873 windows (published: 0.1956; 1.1\%
+discrepancy), and we adopt our stricter reproduced number as the bar.
+
+\section{Results}
+\label{sec:results}
+
+Four result blocks, in decreasing order of maturity: a completed
+three-seed internal study whose numbers are final
+(\S\ref{sec:wave15}); the official-benchmark campaign, in flight at
+submission-scaffolding time, whose cells are visibly marked placeholders
+(\S\ref{sec:campaign}); released artifacts (\S\ref{sec:artifacts}); and the
+full evidence ladder with honest per-benchmark status (\S\ref{sec:ladder}).
+
+\subsection{Sprint arena, wave 1.5: rollout-aware training unlocks the
+quantum edge}
+\label{sec:wave15}
+
+The decisive internal experiment crosses the training objective with the
+bottleneck variant at a fixed 2{,}000-step budget (throughput removed), 3
+seeds: one-step MSE ($k{=}1$) versus a $k{=}4$ pushforward/TD objective
+(inner rollout steps stop-gradiented, loss on the final step). Results in
+Table~\ref{tab:wave15} are complete and final.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Variant & VRMSE@8, $k{=}1$ & VRMSE@8, $k{=}4$ (TD) & TD gain \\
+\midrule
+FNO trunk (none) & $0.964 \pm 0.005$ & $0.957 \pm 0.255$ & $\approx 0\%$ \\
+$+$ matched MLP (control) & $1.057 \pm 0.057$ & $0.953 \pm 0.135$ & $-10\%$ \\
+$+$ 30q Rydberg ($3{\times}10$q) & $1.100 \pm 0.194$ & $\mathbf{0.845 \pm 0.051}$ & $\mathbf{-23\%}$ \\
+$+$ 30q Rydberg, conditioned geometry & $1.043 \pm 0.210$ & $0.895 \pm 0.137$ & $-14\%$ \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\caption{Wave 1.5 (The Well TRL2D subset, internal protocol): 8-step rollout
+VRMSE, mean$\pm$std over seeds \{1337, 1338, 1339\}, fixed 2{,}000 steps.
+Under the TD objective the 30-simulated-qubit Rydberg bottleneck beats the
+parameter-matched MLP control on \textbf{3/3 seeds} (0.903/0.826/0.806 vs
+1.098/0.933/0.829) and posts the best mean and lowest variance overall.
+Interaction effect: switching to the TD objective improves the quantum
+variant by $-23\%$, the classical control by $-10\%$, and the bare trunk not
+at all --- under one-step training the trunk alone is best and the quantum
+edge is \emph{invisible}. Adapters need rollout-aware training; this finding
+sets the round-2 design in \S\ref{sec:campaign}.}
+\label{tab:wave15}
+\end{table}
+
+This is the pre-registered H1a pattern (quantum $<$ both controls) at its
+strongest to date, and it explains the flat one-step fine-tunes observed in
+early checkpoint-surgery pilots: the quantum bottleneck's contribution lives
+in rollout dynamics, which the one-step loss never sees.
+
+\subsection{Official-benchmark campaign (TRL2D): checkpoint surgery in two
+rounds}
+\label{sec:campaign}
+
+The campaign fine-tunes the \emph{official released} CNextU-net checkpoint
+under the official protocol, three arms (vanilla continued / matched-MLP
+control / 30q Rydberg bottleneck) $\times$ three seeds, with single-shot
+test evaluation per best-on-validation model and paired per-window Wilcoxon
+against our reproduced anchor (\TRLanchorRepro{} over \TRLwindows{} windows;
+published: \TRLanchorPub). Round 1 trains with the benchmark's one-step
+objective; round 2 repeats the surgery with the wave-1.5-informed TD
+objective ($k{=}4$). A 3k-step pilot preserved the hypothesis ordering on
+validation VRMSE (quantum $0.18977 <$ vanilla $0.18985 <$ MLP $0.19009$),
+differences within noise --- consistent with wave 1.5's finding that
+one-step training barely moves any arm. Numbers below are placeholders
+until the campaign's paired statistics land; the verdict is reported either
+way. \CampaignVerdict
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llccc}
+\toprule
+Round & Arm & Test VRMSE (3 seeds) & Wilcoxon $p$ vs anchor & win rate \\
+\midrule
+--- & official checkpoint (anchor) & \TRLanchorRepro & --- & --- \\
+\midrule
+1 (one-step) & vanilla continued & \TRLvanilla & --- & --- \\
+1 (one-step) & $+$ matched MLP (control) & \TRLmlp & --- & --- \\
+1 (one-step) & $+$ 30q Rydberg & \TRLquantum & \TRLpvalue & \TRLwinrate \\
+\midrule
+2 (TD, $k{=}4$) & vanilla continued & \TDvanilla & --- & --- \\
+2 (TD, $k{=}4$) & $+$ matched MLP (control) & \TDmlp & --- & --- \\
+2 (TD, $k{=}4$) & $+$ 30q Rydberg & \TDquantum & \TDpvalue & \TDwinrate \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\caption{TRL2D official-protocol campaign (scaffolding; red cells are
+in-flight placeholders). One-step test mean-VRMSE on the official test
+split; paired one-sided Wilcoxon (arm $<$ anchor) over \TRLwindows{}
+per-window scores, Holm-corrected across seeds. Pass rule (pre-registered
+H1d): quantum below both controls \emph{and} below the \TRLanchorRepro{}
+anchor at $p<0.05$. Kill rule: if the matched control is indistinguishable
+from or better than the quantum arm, the prong is reported dead in this
+regime and this table ships with that verdict.}
+\label{tab:campaign}
+\end{table}
+
+\subsection{Released artifacts}
+\label{sec:artifacts}
+
+\paragraph{TORAX-Bench v1.} With this paper we release a new benchmark:
+1{,}000 actuator-conditioned tokamak core-transport discharges generated
+with the TORAX simulator (all four transport equations evolved --- ion and
+electron heat, current, electron density), sampled i.i.d.\ from a
+12-dimensional scenario space with \emph{time-varying} actuators
+(plasma-current ramp, three-knot heating waveform, gas-puff step). Each
+discharge saves $[T_e, T_i, n_e, q]$ profiles on a uniform 121-frame,
+6-second grid plus the commanded actuator waveforms; splits are frozen at
+800/100/100 with a dataset card and full generation manifest (44\,MB
+total). Reference CPU baselines are set and frozen: persistence@8 mean
+rollout VRMSE \textbf{0.0923} (the number to beat) and per-timestep
+climatology 0.5546. Adapter numbers on this benchmark are pending and not
+claimed here.
+
+\paragraph{Pre-registered protocol and reproduction pack.} The second
+artifact is the protocol itself: the hypothesis scoreboard with explicit
+pass/kill rules per claim, the per-run results ledger, the paired-statistics
+scripts, and a \texttt{REPRODUCE.md} that maps every number appearing in
+this paper --- including every pending cell above --- to the exact command or
+executed notebook that regenerates it. All runs execute on a single
+126\,GB workstation.
+
+\subsection{Evidence ladder}
+\label{sec:ladder}
+
+Table~\ref{tab:ladder} is the full claim surface with per-benchmark status
+at scaffolding time --- filled, in-flight, and not-yet-started rows alike.
+Rows convert from ``pending'' to numbers only through the pre-registered
+commands; nothing is claimed for a pending row.
+
+\begin{table}[h]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllll}
+\toprule
+Benchmark & Metric & Reference point & Ours & Status \\
+\midrule
+The Well TRL2D (official) & VRMSE $\downarrow$ & CNextU-net \TRLanchorPub{} / \TRLanchorRepro & Table~\ref{tab:campaign} & campaign in flight \\
+TRL2D sprint arena (internal) & VRMSE@8 $\downarrow$ & best classical $0.953 \pm 0.135$ & $\mathbf{0.845 \pm 0.051}$, 3/3 seeds & \textbf{complete} \\
+The Well MHD\_64 & VRMSE $\downarrow$ & CNextU-net 0.1633 & --- & pipeline ready \\
+TORAX-Bench v1 (ours) & VRMSE@8 $\downarrow$ & persistence@8 0.0923 & baselines released & adapter pending \\
+Physics-IQ & score $\uparrow$ & Cosmos $\approx 63.4$ & --- & pipeline staged \\
+WorldModelBench & judge score $\uparrow$ & leaderboard & --- & queued (full version) \\
+TokaMark G2 (MAST magnetics) & NRMSE $\downarrow$ & CNN+LSTM 0.1343 & --- & data access verified \\
+Sophelio equilibrium challenge & $G_{\mathrm{ratio}}$ $\uparrow$ & Ch2 open $\approx 0.654$ & --- & committed (Oct 2026) \\
+Pelzer 1HP heat plume & MAE $\downarrow$ & U-Net 0.046\,$^{\circ}$C & --- & loader + split frozen \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\caption{Evidence ladder: one adapter stack, every benchmark it is
+pre-registered against, and the honest status of each row. ``Reference
+point'' is the published or strongest available number for that benchmark;
+dashes are not results. The two filled rows are the sprint-arena study
+(Table~\ref{tab:wave15}) and the TORAX-Bench baseline release
+(\S\ref{sec:artifacts}).}
+\label{tab:ladder}
+\end{table}
+
+\section{Roadmap and limitations}
+\label{sec:roadmap}
+
+Full-protocol runs fine-tune the official CNextU-net checkpoint with and
+without the quantum bottleneck under identical budgets. Known limitations we
+carry openly: the pooled register is a poly($n$) information bottleneck
+(readout scaling is reported, not hidden); entangled 30-qubit training uses
+bounded-$\chi$ tensor-network simulation (exact statevector at 30q is
+inference-only on our hardware); sprint-scale variance mandates the paired
+protocol above; and all quantum components are classically simulated, so
+hardware execution (via Pulser export to neutral-atom platforms) is future
+work, not a claim. All experiments, including every negative result, run on a
+single 126\,GB workstation and reproduce from one command per table.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

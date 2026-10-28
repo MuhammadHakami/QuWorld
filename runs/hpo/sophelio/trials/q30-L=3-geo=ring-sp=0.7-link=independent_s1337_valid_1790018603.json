@@ -1,0 +1,27 @@
+{
+ "variant": "q30-L=3-geo=ring-sp=0.7-link=independent",
+ "seed": 1337,
+ "thomson": false,
+ "n_shots": 200,
+ "n_test_shots": 20,
+ "n_features": 21,
+ "epochs": 60,
+ "batch": 256,
+ "lr": 0.0004104155605133619,
+ "num_params": 3238103,
+ "train_seconds": 737.594753742218,
+ "score_seconds": 15.950236082077026,
+ "test_R2": 0.9726524353027344,
+ "test_MSE": 0.0006094812997616827,
+ "test_SSIM": 0.9698898592305369,
+ "official": {
+  "S": 0.700393,
+  "r2_psi": 0.971775,
+  "r2_qb": 0.146811,
+  "dlcfs": 0.079165,
+  "consistency": 0.25906,
+  "psi_sign": 1
+ },
+ "final_val_loss": 0.0011051061491242661,
+ "score_split": "val"
+}

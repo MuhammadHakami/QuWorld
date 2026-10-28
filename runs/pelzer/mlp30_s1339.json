@@ -1,0 +1,16 @@
+{
+ "variant": "mlp30",
+ "seed": 1339,
+ "steps": 1500,
+ "val_mae_c": 0.07661700248718262,
+ "test_mae_c": 0.06906575709581375,
+ "test_pat_0p1": 0.17414550483226776,
+ "test_max_err_c": 1.3170413970947266,
+ "train_loss": 0.0011948170140385628,
+ "num_params": 453511,
+ "train_seconds": 99.03463888168335,
+ "n_train": 70,
+ "n_val": 20,
+ "n_test": 10,
+ "device": "cuda"
+}

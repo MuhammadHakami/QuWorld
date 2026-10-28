@@ -1,0 +1,32 @@
+{
+ "exact_gpu": {
+  "mae": [
+   0.256,
+   0.006
+  ],
+  "seconds": 14,
+  "overlap_with_released": null
+ },
+ "all_gpu": {
+  "mae": [
+   0.294,
+   0.004
+  ],
+  "seconds": 47,
+  "overlap_with_released": null
+ },
+ "inner_gpu": {
+  "mae": [
+   0.308,
+   0.01
+  ],
+  "seconds": 876,
+  "overlap_with_released": {
+   "1": 20,
+   "2": 28,
+   "3": 24,
+   "4": 31,
+   "5": 29
+  }
+ }
+}

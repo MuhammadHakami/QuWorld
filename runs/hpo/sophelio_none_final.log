@@ -1,0 +1,5 @@
+[I 2026-09-21 19:57:34,145] Using an existing study with `study_name='sophelio-none'` instead of creating a new one.
+[hpo] final sophelio/none seed 1337: test -0.798537
+[hpo] final sophelio/none seed 1338: test -0.776448
+[hpo] final sophelio/none seed 1339: test -0.796619
+[hpo] sophelio/none FINAL test -0.790535 ± 0.012237

@@ -1,0 +1,28 @@
+{
+ "endpoint": "cyp2c9_veith",
+ "model": "MapLight CatBoost CPU exact [maplight]",
+ "metric": "pr-auc",
+ "higher_is_better": true,
+ "test_mean": 0.7882,
+ "test_sd": 0.0024000000000000024,
+ "test_per_seed": [
+  0.786,
+  0.792,
+  0.79,
+  0.786,
+  0.787
+ ],
+ "official_evaluate_many": [
+  0.788,
+  0.002
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2563,
+ "seconds": 105.83563923835754
+}

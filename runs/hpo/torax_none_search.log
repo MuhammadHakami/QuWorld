@@ -1,0 +1,35 @@
+[I 2026-09-21 10:21:38,834] A new study created in RDB with name: torax-none
+[hpo] torax/none: 0 complete trials on file, target 16
+[hpo] trial 0 none {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001} -> valid 0.056350 (61s)
+[I 2026-09-21 10:22:39,531] Trial 0 finished with value: 0.056349514318364005 and parameters: {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001}. Best is trial 0 with value: 0.056349514318364005.
+[hpo] trial 1 none {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0} -> valid 0.041096 (34s)
+[I 2026-09-21 10:23:14,019] Trial 1 finished with value: 0.041095652750560215 and parameters: {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0}. Best is trial 1 with value: 0.041095652750560215.
+[hpo] trial 2 none {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001} -> valid 0.019247 (68s)
+[I 2026-09-21 10:24:21,948] Trial 2 finished with value: 0.01924677113337176 and parameters: {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.01924677113337176.
+[hpo] trial 3 none {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001} -> valid 0.031959 (47s)
+[I 2026-09-21 10:25:08,952] Trial 3 finished with value: 0.031958634832075665 and parameters: {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.01924677113337176.
+[hpo] trial 4 none {'lr': 0.00042500011146641696, 'steps': 1250, 'batch': 32, 'wd': 0.0} -> valid 0.026123 (93s)
+[I 2026-09-21 10:26:42,385] Trial 4 finished with value: 0.026122629908578738 and parameters: {'lr': 0.00042500011146641696, 'steps': 1250, 'batch': 32, 'wd': 0.0}. Best is trial 2 with value: 0.01924677113337176.
+[hpo] trial 5 none {'lr': 0.0007880120887378489, 'steps': 2000, 'batch': 32, 'wd': 0.0001} -> valid 0.017935 (199s)
+[I 2026-09-21 10:30:01,456] Trial 5 finished with value: 0.017934806245778288 and parameters: {'lr': 0.0007880120887378489, 'steps': 2000, 'batch': 32, 'wd': 0.0001}. Best is trial 5 with value: 0.017934806245778288.
+[hpo] trial 6 none {'lr': 0.0011815479404389353, 'steps': 1750, 'batch': 32, 'wd': 0.0001} -> valid 0.015670 (169s)
+[I 2026-09-21 10:32:50,201] Trial 6 finished with value: 0.015670389203088626 and parameters: {'lr': 0.0011815479404389353, 'steps': 1750, 'batch': 32, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 7 none {'lr': 0.0001235349987080089, 'steps': 1500, 'batch': 8, 'wd': 0.0001} -> valid 0.063871 (109s)
+[I 2026-09-21 10:34:39,502] Trial 7 finished with value: 0.06387142304863248 and parameters: {'lr': 0.0001235349987080089, 'steps': 1500, 'batch': 8, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 8 none {'lr': 0.0027530313369779906, 'steps': 2000, 'batch': 32, 'wd': 0.0001} -> valid 0.018491 (133s)
+[I 2026-09-21 10:36:52,946] Trial 8 finished with value: 0.0184913326853088 and parameters: {'lr': 0.0027530313369779906, 'steps': 2000, 'batch': 32, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 9 none {'lr': 0.00037209285787469416, 'steps': 2000, 'batch': 32, 'wd': 1e-05} -> valid 0.021514 (137s)
+[I 2026-09-21 10:39:10,222] Trial 9 finished with value: 0.021513804527265683 and parameters: {'lr': 0.00037209285787469416, 'steps': 2000, 'batch': 32, 'wd': 1e-05}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 10 none {'lr': 0.00011952881341157873, 'steps': 500, 'batch': 32, 'wd': 0.0} -> valid 0.084655 (35s)
+[I 2026-09-21 10:39:45,225] Trial 10 finished with value: 0.08465488095368658 and parameters: {'lr': 0.00011952881341157873, 'steps': 500, 'batch': 32, 'wd': 0.0}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 11 none {'lr': 0.0004776042854772722, 'steps': 1750, 'batch': 32, 'wd': 0.0001} -> valid 0.021066 (120s)
+[I 2026-09-21 10:41:45,051] Trial 11 finished with value: 0.021065537684730122 and parameters: {'lr': 0.0004776042854772722, 'steps': 1750, 'batch': 32, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 12 none {'lr': 0.0016290439658169977, 'steps': 1500, 'batch': 8, 'wd': 0.0001} -> valid 0.027227 (101s)
+[I 2026-09-21 10:43:26,636] Trial 12 finished with value: 0.027226678228804042 and parameters: {'lr': 0.0016290439658169977, 'steps': 1500, 'batch': 8, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 13 none {'lr': 0.0008714964651175441, 'steps': 2000, 'batch': 16, 'wd': 0.0001} -> valid 0.018742 (118s)
+[I 2026-09-21 10:45:24,942] Trial 13 finished with value: 0.018741725544844354 and parameters: {'lr': 0.0008714964651175441, 'steps': 2000, 'batch': 16, 'wd': 0.0001}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 14 none {'lr': 0.000863256785594414, 'steps': 2000, 'batch': 32, 'wd': 0.0} -> valid 0.017800 (125s)
+[I 2026-09-21 10:47:30,303] Trial 14 finished with value: 0.017799537628889084 and parameters: {'lr': 0.000863256785594414, 'steps': 2000, 'batch': 32, 'wd': 0.0}. Best is trial 6 with value: 0.015670389203088626.
+[hpo] trial 15 none {'lr': 0.001408184447515237, 'steps': 1750, 'batch': 32, 'wd': 0.0} -> valid 0.015215 (127s)
+[I 2026-09-21 10:49:37,150] Trial 15 finished with value: 0.015215134780321802 and parameters: {'lr': 0.001408184447515237, 'steps': 1750, 'batch': 32, 'wd': 0.0}. Best is trial 15 with value: 0.015215134780321802.
+[hpo] torax/none search done: best valid 0.015215 {'lr': 0.001408184447515237, 'steps': 1750, 'batch': 32, 'wd': 0.0}

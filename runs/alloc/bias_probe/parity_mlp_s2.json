@@ -1,0 +1,1 @@
+{"target": "parity", "omega": 1.0, "core": "mlp", "seed": 2, "valid_r2": 0.028935285738661665, "test_r2": 0.027219446385889245, "params_core": 75, "seconds": 27.806842803955078}

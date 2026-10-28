@@ -1,0 +1,16 @@
+val_check step=0 vrmse=0.12188 (start = final Flowers, MSE-trained)
+val_check step=137 epoch=0.59 vrmse=0.12123 loss=0.10073
+val_check step=272 epoch=1.18 vrmse=0.12128 loss=0.10597
+chunk done step=356 best=0.121230 secs=2407
+val_check step=356 vrmse=0.1212 (RESUMED)
+val_check step=491 epoch=2.13 vrmse=0.12036 loss=0.13544
+val_check step=632 epoch=2.74 vrmse=0.12077 loss=0.08641
+chunk done step=712 best=0.120358 secs=2403
+val_check step=712 vrmse=0.1204 (RESUMED)
+val_check step=849 epoch=3.68 vrmse=0.12003 loss=0.09579
+val_check step=990 epoch=4.29 vrmse=0.12176 loss=0.10506
+chunk done step=1069 best=0.120034 secs=2405
+val_check step=1069 vrmse=0.1200 (RESUMED)
+val_check step=1155 epoch=5.00 vrmse=0.12057 loss=0.13336
+target_reached steps=1155 best=0.120034
+chunk done step=1155 best=0.120034 secs=633

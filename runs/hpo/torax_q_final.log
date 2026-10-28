@@ -1,0 +1,5 @@
+[I 2026-09-21 12:55:43,605] Using an existing study with `study_name='torax-q'` instead of creating a new one.
+[hpo] final torax/q seed 1337: test 0.013551
+[hpo] final torax/q seed 1338: test 0.012851
+[hpo] final torax/q seed 1339: test 0.022832
+[hpo] torax/q FINAL test 0.016412 ± 0.005572

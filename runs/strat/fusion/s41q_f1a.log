@@ -1,0 +1,8 @@
+GPU_PUBLIC built {"args": {"split": "public", "tag": "F1a", "psi": "psiFA", "heads": "head_boundary_v8_J1A_s1+head_boundary_v8_J1A_s2+head_boundary_v8_J1A_s3+head_boundary_v8_J1A_s4+head_boundary_v8_J1A_s5+head_boundary_v8_J1QPIpi_s1+head_boundary_v8_J1QPIpi_s2", "kw": "{\"_steps\":[\"shift\",\"bw\",\"kw\",\"xp\",\"jgn\",\"li\"],\"xp\":{\"sigma\":0.15,\"cap\":0.10},\"li\":{\"cap\":0.9}}", "qb": "qh50", "axis": "head", "qbheads": "head_qb_QH_s1+head_qb_QH_s2+head_qb_QH_s3+head_qb_QH_s4+head_qb_QH_s5+head_qb_QH_s6"}, "dtype": "float32", "shots": 874, "frames": 193359, "npz_bytes": 2967226166, "seconds": 5281}
+[agree] psi 0.999887 q95 1.000000 betaN 1.000000
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json; print(json.load(open('/tmp/tmp.6xp5Ed45Ew/ds.json'))['key'])
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'key'
+S41Q_F1A_DONE 2026-10-11T04:27:29+03:00

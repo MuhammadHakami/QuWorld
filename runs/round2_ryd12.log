@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.30ms
+Installed 1 package in 1ms
+---
+variant:        ryd12
+val_vrmse_1:    0.419900
+val_vrmse_8:    1.167889
+train_loss:     0.029815
+num_steps:      7772
+num_params:     1334348
+train_seconds:  300.0
+peak_vram_mb:   426.1

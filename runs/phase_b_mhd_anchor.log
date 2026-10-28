@@ -1,0 +1,18 @@
+Uninstalled 1 package in 0.71ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+model_dir:      data/cnext_mhd_ckpt
+num_params:     22315405
+test_windows:   960
+mean_vrmse:     0.5447   (published CNextU-net: 0.1956)
+median_vrmse:   0.5166
+per_window csv: runs/eval_official_cnext_mhd.csv
+venv/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/eval_official.py", line 92, in main
+    y = batch["output_fields"][:, 0].to(DEV)
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/utils/data/_utils/signal_handling.py", line 73, in handler
+    _error_if_any_worker_fails()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: DataLoader worker (pid 769403) is killed by signal: Terminated. 

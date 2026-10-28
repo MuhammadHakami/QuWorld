@@ -1,0 +1,779 @@
+embeddings:
+  defaults:
+    input:
+      timeseries:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 1
+          keep_w: 1
+          keep_t: 10
+      profile:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 5
+          keep_w: 1
+          keep_t: 10
+      video:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 16
+          keep_w: 16
+          keep_t: 5
+    actuator:
+      timeseries:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 1
+          keep_w: 1
+          keep_t: 10
+      profile:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 5
+          keep_w: 1
+          keep_t: 10
+      video:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 16
+          keep_w: 16
+          keep_t: 5
+    output:
+      timeseries:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 1
+          keep_w: 1
+          keep_t: 10
+      profile:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 10
+          keep_w: 1
+          keep_t: 10
+      video:
+        encoder_name: dct3d
+        encoder_kwargs:
+          keep_h: 8
+          keep_w: 8
+          keep_t: 10
+  per_signal_overrides:
+    input:
+      magnetics-flux_loop_flux:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_magnetics-flux_loop_flux.npy
+          coeff_shape:
+          - 15
+          - 1
+          - 25
+          num_coeffs: 33
+          explained_energy: 0.9999975221496629
+          dim_distribution:
+            unique_h: 15
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 14
+            guardrail_min_k: 33
+            k_after_guardrails: 33
+            k_final: 33
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      magnetics-b_field_pol_probe_ccbv_field:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_magnetics-b_field_pol_probe_ccbv_field.npy
+          coeff_shape:
+          - 40
+          - 1
+          - 25
+          num_coeffs: 58
+          explained_energy: 0.999950607323269
+          dim_distribution:
+            unique_h: 40
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 35
+            guardrail_min_k: 58
+            k_after_guardrails: 58
+            k_final: 58
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      magnetics-b_field_pol_probe_obr_field:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_magnetics-b_field_pol_probe_obr_field.npy
+          coeff_shape:
+          - 18
+          - 1
+          - 25
+          num_coeffs: 43
+          explained_energy: 0.9999965584308489
+          dim_distribution:
+            unique_h: 18
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 17
+            guardrail_min_k: 43
+            k_after_guardrails: 43
+            k_final: 43
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      magnetics-b_field_pol_probe_obv_field:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_magnetics-b_field_pol_probe_obv_field.npy
+          coeff_shape:
+          - 18
+          - 1
+          - 25
+          num_coeffs: 41
+          explained_energy: 0.9999880683716452
+          dim_distribution:
+            unique_h: 18
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 18
+            guardrail_min_k: 41
+            k_after_guardrails: 41
+            k_final: 41
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      magnetics-b_field_tor_probe_saddle_voltage:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_magnetics-b_field_tor_probe_saddle_voltage.npy
+          coeff_shape:
+          - 12
+          - 1
+          - 250
+          num_coeffs: 36
+          explained_energy: 0.999996315665852
+          dim_distribution:
+            unique_h: 12
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 12
+            guardrail_min_k: 36
+            k_after_guardrails: 36
+            k_final: 36
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      pf_active-coil_current:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_pf_active-coil_current.npy
+          coeff_shape:
+          - 10
+          - 1
+          - 20
+          num_coeffs: 21
+          explained_energy: 0.9999815667982832
+          dim_distribution:
+            unique_h: 10
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 9
+            guardrail_min_k: 21
+            k_after_guardrails: 21
+            k_final: 21
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      pf_active-solenoid_current:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_pf_active-solenoid_current.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 20
+          num_coeffs: 5
+          explained_energy: 0.9999990160600543
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 5
+            k_after_guardrails: 5
+            k_final: 5
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      summary-ip:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/input_summary-ip.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 20
+          num_coeffs: 5
+          explained_energy: 0.9999858701909373
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 5
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 5
+            k_after_guardrails: 5
+            k_final: 5
+            n_windows: 6562
+            max_budget: 4096
+            flags:
+            - guardrail_up
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+    output:
+      equilibrium-elongation:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-elongation.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-elongation_axis:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-elongation_axis.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-triangularity_upper:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-triangularity_upper.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-triangularity_lower:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-triangularity_lower.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-minor_radius:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-minor_radius.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-magnetic_axis_r:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-magnetic_axis_r.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-magnetic_axis_z:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-magnetic_axis_z.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-q95:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-q95.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-beta_tor:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-beta_tor.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-beta_pol:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-beta_pol.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-beta_normal:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-beta_normal.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-bvac_rmag:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-bvac_rmag.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-bphi_rmag:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-bphi_rmag.npy
+          coeff_shape:
+          - 1
+          - 1
+          - 1
+          num_coeffs: 1
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 1
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 1
+            guardrail_min_k: 1
+            k_after_guardrails: 1
+            k_final: 1
+            n_windows: 6562
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-x_point_r:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-x_point_r.npy
+          coeff_shape:
+          - 2
+          - 1
+          - 1
+          num_coeffs: 2
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 2
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 2
+            guardrail_min_k: 2
+            k_after_guardrails: 2
+            k_final: 2
+            n_windows: 5150
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+      equilibrium-x_point_z:
+        encoder_name: dct3d
+        encoder_kwargs:
+          selection_mode: rank
+          coeff_indices_path: dct3d_indices/output_equilibrium-x_point_z.npy
+          coeff_shape:
+          - 2
+          - 1
+          - 1
+          num_coeffs: 2
+          explained_energy: 1.0
+          dim_distribution:
+            unique_h: 2
+            unique_w: 1
+            unique_t: 1
+          tuning_info:
+            target_energy: 0.999
+            k_target: 2
+            guardrail_min_k: 2
+            k_after_guardrails: 2
+            k_final: 2
+            n_windows: 5150
+            max_budget: 8192
+            flags: []
+            tuned_in_run_id: ft-task_1-1-scratch-mlp30_s1337_scratch
+  tuning:
+    n_shots: 100
+    max_windows: 15000
+    objective:
+      thresholds:
+        input: 0.999
+        actuator: 0.999
+        output: 0.999
+      max_budget:
+        input: 4096
+        actuator: 4096
+        output: 8192
+    guardrails:
+      enable: true
+      timeseries:
+        min_unique_t: 5
+      profile:
+        min_unique_h: 10
+        min_unique_t: 5
+      video:
+        min_unique_h: 10
+        min_unique_w: 10
+        min_unique_t: 5
+  role_mode:
+    input: tune
+    actuator: tune
+    output: tune
+seed: 54
+runtime:
+  debug_logging: false
+data:
+  local: false
+  local_path: null
+  subset_of_shots: null
+  cache:
+    enable: false
+    dtype: float16
+    num_workers: 64
+    max_windows:
+      train: null
+      val: null
+preprocess:
+  valid_windows:
+    min_valid_inputs_actuators: 1
+    min_valid_outputs: 1
+    min_valid_chunks: 1
+    accept_nan_inputs_actuators: true
+    accept_nan_outputs: true
+    window_stride_sec: null
+  chunk:
+    chunk_length: 0.005
+    stride: null
+  trim_chunks:
+    max_chunks: 50
+  embed_chunks:
+    nan_imputation: interpolate
+loader:
+  batch_size: 512
+  num_workers: 32
+  drop_last: false
+  batches_per_epoch: null
+eval:
+  amp:
+    enable: true
+  drop:
+    inputs: null
+    actuators: null
+    outputs: null
+  compute_metrics:
+    per_task: true
+    per_shot: true
+    per_window: false
+    per_timestamp: false
+  traces:
+    enable: false
+    n_max: 2
+    signals: null
+    times_indexes: null
+task: task_1-1
+phase: eval
+embeddings_profile: dct3d
+model_source:
+  model_path: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch
+  run_id: null
+  data_split: random
+  run_dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch
+cli:
+  model: /home/mohhakami/Documents/paper/quworld/baseline/tokamind/runs/ft-task_1-1-scratch-mlp30_s1337_scratch
+  phase: eval
+model:
+  backbone:
+    d_model: 192
+    n_layers: 4
+    n_heads: 6
+    dim_ff: 768
+    dropout: 0.05
+    activation: gelu
+  modality_heads:
+    timeseries:
+      hidden: 192
+      out_dim: 192
+    profile:
+      hidden: 192
+      out_dim: 192
+    video:
+      hidden: 192
+      out_dim: 192
+  output_adapters:
+    hidden_dim:
+      default: 0
+      bucketed:
+        enable: true
+        rules:
+        - max_out_dim: 64
+          hidden: 0
+        - max_out_dim: 512
+          hidden: 32
+        - max_out_dim: 4096
+          hidden: 64
+        - max_out_dim: 8192
+          hidden: 128
+        - max_out_dim: null
+          hidden: d_model
+      manual: {}
+paths:
+  repo_root: /home/mohhakami/Documents/paper/quworld/baseline/tokamind
+  configs_root: /home/mohhakami/Documents/paper/quworld/baseline/tokamind/scripts_mast/configs
+  task: task_1-1
+  phase: eval
+  eval_id: eval
+  run_dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval
+  model_run_dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch
+  task_config_dir: /home/mohhakami/Documents/paper/quworld/baseline/tokamind/scripts_mast/configs/tasks_overrides/task_1-1
+eval_id: eval

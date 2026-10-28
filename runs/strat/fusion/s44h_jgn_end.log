@@ -1,0 +1,5 @@
+[vt] inference + post-processing + parts 1310s
+GPU_VT PQmix~g_F8K twin: S 0.99565 r2_psi 0.999861 r2_qb 0.99637 dlcfs 0.01020 cons 0.98643 | 150 shots 1310s
+GPU_VT PQmix~g_jgnEnd twin: S 0.99565 r2_psi 0.999861 r2_qb 0.99637 dlcfs 0.01020 cons 0.98643 | 150 shots 1310s
+GPU_VT PQmix~g_jgnEndLi twin: S 0.99565 r2_psi 0.999861 r2_qb 0.99637 dlcfs 0.01020 cons 0.98643 | 150 shots 1310s
+S44H_DONE 2026-10-15T08:33:16+03:00

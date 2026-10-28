@@ -1,0 +1,18 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[router] step 0 loss 11.4842
+[router] step 250 loss 10.0721
+[router] step 500 loss 9.6341
+[router] step 750 loss 9.3178
+[router] step 1000 loss 9.2492
+[router] step 1250 loss 9.2751
+[listnet_residual] VALID (180 windows) capture of detail error energy:
+K                  1       3      10      30     100     300    1000    3000
+oracle         0.040   0.087   0.182   0.321   0.517   0.701   0.860   0.948
+learned        0.001   0.004   0.014   0.043   0.108   0.248   0.535   0.808
+trunk_change   0.007   0.019   0.040   0.093   0.195   0.360   0.568   0.746
+[listnet_residual] TEST (180 windows) capture of detail error energy:
+K                  1       3      10      30     100     300    1000    3000
+oracle         0.044   0.093   0.191   0.329   0.520   0.701   0.857   0.946
+learned        0.002   0.006   0.018   0.047   0.115   0.260   0.543   0.813
+trunk_change   0.003   0.013   0.040   0.094   0.195   0.345   0.553   0.738

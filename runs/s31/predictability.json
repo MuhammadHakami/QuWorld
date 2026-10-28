@@ -1,0 +1,24 @@
+{
+ "active_matter": {
+  "route_lin": "proxy",
+  "V1_mean": {
+   "static": 0.19876648270820688,
+   "proxy": 0.16211122514716492
+  },
+  "V2_route": 0.04075389860273134,
+  "V2_pooled": 0.043988110652624375,
+  "S": 0.07352468660074352,
+  "prediction": "gain in both cores"
+ },
+ "gray_scott_reaction_diffusion": {
+  "route_lin": "proxy",
+  "V1_mean": {
+   "static": 0.1704647422210776,
+   "proxy": 0.16616015032312206
+  },
+  "V2_route": 0.12071683984104296,
+  "V2_pooled": 0.17016413634979435,
+  "S": 0.2905858870702701,
+  "prediction": "gain in both cores"
+ }
+}

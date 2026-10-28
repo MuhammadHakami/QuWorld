@@ -1,0 +1,1 @@
+{"row": "pelzer", "arm": "frozen_ryd", "seed": 1, "trunk_test": 0.11245475790141075, "test": 0.10222238843349586, "test_rel_gain": 0.09099098747680934, "test_captured": 0.14553892096992682, "valid": 0.10651930637973919, "epochs": 23, "seconds": 32.1072883605957, "tethers": [0.0, 0.0, 0.0], "params_core": 116}

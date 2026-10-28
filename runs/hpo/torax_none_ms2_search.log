@@ -1,0 +1,10 @@
+[I 2026-09-22 21:37:22,375] A new study created in RDB with name: torax-none_ms2
+[hpo] torax/none: 0 complete trials on file, target 16
+[hpo] trial 0 none {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001} -> valid 0.055824 (19s)
+[I 2026-09-22 21:37:41,612] Trial 0 finished with value: 0.05582437557833535 and parameters: {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001}. Best is trial 0 with value: 0.05582437557833535.
+[hpo] trial 1 none {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0} -> valid 0.040056 (8s)
+[I 2026-09-22 21:37:49,715] Trial 1 finished with value: 0.04005612339824438 and parameters: {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0}. Best is trial 1 with value: 0.04005612339824438.
+[hpo] trial 2 none {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001} -> valid 0.019781 (16s)
+[I 2026-09-22 21:38:05,438] Trial 2 finished with value: 0.019781190236764293 and parameters: {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.019781190236764293.
+[hpo] trial 3 none {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001} -> valid 0.031464 (12s)
+[I 2026-09-22 21:38:17,200] Trial 3 finished with value: 0.03146392506148134 and parameters: {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.019781190236764293.

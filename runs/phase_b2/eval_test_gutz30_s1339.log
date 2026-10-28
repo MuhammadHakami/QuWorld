@@ -1,0 +1,9 @@
+Uninstalled 1 package in 0.33ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading hybrid checkpoint, variant=gutz30
+ckpt:            runs/phase_b2/gutz30_s1339.pt
+rollout_6_12:    0.5397   (published CNextU-net test: 0.54)
+rollout_13_30:   1.0011   (published: 1.01)
+per_step: 0.254 0.325 0.335 0.375 0.406 0.430 0.447 0.463 0.496 0.539 0.647 0.755

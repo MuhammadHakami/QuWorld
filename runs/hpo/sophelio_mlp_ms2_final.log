@@ -1,0 +1,5 @@
+[I 2026-09-22 15:23:52,711] Using an existing study with `study_name='sophelio-mlp_ms2'` instead of creating a new one.
+[hpo] final sophelio/mlp seed 1337: test -0.787849
+[hpo] final sophelio/mlp seed 1338: test -0.781475
+[hpo] final sophelio/mlp seed 1339: test -0.784948
+[hpo] sophelio/mlp FINAL test -0.784757 ± 0.003191

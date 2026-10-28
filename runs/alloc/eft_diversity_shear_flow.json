@@ -1,0 +1,5 @@
+{
+ "shear_flow_mr30ryd ~ shear_flow_vanilla": 0.489593187527914,
+ "shear_flow_mr30ryd ~ shear_flow_mlp30": 0.6750806948735512,
+ "shear_flow_vanilla ~ shear_flow_mlp30": 0.547312918044294
+}

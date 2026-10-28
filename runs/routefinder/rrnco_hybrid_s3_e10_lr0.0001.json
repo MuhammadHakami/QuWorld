@@ -1,0 +1,30 @@
+{
+ "seed": 3,
+ "epochs": 10,
+ "train_size": 10000,
+ "lr": 0.0001,
+ "precision": "bf16-mixed",
+ "limit": 0,
+ "classical": {
+  "in": 72.16044788360595,
+  "cluster": 23.28276996612549,
+  "ood": 73.00797138214111
+ },
+ "hybrid": {
+  "in": 72.31401538848877,
+  "cluster": 23.35645987987518,
+  "ood": 73.17545623779297
+ },
+ "classical_gap": {
+  "in": 3.492,
+  "cluster": 3.573,
+  "ood": 3.217
+ },
+ "hybrid_gap": {
+  "in": 3.712,
+  "cluster": 3.901,
+  "ood": 3.454
+ },
+ "alpha_like": 0.06158458814024925,
+ "seconds": 1449
+}

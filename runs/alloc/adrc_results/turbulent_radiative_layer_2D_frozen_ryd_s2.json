@@ -1,0 +1,1 @@
+{"row": "turbulent_radiative_layer_2D", "arm": "frozen_ryd", "seed": 2, "gate": false, "trunk_test": 0.19338558396259525, "test": 0.19338558396259525, "test_rel_gain": 0.0, "test_captured": 0.0, "valid": 0.19246641421792998, "epochs": 8, "seconds": 150.04616117477417, "tethers": [0.0, 0.0, 0.0], "params_core": 224, "bands_test": null, "trunk0_test": null, "route_sup": false}

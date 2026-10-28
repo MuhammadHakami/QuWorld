@@ -1,0 +1,6 @@
+Found local copy...
+[calici] train (722, 1874) test (182, 1874)
+[calici] exact: MAE 0.2710 +- 0.0020 (1s)
+[calici] inner: MAE 0.3130 +- 0.0160 (470s) | overlap with released subsets {1: 19, 2: 29, 3: 21, 4: 29, 5: 29}
+[calici] all: MAE 0.2960 +- 0.0110 (32s)
+CALICI_DONE

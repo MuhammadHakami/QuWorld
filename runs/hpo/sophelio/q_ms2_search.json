@@ -1,0 +1,17 @@
+{
+ "bench": "sophelio",
+ "arm": "q",
+ "trials": 10,
+ "best_value": -0.7488900000000001,
+ "best_params": {
+  "lr": 0.0011332372161884938,
+  "epochs": 80,
+  "batch": 128,
+  "L": 3,
+  "geo": "ring",
+  "sp": 0.7,
+  "link": "shared"
+ },
+ "best_variant": "q30-L=3-geo=ring-sp=0.7-link=shared",
+ "search_seed": 1337
+}

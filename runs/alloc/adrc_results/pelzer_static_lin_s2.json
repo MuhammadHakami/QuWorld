@@ -1,0 +1,1 @@
+{"row": "pelzer", "arm": "static_lin", "seed": 2, "trunk_test": 0.11245475790141075, "test": 0.10574461547286411, "test_rel_gain": 0.05966970676713779, "test_captured": 0.08348862526600816, "valid": 0.10980167202769588, "epochs": 15, "seconds": 2.543396234512329, "tethers": null, "params_core": 116}

@@ -1,0 +1,27 @@
+{
+ "variant": "q30-L=2-geo=grid-sp=0.7-link=shared",
+ "seed": 1337,
+ "thomson": false,
+ "n_shots": 200,
+ "n_test_shots": 20,
+ "n_features": 21,
+ "epochs": 80,
+ "batch": 512,
+ "lr": 0.0014506555027854584,
+ "num_params": 3166129,
+ "train_seconds": 751.9094681739807,
+ "score_seconds": 16.661661863327026,
+ "test_R2": 0.9800621867179871,
+ "test_MSE": 0.0004387456283438951,
+ "test_SSIM": 0.9532130892346854,
+ "official": {
+  "S": 0.695398,
+  "r2_psi": 0.951876,
+  "r2_qb": 0.146811,
+  "dlcfs": 0.084596,
+  "consistency": 0.29152,
+  "psi_sign": 1
+ },
+ "final_val_loss": 0.0018873409232279907,
+ "score_split": "val"
+}

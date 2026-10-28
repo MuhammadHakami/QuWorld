@@ -1,0 +1,1 @@
+{"row": "rayleigh_benard__ft_vanilla_s1337", "arm": "static_lin", "seed": 2, "gate": false, "trunk_test": 0.4302685944693895, "test": 0.22750404962392934, "test_rel_gain": 0.4712510916477902, "test_captured": 0.12696869786684192, "valid": 0.24296704887926943, "epochs": 13, "seconds": 28.529837608337402, "tethers": null, "params_core": 224, "bands_test": null, "trunk0_test": null}

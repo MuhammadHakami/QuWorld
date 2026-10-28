@@ -1,0 +1,195 @@
+2026-09-25 09:24:08 | INFO | mmt.Task | task=task_1-1 | phase=eval | device=cuda
+
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec | Built SignalSpecRegistry with 23 role-specific signals
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec | input:
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=0 | name=magnetics-b_field_pol_probe_ccbv_field | modality=profile | encoder=dct3d | native_shape=(40, 1, 25) | encoded_dim=58 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=1 | name=magnetics-b_field_pol_probe_obr_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=43 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=2 | name=magnetics-b_field_pol_probe_obv_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=41 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=3 | name=magnetics-b_field_tor_probe_saddle_voltage | modality=profile | encoder=dct3d | native_shape=(12, 1, 250) | encoded_dim=36 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=4 | name=magnetics-flux_loop_flux | modality=profile | encoder=dct3d | native_shape=(15, 1, 25) | encoded_dim=33 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=5 | name=pf_active-coil_current | modality=profile | encoder=dct3d | native_shape=(10, 1, 20) | encoded_dim=21 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=6 | name=pf_active-solenoid_current | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=7 | name=summary-ip | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec | output:
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=8 | name=equilibrium-beta_normal | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=9 | name=equilibrium-beta_pol | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=10 | name=equilibrium-beta_tor | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=11 | name=equilibrium-bphi_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=12 | name=equilibrium-bvac_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=13 | name=equilibrium-elongation | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=14 | name=equilibrium-elongation_axis | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=15 | name=equilibrium-magnetic_axis_r | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=16 | name=equilibrium-magnetic_axis_z | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=17 | name=equilibrium-minor_radius | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=18 | name=equilibrium-q95 | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=19 | name=equilibrium-triangularity_lower | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=20 | name=equilibrium-triangularity_upper | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=21 | name=equilibrium-x_point_r | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+2026-09-25 09:24:09 | INFO | mmt.SignalSpec |   id=22 | name=equilibrium-x_point_z | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+
+2026-09-25 09:24:09 | INFO | mmt.Model | MultiModalTransformer initialized:
+2026-09-25 09:24:09 | INFO | mmt.Model |   backbone: d_model=192
+2026-09-25 09:24:09 | INFO | mmt.Model |   modality heads:
+2026-09-25 09:24:09 | INFO | mmt.Model |     - profile: hidden=192, out_dim=192
+2026-09-25 09:24:09 | INFO | mmt.Model |     - timeseries: hidden=192, out_dim=192
+2026-09-25 09:24:09 | INFO | mmt.Model |   Output adapters:
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-beta_normal (id=8, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-beta_pol (id=9, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-beta_tor (id=10, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-bphi_rmag (id=11, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-bvac_rmag (id=12, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-elongation (id=13, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-elongation_axis (id=14, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-magnetic_axis_r (id=15, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-magnetic_axis_z (id=16, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-minor_radius (id=17, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-q95 (id=18, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-triangularity_lower (id=19, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-triangularity_upper (id=20, modality=timeseries): dim=1, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-x_point_r (id=21, modality=profile): dim=2, hidden=0
+2026-09-25 09:24:09 | INFO | mmt.Model |     - equilibrium-x_point_z (id=22, modality=profile): dim=2, hidden=0
+
+2026-09-25 09:24:09 | INFO | mmt.Eval | Loaded checkpoint from /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch (epoch=20, best_val=0.06128448136413182)
+2026-09-25 09:24:09 | INFO | mmt.Eval | Forced drops: inputs=[] actuators=[] outputs=[]
+2026-09-25 09:24:09 | INFO | mmt.Eval | Running evaluation in: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval
+2026-09-25 09:24:55 | INFO | mmt.Eval | Evaluated 50000 windows so far
+2026-09-25 09:25:11 | INFO | mmt.Eval | Evaluated 100000 windows so far
+2026-09-25 09:25:26 | INFO | mmt.Eval | Evaluated 150000 windows so far
+2026-09-25 09:25:35 | INFO | mmt.Eval | Evaluated 200000 windows so far
+2026-09-25 09:25:51 | INFO | mmt.Eval | Evaluated 250000 windows so far
+2026-09-25 09:26:06 | INFO | mmt.Eval | Evaluated 284305 total windows
+2026-09-25 09:26:07 | INFO | mmt.Eval | Benchmark task metrics: {'n_shots': 1020.0, 'NRMSE_mean': 0.13914586992419198, 'NRMSE_std_pop': 0.09594099076984594, 'NMAE_mean': 0.10050356011119845, 'NMAE_std_pop': 0.06662712563167118, 'RMSE_mean': 0.07880162120643744, 'RMSE_std_pop': 0.07631247918531266, 'MAE_mean': 0.056145455177646866, 'MAE_std_pop': 0.04582988069261276, 'nan_fraction_mean': 0.011690959638154336, 'nan_fraction_std_pop': 0.012026552916225423}
+2026-09-25 09:26:07 | INFO | mmt.Eval | Task metrics dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval/metrics/task_1-1
+2026-09-25 09:26:07 | INFO | mmt.Eval | Done.
+2026-09-25 10:54:57 | INFO | mmt.Task | task=task_1-1 | phase=eval | device=cuda
+
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec | Built SignalSpecRegistry with 23 role-specific signals
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec | input:
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=0 | name=magnetics-b_field_pol_probe_ccbv_field | modality=profile | encoder=dct3d | native_shape=(40, 1, 25) | encoded_dim=58 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=1 | name=magnetics-b_field_pol_probe_obr_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=43 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=2 | name=magnetics-b_field_pol_probe_obv_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=41 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=3 | name=magnetics-b_field_tor_probe_saddle_voltage | modality=profile | encoder=dct3d | native_shape=(12, 1, 250) | encoded_dim=36 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=4 | name=magnetics-flux_loop_flux | modality=profile | encoder=dct3d | native_shape=(15, 1, 25) | encoded_dim=33 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=5 | name=pf_active-coil_current | modality=profile | encoder=dct3d | native_shape=(10, 1, 20) | encoded_dim=21 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=6 | name=pf_active-solenoid_current | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=7 | name=summary-ip | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec | output:
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=8 | name=equilibrium-beta_normal | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=9 | name=equilibrium-beta_pol | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=10 | name=equilibrium-beta_tor | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=11 | name=equilibrium-bphi_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=12 | name=equilibrium-bvac_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=13 | name=equilibrium-elongation | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=14 | name=equilibrium-elongation_axis | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=15 | name=equilibrium-magnetic_axis_r | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=16 | name=equilibrium-magnetic_axis_z | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=17 | name=equilibrium-minor_radius | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=18 | name=equilibrium-q95 | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=19 | name=equilibrium-triangularity_lower | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=20 | name=equilibrium-triangularity_upper | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=21 | name=equilibrium-x_point_r | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+2026-09-25 10:54:57 | INFO | mmt.SignalSpec |   id=22 | name=equilibrium-x_point_z | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+
+2026-09-25 10:54:57 | INFO | mmt.Model | MultiModalTransformer initialized:
+2026-09-25 10:54:57 | INFO | mmt.Model |   backbone: d_model=192
+2026-09-25 10:54:57 | INFO | mmt.Model |   modality heads:
+2026-09-25 10:54:57 | INFO | mmt.Model |     - profile: hidden=192, out_dim=192
+2026-09-25 10:54:57 | INFO | mmt.Model |     - timeseries: hidden=192, out_dim=192
+2026-09-25 10:54:57 | INFO | mmt.Model |   Output adapters:
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-beta_normal (id=8, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-beta_pol (id=9, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-beta_tor (id=10, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-bphi_rmag (id=11, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-bvac_rmag (id=12, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-elongation (id=13, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-elongation_axis (id=14, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-magnetic_axis_r (id=15, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-magnetic_axis_z (id=16, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-minor_radius (id=17, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-q95 (id=18, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-triangularity_lower (id=19, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-triangularity_upper (id=20, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-x_point_r (id=21, modality=profile): dim=2, hidden=0
+2026-09-25 10:54:57 | INFO | mmt.Model |     - equilibrium-x_point_z (id=22, modality=profile): dim=2, hidden=0
+
+2026-09-25 10:54:58 | INFO | mmt.Eval | Loaded checkpoint from /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch (epoch=20, best_val=0.06128448136413182)
+2026-09-25 10:54:58 | INFO | mmt.Eval | Forced drops: inputs=[] actuators=[] outputs=[]
+2026-09-25 10:54:58 | INFO | mmt.Eval | Running evaluation in: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval
+2026-09-25 10:55:23 | INFO | mmt.Eval | Evaluated 50000 windows so far
+2026-09-25 10:55:28 | INFO | mmt.Eval | Evaluated 100000 windows so far
+2026-09-25 10:55:33 | INFO | mmt.Eval | Evaluated 150000 windows so far
+2026-09-25 10:55:37 | INFO | mmt.Eval | Evaluated 200000 windows so far
+2026-09-25 10:55:42 | INFO | mmt.Eval | Evaluated 250000 windows so far
+2026-09-25 10:55:47 | INFO | mmt.Eval | Evaluated 284305 total windows
+2026-09-25 10:55:48 | INFO | mmt.Eval | Benchmark task metrics: {'n_shots': 1020.0, 'NRMSE_mean': 0.13914586992419198, 'NRMSE_std_pop': 0.09594099076984594, 'NMAE_mean': 0.10050356011119845, 'NMAE_std_pop': 0.06662712563167118, 'RMSE_mean': 0.07880162120643744, 'RMSE_std_pop': 0.07631247918531266, 'MAE_mean': 0.056145455177646866, 'MAE_std_pop': 0.04582988069261276, 'nan_fraction_mean': 0.011690959638154336, 'nan_fraction_std_pop': 0.012026552916225423}
+2026-09-25 10:55:48 | INFO | mmt.Eval | Task metrics dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval/metrics/task_1-1
+2026-09-25 10:55:48 | INFO | mmt.Eval | Done.
+2026-09-25 10:56:13 | INFO | mmt.Task | task=task_1-1 | phase=eval | device=cuda
+
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec | Built SignalSpecRegistry with 23 role-specific signals
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec | input:
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=0 | name=magnetics-b_field_pol_probe_ccbv_field | modality=profile | encoder=dct3d | native_shape=(40, 1, 25) | encoded_dim=58 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=1 | name=magnetics-b_field_pol_probe_obr_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=43 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=2 | name=magnetics-b_field_pol_probe_obv_field | modality=profile | encoder=dct3d | native_shape=(18, 1, 25) | encoded_dim=41 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=3 | name=magnetics-b_field_tor_probe_saddle_voltage | modality=profile | encoder=dct3d | native_shape=(12, 1, 250) | encoded_dim=36 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=4 | name=magnetics-flux_loop_flux | modality=profile | encoder=dct3d | native_shape=(15, 1, 25) | encoded_dim=33 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=5 | name=pf_active-coil_current | modality=profile | encoder=dct3d | native_shape=(10, 1, 20) | encoded_dim=21 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=6 | name=pf_active-solenoid_current | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=7 | name=summary-ip | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 20) | encoded_dim=5 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec | output:
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id | name | modality | encoder | native_shape | encoded_dim | expl_energy
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=8 | name=equilibrium-beta_normal | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=9 | name=equilibrium-beta_pol | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=10 | name=equilibrium-beta_tor | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=11 | name=equilibrium-bphi_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=12 | name=equilibrium-bvac_rmag | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=13 | name=equilibrium-elongation | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=14 | name=equilibrium-elongation_axis | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=15 | name=equilibrium-magnetic_axis_r | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=16 | name=equilibrium-magnetic_axis_z | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=17 | name=equilibrium-minor_radius | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=18 | name=equilibrium-q95 | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=19 | name=equilibrium-triangularity_lower | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=20 | name=equilibrium-triangularity_upper | modality=timeseries | encoder=dct3d | native_shape=(1, 1, 1) | encoded_dim=1 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=21 | name=equilibrium-x_point_r | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+2026-09-25 10:56:13 | INFO | mmt.SignalSpec |   id=22 | name=equilibrium-x_point_z | modality=profile | encoder=dct3d | native_shape=(2, 1, 1) | encoded_dim=2 | expl_energy=1.0000
+
+2026-09-25 10:56:13 | INFO | mmt.Model | MultiModalTransformer initialized:
+2026-09-25 10:56:13 | INFO | mmt.Model |   backbone: d_model=192
+2026-09-25 10:56:13 | INFO | mmt.Model |   modality heads:
+2026-09-25 10:56:13 | INFO | mmt.Model |     - profile: hidden=192, out_dim=192
+2026-09-25 10:56:13 | INFO | mmt.Model |     - timeseries: hidden=192, out_dim=192
+2026-09-25 10:56:13 | INFO | mmt.Model |   Output adapters:
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-beta_normal (id=8, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-beta_pol (id=9, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-beta_tor (id=10, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-bphi_rmag (id=11, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-bvac_rmag (id=12, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-elongation (id=13, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-elongation_axis (id=14, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-magnetic_axis_r (id=15, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-magnetic_axis_z (id=16, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-minor_radius (id=17, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-q95 (id=18, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-triangularity_lower (id=19, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-triangularity_upper (id=20, modality=timeseries): dim=1, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-x_point_r (id=21, modality=profile): dim=2, hidden=0
+2026-09-25 10:56:13 | INFO | mmt.Model |     - equilibrium-x_point_z (id=22, modality=profile): dim=2, hidden=0
+
+2026-09-25 10:56:14 | INFO | mmt.Eval | Loaded checkpoint from /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch (epoch=20, best_val=0.06128448136413182)
+2026-09-25 10:56:14 | INFO | mmt.Eval | Forced drops: inputs=[] actuators=[] outputs=[]
+2026-09-25 10:56:14 | INFO | mmt.Eval | Running evaluation in: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval
+2026-09-25 10:56:40 | INFO | mmt.Eval | Evaluated 50000 windows so far
+2026-09-25 10:56:47 | INFO | mmt.Eval | Evaluated 100000 windows so far
+2026-09-25 10:56:53 | INFO | mmt.Eval | Evaluated 150000 windows so far
+2026-09-25 10:57:00 | INFO | mmt.Eval | Evaluated 200000 windows so far
+2026-09-25 10:57:08 | INFO | mmt.Eval | Evaluated 250000 windows so far
+2026-09-25 10:57:15 | INFO | mmt.Eval | Evaluated 284305 total windows
+2026-09-25 10:57:16 | INFO | mmt.Eval | Benchmark task metrics: {'n_shots': 1020.0, 'NRMSE_mean': 0.14015805521167793, 'NRMSE_std_pop': 0.09676049709024401, 'NMAE_mean': 0.10201803441015456, 'NMAE_std_pop': 0.06792409247893522, 'RMSE_mean': 0.07992232580616448, 'RMSE_std_pop': 0.07706180878734621, 'MAE_mean': 0.05728405595629145, 'MAE_std_pop': 0.046480045217790054, 'nan_fraction_mean': 0.011690959638154336, 'nan_fraction_std_pop': 0.012026552916225423}
+2026-09-25 10:57:16 | INFO | mmt.Eval | Task metrics dir: /home/mohhakami/Documents/paper/quworld/runs/tokamark/tokamind/ft-task_1-1-scratch-mlp30_s1337_scratch/eval/metrics/task_1-1
+2026-09-25 10:57:16 | INFO | mmt.Eval | Done.

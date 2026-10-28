@@ -1,0 +1,28 @@
+{
+ "endpoint": "herg",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.8826,
+ "test_sd": 0.001019803902718558,
+ "test_per_seed": [
+  0.882,
+  0.881,
+  0.884,
+  0.883,
+  0.883
+ ],
+ "official_evaluate_many": [
+  0.883,
+  0.001
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 84.02517604827881
+}

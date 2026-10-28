@@ -1,0 +1,10 @@
+loading hybrid checkpoint, variant=mlp30
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+ckpt:              runs/phase_b2/mlp30_s1340.pt
+starts:            [0, 8, 16, 24, 32, 40, 48, 56, 64]   n_traj=9
+start0_13_30:      0.9439   (official protocol)
+allstart_13_30:    0.8996   per-start: 0.944 0.893 0.868 0.956 0.926 0.875 0.822 0.867 0.945
+allstart_6_12:     0.5932
+start0_vs_official max|diff|: 0.00e+00  OK
+saved:             /home/mohhakami/Documents/paper/quworld/runs/phase_b2/multistart_mlp30_s1340.npz

@@ -1,0 +1,41 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 1500,
+ "gate_pretrain_valid": 0.17225481569766998,
+ "tag": "MHD_64_mr30ryd_vrmse_gate_s1",
+ "dataset": "MHD_64",
+ "variant": "mr30ryd",
+ "loss": "vrmse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 2e-05,
+ "steps": 1700,
+ "valid_start": 0.17225483059883118,
+ "valid_best": 0.17142106592655182,
+ "curve": [
+  [
+   0,
+   0.17225483059883118
+  ],
+  [
+   474,
+   0.17197167873382568
+  ],
+  [
+   892,
+   0.17188331484794617
+  ],
+  [
+   1308,
+   0.1715257465839386
+  ],
+  [
+   1700,
+   0.17142106592655182
+  ]
+ ],
+ "strat_test": 0.17282216250896454,
+ "strat_test_median": 0.15913686156272888,
+ "strat_test_n": 80,
+ "budget_s": 3600.0
+}

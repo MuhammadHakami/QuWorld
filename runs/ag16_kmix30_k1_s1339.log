@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.35ms
+Installed 1 package in 1ms
+---
+variant:        kmix30
+rollout_k:      1
+val_vrmse_1:    0.447425
+val_vrmse_8:    0.957944
+train_loss:     0.054429
+num_steps:      2000
+num_params:     1357648
+train_seconds:  495.7
+peak_vram_mb:   418.6

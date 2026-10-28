@@ -1,0 +1,12 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[bands] official       n=180 err/change energy 0.1719 top30 0.329 top1% 0.918 register-visible latent 0.1859
+[bands] vanilla_s1337  n=180 err/change energy 0.1719 top30 0.329 top1% 0.918 register-visible latent 0.1854
+[bands] vanilla_s1338  n=180 err/change energy 0.1724 top30 0.329 top1% 0.918 register-visible latent 0.1858
+[bands] vanilla_s1339  n=180 err/change energy 0.1718 top30 0.329 top1% 0.918 register-visible latent 0.1858
+[bands] mlp30_s1337    n=180 err/change energy 0.1725 top30 0.328 top1% 0.918 register-visible latent 0.1851
+[bands] mlp30_s1338    n=180 err/change energy 0.1724 top30 0.329 top1% 0.918 register-visible latent 0.1857
+[bands] mlp30_s1339    n=180 err/change energy 0.1718 top30 0.329 top1% 0.918 register-visible latent 0.1859
+[bands] mr30ryd_s1337  n=180 err/change energy 0.1716 top30 0.329 top1% 0.918 register-visible latent 0.1858
+[bands] mr30ryd_s1338  n=180 err/change energy 0.1718 top30 0.329 top1% 0.918 register-visible latent 0.1847
+[bands] mr30ryd_s1339  n=180 err/change energy 0.1719 top30 0.329 top1% 0.918 register-visible latent 0.1861

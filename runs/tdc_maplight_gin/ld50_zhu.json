@@ -1,0 +1,28 @@
+{
+ "endpoint": "ld50_zhu",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "mae",
+ "higher_is_better": false,
+ "test_mean": 0.6326,
+ "test_sd": 0.0066813172353960325,
+ "test_per_seed": [
+  0.632,
+  0.632,
+  0.644,
+  0.632,
+  0.623
+ ],
+ "official_evaluate_many": [
+  0.633,
+  0.007
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 123.18315124511719
+}

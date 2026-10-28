@@ -1,0 +1,28 @@
+{
+ "endpoint": "bbb_martins",
+ "model": "MapLight CatBoost CPU exact [maplight]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.921,
+ "test_sd": 0.001264911064067353,
+ "test_per_seed": [
+  0.923,
+  0.922,
+  0.92,
+  0.92,
+  0.92
+ ],
+ "official_evaluate_many": [
+  0.921,
+  0.001
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2563,
+ "seconds": 49.59001803398132
+}

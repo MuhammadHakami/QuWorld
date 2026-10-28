@@ -1,0 +1,10 @@
+{
+ "exact_gpu": {
+  "mae": [
+   0.256,
+   0.006
+  ],
+  "seconds": 10,
+  "overlap_with_released": null
+ }
+}

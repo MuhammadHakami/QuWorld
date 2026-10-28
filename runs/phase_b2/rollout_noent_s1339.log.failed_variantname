@@ -1,0 +1,21 @@
+Uninstalled 1 package in 0.50ms
+Installed 1 package in 1ms
+loading hybrid checkpoint, variant=noent
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/eval_rollout_test_noent.py", line 30, in <module>
+    eval_rollout_test.main()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/eval_rollout_test.py", line 58, in main
+    model = load_model(CKPT).to(DEV).eval()
+            ~~~~~~~~~~^^^^^^
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/eval_official.py", line 40, in load_model
+    return load_hybrid_checkpoint(variant, model_dir)
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/cnext_hybrid.py", line 68, in load_hybrid_checkpoint
+    model = build_hybrid(variant)
+  File "/home/mohhakami/Documents/paper/quworld/paper/phase_b/cnext_hybrid.py", line 62, in build_hybrid
+    raise ValueError(f"unknown variant {variant}")
+ValueError: unknown variant noent

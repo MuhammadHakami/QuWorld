@@ -1,0 +1,8 @@
+[project]
+name = "quworld-bench"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "cudaq>=0.15.0",
+    "numpy>=2.5.1",
+]

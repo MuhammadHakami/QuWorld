@@ -1,0 +1,1 @@
+{"row": "pelzer", "arm": "rand_ryd", "seed": 2, "trunk_test": 0.11245475790141075, "test": 0.10365564656662844, "test_rel_gain": 0.0782457896756712, "test_captured": 0.11019743624118608, "valid": 0.10806243724252781, "epochs": 27, "seconds": 31.29649829864502, "tethers": [0.0, 0.0, 0.0], "params_core": 116}

@@ -1,0 +1,1 @@
+{"row": "MHD_64", "arm": "adrc_gnn", "seed": 3, "gate": false, "trunk_test": 0.5446799498366888, "test": 0.5392240663228888, "test_rel_gain": 0.010016677712179067, "test_captured": 0.022697532810749568, "valid": 0.5411589681486723, "epochs": 29, "seconds": 78.17614912986755, "tethers": [0.0, 0.0, 0.0], "params_core": 161, "bands_test": null, "trunk0_test": null}

@@ -1,0 +1,459 @@
+{
+  "protocol": {
+    "checkpoints": "runs/phase_b2/mr30ryd_s{seed}.pt (TD-fine-tuned)",
+    "metric": "valid rollout VRMSE@8, finetune_td.validate_rollout (k=8, stride_t=8, 9 valid trajectories)",
+    "bipartition": "qubits [0..4] | [5..9] of each 10-qubit register",
+    "chi_sweep": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "shots_sweep": [
+      128,
+      1024,
+      8192
+    ],
+    "far_factor": 100.0,
+    "n_latents": 256
+  },
+  "seeds": {
+    "1337": {
+      "state_replication_max_diff": 0.0,
+      "geometry": {
+        "registers": [
+          {
+            "min_pair_dist": 0.9225,
+            "eng_max": 14.5562,
+            "eng_far_max": 1.456e-11,
+            "tau": [
+              0.2992,
+              0.2981,
+              0.2991,
+              0.2983
+            ],
+            "omega": [
+              0.4996,
+              0.4973,
+              0.4969,
+              0.4985
+            ]
+          },
+          {
+            "min_pair_dist": 0.869,
+            "eng_max": 16.8518,
+            "eng_far_max": 1.685e-11,
+            "tau": [
+              0.2984,
+              0.2982,
+              0.2985,
+              0.2983
+            ],
+            "omega": [
+              0.4975,
+              0.4967,
+              0.4975,
+              0.4972
+            ]
+          },
+          {
+            "min_pair_dist": 0.8954,
+            "eng_max": 14.9617,
+            "eng_far_max": 1.496e-11,
+            "tau": [
+              0.2988,
+              0.2982,
+              0.2988,
+              0.2983
+            ],
+            "omega": [
+              0.4982,
+              0.4967,
+              0.4976,
+              0.4977
+            ]
+          }
+        ]
+      },
+      "entanglement": {
+        "reg0": {
+          "entropy_bits": {
+            "mean": 0.0316,
+            "std": 0.0002,
+            "min": 0.0312,
+            "max": 0.0319
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.997305,
+            "chi2": 0.998537,
+            "chi4": 0.999828,
+            "chi8": 0.999999,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg1": {
+          "entropy_bits": {
+            "mean": 0.0887,
+            "std": 0.003,
+            "min": 0.0777,
+            "max": 0.0916
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.990838,
+            "chi2": 0.996626,
+            "chi4": 0.999361,
+            "chi8": 0.999997,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg2": {
+          "entropy_bits": {
+            "mean": 0.0712,
+            "std": 0.0009,
+            "min": 0.0687,
+            "max": 0.0724
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.993073,
+            "chi2": 0.996241,
+            "chi4": 0.999544,
+            "chi8": 0.999997,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        }
+      },
+      "readout_rms_delta": {
+        "prod_zero": 0.008872,
+        "prod_far": 0.008872,
+        "chi1": 0.003577,
+        "chi2": 0.001715,
+        "chi4": 0.000318,
+        "chi8": 8e-06,
+        "chi16": 7e-06,
+        "chi32": 7e-06,
+        "shots128": 0.011569,
+        "shots1024": 0.004125,
+        "shots8192": 0.001504
+      },
+      "rollout_vrmse8": {
+        "intact": 0.5783906827370325,
+        "chi32": 0.5783870667219162,
+        "prod_zero": 0.57840629418691,
+        "prod_far": 0.57840629418691,
+        "chi1": 0.5783989181121191,
+        "chi2": 0.5783995240926743,
+        "chi4": 0.5783998693029085,
+        "chi8": 0.5783925404151281,
+        "chi16": 0.578387901186943,
+        "shots128": 0.5784059291084608,
+        "shots1024": 0.578398585319519,
+        "shots8192": 0.5783980488777161,
+        "const0": 0.5784124682346979,
+        "gate_off": 0.5784048611919085
+      },
+      "readout_stats": {
+        "mean_abs_z": 0.9912,
+        "input_std_rms": 0.013309,
+        "per_qubit_std_max": 0.072715
+      }
+    },
+    "1338": {
+      "state_replication_max_diff": 0.0,
+      "geometry": {
+        "registers": [
+          {
+            "min_pair_dist": 0.9011,
+            "eng_max": 16.1501,
+            "eng_far_max": 1.615e-11,
+            "tau": [
+              0.2978,
+              0.2972,
+              0.2978,
+              0.2973
+            ],
+            "omega": [
+              0.4963,
+              0.495,
+              0.4957,
+              0.4957
+            ]
+          },
+          {
+            "min_pair_dist": 0.8806,
+            "eng_max": 15.0272,
+            "eng_far_max": 1.503e-11,
+            "tau": [
+              0.2984,
+              0.2972,
+              0.2984,
+              0.2973
+            ],
+            "omega": [
+              0.4975,
+              0.4949,
+              0.4961,
+              0.4961
+            ]
+          },
+          {
+            "min_pair_dist": 0.8767,
+            "eng_max": 17.6486,
+            "eng_far_max": 1.765e-11,
+            "tau": [
+              0.2983,
+              0.2972,
+              0.2984,
+              0.2973
+            ],
+            "omega": [
+              0.4967,
+              0.4956,
+              0.4956,
+              0.4957
+            ]
+          }
+        ]
+      },
+      "entanglement": {
+        "reg0": {
+          "entropy_bits": {
+            "mean": 0.069,
+            "std": 0.0007,
+            "min": 0.0675,
+            "max": 0.0701
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.99331,
+            "chi2": 0.996628,
+            "chi4": 0.999611,
+            "chi8": 0.999997,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg1": {
+          "entropy_bits": {
+            "mean": 0.087,
+            "std": 0.0058,
+            "min": 0.0779,
+            "max": 0.095
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.990666,
+            "chi2": 0.997577,
+            "chi4": 0.999834,
+            "chi8": 0.999999,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg2": {
+          "entropy_bits": {
+            "mean": 0.0887,
+            "std": 0.0025,
+            "min": 0.0848,
+            "max": 0.0938
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.99106,
+            "chi2": 0.995207,
+            "chi4": 0.999706,
+            "chi8": 0.999996,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        }
+      },
+      "readout_rms_delta": {
+        "prod_zero": 0.009788,
+        "prod_far": 0.009788,
+        "chi1": 0.004743,
+        "chi2": 0.001997,
+        "chi4": 0.000209,
+        "chi8": 6e-06,
+        "chi16": 5e-06,
+        "chi32": 5e-06,
+        "shots128": 0.01182,
+        "shots1024": 0.004075,
+        "shots8192": 0.001454
+      },
+      "rollout_vrmse8": {
+        "intact": 0.5768145148952802,
+        "prod_zero": 0.576820857822895,
+        "prod_far": 0.576820857822895,
+        "chi1": 0.5768173734347025,
+        "chi2": 0.5768207261959711,
+        "chi4": 0.5768218288818995,
+        "chi8": 0.5768101985255877,
+        "chi16": 0.5768024573723475,
+        "chi32": 0.576804036895434,
+        "shots128": 0.5768288299441338,
+        "shots1024": 0.5768214737375578,
+        "shots8192": 0.5768154462178549,
+        "const0": 0.5768327837189039,
+        "gate_off": 0.5768207435806593
+      },
+      "readout_stats": {
+        "mean_abs_z": 0.9912,
+        "input_std_rms": 0.000598,
+        "per_qubit_std_max": 0.001699
+      }
+    },
+    "1339": {
+      "state_replication_max_diff": 0.0,
+      "geometry": {
+        "registers": [
+          {
+            "min_pair_dist": 0.9044,
+            "eng_max": 16.123,
+            "eng_far_max": 1.612e-11,
+            "tau": [
+              0.2982,
+              0.2975,
+              0.2982,
+              0.2976
+            ],
+            "omega": [
+              0.497,
+              0.4951,
+              0.4968,
+              0.4962
+            ]
+          },
+          {
+            "min_pair_dist": 0.9278,
+            "eng_max": 14.9238,
+            "eng_far_max": 1.492e-11,
+            "tau": [
+              0.2987,
+              0.2974,
+              0.2987,
+              0.2976
+            ],
+            "omega": [
+              0.4982,
+              0.495,
+              0.4964,
+              0.4966
+            ]
+          },
+          {
+            "min_pair_dist": 0.8908,
+            "eng_max": 16.4975,
+            "eng_far_max": 1.65e-11,
+            "tau": [
+              0.2975,
+              0.2975,
+              0.2975,
+              0.2976
+            ],
+            "omega": [
+              0.4959,
+              0.4958,
+              0.4957,
+              0.496
+            ]
+          }
+        ]
+      },
+      "entanglement": {
+        "reg0": {
+          "entropy_bits": {
+            "mean": 0.0803,
+            "std": 0.0038,
+            "min": 0.0682,
+            "max": 0.0843
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.991866,
+            "chi2": 0.996331,
+            "chi4": 0.999582,
+            "chi8": 0.999996,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg1": {
+          "entropy_bits": {
+            "mean": 0.0647,
+            "std": 0.0004,
+            "min": 0.0633,
+            "max": 0.0654
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.993709,
+            "chi2": 0.996712,
+            "chi4": 0.999833,
+            "chi8": 0.999999,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        },
+        "reg2": {
+          "entropy_bits": {
+            "mean": 0.0856,
+            "std": 0.0004,
+            "min": 0.0845,
+            "max": 0.0873
+          },
+          "entropy_bits_prod_zero_mean": 0.0,
+          "cum_schmidt_weight": {
+            "chi1": 0.991613,
+            "chi2": 0.994966,
+            "chi4": 0.998873,
+            "chi8": 0.999994,
+            "chi16": 1.0,
+            "chi32": 1.0
+          }
+        }
+      },
+      "readout_rms_delta": {
+        "prod_zero": 0.008987,
+        "prod_far": 0.008987,
+        "chi1": 0.003926,
+        "chi2": 0.002363,
+        "chi4": 0.000454,
+        "chi8": 7e-06,
+        "chi16": 6e-06,
+        "chi32": 6e-06,
+        "shots128": 0.011315,
+        "shots1024": 0.004081,
+        "shots8192": 0.001404
+      },
+      "rollout_vrmse8": {
+        "intact": 0.5639942387739817,
+        "prod_zero": 0.5640006065368652,
+        "prod_far": 0.5640006065368652,
+        "chi1": 0.5640032887458801,
+        "chi2": 0.56398127724727,
+        "chi4": 0.563994824886322,
+        "chi8": 0.5640052606662115,
+        "chi16": 0.5639873693386713,
+        "chi32": 0.5639897088209788,
+        "shots128": 0.5640023052692413,
+        "shots1024": 0.5639967024326324,
+        "shots8192": 0.5639938190579414,
+        "const0": 0.5639816845456759,
+        "gate_off": 0.5639721527695656
+      },
+      "readout_stats": {
+        "mean_abs_z": 0.9917,
+        "input_std_rms": 0.000341,
+        "per_qubit_std_max": 0.000786
+      }
+    }
+  }
+}

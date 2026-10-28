@@ -1,0 +1,13 @@
+{
+ "bench": "sophelio",
+ "arm": "mlp",
+ "trials": 10,
+ "best_value": -0.740619,
+ "best_params": {
+  "lr": 0.0008141553118632134,
+  "epochs": 40,
+  "batch": 128
+ },
+ "best_variant": "q30-mlpref",
+ "search_seed": 1337
+}

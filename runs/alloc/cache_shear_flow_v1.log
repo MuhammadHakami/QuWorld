@@ -1,0 +1,6 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[cache] shear_flow valid: 600 windows 312s
+[cache] valid.pt: N=600 DC 0.0351 | oracle@30 0.3212 proxy@30 0.2734 static@30 0.1595 random@30 0.0002
+[cache] shear_flow test: 1200 windows 527s
+[cache] test.pt: N=1200 DC 0.0387 | oracle@30 0.3532 proxy@30 0.3045 static@30 0.2153 random@30 0.0003

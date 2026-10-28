@@ -1,0 +1,8 @@
+/home/mohhakami/Documents/paper/quworld/paper/realpde/common.py:52: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  X = torch.from_numpy(np.load(str(npy) + "_X.npy", mmap_mode="r")); Y = torch.from_numpy(np.load(str(npy) + "_Y.npy", mmap_mode="r"))
+[cache] realpde-fno train: 3000 windows 92s
+[cache] train.pt: N=3000 DC 0.0744 | oracle@30 0.1080 proxy@30 0.0470 static@30 0.0843 random@30 0.0002
+[cache] realpde-fno val: 600 windows 20s
+[cache] valid.pt: N=600 DC 0.0737 | oracle@30 0.1078 proxy@30 0.0440 static@30 0.0851 random@30 0.0002
+[cache] realpde-fno test: 5140 windows 182s
+[cache] test.pt: N=5140 DC 0.0744 | oracle@30 0.1086 proxy@30 0.0452 static@30 0.0851 random@30 0.0002

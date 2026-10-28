@@ -1,0 +1,209 @@
+{"id": 0, "parent": null, "operator": "inherit", "vrmse": 1.3144099712371826, "measures": [0.2444444547096888, 0.8613782922426859], "gen": -1}
+{"id": 1, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.31111112236976624, 0.5191073517004648], "gen": 0}
+{"id": 2, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.20000000298023224, 0.7287514408429464], "gen": 0}
+{"id": 3, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144118785858154, "measures": [0.2666666756073634, 0.7809653878211975], "gen": 0}
+{"id": 4, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222222884496054, 0.5957217613855997], "gen": 0}
+{"id": 5, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144093751907349, "measures": [0.1333333378036817, 0.6977269252141317], "gen": 0}
+{"id": 6, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144116401672363, "measures": [0.15555556118488312, 0.6397816936175028], "gen": 0}
+{"id": 7, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.28888889650503796, 0.5753071904182434], "gen": 0}
+{"id": 8, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144103288650513, "measures": [0.22222222884496054, 0.7217183510462443], "gen": 0}
+{"id": 9, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144103288650513, "measures": [0.2444444547096888, 0.7239353458086649], "gen": 0}
+{"id": 10, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.1333333378036817, 0.5925178726514181], "gen": 0}
+{"id": 11, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.3111111174027125, 0.7681474486986796], "gen": 0}
+{"id": 12, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144078254699707, "measures": [0.2666666756073634, 0.7371752659479777], "gen": 0}
+{"id": 13, "parent": "(5, 14)", "operator": "lattice_reseed", "vrmse": 1.3144084215164185, "measures": [0.31111112236976624, 0.760915219783783], "gen": 0}
+{"id": 14, "parent": "(5, 11)", "operator": "atom_transfer", "vrmse": 1.314409613609314, "measures": [0.31111112236976624, 0.6079887946446737], "gen": 0}
+{"id": 15, "parent": "(2, 13)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 0}
+{"id": 16, "parent": "(6, 10)", "operator": "block_crossover", "vrmse": 1.3144097328186035, "measures": [0.28888889650503796, 0.5695606966813406], "gen": 0}
+{"id": 17, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144078254699707, "measures": [0.35555556913216907, 0.6645866831143697], "gen": 1}
+{"id": 18, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.15555556118488312, 0.6060973703861237], "gen": 1}
+{"id": 19, "parent": "cma", "operator": "cma-es", "vrmse": 1.31441068649292, "measures": [0.2666666756073634, 0.6287204821904501], "gen": 1}
+{"id": 20, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.31111112236976624, 0.7573110858599345], "gen": 1}
+{"id": 21, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144099712371826, "measures": [0.17777778704961142, 0.7621347506841024], "gen": 1}
+{"id": 22, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.17777778208255768, 0.7613065044085184], "gen": 1}
+{"id": 23, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778456608453, 0.6683604121208191], "gen": 1}
+{"id": 24, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.2444444497426351, 0.6959648927052816], "gen": 1}
+{"id": 25, "parent": "cma", "operator": "cma-es", "vrmse": 1.314409613609314, "measures": [0.26666667064030963, 0.5850778222084045], "gen": 1}
+{"id": 26, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144088983535767, "measures": [0.3111111174027125, 0.6465161740779877], "gen": 1}
+{"id": 27, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778208255768, 0.6790536244710287], "gen": 1}
+{"id": 28, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.2222222313284874, 0.6047197381655375], "gen": 1}
+{"id": 29, "parent": "(5, 15)", "operator": "gram_spectrum", "vrmse": 1.3144108057022095, "measures": [0.2444444547096888, 0.7808672587076823], "gen": 1}
+{"id": 30, "parent": "(6, 10)", "operator": "block_crossover", "vrmse": 1.3144097328186035, "measures": [0.2888889014720917, 0.567626823981603], "gen": 1}
+{"id": 31, "parent": "(4, 13)", "operator": "atom_transfer", "vrmse": 1.3144100904464722, "measures": [0.20000000794728598, 0.7118441263834635], "gen": 1}
+{"id": 32, "parent": "(3, 13)", "operator": "block_crossover", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.8077263037363688], "gen": 1}
+{"id": 33, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2888889014720917, 0.6028138597806295], "gen": 2}
+{"id": 34, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.7735780080159506], "gen": 2}
+{"id": 35, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408540725708, "measures": [0.28888889650503796, 0.6287414034207662], "gen": 2}
+{"id": 36, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222222884496054, 0.5621268550554911], "gen": 2}
+{"id": 37, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.1333333378036817, 0.5838177899519602], "gen": 2}
+{"id": 38, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.15555556366840997, 0.7697992920875549], "gen": 2}
+{"id": 39, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.26666667064030963, 0.5339687069257101], "gen": 2}
+{"id": 40, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144093751907349, "measures": [0.15555556118488312, 0.600602924823761], "gen": 2}
+{"id": 41, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144091367721558, "measures": [0.3333333432674408, 0.691875954469045], "gen": 2}
+{"id": 42, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144099712371826, "measures": [0.13333334028720856, 0.598385343949], "gen": 2}
+{"id": 43, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144108057022095, "measures": [0.2666666756073634, 0.621912439664205], "gen": 2}
+{"id": 44, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.22222222884496054, 0.5928395589192709], "gen": 2}
+{"id": 45, "parent": "(4, 14)", "operator": "atom_transfer", "vrmse": null, "rejected": "novelty_gate", "gen": 2}
+{"id": 46, "parent": "(3, 12)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 2}
+{"id": 47, "parent": "(4, 16)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 2}
+{"id": 48, "parent": "(4, 14)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 2}
+{"id": 49, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144080638885498, "measures": [0.20000000794728598, 0.6322138905525208], "gen": 3}
+{"id": 50, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2888888915379842, 0.7195897301038107], "gen": 3}
+{"id": 51, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444497426351, 0.6054645280043284], "gen": 3}
+{"id": 52, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.6687093277772268], "gen": 3}
+{"id": 53, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.7339723507563273], "gen": 3}
+{"id": 54, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.2444444497426351, 0.6744604110717773], "gen": 3}
+{"id": 55, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408779144287, "measures": [0.2666666756073634, 0.6578383843104044], "gen": 3}
+{"id": 56, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222223381201425, 0.6136724650859833], "gen": 3}
+{"id": 57, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.2666666756073634, 0.6963891386985779], "gen": 3}
+{"id": 58, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.22222222884496054, 0.6252597868442535], "gen": 3}
+{"id": 59, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.17777778704961142, 0.4725028872489929], "gen": 3}
+{"id": 60, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222223381201425, 0.5908706982930502], "gen": 3}
+{"id": 61, "parent": "(6, 13)", "operator": "gram_spectrum", "vrmse": null, "rejected": "novelty_gate", "gen": 3}
+{"id": 62, "parent": "(5, 13)", "operator": "gram_spectrum", "vrmse": 1.314408540725708, "measures": [0.2444444497426351, 0.6584609548250834], "gen": 3}
+{"id": 63, "parent": "(4, 12)", "operator": "atom_swap", "vrmse": 1.3144080638885498, "measures": [0.20000000794728598, 0.6322139302889506], "gen": 3}
+{"id": 64, "parent": "(3, 15)", "operator": "jitter", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.6462828814983368], "gen": 3}
+{"id": 65, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144090175628662, "measures": [0.2444444547096888, 0.6297451555728912], "gen": 4}
+{"id": 66, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.6172557771205902], "gen": 4}
+{"id": 67, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000794728598, 0.549389253060023], "gen": 4}
+{"id": 68, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.26666667064030963, 0.4801536500453949], "gen": 4}
+{"id": 69, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000794728598, 0.6723477045694987], "gen": 4}
+{"id": 70, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144131898880005, "measures": [0.26666667064030963, 0.698334256807963], "gen": 4}
+{"id": 71, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.2666666756073634, 0.5862445930639902], "gen": 4}
+{"id": 72, "parent": "cma", "operator": "cma-es", "vrmse": 1.31441068649292, "measures": [0.2444444497426351, 0.5315000116825104], "gen": 4}
+{"id": 73, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.22222222884496054, 0.6468034088611603], "gen": 4}
+{"id": 74, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.2888889014720917, 0.5174019535382589], "gen": 4}
+{"id": 75, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144110441207886, "measures": [0.20000000794728598, 0.5551895101865133], "gen": 4}
+{"id": 76, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778208255768, 0.49834688504536945], "gen": 4}
+{"id": 77, "parent": "(6, 13)", "operator": "atom_swap", "vrmse": 1.3144090175628662, "measures": [0.3333333432674408, 0.6918758948644003], "gen": 4}
+{"id": 78, "parent": "(4, 12)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 4}
+{"id": 79, "parent": "(2, 11)", "operator": "jitter", "vrmse": 1.3144104480743408, "measures": [0.1333333378036817, 0.5456244647502899], "gen": 4}
+{"id": 80, "parent": "(4, 17)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 4}
+{"id": 81, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3111111174027125, 0.6705670853455862], "gen": 5}
+{"id": 82, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3333333383003871, 0.6802030007044474], "gen": 5}
+{"id": 83, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000298023224, 0.6619625091552734], "gen": 5}
+{"id": 84, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.2444444497426351, 0.49716081221898395], "gen": 5}
+{"id": 85, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144099712371826, "measures": [0.3333333482344945, 0.5442138016223907], "gen": 5}
+{"id": 86, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.20000000794728598, 0.6161312460899353], "gen": 5}
+{"id": 87, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.17777778704961142, 0.5489191710948944], "gen": 5}
+{"id": 88, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.2444444497426351, 0.7005119522412618], "gen": 5}
+{"id": 89, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3333333432674408, 0.5698402325312296], "gen": 5}
+{"id": 90, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.20000000298023224, 0.5883303980032603], "gen": 5}
+{"id": 91, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144103288650513, "measures": [0.2666666756073634, 0.5478737453619639], "gen": 5}
+{"id": 92, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.3777777850627899, 0.5567963421344757], "gen": 5}
+{"id": 93, "parent": "(4, 14)", "operator": "atom_swap", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.7339723507563273], "gen": 5}
+{"id": 94, "parent": "(6, 15)", "operator": "atom_transfer", "vrmse": 1.314408540725708, "measures": [0.28888889650503796, 0.761979361375173], "gen": 5}
+{"id": 95, "parent": "(4, 15)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 5}
+{"id": 96, "parent": "(6, 13)", "operator": "block_crossover", "vrmse": 1.3144086599349976, "measures": [0.3333333432674408, 0.7353025277455648], "gen": 5}
+{"id": 97, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.26666667064030963, 0.6233559548854828], "gen": 6}
+{"id": 98, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444497426351, 0.5404389897982279], "gen": 6}
+{"id": 99, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.2444444497426351, 0.5457468132177988], "gen": 6}
+{"id": 100, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5733065207799276], "gen": 6}
+{"id": 101, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408540725708, "measures": [0.2444444497426351, 0.5675383806228638], "gen": 6}
+{"id": 102, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144099712371826, "measures": [0.2888888915379842, 0.6716156403223673], "gen": 6}
+{"id": 103, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.2888888915379842, 0.5504712065060934], "gen": 6}
+{"id": 104, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222222884496054, 0.5228601197401682], "gen": 6}
+{"id": 105, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3777777850627899, 0.609501043955485], "gen": 6}
+{"id": 106, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.28888889650503796, 0.6387532949447632], "gen": 6}
+{"id": 107, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.35555556416511536, 0.5359483261903127], "gen": 6}
+{"id": 108, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666805744171, 0.5156355500221252], "gen": 6}
+{"id": 109, "parent": "(2, 13)", "operator": "gram_spectrum", "vrmse": 1.3144092559814453, "measures": [0.1333333378036817, 0.7008928259213766], "gen": 6}
+{"id": 110, "parent": "(3, 9)", "operator": "gram_spectrum", "vrmse": null, "rejected": "novelty_gate", "gen": 6}
+{"id": 111, "parent": "(3, 12)", "operator": "lattice_reseed", "vrmse": 1.3144102096557617, "measures": [0.20000000794728598, 0.6623167594273885], "gen": 6}
+{"id": 112, "parent": "(6, 13)", "operator": "block_crossover", "vrmse": 1.3144094944000244, "measures": [0.2666666756073634, 0.697930097579956], "gen": 6}
+{"id": 113, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222223381201425, 0.45338280995686847], "gen": 7}
+{"id": 114, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.28888889650503796, 0.5769721468289694], "gen": 7}
+{"id": 115, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.6682687799135844], "gen": 7}
+{"id": 116, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144114017486572, "measures": [0.2444444547096888, 0.6983106931050619], "gen": 7}
+{"id": 117, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.22222222884496054, 0.6624453067779541], "gen": 7}
+{"id": 118, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.22222222884496054, 0.6618186036745707], "gen": 7}
+{"id": 119, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144118785858154, "measures": [0.2666666756073634, 0.694877028465271], "gen": 7}
+{"id": 120, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.6899283428986868], "gen": 7}
+{"id": 121, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3333333383003871, 0.6083870331446329], "gen": 7}
+{"id": 122, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5905212759971619], "gen": 7}
+{"id": 123, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3111111174027125, 0.5342559218406677], "gen": 7}
+{"id": 124, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.3333333432674408, 0.5252287089824677], "gen": 7}
+{"id": 125, "parent": "(7, 13)", "operator": "gram_spectrum", "vrmse": null, "rejected": "novelty_gate", "gen": 7}
+{"id": 126, "parent": "(5, 12)", "operator": "lattice_reseed", "vrmse": 1.3144090175628662, "measures": [0.28888889650503796, 0.6821238001187643], "gen": 7}
+{"id": 127, "parent": "(6, 10)", "operator": "gram_spectrum", "vrmse": null, "rejected": "novelty_gate", "gen": 7}
+{"id": 128, "parent": "(5, 9)", "operator": "lattice_reseed", "vrmse": 1.3144097328186035, "measures": [0.22222222884496054, 0.5483890275160471], "gen": 7}
+{"id": 129, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408302307129, "measures": [0.2444444547096888, 0.7066051959991455], "gen": 8}
+{"id": 130, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.553988516330719], "gen": 8}
+{"id": 131, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5950684249401093], "gen": 8}
+{"id": 132, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3333333432674408, 0.6623568336168925], "gen": 8}
+{"id": 133, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144121170043945, "measures": [0.2444444547096888, 0.5334587295850118], "gen": 8}
+{"id": 134, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778704961142, 0.5716800590356191], "gen": 8}
+{"id": 135, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144088983535767, "measures": [0.28888889650503796, 0.6191690961519877], "gen": 8}
+{"id": 136, "parent": "cma", "operator": "cma-es", "vrmse": 1.31441068649292, "measures": [0.17777778208255768, 0.6417956451574961], "gen": 8}
+{"id": 137, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5139714678128561], "gen": 8}
+{"id": 138, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.31111112236976624, 0.5753117203712463], "gen": 8}
+{"id": 139, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.28888889650503796, 0.5839389363924662], "gen": 8}
+{"id": 140, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.31111112236976624, 0.532847652832667], "gen": 8}
+{"id": 141, "parent": "(4, 12)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 8}
+{"id": 142, "parent": "(5, 15)", "operator": "block_crossover", "vrmse": 1.3144102096557617, "measures": [0.2444444547096888, 0.7384728590647379], "gen": 8}
+{"id": 143, "parent": "(7, 12)", "operator": "lattice_reseed", "vrmse": 1.3144097328186035, "measures": [0.35555556416511536, 0.7138283252716064], "gen": 8}
+{"id": 144, "parent": "(2, 14)", "operator": "atom_swap", "vrmse": 1.314409613609314, "measures": [0.1333333378036817, 0.7008928457895914], "gen": 8}
+{"id": 145, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.28888889650503796, 0.5942076444625854], "gen": 9}
+{"id": 146, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144116401672363, "measures": [0.20000000794728598, 0.6764390269915262], "gen": 9}
+{"id": 147, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.15555556118488312, 0.568729559580485], "gen": 9}
+{"id": 148, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.6241369048754374], "gen": 9}
+{"id": 149, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.2444444497426351, 0.6987407803535461], "gen": 9}
+{"id": 150, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144105672836304, "measures": [0.3111111174027125, 0.726025770107905], "gen": 9}
+{"id": 151, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.28888889650503796, 0.6759578188260397], "gen": 9}
+{"id": 152, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144102096557617, "measures": [0.22222222884496054, 0.6906900803248087], "gen": 9}
+{"id": 153, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666805744171, 0.5507028897603353], "gen": 9}
+{"id": 154, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3333333432674408, 0.46064846714337665], "gen": 9}
+{"id": 155, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5381609400113424], "gen": 9}
+{"id": 156, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5391133228937784], "gen": 9}
+{"id": 157, "parent": "(2, 10)", "operator": "atom_transfer", "vrmse": 1.314410924911499, "measures": [0.15555555870135626, 0.5801161825656891], "gen": 9}
+{"id": 158, "parent": "(4, 15)", "operator": "atom_transfer", "vrmse": 1.3144108057022095, "measures": [0.2444444547096888, 0.7248628735542297], "gen": 9}
+{"id": 159, "parent": "(3, 10)", "operator": "jitter", "vrmse": 1.3144100904464722, "measures": [0.22222222884496054, 0.556854764620463], "gen": 9}
+{"id": 160, "parent": "(2, 13)", "operator": "atom_swap", "vrmse": 1.3144092559814453, "measures": [0.1333333378036817, 0.6977269450823466], "gen": 9}
+{"id": 161, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000794728598, 0.5788445174694061], "gen": 10}
+{"id": 162, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144090175628662, "measures": [0.20000000794728598, 0.6006963749726614], "gen": 10}
+{"id": 163, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778208255768, 0.6287080347537994], "gen": 10}
+{"id": 164, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.2666666756073634, 0.6660006841023763], "gen": 10}
+{"id": 165, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.22222222884496054, 0.6580671767393748], "gen": 10}
+{"id": 166, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000794728598, 0.6716030836105347], "gen": 10}
+{"id": 167, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.2666666756073634, 0.6994789242744446], "gen": 10}
+{"id": 168, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144078254699707, "measures": [0.22222223381201425, 0.649678369363149], "gen": 10}
+{"id": 169, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408302307129, "measures": [0.2444444547096888, 0.5393050710360209], "gen": 10}
+{"id": 170, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.31111112236976624, 0.5733661154905955], "gen": 10}
+{"id": 171, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.35555556416511536, 0.5843963325023651], "gen": 10}
+{"id": 172, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.49498794476191205], "gen": 10}
+{"id": 173, "parent": "(4, 16)", "operator": "gram_spectrum", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.8076666792233785], "gen": 10}
+{"id": 174, "parent": "(4, 10)", "operator": "jitter", "vrmse": 1.314413070678711, "measures": [0.2666666756073634, 0.6575592855612437], "gen": 10}
+{"id": 175, "parent": "(6, 11)", "operator": "lattice_reseed", "vrmse": 1.3144097328186035, "measures": [0.3333333432674408, 0.7061264018217722], "gen": 10}
+{"id": 176, "parent": "(5, 13)", "operator": "atom_transfer", "vrmse": 1.3144093751907349, "measures": [0.2666666756073634, 0.622674842675527], "gen": 10}
+{"id": 177, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144077062606812, "measures": [0.20000000794728598, 0.5894723137219747], "gen": 11}
+{"id": 178, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778456608453, 0.483137845993042], "gen": 11}
+{"id": 179, "parent": "cma", "operator": "cma-es", "vrmse": 1.314409613609314, "measures": [0.11111111690600713, 0.5922946830590566], "gen": 11}
+{"id": 180, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.20000000298023224, 0.5998774170875549], "gen": 11}
+{"id": 181, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144100904464722, "measures": [0.2666666756073634, 0.6831488609313965], "gen": 11}
+{"id": 182, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144091367721558, "measures": [0.2444444497426351, 0.6517981092135111], "gen": 11}
+{"id": 183, "parent": "cma", "operator": "cma-es", "vrmse": 1.314408540725708, "measures": [0.2444444497426351, 0.6780193646748861], "gen": 11}
+{"id": 184, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.2888889014720917, 0.5676844219366709], "gen": 11}
+{"id": 185, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2444444547096888, 0.5395767986774445], "gen": 11}
+{"id": 186, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144104480743408, "measures": [0.31111112236976624, 0.6658926804860433], "gen": 11}
+{"id": 187, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144090175628662, "measures": [0.2444444497426351, 0.6277702152729034], "gen": 11}
+{"id": 188, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.3111111174027125, 0.6387060980002085], "gen": 11}
+{"id": 189, "parent": "(2, 13)", "operator": "atom_transfer", "vrmse": null, "rejected": "novelty_gate", "gen": 11}
+{"id": 190, "parent": "(3, 11)", "operator": "gram_spectrum", "vrmse": null, "rejected": "novelty_gate", "gen": 11}
+{"id": 191, "parent": "(4, 11)", "operator": "block_crossover", "vrmse": 1.3144102096557617, "measures": [0.20000000794728598, 0.7238315343856812], "gen": 11}
+{"id": 192, "parent": "(3, 10)", "operator": "atom_transfer", "vrmse": 1.3144104480743408, "measures": [0.20000000794728598, 0.48755855361620587], "gen": 11}
+{"id": 193, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144090175628662, "measures": [0.20000000794728598, 0.4387604296207428], "gen": 12}
+{"id": 194, "parent": "cma", "operator": "cma-es", "vrmse": 1.314406394958496, "measures": [0.17777778208255768, 0.5798293650150299], "gen": 12}
+{"id": 195, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.17777778704961142, 0.546850581963857], "gen": 12}
+{"id": 196, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2222222313284874, 0.4443903962771098], "gen": 12}
+{"id": 197, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144112825393677, "measures": [0.2666666756073634, 0.6876305937767029], "gen": 12}
+{"id": 198, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144094944000244, "measures": [0.3111111174027125, 0.776467760403951], "gen": 12}
+{"id": 199, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144111633300781, "measures": [0.20000000794728598, 0.7089041272799174], "gen": 12}
+{"id": 200, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144088983535767, "measures": [0.2666666756073634, 0.6012667914231619], "gen": 12}
+{"id": 201, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144097328186035, "measures": [0.2666666756073634, 0.45906200011571247], "gen": 12}
+{"id": 202, "parent": "cma", "operator": "cma-es", "vrmse": 1.314410924911499, "measures": [0.2444444497426351, 0.6005220214525858], "gen": 12}
+{"id": 203, "parent": "cma", "operator": "cma-es", "vrmse": 1.314409852027893, "measures": [0.31111112236976624, 0.49360119303067523], "gen": 12}
+{"id": 204, "parent": "cma", "operator": "cma-es", "vrmse": 1.3144105672836304, "measures": [0.3333333383003871, 0.6541259487469991], "gen": 12}
+{"id": 205, "parent": "(4, 17)", "operator": "atom_swap", "vrmse": 1.314409852027893, "measures": [0.2444444547096888, 0.8613782723744711], "gen": 12}
+{"id": 206, "parent": "(4, 9)", "operator": "atom_swap", "vrmse": 1.3144097328186035, "measures": [0.22222223381201425, 0.45338279008865356], "gen": 12}
+{"id": 207, "parent": "(6, 9)", "operator": "atom_swap", "vrmse": 1.3144097328186035, "measures": [0.3333333432674408, 0.4606484870115916], "gen": 12}
+{"id": 208, "parent": "(3, 11)", "operator": "router_jitter", "vrmse": null, "rejected": "novelty_gate", "gen": 12}

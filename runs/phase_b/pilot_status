@@ -1,0 +1,9 @@
+pilot start 2026-08-15T18:27:43+03:00 target=3000 throttle=15ms
+arm vanilla attempt 1 2026-08-15T18:27:43+03:00 free=87G
+arm vanilla DONE 2026-08-15T18:57:48+03:00
+arm mr30ryd attempt 1 2026-08-15T18:57:48+03:00 free=87G
+arm mr30ryd attempt 2 2026-08-15T19:28:10+03:00 free=87G
+arm mr30ryd DONE 2026-08-15T19:29:17+03:00
+arm mlp30 attempt 1 2026-08-15T19:29:17+03:00 free=87G
+arm mlp30 DONE 2026-08-15T19:59:23+03:00
+PILOT_DONE 2026-08-15T19:59:23+03:00

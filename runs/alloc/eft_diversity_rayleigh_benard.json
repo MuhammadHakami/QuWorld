@@ -1,0 +1,5 @@
+{
+ "rayleigh_benard_mr30ryd ~ rayleigh_benard_vanilla": 0.605699207781415,
+ "rayleigh_benard_mr30ryd ~ rayleigh_benard_mlp30": 0.6365825616235712,
+ "rayleigh_benard_vanilla ~ rayleigh_benard_mlp30": 0.5941455409729055
+}

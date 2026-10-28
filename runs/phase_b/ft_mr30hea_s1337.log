@@ -1,0 +1,168 @@
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+Uninstalled 1 package in 0.59ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse=0.1902 free=86G (checkpoint start)
+val_check step=291 vrmse=0.1901 loss=0.00227 free=85G
+val_check step=588 vrmse=0.1900 loss=0.00140 free=85G
+val_check step=885 vrmse=0.1901 loss=0.00200 free=85G
+val_check step=1182 vrmse=0.1899 loss=0.00117 free=85G
+val_check step=1479 vrmse=0.1904 loss=0.00338 free=85G
+val_check step=1776 vrmse=0.1900 loss=0.00179 free=85G
+val_check step=2071 vrmse=0.1902 loss=0.00142 free=85G
+val_check step=2368 vrmse=0.1903 loss=0.00240 free=85G
+val_check step=2664 vrmse=0.1903 loss=0.00185 free=86G
+val_check step=2961 vrmse=0.1902 loss=0.00177 free=86G
+val_check step=3258 vrmse=0.1906 loss=0.00095 free=85G
+val_check step=3555 vrmse=0.1900 loss=0.00150 free=86G
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.191132
+num_steps:      3826
+num_params:     18758608
+train_seconds:  2411.9
+peak_vram_mb:   16916.1
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt
+Uninstalled 1 package in 0.37ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=3826 vrmse=0.1899 free=87G (RESUMED)
+val_check step=4115 vrmse=0.1904 loss=0.00102 free=85G
+val_check step=4411 vrmse=0.1905 loss=0.00126 free=85G
+val_check step=4706 vrmse=0.1902 loss=0.00195 free=86G
+val_check step=5002 vrmse=0.1901 loss=0.00131 free=86G
+val_check step=5298 vrmse=0.1908 loss=0.00174 free=85G
+val_check step=5594 vrmse=0.1903 loss=0.00133 free=85G
+val_check step=5889 vrmse=0.1904 loss=0.00082 free=86G
+val_check step=6184 vrmse=0.1903 loss=0.00195 free=86G
+val_check step=6480 vrmse=0.1901 loss=0.00172 free=85G
+val_check step=6776 vrmse=0.1903 loss=0.00164 free=85G
+val_check step=7071 vrmse=0.1904 loss=0.00224 free=85G
+val_check step=7366 vrmse=0.1903 loss=0.00200 free=86G
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.191760
+num_steps:      7631
+num_params:     18758608
+train_seconds:  2412.0
+peak_vram_mb:   17131.2
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt
+Uninstalled 1 package in 0.33ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=7631 vrmse=0.1899 free=87G (RESUMED)
+val_check step=7919 vrmse=0.1904 loss=0.00096 free=85G
+val_check step=8214 vrmse=0.1904 loss=0.00112 free=85G
+val_check step=8509 vrmse=0.1903 loss=0.00149 free=85G
+val_check step=8804 vrmse=0.1904 loss=0.00139 free=85G
+val_check step=9099 vrmse=0.1903 loss=0.00232 free=85G
+val_check step=9394 vrmse=0.1901 loss=0.00182 free=85G
+val_check step=9689 vrmse=0.1908 loss=0.00134 free=85G
+val_check step=9984 vrmse=0.1909 loss=0.00189 free=85G
+val_check step=10279 vrmse=0.1906 loss=0.00154 free=85G
+val_check step=10574 vrmse=0.1905 loss=0.00174 free=86G
+val_check step=10869 vrmse=0.1907 loss=0.00184 free=85G
+val_check step=11164 vrmse=0.1904 loss=0.00114 free=86G
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.191486
+num_steps:      11429
+num_params:     18758608
+train_seconds:  2411.6
+peak_vram_mb:   17131.2
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt
+Uninstalled 1 package in 0.61ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=11429 vrmse=0.1899 free=87G (RESUMED)
+val_check step=11717 vrmse=0.1906 loss=0.00095 free=86G
+val_check step=12012 vrmse=0.1905 loss=0.00111 free=85G
+val_check step=12307 vrmse=0.1904 loss=0.00149 free=85G
+val_check step=12602 vrmse=0.1906 loss=0.00138 free=85G
+val_check step=12897 vrmse=0.1904 loss=0.00230 free=86G
+val_check step=13192 vrmse=0.1902 loss=0.00181 free=85G
+val_check step=13486 vrmse=0.1907 loss=0.00266 free=85G
+val_check step=13781 vrmse=0.1906 loss=0.00252 free=85G
+val_check step=14076 vrmse=0.1905 loss=0.00201 free=85G
+val_check step=14370 vrmse=0.1906 loss=0.00142 free=85G
+val_check step=14665 vrmse=0.1908 loss=0.00169 free=86G
+val_check step=14960 vrmse=0.1905 loss=0.00157 free=86G
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.191984
+num_steps:      15225
+num_params:     18758608
+train_seconds:  2412.0
+peak_vram_mb:   17131.2
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt
+Uninstalled 1 package in 0.59ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=15225 vrmse=0.1899 free=87G (RESUMED)
+val_check step=15514 vrmse=0.1907 loss=0.00099 free=85G
+val_check step=15809 vrmse=0.1905 loss=0.00089 free=85G
+val_check step=16104 vrmse=0.1904 loss=0.00202 free=85G
+val_check step=16399 vrmse=0.1907 loss=0.00150 free=85G
+val_check step=16694 vrmse=0.1906 loss=0.00152 free=85G
+val_check step=16989 vrmse=0.1903 loss=0.00147 free=85G
+val_check step=17284 vrmse=0.1907 loss=0.00271 free=85G
+val_check step=17579 vrmse=0.1908 loss=0.00144 free=85G
+val_check step=17873 vrmse=0.1908 loss=0.00152 free=86G
+val_check step=18168 vrmse=0.1908 loss=0.00171 free=86G
+val_check step=18463 vrmse=0.1908 loss=0.00182 free=85G
+val_check step=18757 vrmse=0.1906 loss=0.00180 free=86G
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.192032
+num_steps:      19022
+num_params:     18758608
+train_seconds:  2411.9
+peak_vram_mb:   17131.2
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt
+Uninstalled 1 package in 0.70ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=19022 vrmse=0.1899 free=89G (RESUMED)
+val_check step=19308 vrmse=0.1906 loss=0.00129 free=88G
+val_check step=19603 vrmse=0.1908 loss=0.00175 free=88G
+val_check step=19898 vrmse=0.1908 loss=0.00073 free=88G
+target_reached steps=20000 best=0.189858
+---
+variant:        mr30hea
+val_vrmse_1:    0.189858
+final_val:      0.191576
+num_steps:      20000
+num_params:     18758608
+train_seconds:  634.3
+peak_vram_mb:   17131.2
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mr30hea_s1337.pt

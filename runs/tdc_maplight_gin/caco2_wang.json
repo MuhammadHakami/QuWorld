@@ -1,0 +1,28 @@
+{
+ "endpoint": "caco2_wang",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "mae",
+ "higher_is_better": false,
+ "test_mean": 0.2984,
+ "test_sd": 0.007282856582413256,
+ "test_per_seed": [
+  0.311,
+  0.292,
+  0.292,
+  0.302,
+  0.295
+ ],
+ "official_evaluate_many": [
+  0.298,
+  0.007
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 86.79866528511047
+}

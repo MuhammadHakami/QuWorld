@@ -1,0 +1,49 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 3000,
+ "gate_pretrain_valid": 0.19275736808776855,
+ "tag": "turbulent_radiative_layer_2D_mr30ryd_vrmse_gate_s1",
+ "dataset": "turbulent_radiative_layer_2D",
+ "variant": "mr30ryd",
+ "loss": "vrmse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 2e-05,
+ "steps": 5176,
+ "valid_start": 0.19275735318660736,
+ "valid_best": 0.19189196825027466,
+ "curve": [
+  [
+   0,
+   0.19275735318660736
+  ],
+  [
+   868,
+   0.1931011974811554
+  ],
+  [
+   1726,
+   0.19255705177783966
+  ],
+  [
+   2590,
+   0.19264818727970123
+  ],
+  [
+   3494,
+   0.19236496090888977
+  ],
+  [
+   4358,
+   0.19208011031150818
+  ],
+  [
+   5176,
+   0.19189196825027466
+  ]
+ ],
+ "strat_test": 0.19205719232559204,
+ "strat_test_median": 0.17234812676906586,
+ "strat_test_n": 144,
+ "budget_s": 3600.0
+}

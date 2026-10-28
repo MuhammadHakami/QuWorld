@@ -1,0 +1,230 @@
+{
+ "rule": "\u00a733t primary: B2loss register below A register on 2/2 seeds on BOTH rows (TEST-informed)",
+ "verdict": "promotion holds on TEST",
+ "rows": {
+  "shear_flow__gate_vanilla_s1337": {
+   "register_B2loss_minus_A": [
+    -0.0010135734817742006,
+    -0.0009081566833512265
+   ],
+   "register_lower_n": 2,
+   "mlp_B2loss_minus_A (descriptive)": [
+    -0.0008522660427780944,
+    -0.00166884437654791
+   ]
+  },
+  "rayleigh_benard__gatest_vanilla_s1337": {
+   "register_B2loss_minus_A": [
+    -0.0006700570604717682,
+    -0.0010189212768994885
+   ],
+   "register_lower_n": 2,
+   "mlp_B2loss_minus_A (descriptive)": [
+    -0.000960474147809573,
+    -0.0013119732570563841
+   ]
+  }
+ },
+ "scores": [
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.020396344485191432,
+   "valid_saved": 0.020396344485191432,
+   "test": 0.020533576142455774,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.02050982555337563,
+   "valid_saved": 0.02050982555337563,
+   "test": 0.02081683204472823,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.043076591356543896,
+   "valid_saved": 0.043076591356543896,
+   "test": 0.042473834626401474,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.043253660353362165,
+   "valid_saved": 0.043253660353362165,
+   "test": 0.04267594644955476,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.02030887338493567,
+   "valid_saved": 0.02030887338493567,
+   "test": 0.020717873974291003,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.02107338219439397,
+   "valid_saved": 0.02107338219439397,
+   "test": 0.021571800785059825,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.043177013564974026,
+   "valid_saved": 0.043177013564974026,
+   "test": 0.04259532613509344,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.04386682613035599,
+   "valid_saved": 0.04386682613035599,
+   "test": 0.043244918635066014,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "cls_only_gate",
+   "seed": 1,
+   "valid_replay": 0.022946483227834658,
+   "valid_saved": 0.022946483227834658,
+   "test": 0.02342787298651365,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "cls_only_gate",
+   "seed": 2,
+   "valid_replay": 0.023142408456785862,
+   "valid_saved": 0.023142408456785862,
+   "test": 0.02358531978352231,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "cls_only_gate",
+   "seed": 1,
+   "valid_replay": 0.04581877795987897,
+   "valid_saved": 0.04581877795987897,
+   "test": 0.045110467937075065,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "A",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "cls_only_gate",
+   "seed": 2,
+   "valid_replay": 0.04565624155523087,
+   "valid_saved": 0.04565624155523087,
+   "test": 0.04492833859697119,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "B2loss",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.019457982433618775,
+   "valid_saved": 0.019457982433618775,
+   "test": 0.019520002660681574,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "B2loss",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.019858527993910354,
+   "valid_saved": 0.019858527993910354,
+   "test": 0.019908675361377002,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "B2loss",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.04237844831785651,
+   "valid_saved": 0.04237844831785651,
+   "test": 0.041803777565929706,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "B2loss",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_ryd_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.042269085625491365,
+   "valid_saved": 0.042269085625491365,
+   "test": 0.04165702517265527,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "B2loss",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.019606280729304936,
+   "valid_saved": 0.019606280729304936,
+   "test": 0.01986560793151291,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "B2loss",
+   "row": "shear_flow__gate_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.019653358764176867,
+   "valid_saved": 0.019653358764176867,
+   "test": 0.019902956408511915,
+   "n_test_windows": 21952
+  },
+  {
+   "cell": "B2loss",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 1,
+   "valid_replay": 0.042223867021644504,
+   "valid_saved": 0.042223867021644504,
+   "test": 0.041634851987283866,
+   "n_test_windows": 5600
+  },
+  {
+   "cell": "B2loss",
+   "row": "rayleigh_benard__gatest_vanilla_s1337",
+   "arm": "adrc_mlp_gate_rs_dyn",
+   "seed": 2,
+   "valid_replay": 0.042554213992028724,
+   "valid_saved": 0.042554213992028724,
+   "test": 0.04193294537800963,
+   "n_test_windows": 5600
+  }
+ ]
+}

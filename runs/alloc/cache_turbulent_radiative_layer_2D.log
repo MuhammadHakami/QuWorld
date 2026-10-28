@@ -1,0 +1,9 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[cache] turbulent_radiative_layer_2D train static: 400 windows 19s
+[cache] turbulent_radiative_layer_2D train: 3000 windows 254s
+[cache] train.pt: N=3000 DC 0.0140 | oracle@30 0.2345 proxy@30 0.0697 static@30 0.1073 random@30 0.0007
+[cache] turbulent_radiative_layer_2D valid: 600 windows 53s
+[cache] valid.pt: N=600 DC 0.0607 | oracle@30 0.4393 proxy@30 0.1664 static@30 0.2329 random@30 0.0006
+[cache] turbulent_radiative_layer_2D test: 1200 windows 104s
+[cache] test.pt: N=1200 DC 0.0556 | oracle@30 0.4448 proxy@30 0.1719 static@30 0.2377 random@30 0.0006

@@ -1,0 +1,72 @@
+hpo runner start 2026-09-21T10:21:36+03:00
+search torax none trials=16 2026-09-21T10:21:36+03:00
+best torax none: [hpo] torax/none search done: best valid 0.015215 {'lr': 0.001408184447515237, 'steps': 1750, 'batch': 32, 'wd': 0.0} 2026-09-21T10:49:38+03:00
+final torax none 2026-09-21T10:49:38+03:00
+result torax none: [hpo] torax/none FINAL test 0.015822 ± 0.000586 2026-09-21T10:55:55+03:00
+search torax mlp trials=16 2026-09-21T10:55:55+03:00
+best torax mlp: [hpo] torax/mlp search done: best valid 0.014358 {'lr': 0.001873108358520357, 'steps': 1750, 'batch': 32, 'wd': 1e-05} 2026-09-21T11:24:58+03:00
+final torax mlp 2026-09-21T11:24:58+03:00
+result torax mlp: [hpo] torax/mlp FINAL test 0.017581 ± 0.004209 2026-09-21T11:31:33+03:00
+search torax q trials=16 2026-09-21T11:31:33+03:00
+best torax q: [hpo] torax/q search done: best valid 0.013474 {'lr': 0.002034768945915107, 'steps': 2000, 'batch': 32, 'wd': 0.0, 'L': 6, 'geo': 'grid', 'sp': 0.7, 'link': 'shared'} 2026-09-21T12:55:42+03:00
+final torax q 2026-09-21T12:55:42+03:00
+result torax q: [hpo] torax/q FINAL test 0.016412 ± 0.005572 2026-09-21T13:27:52+03:00
+HPO_TORAX_DONE 2026-09-21T13:27:52+03:00
+search pelzer none trials=12 2026-09-21T13:27:52+03:00
+best pelzer none: [hpo] pelzer/none search done: best valid 0.028498 {'lr': 2.9912552529665834e-05, 'steps': 3000, 'batch': 100} 2026-09-21T14:18:45+03:00
+final pelzer none 2026-09-21T14:18:45+03:00
+result pelzer none: [hpo] pelzer/none FINAL test 0.029139 ± 0.001682 2026-09-21T14:46:56+03:00
+search pelzer mlp trials=12 2026-09-21T14:46:56+03:00
+best pelzer mlp: [hpo] pelzer/mlp search done: best valid 0.027857 {'lr': 0.00010121541367866828, 'steps': 3000, 'batch': 100} 2026-09-21T15:59:32+03:00
+final pelzer mlp 2026-09-21T15:59:32+03:00
+result pelzer mlp: [hpo] pelzer/mlp FINAL test 0.035235 ± 0.006946 2026-09-21T16:32:21+03:00
+search pelzer q trials=12 2026-09-21T16:32:21+03:00
+best pelzer q: [hpo] pelzer/q search done: best valid 0.028002 {'lr': 0.0001016354474774486, 'steps': 2500, 'batch': 100, 'L': 3, 'geo': 'ring', 'sp': 1.0, 'link': 'independent'} 2026-09-21T18:04:08+03:00
+final pelzer q 2026-09-21T18:04:08+03:00
+result pelzer q: [hpo] pelzer/q FINAL test 0.034753 ± 0.006543 2026-09-21T18:36:43+03:00
+HPO_PELZER_DONE 2026-09-21T18:36:43+03:00
+search sophelio none trials=10 2026-09-21T18:36:43+03:00
+best sophelio none: [hpo] sophelio/none search done: best valid -0.736925 {'lr': 0.0029549815896083216, 'epochs': 80, 'batch': 256} 2026-09-21T19:57:33+03:00
+final sophelio none 2026-09-21T19:57:33+03:00
+result sophelio none: [hpo] sophelio/none FINAL test -0.790535 ± 0.012237 2026-09-21T20:25:36+03:00
+search sophelio mlp trials=10 2026-09-21T20:25:36+03:00
+best sophelio mlp: [hpo] sophelio/mlp search done: best valid -0.740619 {'lr': 0.0008141553118632134, 'epochs': 40, 'batch': 128} 2026-09-21T21:27:20+03:00
+final sophelio mlp 2026-09-21T21:27:20+03:00
+result sophelio mlp: [hpo] sophelio/mlp FINAL test -0.778152 ± 0.012753 2026-09-21T21:42:28+03:00
+search sophelio q trials=10 2026-09-21T21:42:28+03:00
+best sophelio q: [hpo] sophelio/q search done: best valid -0.743554 {'lr': 0.0006171719817888396, 'epochs': 60, 'batch': 128, 'L': 2, 'geo': 'ring', 'sp': 0.7, 'link': 'independent'} 2026-09-22T00:11:15+03:00
+final sophelio q 2026-09-22T00:11:15+03:00
+result sophelio q: [hpo] sophelio/q FINAL test -0.782994 ± 0.018466 2026-09-22T01:06:16+03:00
+HPO_SOPHELIO_DONE 2026-09-22T01:06:16+03:00
+HPO_DONE 2026-09-22T01:06:16+03:00
+hpo ms2 runner start 2026-09-22T01:07:18+03:00
+search-ms2 torax q trials=16 2026-09-22T01:07:18+03:00
+best-ms2 torax q: [hpo] torax/q search done: best valid 0.013969 {'lr': 0.0025394633490284746, 'steps': 2000, 'batch': 32, 'wd': 0.0, 'L': 6, 'geo': 'ring', 'sp': 0.7, 'link': 'shared'} 2026-09-22T03:59:43+03:00
+final-ms2 torax q 2026-09-22T03:59:43+03:00
+result-ms2 torax q: [hpo] torax/q FINAL test 0.016827 ± 0.005487 2026-09-22T04:30:16+03:00
+search-ms2 torax mlp trials=16 2026-09-22T04:30:16+03:00
+best-ms2 torax mlp: [hpo] torax/mlp search done: best valid 0.013504 {'lr': 0.0013740936775801435, 'steps': 2000, 'batch': 32, 'wd': 1e-05} 2026-09-22T04:36:58+03:00
+final-ms2 torax mlp 2026-09-22T04:36:58+03:00
+result-ms2 torax mlp: [hpo] torax/mlp FINAL test 0.014113 ± 0.001071 2026-09-22T04:37:58+03:00
+HPO_MS2_TORAX_DONE 2026-09-22T04:37:58+03:00
+search-ms2 pelzer q trials=12 2026-09-22T04:37:58+03:00
+best-ms2 pelzer q: [hpo] pelzer/q search done: best valid 0.027633 {'lr': 2.3929410991294604e-05, 'steps': 3000, 'batch': 100, 'L': 3, 'geo': 'grid', 'sp': 1.5, 'link': 'independent'} 2026-09-22T06:51:38+03:00
+final-ms2 pelzer q 2026-09-22T06:51:38+03:00
+result-ms2 pelzer q: [hpo] pelzer/q FINAL test 0.028786 ± 0.002216 2026-09-22T07:17:47+03:00
+search-ms2 pelzer mlp trials=12 2026-09-22T07:17:47+03:00
+best-ms2 pelzer mlp: [hpo] pelzer/mlp search done: best valid 0.027859 {'lr': 2.9912552529665834e-05, 'steps': 3000, 'batch': 100} 2026-09-22T08:44:26+03:00
+final-ms2 pelzer mlp 2026-09-22T08:44:26+03:00
+result-ms2 pelzer mlp: [hpo] pelzer/mlp FINAL test 0.029170 ± 0.001578 2026-09-22T09:06:08+03:00
+HPO_MS2_PELZER_DONE 2026-09-22T09:06:08+03:00
+search-ms2 sophelio q trials=10 2026-09-22T09:06:08+03:00
+best-ms2 sophelio q: [hpo] sophelio/q search done: best valid -0.748890 {'lr': 0.0011332372161884938, 'epochs': 80, 'batch': 128, 'L': 3, 'geo': 'ring', 'sp': 0.7, 'link': 'shared'} 2026-09-22T12:40:53+03:00
+final-ms2 sophelio q 2026-09-22T12:40:53+03:00
+result-ms2 sophelio q: [hpo] sophelio/q FINAL test -0.792914 ± 0.014086 2026-09-22T13:34:02+03:00
+search-ms2 sophelio mlp trials=10 2026-09-22T13:34:02+03:00
+best-ms2 sophelio mlp: [hpo] sophelio/mlp search done: best valid -0.729266 {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512} 2026-09-22T15:23:52+03:00
+final-ms2 sophelio mlp 2026-09-22T15:23:52+03:00
+result-ms2 sophelio mlp: [hpo] sophelio/mlp FINAL test -0.784757 ± 0.003191 2026-09-22T15:44:41+03:00
+HPO_MS2_SOPHELIO_DONE 2026-09-22T15:44:41+03:00
+HPO_MS2_DONE 2026-09-22T15:44:41+03:00
+hpo ms2 NONE runner start 2026-09-22T21:37:21+03:00
+search-ms2 torax none trials=16 2026-09-22T21:37:21+03:00

@@ -1,0 +1,19 @@
+# TokaMark CNN baseline config (copy of baseline/tokamark_baseline/src/config/config_model.yaml) pointed at the local shot store.
+subset_of_shots:            # null = all shots of the official random split; set e.g. 8 for smoke tests via --subset
+shuffle: true
+local: true
+
+store_manager_settings:
+  base_local_zarr_path: /home/mohhakami/Documents/paper/quworld/data/tokamark/zarr
+
+dataloader_setting:
+  batch_size: 32
+  num_workers: 2
+
+training_args:
+  lr: 0.0001
+  max_steps: 60
+  patience: 3
+
+paths:
+  data_output_directory: /../../runs/tokamark/output   # REPO_ROOT + this -> runs/tokamark/output/<split>/<model>/<task>/seed_<seed>/

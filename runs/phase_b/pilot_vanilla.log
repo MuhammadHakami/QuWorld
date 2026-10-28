@@ -1,0 +1,24 @@
+Uninstalled 1 package in 0.33ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse=0.1902 free=86G (checkpoint start)
+val_check step=308 vrmse=0.1903 loss=0.00179 free=85G
+val_check step=622 vrmse=0.1903 loss=0.00150 free=86G
+val_check step=933 vrmse=0.1898 loss=0.00113 free=86G
+val_check step=1247 vrmse=0.1903 loss=0.00184 free=86G
+val_check step=1560 vrmse=0.1901 loss=0.00129 free=86G
+val_check step=1874 vrmse=0.1901 loss=0.00201 free=86G
+val_check step=2188 vrmse=0.1901 loss=0.00129 free=86G
+val_check step=2501 vrmse=0.1900 loss=0.00214 free=86G
+val_check step=2814 vrmse=0.1900 loss=0.00161 free=86G
+target_reached steps=3000 best=0.189847
+---
+variant:        vanilla
+val_vrmse_1:    0.189847
+final_val:      0.190936
+num_steps:      3000
+num_params:     18575344
+train_seconds:  1792.7
+peak_vram_mb:   16899.1
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/vanilla_s1337.pt

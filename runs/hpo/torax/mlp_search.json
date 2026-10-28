@@ -1,0 +1,14 @@
+{
+ "bench": "torax",
+ "arm": "mlp",
+ "trials": 16,
+ "best_value": 0.01435805285083396,
+ "best_params": {
+  "lr": 0.001873108358520357,
+  "steps": 1750,
+  "batch": 32,
+  "wd": 1e-05
+ },
+ "best_variant": "q30-mlpref",
+ "search_seed": 1337
+}

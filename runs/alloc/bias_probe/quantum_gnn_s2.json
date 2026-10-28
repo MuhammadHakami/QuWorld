@@ -1,0 +1,1 @@
+{"target": "quantum", "omega": 1.0, "core": "gnn", "seed": 2, "valid_r2": 0.3328562660944786, "test_r2": 0.331983364716264, "params_core": 57, "seconds": 13.551345825195312}

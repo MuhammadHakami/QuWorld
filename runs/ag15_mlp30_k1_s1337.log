@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.97ms
+Installed 1 package in 4ms
+---
+variant:        mlp30
+rollout_k:      1
+val_vrmse_1:    0.449280
+val_vrmse_8:    0.999511
+train_loss:     0.075946
+num_steps:      2000
+num_params:     1338442
+train_seconds:  125.1
+peak_vram_mb:   398.7

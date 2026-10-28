@@ -1,0 +1,86 @@
+# citation index kept in citation/INDEX.md; PDFs are local-only
+- arXiv:2412.00568 — https://arxiv.org/pdf/2412.00568
+- arXiv:2010.08895 — https://arxiv.org/pdf/2010.08895
+- arXiv:2310.00120 — https://arxiv.org/pdf/2310.00120
+- arXiv:2511.15684 — https://arxiv.org/pdf/2511.15684
+- arXiv:2506.17774 — https://arxiv.org/pdf/2506.17774
+- arXiv:2310.02994 — https://arxiv.org/pdf/2310.02994
+- arXiv:2405.19101 — https://arxiv.org/pdf/2405.19101
+- arXiv:2403.03542 — https://arxiv.org/pdf/2403.03542
+- arXiv:2605.05914 — https://arxiv.org/pdf/2605.05914
+- arXiv:2502.06916 — https://arxiv.org/pdf/2502.06916
+- arXiv:2503.05431 — https://arxiv.org/pdf/2503.05431
+- arXiv:2607.12418 — https://arxiv.org/pdf/2607.12418
+- arXiv:2605.00412 — https://arxiv.org/pdf/2605.00412
+- arXiv:2603.29407 — https://arxiv.org/pdf/2603.29407
+- arXiv:2312.09121 — https://arxiv.org/pdf/2312.09121
+- arXiv:2203.01340 — https://arxiv.org/pdf/2203.01340
+- arXiv:2407.02553 — https://arxiv.org/pdf/2407.02553
+- arXiv:2405.03390 — https://arxiv.org/pdf/2405.03390
+- arXiv:2401.02940 — https://arxiv.org/pdf/2401.02940
+- arXiv:2609.18655 — https://arxiv.org/pdf/2609.18655
+- arXiv:2607.24399 — https://arxiv.org/pdf/2607.24399
+- arXiv:2609.19308 — https://arxiv.org/pdf/2609.19308
+- arXiv:2608.25511 — https://arxiv.org/pdf/2608.25511
+- arXiv:2607.12035 — https://arxiv.org/pdf/2607.12035
+- arXiv:2607.09445 — https://arxiv.org/pdf/2607.09445
+- arXiv:2608.28440 — https://arxiv.org/pdf/2608.28440
+- arXiv:2608.05595 — https://arxiv.org/pdf/2608.05595
+- arXiv:2607.09108 — https://arxiv.org/pdf/2607.09108
+- arXiv:2608.07822 — https://arxiv.org/pdf/2608.07822
+- arXiv:2603.02281 — https://arxiv.org/pdf/2603.02281
+- arXiv:2608.02325 — https://arxiv.org/pdf/2608.02325
+- arXiv:2607.28364 — https://arxiv.org/pdf/2607.28364
+- arXiv:2608.19779 — https://arxiv.org/pdf/2608.19779
+- arXiv:2608.05371 — https://arxiv.org/pdf/2608.05371
+- arXiv:2609.18430 — https://arxiv.org/pdf/2609.18430
+- arXiv:2602.15084 — https://arxiv.org/pdf/2602.15084
+- arXiv:2607.11915 — https://arxiv.org/pdf/2607.11915
+- arXiv:2609.01750 — https://arxiv.org/pdf/2609.01750
+- arXiv:2606.23411 — https://arxiv.org/pdf/2606.23411
+- arXiv:2608.27626 — https://arxiv.org/pdf/2608.27626
+- arXiv:2608.23119 — https://arxiv.org/pdf/2608.23119
+- arXiv:2607.01187 — https://arxiv.org/pdf/2607.01187
+- arXiv:2607.08037 — https://arxiv.org/pdf/2607.08037
+- arXiv:2609.09292 — https://arxiv.org/pdf/2609.09292
+- arXiv:2607.18552 — https://arxiv.org/pdf/2607.18552
+- arXiv:2608.01194 — https://arxiv.org/pdf/2608.01194
+- arXiv:2606.31351 — https://arxiv.org/pdf/2606.31351
+- arXiv:2606.18713 — https://arxiv.org/pdf/2606.18713
+- arXiv:2608.19497 — https://arxiv.org/pdf/2608.19497
+- arXiv:2607.16358 — https://arxiv.org/pdf/2607.16358
+- arXiv:2607.13466 — https://arxiv.org/pdf/2607.13466
+- arXiv:2609.15267 — https://arxiv.org/pdf/2609.15267
+- arXiv:2607.21186 — https://arxiv.org/pdf/2607.21186
+- arXiv:2609.17358 — https://arxiv.org/pdf/2609.17358
+- arXiv:2606.18943 — https://arxiv.org/pdf/2606.18943
+- arXiv:2604.04828 — https://arxiv.org/pdf/2604.04828
+- arXiv:2507.08746 — https://arxiv.org/pdf/2507.08746
+- arXiv:2608.22475 — https://arxiv.org/pdf/2608.22475
+- arXiv:2601.21780 — https://arxiv.org/pdf/2601.21780
+- arXiv:2607.13897 — https://arxiv.org/pdf/2607.13897
+- arXiv:2609.19239 — https://arxiv.org/pdf/2609.19239
+- arXiv:2608.24150 — https://arxiv.org/pdf/2608.24150
+- arXiv:2608.29894 — https://arxiv.org/pdf/2608.29894
+- arXiv:2609.14025 — https://arxiv.org/pdf/2609.14025
+- arXiv:2602.00610 — https://arxiv.org/pdf/2602.00610
+- arXiv:2602.14641 — https://arxiv.org/pdf/2602.14641
+- arXiv:2605.06727 — https://arxiv.org/pdf/2605.06727
+- arXiv:2605.21276 — https://arxiv.org/pdf/2605.21276
+- arXiv:2510.04747 — https://arxiv.org/pdf/2510.04747
+- arXiv:2605.18031 — https://arxiv.org/pdf/2605.18031
+- arXiv:2603.21371 — https://arxiv.org/pdf/2603.21371
+- arXiv:2509.04006 — https://arxiv.org/pdf/2509.04006
+- arXiv:2601.14433 — https://arxiv.org/pdf/2601.14433
+- arXiv:2605.15410 — https://arxiv.org/pdf/2605.15410
+- arXiv:2307.03053 — https://arxiv.org/pdf/2307.03053
+
+## Learn2Design / Differometor (added 2026-10-07, doc 35 §40x)
+- arXiv:2312.04258 — Krenn, Drori, Adhikari, Digital Discovery of Interferometric GW Detectors (Urania; PRX 15, 021012, 2025): pool of 1000s of UIFO starts, 1000 parallel local BFGS runs from Boltzmann-chosen pool members plus small noise, probabilistic pruning; loss curves show phase transitions; ~1.5M CPU-h — https://arxiv.org/pdf/2312.04258
+- arXiv:2511.19364 — Ruiz-Gonzalez et al., Neural surrogates for designing GW detectors (sprout; MLST 2026): ViT-style transformer surrogate on UIFO grid patches predicting sensitivity + per-component powers; active-learning loop surrogate -> inverse design -> simulator verification — https://arxiv.org/pdf/2511.19364
+- klimesch_differometor_thesis.pdf — J. Klimesch (MPL), Differometor: a differentiable interferometer simulator (JAX, Finesse-verified, up to 160x faster than Finesse+BFGS); Adam lr 0.1 + clip 1 + joined cosine cycles, best-of-1000 random starts — https://mpl.mpg.de/fileadmin/user_upload/Krenn_RG/JonathanThesis.pdf
+- klimesch_mode2025_slides.pdf — MODE 2025 workshop talk (Differometor, Urania local-global optimizer) — https://indico.cern.ch/event/1481852/contributions/6464726/
+- arXiv:2201.09482 — Optimizing GW detector design for squeezed light — https://arxiv.org/pdf/2201.09482
+- arXiv:2607.27254 — Co-design of ground-based GW detector networks — https://arxiv.org/pdf/2607.27254
+- arXiv:2610.00750 — esQueranto: differentiable structured quantum light for automated discovery (JAX, Adam) — https://arxiv.org/pdf/2610.00750
+- arXiv:2310.08408 — XLuminA: auto-differentiating discovery framework for super-resolution microscopy (Krenn lab) — https://arxiv.org/pdf/2310.08408

@@ -1,0 +1,81 @@
+GBDT_SHAPE_DUMP_DONE train 465144 vt 163910 features 598
+Warning: less than 75% GPU memory available for training. Free: 72769.46875 Total: 124608.1719
+0:	learn: 0.0375371	total: 2.62s	remaining: 2h 10m 54s
+1000:	learn: 0.0059077	total: 25.2s	remaining: 50.4s
+2000:	learn: 0.0049766	total: 47.9s	remaining: 23.9s
+2999:	learn: 0.0044756	total: 1m 10s	remaining: 0us
+[gbdt] R_axis: 73s
+Warning: less than 75% GPU memory available for training. Free: 72542.71484 Total: 124608.1719
+0:	learn: 0.0383198	total: 24.8ms	remaining: 1m 14s
+1000:	learn: 0.0056892	total: 22.1s	remaining: 44.2s
+2000:	learn: 0.0044019	total: 44.4s	remaining: 22.2s
+2999:	learn: 0.0037848	total: 1m 6s	remaining: 0us
+[gbdt] Z_axis: 69s
+Warning: less than 75% GPU memory available for training. Free: 69101.88672 Total: 124608.1719
+0:	learn: 0.0946505	total: 22.4ms	remaining: 1m 7s
+1000:	learn: 0.0188166	total: 22.6s	remaining: 45.1s
+2000:	learn: 0.0156184	total: 44.6s	remaining: 22.2s
+2999:	learn: 0.0139481	total: 1m 6s	remaining: 0us
+[gbdt] kappa: 69s
+Warning: less than 75% GPU memory available for training. Free: 68992.72266 Total: 124608.1719
+0:	learn: 0.2314376	total: 22.3ms	remaining: 1m 6s
+1000:	learn: 0.0259833	total: 22s	remaining: 43.9s
+2000:	learn: 0.0214830	total: 43.5s	remaining: 21.7s
+2999:	learn: 0.0191443	total: 1m 4s	remaining: 0us
+[gbdt] tri_top: 67s
+Warning: less than 75% GPU memory available for training. Free: 69670.78906 Total: 124608.1719
+0:	learn: 0.2085703	total: 21.8ms	remaining: 1m 5s
+1000:	learn: 0.0259253	total: 22.1s	remaining: 44.1s
+2000:	learn: 0.0213057	total: 43.8s	remaining: 21.8s
+2999:	learn: 0.0189471	total: 1m 5s	remaining: 0us
+[gbdt] tri_bot: 67s
+Warning: less than 75% GPU memory available for training. Free: 70213.01953 Total: 124608.1719
+0:	learn: 1.2314686	total: 22.1ms	remaining: 1m 6s
+1000:	learn: 0.1886826	total: 21.9s	remaining: 43.8s
+2000:	learn: 0.1481352	total: 43.9s	remaining: 21.9s
+2999:	learn: 0.1282007	total: 1m 5s	remaining: 0us
+[gbdt] volume: 67s
+Warning: less than 75% GPU memory available for training. Free: 70891.34766 Total: 124608.1719
+0:	learn: 0.2405186	total: 25.4ms	remaining: 1m 16s
+1000:	learn: 0.0382189	total: 22s	remaining: 44s
+2000:	learn: 0.0299434	total: 44.4s	remaining: 22.2s
+2999:	learn: 0.0257896	total: 1m 6s	remaining: 0us
+[gbdt] li: 68s
+GBDT_SHAPE_FIT_DONE
+Traceback (most recent call last):
+  File "/home/mohhakami/Documents/paper/quworld/paper/strat/fusion/gbdt_shape.py", line 107, in <module>
+    {"dump": dump, "fit": lambda: fit("--all" in sys.argv), "eval": evaluate}[sys.argv[1]]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mohhakami/Documents/paper/quworld/paper/strat/fusion/gbdt_shape.py", line 85, in evaluate
+    d = sota.Data(); dep = GB.heads_gpu(d, rows, DEPLOYED)[:, :7]
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/mohhakami/Documents/paper/quworld/paper/strat/fusion/gpu_build.py", line 121, in heads_gpu
+    net = Net(len(ck["mu"]), len(ck["ymu"]), c["width"], c["depth"], c["drop"]).cuda()
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1096, in cuda
+    return self._apply(lambda t: t.cuda(device))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 964, in _apply
+    param_applied = fn(param)
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1096, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+                                 ~~~~~~^^^^^^^^
+  File "/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/torch/cuda/__init__.py", line 529, in _lazy_init
+    torch._C._cuda_init()
+    ~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: No CUDA GPUs are available
+CRASH eval 2026-10-16T03:05:28+03:00
+[gbdt]  R_axis: tree 0.97277 deployed 0.98431 OOF blend 0.98448 (+0.00016) w [0.1, 0.1, 0.1, 0.15000000000000002, 0.1] err corr 0.675
+[gbdt]  Z_axis: tree 0.97776 deployed 0.99529 OOF blend 0.99529 (+0.00000) w [0.0, 0.0, 0.0, 0.0, 0.0] err corr 0.454
+[gbdt]   kappa: tree 0.95133 deployed 0.97494 OOF blend 0.97502 (+0.00007) w [0.05, 0.05, 0.1, 0.05, 0.05] err corr 0.666
+[gbdt] tri_top: tree 0.98433 deployed 0.99474 OOF blend 0.99478 (+0.00003) w [0.05, 0.05, 0.05, 0.05, 0.05] err corr 0.511
+[gbdt] tri_bot: tree 0.98020 deployed 0.99350 OOF blend 0.99350 (+0.00000) w [0.0, 0.0, 0.0, 0.0, 0.0] err corr 0.568
+[gbdt]  volume: tree 0.97185 deployed 0.99205 OOF blend 0.99205 (+0.00000) w [0.0, 0.0, 0.0, 0.0, 0.0] err corr 0.550
+[gbdt]      li: tree 0.96622 deployed 0.97865 OOF blend 0.97937 (+0.00072) w [0.2, 0.2, 0.2, 0.2, 0.15000000000000002] err corr 0.646  ADOPT
+[gbdt] mean-7 OOF gain +0.000142 -> expected S +0.000025
+GBDT_SHAPE_EVAL_DONE

@@ -1,0 +1,49 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 0,
+ "gate_pretrain_valid": null,
+ "tag": "rayleigh_benard_mr30ryd_vrmse_plain_s1",
+ "dataset": "rayleigh_benard",
+ "variant": "mr30ryd",
+ "loss": "vrmse",
+ "head": "plain",
+ "seed": 1,
+ "lr": 5e-05,
+ "steps": 3130,
+ "valid_start": 0.4469727575778961,
+ "valid_best": 0.4469727575778961,
+ "curve": [
+  [
+   0,
+   0.4469727575778961
+  ],
+  [
+   573,
+   0.6376375555992126
+  ],
+  [
+   1138,
+   0.8839564919471741
+  ],
+  [
+   1738,
+   0.5858151912689209
+  ],
+  [
+   2427,
+   0.5312160849571228
+  ],
+  [
+   3130,
+   0.6271215081214905
+  ],
+  [
+   3130,
+   0.6271215081214905
+  ]
+ ],
+ "strat_test": 0.4330820143222809,
+ "strat_test_median": 0.02999211847782135,
+ "strat_test_n": 5600,
+ "budget_s": 3600.0
+}

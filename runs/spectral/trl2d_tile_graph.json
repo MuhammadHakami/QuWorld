@@ -1,0 +1,19 @@
+{
+ "oracle": {
+  "spatial_deg": 0.6537037491798401,
+  "scale_deg": 0.47481486201286316,
+  "largest_component": 0.2105555683374405
+ },
+ "trunk_change": {
+  "spatial_deg": 0.9462962746620178,
+  "scale_deg": 0.48814815282821655,
+  "largest_component": 0.26148149371147156
+ },
+ "random": {
+  "spatial_deg": 0.0018518520519137383,
+  "scale_deg": 0.0,
+  "largest_component": 0.034259259700775146
+ },
+ "K": 30,
+ "windows": 180
+}

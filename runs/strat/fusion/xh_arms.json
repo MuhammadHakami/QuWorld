@@ -1,0 +1,257 @@
+{
+ "VBc": {
+  "_steps": [
+   "shift",
+   "bw",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  }
+ },
+ "VBxh10": {
+  "_steps": [
+   "shift",
+   "bw",
+   "kw",
+   "xp",
+   "jgn",
+   "xh",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xh": {
+   "gate": 0.01
+  }
+ },
+ "VBxhR10": {
+  "_steps": [
+   "shift",
+   "bw",
+   "kw",
+   "xp",
+   "jgn",
+   "xh",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xh": {
+   "gate": 0.01,
+   "axes": "R"
+  }
+ },
+ "VBxhR0": {
+  "_steps": [
+   "shift",
+   "bw",
+   "kw",
+   "xp",
+   "jgn",
+   "xh",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xh": {
+   "gate": 0.0,
+   "axes": "R"
+  }
+ },
+ "VBxhe10": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.01
+  }
+ },
+ "VBxhe10e": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.01
+  }
+ },
+ "VBxhe0e": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0
+  }
+ },
+ "VBxhe0w75e": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0,
+   "w": 0.75
+  }
+ },
+ "VBxhe0w75x": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0,
+   "w": 0.75
+  }
+ },
+ "VBo0": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0,
+   "w": 0.75
+  }
+ },
+ "VBo1": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0,
+   "w": 0.75
+  }
+ },
+ "VBo2": {
+  "_steps": [
+   "shift",
+   "bw",
+   "xhe",
+   "kw",
+   "xp",
+   "jgn",
+   "li"
+  ],
+  "xp": {
+   "sigma": 0.15,
+   "cap": 0.1
+  },
+  "li": {
+   "cap": 0.9
+  },
+  "xhe": {
+   "gate": 0.0,
+   "w": 0.75
+  }
+ }
+}

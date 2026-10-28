@@ -1,0 +1,35 @@
+[I 2026-09-22 04:30:17,805] A new study created in RDB with name: torax-mlp_ms2
+[hpo] torax/mlp: 0 complete trials on file, target 16
+[hpo] trial 0 q30-mlpref {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001} -> valid 0.058515 (20s)
+[I 2026-09-22 04:30:38,213] Trial 0 finished with value: 0.058514555384005816 and parameters: {'lr': 0.00024380478036384822, 'steps': 750, 'batch': 16, 'wd': 0.0001}. Best is trial 0 with value: 0.058514555384005816.
+[hpo] trial 1 q30-mlpref {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0} -> valid 0.040554 (8s)
+[I 2026-09-22 04:30:46,430] Trial 1 finished with value: 0.04055434066270079 and parameters: {'lr': 0.0012090825451505419, 'steps': 500, 'batch': 16, 'wd': 0.0}. Best is trial 1 with value: 0.04055434066270079.
+[hpo] trial 2 q30-mlpref {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001} -> valid 0.023233 (17s)
+[I 2026-09-22 04:31:03,505] Trial 2 finished with value: 0.023233226234359403 and parameters: {'lr': 0.001489393407071063, 'steps': 1000, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.023233226234359403.
+[hpo] trial 3 q30-mlpref {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001} -> valid 0.034464 (13s)
+[I 2026-09-22 04:31:16,207] Trial 3 finished with value: 0.03446360983486686 and parameters: {'lr': 0.0005470676910054863, 'steps': 750, 'batch': 32, 'wd': 0.0001}. Best is trial 2 with value: 0.023233226234359403.
+[hpo] trial 4 q30-mlpref {'lr': 0.00042500011146641696, 'steps': 1250, 'batch': 32, 'wd': 0.0} -> valid 0.027556 (20s)
+[I 2026-09-22 04:31:35,888] Trial 4 finished with value: 0.027555955307824273 and parameters: {'lr': 0.00042500011146641696, 'steps': 1250, 'batch': 32, 'wd': 0.0}. Best is trial 2 with value: 0.023233226234359403.
+[hpo] trial 5 q30-mlpref {'lr': 0.0007880120887378489, 'steps': 2000, 'batch': 32, 'wd': 0.0001} -> valid 0.015747 (35s)
+[I 2026-09-22 04:32:10,544] Trial 5 finished with value: 0.015747305005788803 and parameters: {'lr': 0.0007880120887378489, 'steps': 2000, 'batch': 32, 'wd': 0.0001}. Best is trial 5 with value: 0.015747305005788803.
+[hpo] trial 6 q30-mlpref {'lr': 0.0011815479404389353, 'steps': 1750, 'batch': 32, 'wd': 0.0001} -> valid 0.015498 (31s)
+[I 2026-09-22 04:32:41,647] Trial 6 finished with value: 0.015497616492211819 and parameters: {'lr': 0.0011815479404389353, 'steps': 1750, 'batch': 32, 'wd': 0.0001}. Best is trial 6 with value: 0.015497616492211819.
+[hpo] trial 7 q30-mlpref {'lr': 0.0001235349987080089, 'steps': 1500, 'batch': 8, 'wd': 0.0001} -> valid 0.067128 (25s)
+[I 2026-09-22 04:33:06,785] Trial 7 finished with value: 0.06712804149304118 and parameters: {'lr': 0.0001235349987080089, 'steps': 1500, 'batch': 8, 'wd': 0.0001}. Best is trial 6 with value: 0.015497616492211819.
+[hpo] trial 8 q30-mlpref {'lr': 0.0027530313369779906, 'steps': 2000, 'batch': 32, 'wd': 0.0001} -> valid 0.014309 (34s)
+[I 2026-09-22 04:33:40,663] Trial 8 finished with value: 0.014308756749544824 and parameters: {'lr': 0.0027530313369779906, 'steps': 2000, 'batch': 32, 'wd': 0.0001}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 9 q30-mlpref {'lr': 0.00011376602438384143, 'steps': 2000, 'batch': 16, 'wd': 0.0001} -> valid 0.050422 (33s)
+[I 2026-09-22 04:34:13,866] Trial 9 finished with value: 0.050421906635165215 and parameters: {'lr': 0.00011376602438384143, 'steps': 2000, 'batch': 16, 'wd': 0.0001}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 10 q30-mlpref {'lr': 0.00011952881341157873, 'steps': 500, 'batch': 32, 'wd': 0.0} -> valid 0.105904 (9s)
+[I 2026-09-22 04:34:22,741] Trial 10 finished with value: 0.1059040403259652 and parameters: {'lr': 0.00011952881341157873, 'steps': 500, 'batch': 32, 'wd': 0.0}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 11 q30-mlpref {'lr': 0.0026948380770885306, 'steps': 1750, 'batch': 32, 'wd': 0.0001} -> valid 0.015812 (29s)
+[I 2026-09-22 04:34:52,009] Trial 11 finished with value: 0.015812457273049016 and parameters: {'lr': 0.0026948380770885306, 'steps': 1750, 'batch': 32, 'wd': 0.0001}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 12 q30-mlpref {'lr': 0.0008019757057813112, 'steps': 1500, 'batch': 16, 'wd': 1e-05} -> valid 0.025739 (27s)
+[I 2026-09-22 04:35:19,176] Trial 12 finished with value: 0.025738572036581378 and parameters: {'lr': 0.0008019757057813112, 'steps': 1500, 'batch': 16, 'wd': 1e-05}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 13 q30-mlpref {'lr': 0.0024491746297875473, 'steps': 2000, 'batch': 16, 'wd': 0.0} -> valid 0.019104 (35s)
+[I 2026-09-22 04:35:54,719] Trial 13 finished with value: 0.019104206934571266 and parameters: {'lr': 0.0024491746297875473, 'steps': 2000, 'batch': 16, 'wd': 0.0}. Best is trial 8 with value: 0.014308756749544824.
+[hpo] trial 14 q30-mlpref {'lr': 0.0013740936775801435, 'steps': 2000, 'batch': 32, 'wd': 1e-05} -> valid 0.013504 (33s)
+[I 2026-09-22 04:36:28,258] Trial 14 finished with value: 0.013504165623869215 and parameters: {'lr': 0.0013740936775801435, 'steps': 2000, 'batch': 32, 'wd': 1e-05}. Best is trial 14 with value: 0.013504165623869215.
+[hpo] trial 15 q30-mlpref {'lr': 0.0018358534769123361, 'steps': 1750, 'batch': 32, 'wd': 1e-05} -> valid 0.018712 (30s)
+[I 2026-09-22 04:36:58,006] Trial 15 finished with value: 0.018711854038493972 and parameters: {'lr': 0.0018358534769123361, 'steps': 1750, 'batch': 32, 'wd': 1e-05}. Best is trial 14 with value: 0.013504165623869215.
+[hpo] torax/mlp search done: best valid 0.013504 {'lr': 0.0013740936775801435, 'steps': 2000, 'batch': 32, 'wd': 1e-05}

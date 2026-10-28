@@ -1,0 +1,52 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 3000,
+ "gate_pretrain_valid": 0.042320847511291504,
+ "tag": "rayleigh_benard_q30-geo=3d-mlp_vrmse_gate_s1_pre",
+ "dataset": "rayleigh_benard",
+ "variant": "q30-geo=3d-mlp",
+ "loss": "vrmse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 2e-05,
+ "steps": 3031,
+ "valid_start": 0.0423208549618721,
+ "valid_best": 0.0423208549618721,
+ "curve": [
+  [
+   0,
+   0.0423208549618721
+  ],
+  [
+   574,
+   0.04583321139216423
+  ],
+  [
+   1177,
+   0.043730881065130234
+  ],
+  [
+   1861,
+   0.0455949604511261
+  ],
+  [
+   2546,
+   0.04664350301027298
+  ],
+  [
+   3031,
+   0.0438854955136776
+  ],
+  [
+   3031,
+   0.0438854955136776
+  ]
+ ],
+ "strat_test": 0.04261176660656929,
+ "strat_test_median": 0.026127194985747337,
+ "strat_test_n": 5600,
+ "budget_s": 3600.0,
+ "full_test": 0.0425882413983345,
+ "full_test_median": 0.026528440415859222,
+ "full_test_n": 34300
+}

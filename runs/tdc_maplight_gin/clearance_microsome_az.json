@@ -1,0 +1,28 @@
+{
+ "endpoint": "clearance_microsome_az",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "spearman",
+ "higher_is_better": true,
+ "test_mean": 0.634,
+ "test_sd": 0.014296852800529225,
+ "test_per_seed": [
+  0.661,
+  0.63,
+  0.62,
+  0.625,
+  0.634
+ ],
+ "official_evaluate_many": [
+  0.634,
+  0.014
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 88.14335417747498
+}

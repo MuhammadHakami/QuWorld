@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.52ms
+Installed 1 package in 2ms
+loading hybrid checkpoint, variant=noent
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+ckpt:              runs/phase_b2/noent_s1339.pt
+starts:            [0, 8, 16, 24, 32, 40, 48, 56, 64]   n_traj=9
+start0_13_30:      1.0564   (official protocol)
+allstart_13_30:    0.9954   per-start: 1.056 1.055 0.975 1.041 1.034 1.033 0.957 0.858 0.947
+allstart_6_12:     0.6151
+saved:             /home/mohhakami/Documents/paper/quworld/runs/phase_b2/multistart_noent_s1339.npz

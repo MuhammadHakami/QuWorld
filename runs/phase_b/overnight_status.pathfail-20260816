@@ -1,0 +1,197 @@
+overnight start 2026-08-15T23:47:28+03:00 target=20000
+arm vanilla s1337 attempt 1 2026-08-15T23:47:28+03:00 free=92G
+arm vanilla s1337 attempt 2 2026-08-16T00:27:43+03:00 free=89G
+arm vanilla s1337 attempt 3 2026-08-16T01:07:58+03:00 free=89G
+arm vanilla s1337 attempt 4 2026-08-16T01:48:12+03:00 free=89G
+arm vanilla s1337 attempt 5 2026-08-16T02:28:26+03:00 free=89G
+arm vanilla s1337 DONE 2026-08-16T02:38:42+03:00
+arm mr30ryd s1337 attempt 1 2026-08-16T02:38:42+03:00 free=88G
+arm mr30ryd s1337 attempt 2 2026-08-16T03:18:57+03:00 free=89G
+arm mr30ryd s1337 attempt 3 2026-08-16T03:59:12+03:00 free=89G
+arm mr30ryd s1337 attempt 4 2026-08-16T04:39:27+03:00 free=89G
+arm mr30ryd s1337 attempt 5 2026-08-16T05:19:42+03:00 free=88G
+arm mr30ryd s1337 DONE 2026-08-16T05:35:36+03:00
+arm mlp30 s1337 attempt 1 2026-08-16T05:35:36+03:00 free=88G
+arm mlp30 s1337 attempt 2 2026-08-16T06:15:51+03:00 free=87G
+arm mlp30 s1337 attempt 3 2026-08-16T06:56:15+03:00 free=85G
+arm mlp30 s1337 attempt 4 2026-08-16T07:36:48+03:00 free=84G
+arm mlp30 s1337 attempt 5 2026-08-16T08:17:17+03:00 free=84G
+arm mlp30 s1337 attempt 6 2026-08-16T08:57:45+03:00 free=83G
+arm mlp30 s1337 attempt 7 2026-08-16T09:38:13+03:00 free=84G
+overnight start 2026-08-16T10:38:44+03:00 target=20000
+arm vanilla s1337 DONE 2026-08-16T10:38:44+03:00
+arm mr30ryd s1337 DONE 2026-08-16T10:38:44+03:00
+arm mlp30 s1337 attempt 1 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 2 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 3 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 4 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 5 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 6 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 7 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 8 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 9 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 10 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 11 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 12 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 13 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 14 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 15 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 16 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 17 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 18 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 19 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 attempt 20 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1337 INCOMPLETE 2026-08-16T10:38:44+03:00
+arm vanilla s1338 attempt 1 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 2 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 3 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 4 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 5 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 6 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 7 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 8 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 9 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 10 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 11 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 12 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 13 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 14 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 15 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 16 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 17 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 18 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 19 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 attempt 20 2026-08-16T10:38:44+03:00 free=100G
+arm vanilla s1338 INCOMPLETE 2026-08-16T10:38:44+03:00
+arm mr30ryd s1338 attempt 1 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 2 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 3 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 4 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 5 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 6 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 7 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 8 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 9 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 10 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 11 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 12 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 13 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 14 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 15 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 16 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 17 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 18 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 19 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 attempt 20 2026-08-16T10:38:44+03:00 free=100G
+arm mr30ryd s1338 INCOMPLETE 2026-08-16T10:38:44+03:00
+arm mlp30 s1338 attempt 1 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 2 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 3 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 4 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 5 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 6 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 7 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 8 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 9 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 10 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 11 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 12 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 13 2026-08-16T10:38:44+03:00 free=100G
+arm mlp30 s1338 attempt 14 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 15 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 16 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 17 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 18 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 19 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 attempt 20 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1338 INCOMPLETE 2026-08-16T10:38:45+03:00
+arm vanilla s1339 attempt 1 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 2 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 3 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 4 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 5 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 6 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 7 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 8 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 9 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 10 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 11 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 12 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 13 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 14 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 15 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 16 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 17 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 18 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 19 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 attempt 20 2026-08-16T10:38:45+03:00 free=100G
+arm vanilla s1339 INCOMPLETE 2026-08-16T10:38:45+03:00
+arm mr30ryd s1339 attempt 1 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 2 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 3 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 4 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 5 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 6 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 7 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 8 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 9 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 10 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 11 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 12 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 13 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 14 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 15 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 16 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 17 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 18 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 19 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 attempt 20 2026-08-16T10:38:45+03:00 free=100G
+arm mr30ryd s1339 INCOMPLETE 2026-08-16T10:38:45+03:00
+arm mlp30 s1339 attempt 1 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 2 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 3 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 4 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 5 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 6 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 7 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 8 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 9 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 10 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 11 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 12 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 13 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 14 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 15 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 16 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 17 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 18 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 19 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 attempt 20 2026-08-16T10:38:45+03:00 free=100G
+arm mlp30 s1339 INCOMPLETE 2026-08-16T10:38:45+03:00
+arm mr30hea s1337 attempt 1 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 2 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 3 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 4 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 5 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 6 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 7 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 8 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 9 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 10 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 11 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 12 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 13 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 14 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 15 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 16 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 17 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 18 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 19 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 attempt 20 2026-08-16T10:38:45+03:00 free=100G
+arm mr30hea s1337 INCOMPLETE 2026-08-16T10:38:45+03:00
+=== single-shot test evals 2026-08-16T10:38:45+03:00 ===
+EVAL_CRASH mlp30_s1337
+EVAL_CRASH mr30ryd_s1337
+EVAL_CRASH vanilla_s1337
+=== paired stats vs anchor 2026-08-16T10:38:45+03:00 ===
+OVERNIGHT_DONE 2026-08-16T10:38:46+03:00

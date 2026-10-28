@@ -1,0 +1,80 @@
+{
+ "members": [
+  "trunk1_t19-ew2_seed2.pt",
+  "trunk1_t19-ew2_seed1.pt",
+  "trunk1_t5-ew2_seed3.pt",
+  "trunk1_t7-ew2_seed1.pt",
+  "trunk1_t5-edge-ew2_seed2.pt",
+  "trunk1_t5.pt",
+  "trunk1_t19.pt"
+ ],
+ "S_select": 0.991151,
+ "n_select": 100,
+ "n_valid": 370,
+ "valid_full": {
+  "0.0": {
+   "S": 0.99116,
+   "r2_psi": 0.999631,
+   "r2_qb": 0.996387,
+   "dlcfs": 0.014765,
+   "consistency": 0.966908,
+   "psi_sign": 1,
+   "r2_cons_each": {
+    "R_axis": 0.972131,
+    "Z_axis": 0.97929,
+    "kappa": 0.931071,
+    "tri_top": 0.985254,
+    "tri_bot": 0.98154,
+    "volume": 0.963918,
+    "li": 0.955154
+   }
+  },
+  "1.0": {
+   "S": 0.990249,
+   "r2_psi": 0.999605,
+   "r2_qb": 0.995095,
+   "dlcfs": 0.014996,
+   "consistency": 0.963509,
+   "psi_sign": 1,
+   "r2_cons_each": {
+    "R_axis": 0.971278,
+    "Z_axis": 0.978971,
+    "kappa": 0.927705,
+    "tri_top": 0.983768,
+    "tri_bot": 0.979624,
+    "volume": 0.958025,
+    "li": 0.945194
+   }
+  }
+ },
+ "singles": {
+  "trunk1_t0.pt": 0.981666,
+  "trunk1_t1.pt": 0.972089,
+  "trunk1_t12.pt": 0.981802,
+  "trunk1_t15.pt": 0.977119,
+  "trunk1_t19-ew2_seed1.pt": 0.986566,
+  "trunk1_t19-ew2_seed2.pt": 0.986742,
+  "trunk1_t19.pt": 0.986036,
+  "trunk1_t2.pt": 0.970344,
+  "trunk1_t5-edge-ew2-ema_seed1.pt": 0.983588,
+  "trunk1_t5-edge-ew2-ema_seed2.pt": 0.983937,
+  "trunk1_t5-edge-ew2_seed1.pt": 0.983587,
+  "trunk1_t5-edge-ew2_seed2.pt": 0.983901,
+  "trunk1_t5-edge_seed1.pt": 0.982736,
+  "trunk1_t5-edge_seed2.pt": 0.980644,
+  "trunk1_t5-ema_seed1.pt": 0.973521,
+  "trunk1_t5-ema_seed2.pt": 0.982229,
+  "trunk1_t5-ew2_seed1.pt": 0.984568,
+  "trunk1_t5-ew2_seed2.pt": 0.984401,
+  "trunk1_t5-ew2_seed3.pt": 0.984279,
+  "trunk1_t5-ew2_seed4.pt": 0.983429,
+  "trunk1_t5-ew2_seed5.pt": 0.977169,
+  "trunk1_t5-ew2_seed6.pt": 0.983396,
+  "trunk1_t5.pt": 0.983781,
+  "trunk1_t5_seed1.pt": 0.974166,
+  "trunk1_t5_seed2.pt": 0.981894,
+  "trunk1_t7-ew2_seed1.pt": 0.985071,
+  "trunk1_t7.pt": 0.983588,
+  "trunk1_t9.pt": 0.975825
+ }
+}

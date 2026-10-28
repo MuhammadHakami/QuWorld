@@ -1,0 +1,21 @@
+{
+  "ts": "2026-09-21T00:26:28+03:00",
+  "scenario": "0001",
+  "bf16": {
+    "gen_s": 232.3,
+    "peak_alloc_gb": 69.59,
+    "peak_system_gb": 113.1,
+    "note": "flash_attn absent: model_fast.flash_attention -> attention() (torch SDPA); T5 contexts from disk cache (0 freshly encoded); ckpt page cache dropped (10 files); DiT bf16"
+  },
+  "nvfp4": {
+    "gen_s": 517.9,
+    "peak_alloc_gb": 49.38,
+    "peak_system_gb": 107.5,
+    "note": "flash_attn absent: model_fast.flash_attention -> attention() (torch SDPA); T5 contexts from disk cache (0 freshly encoded); ckpt page cache dropped (10 files); DiT NVFP4: 400 linears (28.1 GB bf16 -> 7.9 GB), 160 skipped"
+  },
+  "chunk0_rel_l2": 0.34241437911987305,
+  "last_chunk_rel_l2": 0.4904833436012268,
+  "psnr_db": 20.320972187060825,
+  "speedup": 0.44854218961189424,
+  "system_gb_saved": 5.6
+}

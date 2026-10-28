@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.53ms
+Installed 1 package in 2ms
+---
+variant:        hea16
+val_vrmse_1:    0.483141
+val_vrmse_8:    1.099660
+train_loss:     0.068778
+num_steps:      1872
+num_params:     1335244
+train_seconds:  300.1
+peak_vram_mb:   1444.6

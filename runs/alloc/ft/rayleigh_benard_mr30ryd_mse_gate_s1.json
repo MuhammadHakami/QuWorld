@@ -1,0 +1,49 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 0,
+ "gate_pretrain_valid": null,
+ "tag": "rayleigh_benard_mr30ryd_mse_gate_s1",
+ "dataset": "rayleigh_benard",
+ "variant": "mr30ryd",
+ "loss": "mse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 5e-05,
+ "steps": 3769,
+ "valid_start": 0.14264675974845886,
+ "valid_best": 0.14264675974845886,
+ "curve": [
+  [
+   0,
+   0.14264675974845886
+  ],
+  [
+   631,
+   1.027675747871399
+  ],
+  [
+   1279,
+   1.1647155284881592
+  ],
+  [
+   2022,
+   0.955993115901947
+  ],
+  [
+   2824,
+   0.5675711631774902
+  ],
+  [
+   3670,
+   0.3108038008213043
+  ],
+  [
+   3769,
+   0.4512253999710083
+  ]
+ ],
+ "strat_test": 0.1414988785982132,
+ "strat_test_median": 0.11675771325826645,
+ "strat_test_n": 5600,
+ "budget_s": 3600.0
+}

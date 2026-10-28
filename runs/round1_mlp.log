@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.36ms
+Installed 1 package in 1ms
+---
+variant:        mlp
+val_vrmse_1:    0.425023
+val_vrmse_8:    1.212846
+train_loss:     0.016538
+num_steps:      10326
+num_params:     1335212
+train_seconds:  300.0
+peak_vram_mb:   398.6

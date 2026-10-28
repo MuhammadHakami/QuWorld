@@ -1,0 +1,27 @@
+{
+ "variant": "q30-mlpref",
+ "seed": 1337,
+ "thomson": false,
+ "n_shots": 200,
+ "n_test_shots": 40,
+ "n_features": 21,
+ "epochs": 70,
+ "batch": 512,
+ "lr": 0.0016967687625343555,
+ "num_params": 3268796,
+ "train_seconds": 375.40185546875,
+ "score_seconds": 22.33229684829712,
+ "test_R2": 0.9782588481903076,
+ "test_MSE": 0.00047857515164650977,
+ "test_SSIM": 0.978812483323967,
+ "official": {
+  "S": 0.787849,
+  "r2_psi": 0.987654,
+  "r2_qb": 0.472053,
+  "dlcfs": 0.060906,
+  "consistency": 0.39961,
+  "psi_sign": 1
+ },
+ "final_val_loss": 0.0009578591917589721,
+ "score_split": "test"
+}

@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.53ms
+Installed 1 package in 2ms
+---
+variant:        mr10ryd
+rollout_k:      4
+val_vrmse_1:    0.525398
+val_vrmse_8:    1.181018
+train_loss:     0.067272
+num_steps:      2000
+num_params:     1333880
+train_seconds:  264.0
+peak_vram_mb:   1233.2

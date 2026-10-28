@@ -1,0 +1,96 @@
+mhd campaign start 2026-08-18T05:27:28+03:00 target=20000
+arm vanilla s1337 attempt 1 2026-08-18T05:27:28+03:00 free=89G
+arm vanilla s1337 attempt 2 2026-08-18T06:09:04+03:00 free=91G
+mhd campaign start 2026-08-18T09:28:22+03:00 target=20000
+arm vanilla s1337 attempt 1 2026-08-18T09:28:22+03:00 free=95G
+arm vanilla s1337 attempt 2 2026-08-18T10:09:28+03:00 free=92G
+mhd campaign start 2026-08-23T09:49:36+03:00 target=20000
+arm vanilla s1337 attempt 1 2026-08-23T09:49:36+03:00 free=102G
+arm vanilla s1337 attempt 2 2026-08-23T10:30:48+03:00 free=97G
+arm vanilla s1337 attempt 3 2026-08-23T11:11:47+03:00 free=97G
+arm vanilla s1337 attempt 4 2026-08-23T11:52:48+03:00 free=96G
+arm vanilla s1337 attempt 5 2026-08-23T12:34:57+03:00 free=88G
+MHD PAUSED for ablation priority 2026-08-23T12:53:11+03:00 — resume via run_mhd_campaign.sh
+mhd campaign start 2026-08-23T18:27:59+03:00 target=20000
+arm vanilla s1337 attempt 1 2026-08-23T18:27:59+03:00 free=89G
+arm vanilla s1337 attempt 2 2026-08-23T19:09:01+03:00 free=89G
+arm vanilla s1337 attempt 3 2026-08-23T19:50:02+03:00 free=88G
+arm vanilla s1337 attempt 4 2026-08-23T20:31:02+03:00 free=88G
+arm vanilla s1337 attempt 5 2026-08-23T21:12:02+03:00 free=88G
+arm vanilla s1337 attempt 6 2026-08-23T21:53:03+03:00 free=87G
+arm vanilla s1337 attempt 7 2026-08-23T22:34:04+03:00 free=87G
+arm vanilla s1337 attempt 8 2026-08-23T23:15:05+03:00 free=87G
+arm vanilla s1337 attempt 9 2026-08-23T23:56:05+03:00 free=87G
+arm vanilla s1337 attempt 10 2026-08-24T00:37:07+03:00 free=87G
+arm vanilla s1337 attempt 11 2026-08-24T01:18:08+03:00 free=88G
+arm vanilla s1337 attempt 12 2026-08-24T01:59:09+03:00 free=87G
+arm vanilla s1337 attempt 13 2026-08-24T02:40:11+03:00 free=87G
+arm vanilla s1337 attempt 14 2026-08-24T03:21:11+03:00 free=87G
+arm vanilla s1337 attempt 15 2026-08-24T04:02:10+03:00 free=88G
+arm vanilla s1337 attempt 16 2026-08-24T04:43:11+03:00 free=87G
+arm vanilla s1337 DONE 2026-08-24T04:52:14+03:00
+arm mr30ryd s1337 attempt 1 2026-08-24T04:52:14+03:00 free=87G
+arm mr30ryd s1337 attempt 2 2026-08-24T05:33:48+03:00 free=87G
+arm mr30ryd s1337 attempt 3 2026-08-24T06:14:49+03:00 free=91G
+arm mr30ryd s1337 attempt 4 2026-08-24T06:55:51+03:00 free=91G
+arm mr30ryd s1337 attempt 5 2026-08-24T07:36:53+03:00 free=91G
+arm mr30ryd s1337 attempt 6 2026-08-24T08:17:54+03:00 free=92G
+arm mr30ryd s1337 attempt 7 2026-08-24T08:58:55+03:00 free=91G
+arm mr30ryd s1337 attempt 8 2026-08-24T09:39:58+03:00 free=92G
+arm mr30ryd s1337 attempt 9 2026-08-24T10:21:01+03:00 free=91G
+arm mr30ryd s1337 attempt 10 2026-08-24T11:02:06+03:00 free=92G
+arm mr30ryd s1337 attempt 11 2026-08-24T11:43:12+03:00 free=91G
+arm mr30ryd s1337 attempt 12 2026-08-24T12:24:15+03:00 free=92G
+arm mr30ryd s1337 attempt 13 2026-08-24T13:05:21+03:00 free=91G
+arm mr30ryd s1337 attempt 14 2026-08-24T13:46:27+03:00 free=91G
+arm mr30ryd s1337 attempt 15 2026-08-24T14:27:32+03:00 free=91G
+arm mr30ryd s1337 attempt 16 2026-08-24T15:08:36+03:00 free=92G
+mhd campaign start 2026-08-28T01:16:12+03:00 target=20000
+arm vanilla s1337 DONE 2026-08-28T01:16:12+03:00
+arm mr30ryd s1337 attempt 1 2026-08-28T01:16:12+03:00 free=100G
+arm mr30ryd s1337 attempt 2 2026-08-28T01:57:23+03:00 free=94G
+arm mr30ryd s1337 attempt 3 2026-08-28T02:38:23+03:00 free=94G
+arm mr30ryd s1337 attempt 4 2026-08-28T03:19:22+03:00 free=94G
+arm mr30ryd s1337 attempt 5 2026-08-28T04:00:22+03:00 free=93G
+arm mr30ryd s1337 attempt 6 2026-08-28T04:41:24+03:00 free=93G
+arm mr30ryd s1337 attempt 7 2026-08-28T05:22:25+03:00 free=93G
+arm mr30ryd s1337 attempt 8 2026-08-28T06:03:25+03:00 free=93G
+arm mr30ryd s1337 DONE 2026-08-28T06:41:42+03:00
+arm mlp30 s1337 attempt 1 2026-08-28T06:41:42+03:00 free=92G
+arm mlp30 s1337 attempt 2 2026-08-28T07:23:15+03:00 free=92G
+arm mlp30 s1337 attempt 3 2026-08-28T08:04:17+03:00 free=92G
+arm mlp30 s1337 attempt 4 2026-08-28T08:45:18+03:00 free=92G
+arm mlp30 s1337 attempt 5 2026-08-28T09:26:20+03:00 free=92G
+arm mlp30 s1337 attempt 6 2026-08-28T10:07:23+03:00 free=92G
+arm mlp30 s1337 attempt 7 2026-08-28T10:48:25+03:00 free=92G
+arm mlp30 s1337 attempt 8 2026-08-28T11:29:26+03:00 free=92G
+arm mlp30 s1337 attempt 9 2026-08-28T12:10:27+03:00 free=92G
+arm mlp30 s1337 attempt 10 2026-08-28T12:51:29+03:00 free=92G
+arm mlp30 s1337 attempt 11 2026-08-28T13:32:28+03:00 free=92G
+arm mlp30 s1337 attempt 12 2026-08-28T14:13:29+03:00 free=92G
+arm mlp30 s1337 attempt 13 2026-08-28T14:54:31+03:00 free=92G
+arm mlp30 s1337 attempt 14 2026-08-28T15:35:34+03:00 free=91G
+arm mlp30 s1337 attempt 15 2026-08-28T16:16:37+03:00 free=91G
+arm mlp30 s1337 attempt 16 2026-08-28T16:57:39+03:00 free=92G
+arm mlp30 s1337 attempt 17 2026-08-28T17:38:41+03:00 free=91G
+arm mlp30 s1337 attempt 18 2026-08-28T18:19:43+03:00 free=92G
+arm mlp30 s1337 attempt 19 2026-08-28T19:00:45+03:00 free=93G
+arm mlp30 s1337 attempt 20 2026-08-28T19:41:49+03:00 free=92G
+mhd campaign start 2026-09-06T07:18:27+03:00 target=20000
+arm vanilla s1337 DONE 2026-09-06T07:18:27+03:00
+arm mr30ryd s1337 DONE 2026-09-06T07:18:27+03:00
+arm mlp30 s1337 attempt 1 2026-09-06T07:18:27+03:00 free=102G
+arm mlp30 s1337 attempt 2 2026-09-06T07:59:39+03:00 free=97G
+arm mlp30 s1337 attempt 3 2026-09-06T08:40:41+03:00 free=94G
+arm mlp30 s1337 attempt 4 2026-09-06T09:21:43+03:00 free=90G
+MHD PAUSED after s1337 trio for WM-PAI qubit-ladder priority 2026-09-06T09:28:31+03:00 — resume via run_mhd_campaign.sh (s1338/s1339 arms pending)
+mhd campaign start 2026-09-06T10:37:58+03:00 target=20000
+arm vanilla s1337 DONE 2026-09-06T10:37:58+03:00
+arm mr30ryd s1337 DONE 2026-09-06T10:37:58+03:00
+arm mlp30 s1337 DONE 2026-09-06T10:37:58+03:00
+arm vanilla s1338 attempt 1 2026-09-06T10:37:58+03:00 free=86G
+arm vanilla s1338 attempt 2 2026-09-06T11:19:34+03:00 free=86G
+arm vanilla s1338 attempt 3 2026-09-06T12:00:35+03:00 free=87G
+arm vanilla s1338 attempt 4 2026-09-06T12:41:35+03:00 free=87G
+arm vanilla s1338 attempt 5 2026-09-06T13:22:36+03:00 free=87G
+MHD runner PAUSED 2026-09-06T13:50:51+03:00 for the pre-registered Gutzwiller control (run_gutz.sh relaunches this campaign on GUTZ_DONE)

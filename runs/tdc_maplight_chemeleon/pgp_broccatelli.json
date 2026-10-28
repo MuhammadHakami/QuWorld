@@ -1,0 +1,28 @@
+{
+ "endpoint": "pgp_broccatelli",
+ "model": "MapLight CatBoost CPU exact [maplight+chemeleon]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.9238,
+ "test_sd": 0.0007483314773547889,
+ "test_per_seed": [
+  0.924,
+  0.923,
+  0.925,
+  0.924,
+  0.923
+ ],
+ "official_evaluate_many": [
+  0.924,
+  0.001
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 4611,
+ "seconds": 257.11088156700134
+}

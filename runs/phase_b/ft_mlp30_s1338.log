@@ -1,0 +1,151 @@
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+paper/phase_b/run_overnight_detached.sh: line 21: uv: command not found
+Uninstalled 1 package in 0.55ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse=0.1902 free=90G (checkpoint start)
+val_check step=305 vrmse=0.1901 loss=0.00265 free=89G
+val_check step=617 vrmse=0.1903 loss=0.00130 free=88G
+val_check step=930 vrmse=0.1901 loss=0.00219 free=89G
+val_check step=1243 vrmse=0.1903 loss=0.00124 free=89G
+val_check step=1556 vrmse=0.1898 loss=0.00151 free=89G
+val_check step=1869 vrmse=0.1905 loss=0.00186 free=89G
+val_check step=2182 vrmse=0.1904 loss=0.00153 free=89G
+val_check step=2495 vrmse=0.1903 loss=0.00176 free=89G
+val_check step=2808 vrmse=0.1900 loss=0.00238 free=89G
+val_check step=3119 vrmse=0.1903 loss=0.00140 free=89G
+val_check step=3432 vrmse=0.1903 loss=0.00195 free=89G
+val_check step=3745 vrmse=0.1901 loss=0.00218 free=89G
+---
+variant:        mlp30
+val_vrmse_1:    0.189819
+final_val:      0.190786
+num_steps:      4037
+num_params:     18758568
+train_seconds:  2411.2
+peak_vram_mb:   16899.9
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mlp30_s1338.pt
+Uninstalled 1 package in 0.53ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=4037 vrmse=0.1898 free=91G (RESUMED)
+val_check step=4340 vrmse=0.1900 loss=0.00102 free=89G
+val_check step=4651 vrmse=0.1902 loss=0.00155 free=89G
+val_check step=4962 vrmse=0.1902 loss=0.00228 free=89G
+val_check step=5273 vrmse=0.1905 loss=0.00097 free=89G
+val_check step=5584 vrmse=0.1904 loss=0.00227 free=89G
+val_check step=5895 vrmse=0.1904 loss=0.00212 free=89G
+val_check step=6206 vrmse=0.1907 loss=0.00081 free=89G
+val_check step=6517 vrmse=0.1904 loss=0.00166 free=89G
+val_check step=6826 vrmse=0.1905 loss=0.00113 free=89G
+val_check step=7136 vrmse=0.1908 loss=0.00130 free=89G
+val_check step=7446 vrmse=0.1904 loss=0.00173 free=89G
+val_check step=7756 vrmse=0.1903 loss=0.00170 free=90G
+---
+variant:        mlp30
+val_vrmse_1:    0.189819
+final_val:      0.191021
+num_steps:      8044
+num_params:     18758568
+train_seconds:  2410.7
+peak_vram_mb:   17114.8
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mlp30_s1338.pt
+Uninstalled 1 package in 0.35ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=8044 vrmse=0.1898 free=90G (RESUMED)
+val_check step=8347 vrmse=0.1901 loss=0.00100 free=89G
+val_check step=8657 vrmse=0.1905 loss=0.00135 free=89G
+val_check step=8968 vrmse=0.1904 loss=0.00166 free=89G
+val_check step=9279 vrmse=0.1907 loss=0.00137 free=88G
+val_check step=9590 vrmse=0.1904 loss=0.00217 free=88G
+val_check step=9901 vrmse=0.1903 loss=0.00133 free=88G
+val_check step=10211 vrmse=0.1905 loss=0.00225 free=89G
+val_check step=10522 vrmse=0.1904 loss=0.00238 free=89G
+val_check step=10832 vrmse=0.1907 loss=0.00157 free=89G
+val_check step=11142 vrmse=0.1905 loss=0.00211 free=89G
+val_check step=11452 vrmse=0.1904 loss=0.00116 free=89G
+val_check step=11762 vrmse=0.1903 loss=0.00148 free=89G
+---
+variant:        mlp30
+val_vrmse_1:    0.189819
+final_val:      0.191303
+num_steps:      12048
+num_params:     18758568
+train_seconds:  2410.8
+peak_vram_mb:   17114.8
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mlp30_s1338.pt
+Uninstalled 1 package in 0.36ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=12048 vrmse=0.1898 free=90G (RESUMED)
+val_check step=12352 vrmse=0.1904 loss=0.00127 free=88G
+val_check step=12662 vrmse=0.1904 loss=0.00153 free=88G
+val_check step=12973 vrmse=0.1904 loss=0.00222 free=88G
+val_check step=13283 vrmse=0.1908 loss=0.00136 free=88G
+val_check step=13593 vrmse=0.1903 loss=0.00101 free=88G
+val_check step=13904 vrmse=0.1906 loss=0.00121 free=88G
+val_check step=14215 vrmse=0.1907 loss=0.00222 free=88G
+val_check step=14526 vrmse=0.1906 loss=0.00235 free=87G
+val_check step=14836 vrmse=0.1908 loss=0.00156 free=89G
+val_check step=15147 vrmse=0.1909 loss=0.00127 free=88G
+val_check step=15457 vrmse=0.1906 loss=0.00171 free=88G
+val_check step=15768 vrmse=0.1905 loss=0.00116 free=89G
+---
+variant:        mlp30
+val_vrmse_1:    0.189819
+final_val:      0.191595
+num_steps:      16059
+num_params:     18758568
+train_seconds:  2411.1
+peak_vram_mb:   17114.8
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mlp30_s1338.pt
+Uninstalled 1 package in 0.56ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=16059 vrmse=0.1898 free=90G (RESUMED)
+val_check step=16363 vrmse=0.1905 loss=0.00125 free=88G
+val_check step=16674 vrmse=0.1909 loss=0.00170 free=88G
+val_check step=16985 vrmse=0.1904 loss=0.00172 free=88G
+val_check step=17296 vrmse=0.1908 loss=0.00081 free=88G
+val_check step=17607 vrmse=0.1908 loss=0.00129 free=88G
+val_check step=17918 vrmse=0.1911 loss=0.00157 free=88G
+val_check step=18229 vrmse=0.1907 loss=0.00217 free=88G
+val_check step=18540 vrmse=0.1906 loss=0.00137 free=87G
+val_check step=18850 vrmse=0.1906 loss=0.00138 free=88G
+val_check step=19160 vrmse=0.1905 loss=0.00131 free=89G
+val_check step=19470 vrmse=0.1912 loss=0.00142 free=88G
+val_check step=19781 vrmse=0.1907 loss=0.00132 free=88G
+target_reached steps=20000 best=0.189819
+---
+variant:        mlp30
+val_vrmse_1:    0.189819
+final_val:      0.191704
+num_steps:      20000
+num_params:     18758568
+train_seconds:  2369.6
+peak_vram_mb:   17114.8
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b/mlp30_s1338.pt

@@ -1,0 +1,28 @@
+{
+ "endpoint": "cyp2c9_substrate_carbonmangels",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "pr-auc",
+ "higher_is_better": true,
+ "test_mean": 0.4266,
+ "test_sd": 0.01148216007552587,
+ "test_per_seed": [
+  0.431,
+  0.437,
+  0.439,
+  0.411,
+  0.415
+ ],
+ "official_evaluate_many": [
+  0.427,
+  0.011
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 91.56560611724854
+}

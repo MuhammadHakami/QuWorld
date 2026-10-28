@@ -1,0 +1,49 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 3000,
+ "gate_pretrain_valid": 0.1926019936800003,
+ "tag": "turbulent_radiative_layer_2D_vanilla_vrmse_gate_s1",
+ "dataset": "turbulent_radiative_layer_2D",
+ "variant": "vanilla",
+ "loss": "vrmse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 2e-05,
+ "steps": 6997,
+ "valid_start": 0.1926019936800003,
+ "valid_best": 0.19160978496074677,
+ "curve": [
+  [
+   0,
+   0.1926019936800003
+  ],
+  [
+   991,
+   0.1928536295890808
+  ],
+  [
+   1994,
+   0.19246332347393036
+  ],
+  [
+   2983,
+   0.19207464158535004
+  ],
+  [
+   3966,
+   0.19175557792186737
+  ],
+  [
+   5008,
+   0.19160978496074677
+  ],
+  [
+   6997,
+   0.19186697900295258
+  ]
+ ],
+ "strat_test": 0.19205263257026672,
+ "strat_test_median": 0.17160755395889282,
+ "strat_test_n": 144,
+ "budget_s": 3600.0
+}

@@ -1,0 +1,37 @@
+{
+ "cfg": {
+  "k": 64,
+  "width": 512,
+  "depth": 4,
+  "drop": 0.05,
+  "lr": 0.0029070187121564652,
+  "batch": 4096,
+  "epochs": 30,
+  "w_scal": 0.9219772166898658,
+  "gamma": 0.2532916025397821,
+  "lags": "sym",
+  "thomson": false,
+  "quantum": "none",
+  "qcfg": null,
+  "k_lo": 32,
+  "q_layers": 4,
+  "seed": 1,
+  "edge_w": 2.0
+ },
+ "params": 2288645,
+ "train_seconds": 190.05284333229065,
+ "trainable_params": 2288645,
+ "valid_quick": {
+  "r2_psi": 0.999304870627807,
+  "r2_efit_q95": 0.9947610493225278,
+  "r2_efit_beta_n": 0.9945057346193384,
+  "r2_efit_li": 0.9498705784661835,
+  "r2_efit_r_axis": 0.9685207706345957,
+  "r2_efit_z_axis": 0.9892724700153323,
+  "proxy": 0.8926569422486746
+ },
+ "history": [],
+ "tag": "fix_iplagk50_s1",
+ "arm": "iplagk50",
+ "peak_gpu_gib": 4.35347318649292
+}

@@ -1,0 +1,1 @@
+{"row": "rayleigh_benard__ft_mr30ryd_s1337", "arm": "cls_only", "seed": 1, "gate": false, "trunk_test": 0.43963985874893197, "test": 0.3794535185614839, "test_rel_gain": 0.1368991891652369, "test_captured": 0.022623162188220632, "valid": 0.40469495477362827, "epochs": 24, "seconds": 23.705891370773315, "tethers": null, "params_core": 224, "bands_test": null, "trunk0_test": null}

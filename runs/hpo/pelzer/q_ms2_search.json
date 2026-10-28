@@ -1,0 +1,17 @@
+{
+ "bench": "pelzer",
+ "arm": "q",
+ "trials": 12,
+ "best_value": 0.027632701210677624,
+ "best_params": {
+  "lr": 2.3929410991294604e-05,
+  "steps": 3000,
+  "batch": 100,
+  "L": 3,
+  "geo": "grid",
+  "sp": 1.5,
+  "link": "independent"
+ },
+ "best_variant": "q30-L=3-geo=grid-sp=1.5-link=independent",
+ "search_seed": 1337
+}

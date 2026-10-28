@@ -1,0 +1,68 @@
+Uninstalled 1 package in 0.79ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse1=0.1902 vrmse8=0.6073 free=88G (checkpoint start, td k=4, SELECTION=rollout)
+val_check step=313 vrmse1=0.2948 vrmse8=0.5932 loss=0.02080 free=87G
+val_check step=630 vrmse1=0.3326 vrmse8=0.7046 loss=0.11963 free=87G
+val_check step=947 vrmse1=0.3338 vrmse8=0.8400 loss=0.08841 free=87G
+val_check step=1264 vrmse1=0.3435 vrmse8=0.6531 loss=0.04678 free=86G
+val_check step=1581 vrmse1=0.3550 vrmse8=0.7519 loss=0.11394 free=87G
+val_check step=1898 vrmse1=0.3501 vrmse8=0.6345 loss=0.22561 free=87G
+val_check step=2215 vrmse1=0.3488 vrmse8=0.6255 loss=0.01346 free=87G
+val_check step=2532 vrmse1=0.3544 vrmse8=0.7623 loss=0.06851 free=86G
+val_check step=2849 vrmse1=0.3483 vrmse8=0.6165 loss=0.02268 free=87G
+val_check step=3166 vrmse1=0.3739 vrmse8=0.6365 loss=0.08315 free=87G
+val_check step=3483 vrmse1=0.3467 vrmse8=0.6941 loss=0.08841 free=87G
+val_check step=3800 vrmse1=0.3493 vrmse8=0.6006 loss=0.04943 free=87G
+---
+variant:        mlp30
+td_k:           4
+val_vrmse_8:    0.593206  # SELECTION metric (rollout)
+num_steps:      3893
+train_seconds:  2419.1
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mlp30_s1339.pt
+Uninstalled 1 package in 0.35ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=3893 vrmse=0.5932 free=89G (RESUMED)
+val_check step=4202 vrmse1=0.3375 vrmse8=0.6169 loss=0.22449 free=86G
+val_check step=4516 vrmse1=0.3389 vrmse8=0.5904 loss=0.12693 free=86G
+val_check step=4830 vrmse1=0.3446 vrmse8=0.6119 loss=0.16859 free=86G
+val_check step=5144 vrmse1=0.3364 vrmse8=0.6603 loss=0.11559 free=87G
+val_check step=5458 vrmse1=0.3419 vrmse8=0.6490 loss=0.05161 free=87G
+val_check step=5771 vrmse1=0.3355 vrmse8=0.6248 loss=0.04002 free=87G
+val_check step=6085 vrmse1=0.3257 vrmse8=0.6917 loss=0.01743 free=87G
+val_check step=6399 vrmse1=0.3343 vrmse8=0.6469 loss=0.08432 free=87G
+val_check step=6712 vrmse1=0.3376 vrmse8=0.5806 loss=0.12022 free=87G
+val_check step=7026 vrmse1=0.3451 vrmse8=0.6116 loss=0.02795 free=87G
+val_check step=7340 vrmse1=0.3574 vrmse8=0.5982 loss=0.04257 free=87G
+val_check step=7654 vrmse1=0.3276 vrmse8=0.6551 loss=0.09539 free=87G
+---
+variant:        mlp30
+td_k:           4
+val_vrmse_8:    0.580561  # SELECTION metric (rollout)
+num_steps:      7742
+train_seconds:  2419.4
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mlp30_s1339.pt
+Uninstalled 1 package in 0.36ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=7742 vrmse=0.5806 free=89G (RESUMED)
+val_check step=8051 vrmse1=0.3395 vrmse8=0.5802 loss=0.24290 free=87G
+val_check step=8365 vrmse1=0.3437 vrmse8=0.5922 loss=0.12628 free=87G
+val_check step=8679 vrmse1=0.3492 vrmse8=0.6105 loss=0.14116 free=86G
+val_check step=8993 vrmse1=0.3303 vrmse8=0.7019 loss=0.12840 free=86G
+val_check step=9307 vrmse1=0.3498 vrmse8=0.6741 loss=0.05407 free=87G
+val_check step=9620 vrmse1=0.3299 vrmse8=0.5914 loss=0.03765 free=87G
+val_check step=9934 vrmse1=0.3166 vrmse8=0.6994 loss=0.01927 free=87G
+target_reached steps=10000 best=0.580160
+---
+variant:        mlp30
+td_k:           4
+val_vrmse_8:    0.580160  # SELECTION metric (rollout)
+num_steps:      10000
+train_seconds:  1428.1
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mlp30_s1339.pt

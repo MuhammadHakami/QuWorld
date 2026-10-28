@@ -1,0 +1,5 @@
+[I 2026-09-21 11:24:59,693] Using an existing study with `study_name='torax-mlp'` instead of creating a new one.
+[hpo] final torax/mlp seed 1337: test 0.014314
+[hpo] final torax/mlp seed 1338: test 0.022331
+[hpo] final torax/mlp seed 1339: test 0.016099
+[hpo] torax/mlp FINAL test 0.017581 ± 0.004209

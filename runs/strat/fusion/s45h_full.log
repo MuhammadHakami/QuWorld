@@ -1,0 +1,15 @@
+[s45h] start 2026-10-16T08:01:12+03:00
+J1RLH_TRAINED 2026-10-16T08:40:02+03:00
+[vt] head_boundary_v8_J1RL_s1: mean 0.986899 R_axis 0.98375 Z_axis 0.99477 kappa 0.97324 tri_top 0.99440 tri_bot 0.99333 volume 0.99174 li 0.97707 rays 5.835 mm
+[vt] head_boundary_v8_J1RLH_s1: mean 0.987005 R_axis 0.98404 Z_axis 0.99460 kappa 0.97356 tri_top 0.99452 tri_bot 0.99306 volume 0.99164 li 0.97763 rays 5.852 mm
+[vt] head_boundary_v8_J1RLH_s1 vs head_boundary_v8_J1RL_s1: +0.000106 [-0.000435, +0.000661] R_axis +0.00029 Z_axis -0.00018 kappa +0.00033 tri_top +0.00012 tri_bot -0.00027 volume -0.00011 li +0.00056
+VT_EVAL_DONE
+S45H_SHAPE_DONE 2026-10-16T08:40:25+03:00
+QB_TRAINED 2026-10-16T09:48:56+03:00
+[vt] head_qb_QHR2c_s1: mean 0.996984 q95 0.99778 betaN 0.99619
+[vt] head_qb_QHR2Hu_s1: mean 0.997066 q95 0.99778 betaN 0.99635
+[vt] head_qb_QHR2_s1: mean 0.996965 q95 0.99769 betaN 0.99624
+[vt] head_qb_QHR2Hu_s1 vs head_qb_QHR2c_s1: +0.000081 [-0.000053, +0.000201] q95 +0.00000 betaN +0.00016
+[vt] head_qb_QHR2_s1 vs head_qb_QHR2c_s1: -0.000019 [-0.000182, +0.000179] q95 -0.00008 betaN +0.00004
+VT_EVAL_DONE
+S45H_FULL_DONE 2026-10-16T09:49:23+03:00

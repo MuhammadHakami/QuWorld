@@ -1,0 +1,12 @@
+Uninstalled 1 package in 1ms
+Installed 1 package in 2ms
+---
+variant:        cg30-3d
+rollout_k:      1
+val_vrmse_1:    0.478562
+val_vrmse_8:    1.000630
+train_loss:     0.031070
+num_steps:      2000
+num_params:     1340856
+train_seconds:  193.0
+peak_vram_mb:   418.6

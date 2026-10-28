@@ -1,0 +1,18 @@
+{
+ "bench": "torax",
+ "arm": "q",
+ "trials": 16,
+ "best_value": 0.013968841305800846,
+ "best_params": {
+  "lr": 0.0025394633490284746,
+  "steps": 2000,
+  "batch": 32,
+  "wd": 0.0,
+  "L": 6,
+  "geo": "ring",
+  "sp": 0.7,
+  "link": "shared"
+ },
+ "best_variant": "q30-L=6-geo=ring-sp=0.7-link=shared",
+ "search_seed": 1337
+}

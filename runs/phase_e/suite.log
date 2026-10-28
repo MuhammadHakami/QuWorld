@@ -1,0 +1,50 @@
+Uninstalled 1 package in 0.54ms
+Installed 1 package in 2ms
+valid split (9, 101, 4, 128, 384); configs=['intact', 'prod_zero', 'prod_far', 'chi1', 'chi2', 'chi4', 'chi8', 'chi16', 'chi32', 'shots128', 'shots1024', 'shots8192']; seeds=[1337, 1338, 1339]
+[seed 1337] loading /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1337.pt
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+    state replication ok (max diff 0.00e+00)
+    rollout intact     cached (0.578391)
+    rollout prod_zero  vrmse8=0.578406 (21s)
+    rollout prod_far   vrmse8=0.578406 (21s)
+    rollout chi1       vrmse8=0.578399 (24s)
+    rollout chi2       vrmse8=0.578400 (24s)
+    rollout chi4       vrmse8=0.578400 (24s)
+    rollout chi8       vrmse8=0.578393 (24s)
+    rollout chi16      vrmse8=0.578388 (20s)
+    rollout chi32      cached (0.578387)
+    rollout shots128   vrmse8=0.578406 (14s)
+    rollout shots1024  vrmse8=0.578399 (20s)
+    rollout shots8192  vrmse8=0.578398 (21s)
+[seed 1338] loading /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1338.pt
+    state replication ok (max diff 0.00e+00)
+    entanglement + readout deltas done
+    rollout intact     vrmse8=0.576815 (21s)
+    rollout prod_zero  vrmse8=0.576821 (21s)
+    rollout prod_far   vrmse8=0.576821 (21s)
+    rollout chi1       vrmse8=0.576817 (22s)
+    rollout chi2       vrmse8=0.576821 (22s)
+    rollout chi4       vrmse8=0.576822 (21s)
+    rollout chi8       vrmse8=0.576810 (24s)
+    rollout chi16      vrmse8=0.576802 (24s)
+    rollout chi32      vrmse8=0.576804 (22s)
+    rollout shots128   vrmse8=0.576829 (21s)
+    rollout shots1024  vrmse8=0.576821 (21s)
+    rollout shots8192  vrmse8=0.576815 (21s)
+[seed 1339] loading /home/mohhakami/Documents/paper/quworld/runs/phase_b2/mr30ryd_s1339.pt
+    state replication ok (max diff 0.00e+00)
+    entanglement + readout deltas done
+    rollout intact     vrmse8=0.563994 (21s)
+    rollout prod_zero  vrmse8=0.564001 (21s)
+    rollout prod_far   vrmse8=0.564001 (21s)
+    rollout chi1       vrmse8=0.564003 (22s)
+    rollout chi2       vrmse8=0.563981 (23s)
+    rollout chi4       vrmse8=0.563995 (24s)
+    rollout chi8       vrmse8=0.564005 (24s)
+    rollout chi16      vrmse8=0.563987 (22s)
+    rollout chi32      vrmse8=0.563990 (22s)
+    rollout shots128   vrmse8=0.564002 (21s)
+    rollout shots1024  vrmse8=0.563997 (21s)
+    rollout shots8192  vrmse8=0.563994 (21s)
+done -> /home/mohhakami/Documents/paper/quworld/runs/phase_e/results.json

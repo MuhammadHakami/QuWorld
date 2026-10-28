@@ -1,0 +1,9 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[cache] MHD_64 train static: 400 windows 126s
+[cache] MHD_64 train: 3000 windows 2726s
+[cache] train.pt: N=3000 DC 0.0025 | oracle@30 0.0245 proxy@30 0.0197 static@30 0.0088 random@30 0.0001
+[cache] MHD_64 valid: 600 windows 702s
+[cache] valid.pt: N=600 DC 0.0021 | oracle@30 0.0244 proxy@30 0.0196 static@30 0.0086 random@30 0.0001
+[cache] MHD_64 test: 1200 windows 1396s
+[cache] test.pt: N=1200 DC 0.0020 | oracle@30 0.0251 proxy@30 0.0206 static@30 0.0088 random@30 0.0001

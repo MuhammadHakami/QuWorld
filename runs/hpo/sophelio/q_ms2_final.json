@@ -1,0 +1,85 @@
+{
+ "bench": "sophelio",
+ "arm": "q",
+ "variant": "q30-L=3-geo=ring-sp=0.7-link=shared",
+ "hp": {
+  "lr": 0.0011332372161884938,
+  "epochs": 80,
+  "batch": 128,
+  "L": 3,
+  "geo": "ring",
+  "sp": 0.7,
+  "link": "shared"
+ },
+ "best_valid": -0.7488900000000001,
+ "test_mean": -0.7929143333333333,
+ "test_sd": 0.01408602301337508,
+ "per_seed": [
+  {
+   "metric": -0.796882,
+   "S": 0.796882,
+   "r2_psi": 0.988396,
+   "r2_qb": 0.472053,
+   "dlcfs": 0.054882,
+   "consistency": 0.43972,
+   "num_params": 3176411,
+   "train_seconds": 1070.3403720855713,
+   "split": "test",
+   "seed": 1337,
+   "variant": "q30-L=3-geo=ring-sp=0.7-link=shared",
+   "hp": {
+    "lr": 0.0011332372161884938,
+    "epochs": 80,
+    "batch": 128,
+    "L": 3,
+    "geo": "ring",
+    "sp": 0.7,
+    "link": "shared"
+   }
+  },
+  {
+   "metric": -0.804591,
+   "S": 0.804591,
+   "r2_psi": 0.988707,
+   "r2_qb": 0.472053,
+   "dlcfs": 0.052913,
+   "consistency": 0.476427,
+   "num_params": 3176411,
+   "train_seconds": 1070.9672365188599,
+   "split": "test",
+   "seed": 1338,
+   "variant": "q30-L=3-geo=ring-sp=0.7-link=shared",
+   "hp": {
+    "lr": 0.0011332372161884938,
+    "epochs": 80,
+    "batch": 128,
+    "L": 3,
+    "geo": "ring",
+    "sp": 0.7,
+    "link": "shared"
+   }
+  },
+  {
+   "metric": -0.77727,
+   "S": 0.77727,
+   "r2_psi": 0.988708,
+   "r2_qb": 0.472053,
+   "dlcfs": 0.061592,
+   "consistency": 0.344159,
+   "num_params": 3176411,
+   "train_seconds": 1047.4496357440948,
+   "split": "test",
+   "seed": 1339,
+   "variant": "q30-L=3-geo=ring-sp=0.7-link=shared",
+   "hp": {
+    "lr": 0.0011332372161884938,
+    "epochs": 80,
+    "batch": 128,
+    "L": 3,
+    "geo": "ring",
+    "sp": 0.7,
+    "link": "shared"
+   }
+  }
+ ]
+}

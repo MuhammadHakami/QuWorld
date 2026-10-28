@@ -1,0 +1,12 @@
+Uninstalled 1 package in 0.44ms
+Installed 1 package in 4ms
+---
+variant:        none
+rollout_k:      4
+val_vrmse_1:    0.546324
+val_vrmse_8:    0.977484
+train_loss:     0.073222
+num_steps:      1326
+num_params:     1331484
+train_seconds:  300.2
+peak_vram_mb:   1209.8

@@ -1,0 +1,60 @@
+rf-eal runner start 2026-09-23T02:09:36+03:00
+rf-eal md vanilla s1 2026-09-23T02:09:36+03:00
+rf-eal runner restart after reboot (capped, oom_adj 800) 2026-09-23T03:38:24+03:00
+rf-eal runner start 2026-09-23T03:38:24+03:00
+rf-eal md vanilla s1 2026-09-23T03:38:24+03:00
+rf-eal PAUSED (memory: RealPDE eval running); requeued behind it 2026-09-23T03:39:42+03:00
+rf-eal runner start 2026-09-23T03:51:42+03:00
+rf-eal md vanilla s1 2026-09-23T03:51:42+03:00
+CRASH rf-eal md vanilla s1 2026-09-23T04:19:37+03:00
+rf-eal md mlp30 s1 2026-09-23T04:19:37+03:00
+rf-eal: vanilla s1 diverged under fp16-mixed (NaN probs) -> all arms bf16-mixed; runner restarted 2026-09-23T04:20:27+03:00
+rf-eal runner start 2026-09-23T04:20:27+03:00
+rf-eal md vanilla s1 2026-09-23T04:20:27+03:00
+CRASH rf-eal md vanilla s1 2026-09-23T04:48:51+03:00
+rf-eal md mlp30 s1 2026-09-23T04:49:51+03:00
+rf-eal PARKED: vanilla EAL-full diverges (NaN action probabilities) under fp16-mixed AND bf16-mixed on md; needs step-level NaN tracing (env features / EAL new-embedding init / lr) before any arm runs 2026-09-23T04:50:16+03:00
+RF_SMOKE_EXIT 0 2026-09-25T15:47:53+03:00
+RRNCO_DOWNLOAD_EXIT 0 2026-09-25T17:01:19+03:00
+RRNCO_TEST_EXIT in_distribution 137 2026-09-25T17:12:53+03:00
+CRASH rf-scale vanilla 2026-09-25T17:13:20+03:00
+RRNCO_TEST_EXIT out_of_distribution 137 2026-09-25T17:13:35+03:00
+CRASH rf-scale q5-part=1x5 2026-09-25T17:20:55+03:00
+CRASH rf-scale q5-part=1x5-mlp 2026-09-25T17:20:58+03:00
+NOTE killed route5/route5-mlp pilots by hand (memory) 2026-09-25T17:42:23+03:00; queue re-runs them
+RF_Q_DONE vanilla s1 e1 2026-09-25T18:12:38+03:00
+RF_Q_DONE q30 s1 e1 2026-09-25T18:37:43+03:00
+RF_Q_DONE q30-mlp s1 e1 2026-09-25T18:38:08+03:00
+CRASH rf-q route30 s1 e1 2026-09-25T18:42:38+03:00
+CRASH rf-q route10 s1 e1 2026-09-25T18:48:43+03:00
+RF_Q_DONE route30-mlp s1 e1 2026-09-25T18:59:54+03:00
+RF_Q_DONE route10-mlp s1 e1 2026-09-25T19:08:57+03:00
+RF_DEBUG_EXIT 124 2026-09-25T19:19:14+03:00
+RF_Q_DONE route5 s1 e1 2026-09-25T19:25:44+03:00
+CRASH rf-q route20 s1 e1 2026-09-25T19:35:41+03:00
+RF_Q_DONE route5-mlp s1 e1 2026-09-25T19:42:26+03:00
+RF_Q_DONE route20-mlp s1 e1 2026-09-25T20:17:56+03:00
+RF_Q_DONE q5-part=1x5 s1 e1 2026-09-25T20:20:41+03:00
+RF_Q2_DONE route30 s1 e1 2026-09-25T20:56:04+03:00
+RF_Q2_DONE route30-mlp s1 e1 2026-09-25T20:56:20+03:00
+CRASH rf-q2 vanilla s1 e10 2026-09-25T21:22:29+03:00
+RF_Q2_DONE route10 s1 e1 2026-09-25T21:47:00+03:00
+CRASH rf-q2 route10-mlp s1 e1 2026-09-25T21:59:22+03:00
+CRASH rf-q2 route20 s1 e1 2026-09-25T22:09:20+03:00
+RF_PILOT_DONE route10-mlp 2026-09-25T23:07:51+03:00
+RF_Q2_DONE route30 s1 e10 2026-09-25T23:09:03+03:00
+RF_PILOT_DONE route20 2026-09-25T23:51:09+03:00
+RF_Q2_DONE route30-mlp s1 e10 2026-09-25T23:54:14+03:00
+RF_PILOT_DONE route20-mlp 2026-09-26T00:42:46+03:00
+RF_Q2_DONE vanilla s1 e10 2026-09-26T00:47:31+03:00
+RF_PILOT_DONE route5 2026-09-26T01:31:53+03:00
+CRASH rf-pilot route5-mlp try1 2026-09-26T01:44:36+03:00
+RF_PILOT_DONE route5-mlp 2026-09-26T03:04:00+03:00
+RRNCO_TEST_EXIT in_distribution 0 2026-09-26T03:09:22+03:00
+RRNCO_TEST_EXIT in_distribution_cluster 0 2026-09-26T03:14:44+03:00
+RRNCO_TEST_EXIT out_of_distribution 0 2026-09-26T03:21:51+03:00
+CRASH rf-pilot route30-fgn try1 2026-09-26T03:37:32+03:00
+RF_PILOT_Q_STOPPED (GPU/memory to doc 38 TD replication; FGN pilots deferred) 2026-09-26T03:40:36+03:00
+KILLED rf-full vanilla s2 (1 h in) to give the GPU to the doc 38 TD replication 2026-09-26T03:41:40+03:00
+CRASH rf-full vanilla s2 2026-09-26T03:41:52+03:00
+KILLED rf-full route10 s1 (~3 h in) for the doc 38 TD replication (needs exclusive GPU) 2026-09-26T03:56:54+03:00

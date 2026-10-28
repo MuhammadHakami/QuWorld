@@ -1,0 +1,16 @@
+{
+ "variant": "mr30ryd",
+ "seed": 1338,
+ "steps": 1500,
+ "val_mae_c": 0.09013967961072922,
+ "test_mae_c": 0.07661141455173492,
+ "test_pat_0p1": 0.18166503310203552,
+ "test_max_err_c": 1.3331149816513062,
+ "train_loss": 0.0009065844351425767,
+ "num_params": 453645,
+ "train_seconds": 254.19204258918762,
+ "n_train": 70,
+ "n_val": 20,
+ "n_test": 10,
+ "device": "cuda"
+}

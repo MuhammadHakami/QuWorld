@@ -1,0 +1,29 @@
+multistart start 2026-09-06T14:03:38+03:00
+pilot done, evaluating 2026-09-06T14:16:38+03:00
+eval anchor 2026-09-06T14:16:38+03:00
+eval anchor OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:17:38+03:00
+eval vanilla_s1337 2026-09-06T14:17:38+03:00
+eval vanilla_s1337 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:18:45+03:00
+eval mlp30_s1337 2026-09-06T14:18:45+03:00
+eval mlp30_s1337 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:19:51+03:00
+eval mr30ryd_s1337 2026-09-06T14:19:51+03:00
+eval mr30ryd_s1337 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:20:59+03:00
+eval noent_s1337 2026-09-06T14:20:59+03:00
+eval noent_s1337 OK allstart_6_12:     0.6060 2026-09-06T14:22:08+03:00
+eval vanilla_s1338 2026-09-06T14:22:08+03:00
+eval vanilla_s1338 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:23:14+03:00
+eval mlp30_s1338 2026-09-06T14:23:14+03:00
+eval mlp30_s1338 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:24:20+03:00
+eval mr30ryd_s1338 2026-09-06T14:24:20+03:00
+eval mr30ryd_s1338 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:25:29+03:00
+eval noent_s1338 2026-09-06T14:25:29+03:00
+eval noent_s1338 OK allstart_6_12:     0.6104 2026-09-06T14:26:38+03:00
+eval vanilla_s1339 2026-09-06T14:26:38+03:00
+eval vanilla_s1339 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:27:44+03:00
+eval mlp30_s1339 2026-09-06T14:27:44+03:00
+eval mlp30_s1339 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:28:51+03:00
+eval mr30ryd_s1339 2026-09-06T14:28:51+03:00
+eval mr30ryd_s1339 OK start0_vs_official max|diff|: 0.00e+00  OK 2026-09-06T14:30:00+03:00
+eval noent_s1339 2026-09-06T14:30:00+03:00
+eval noent_s1339 OK allstart_6_12:     0.6151 2026-09-06T14:31:09+03:00
+MULTISTART_DONE 2026-09-06T14:31:09+03:00

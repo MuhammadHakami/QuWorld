@@ -1,0 +1,13 @@
+{
+ "bench": "pelzer",
+ "arm": "mlp",
+ "trials": 12,
+ "best_value": 0.027857059612870216,
+ "best_params": {
+  "lr": 0.00010121541367866828,
+  "steps": 3000,
+  "batch": 100
+ },
+ "best_variant": "q30-mlpref",
+ "search_seed": 1337
+}

@@ -1,0 +1,120 @@
+--- test_mlp30_s1337.csv ---
+Uninstalled 1 package in 0.32ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1933 / 0.1764
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0000  (negative = ours better)
+win rate:       45.6% of windows
+wilcoxon two-sided p: 1.15e-01
+wilcoxon one-sided (ours<base) p: 9.43e-01
+rank-biserial effect: +0.062
+H1d verdict (mean lower AND p<0.05): no pass
+--- test_mlp30_s1338.csv ---
+Uninstalled 1 package in 0.67ms
+Installed 1 package in 2ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1760
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       52.3% of windows
+wilcoxon two-sided p: 9.18e-03
+wilcoxon one-sided (ours<base) p: 4.59e-03
+rank-biserial effect: +0.102
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_mlp30_s1339.csv ---
+Uninstalled 1 package in 0.71ms
+Installed 1 package in 2ms
+windows:        873
+ours   mean/median: 0.1930 / 0.1762
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0004  (negative = ours better)
+win rate:       59.1% of windows
+wilcoxon two-sided p: 3.39e-11
+wilcoxon one-sided (ours<base) p: 1.69e-11
+rank-biserial effect: +0.259
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_mr30hea_s1337.csv ---
+Uninstalled 1 package in 0.54ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1766
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       49.8% of windows
+wilcoxon two-sided p: 5.42e-02
+wilcoxon one-sided (ours<base) p: 2.71e-02
+rank-biserial effect: +0.075
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_mr30ryd_s1337.csv ---
+Uninstalled 1 package in 0.37ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1775
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       60.1% of windows
+wilcoxon two-sided p: 1.21e-11
+wilcoxon one-sided (ours<base) p: 6.04e-12
+rank-biserial effect: +0.265
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_mr30ryd_s1338.csv ---
+Uninstalled 1 package in 0.66ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1769
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       56.9% of windows
+wilcoxon two-sided p: 9.39e-08
+wilcoxon one-sided (ours<base) p: 4.70e-08
+rank-biserial effect: +0.209
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_mr30ryd_s1339.csv ---
+Uninstalled 1 package in 0.33ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1932 / 0.1778
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0001  (negative = ours better)
+win rate:       52.5% of windows
+wilcoxon two-sided p: 3.70e-02
+wilcoxon one-sided (ours<base) p: 1.85e-02
+rank-biserial effect: +0.081
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_vanilla_s1337.csv ---
+Uninstalled 1 package in 0.34ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1768
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       54.5% of windows
+wilcoxon two-sided p: 1.59e-04
+wilcoxon one-sided (ours<base) p: 7.93e-05
+rank-biserial effect: +0.148
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_vanilla_s1338.csv ---
+Uninstalled 1 package in 0.34ms
+Installed 1 package in 1ms
+windows:        873
+ours   mean/median: 0.1931 / 0.1761
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0003  (negative = ours better)
+win rate:       52.6% of windows
+wilcoxon two-sided p: 9.75e-03
+wilcoxon one-sided (ours<base) p: 4.87e-03
+rank-biserial effect: +0.101
+H1d verdict (mean lower AND p<0.05): PASS
+--- test_vanilla_s1339.csv ---
+Uninstalled 1 package in 0.64ms
+Installed 1 package in 2ms
+windows:        873
+ours   mean/median: 0.1930 / 0.1763
+base   mean/median: 0.1934 / 0.1772
+mean diff:      -0.0004  (negative = ours better)
+win rate:       59.1% of windows
+wilcoxon two-sided p: 3.28e-10
+wilcoxon one-sided (ours<base) p: 1.64e-10
+rank-biserial effect: +0.246
+H1d verdict (mean lower AND p<0.05): PASS

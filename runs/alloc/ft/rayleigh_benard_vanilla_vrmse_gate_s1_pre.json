@@ -1,0 +1,49 @@
+{
+ "gate_warmup_s": 0,
+ "gate_pretrain_n": 3000,
+ "gate_pretrain_valid": 0.04375307261943817,
+ "tag": "rayleigh_benard_vanilla_vrmse_gate_s1_pre",
+ "dataset": "rayleigh_benard",
+ "variant": "vanilla",
+ "loss": "vrmse",
+ "head": "gate",
+ "seed": 1,
+ "lr": 2e-05,
+ "steps": 4345,
+ "valid_start": 0.04375308007001877,
+ "valid_best": 0.04375308007001877,
+ "curve": [
+  [
+   0,
+   0.04375308007001877
+  ],
+  [
+   987,
+   0.04556921869516373
+  ],
+  [
+   1882,
+   0.04604865983128548
+  ],
+  [
+   2765,
+   0.05079703778028488
+  ],
+  [
+   3525,
+   0.04377153888344765
+  ],
+  [
+   4286,
+   0.04788614436984062
+  ],
+  [
+   4345,
+   0.04697735980153084
+  ]
+ ],
+ "strat_test": 0.044119831174612045,
+ "strat_test_median": 0.028260301798582077,
+ "strat_test_n": 5600,
+ "budget_s": 3600.0
+}

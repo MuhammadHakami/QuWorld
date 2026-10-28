@@ -1,0 +1,18 @@
+{
+ "dataset": "turbulent_radiative_layer_2D",
+ "members": [
+  "turbulent_radiative_layer_2D_mr30ryd_vrmse_gate_s1",
+  "turbulent_radiative_layer_2D_vanilla_vrmse_gate_s1",
+  "turbulent_radiative_layer_2D_mlp30_vrmse_gate_s1"
+ ],
+ "valid": {
+  "turbulent_radiative_layer_2D_mr30ryd_vrmse_gate_s1": 0.19222292304039001,
+  "turbulent_radiative_layer_2D_vanilla_vrmse_gate_s1": 0.19189871847629547,
+  "turbulent_radiative_layer_2D_mlp30_vrmse_gate_s1": 0.19179387390613556,
+  "E-ft": 0.1917109191417694
+ },
+ "selected": "E-ft",
+ "full_test": 0.19091370701789856,
+ "full_test_median": 0.1737419217824936,
+ "full_test_n": 873
+}

@@ -1,0 +1,12 @@
+{
+ "variant": "none",
+ "seed": 1339,
+ "steps": 1000,
+ "k": 4,
+ "test_vrmse_1": 0.006270871637389064,
+ "test_vrmse_8": 0.033158322530133386,
+ "train_loss": 0.0001462361542508006,
+ "num_params": 41604,
+ "train_seconds": 143.13465881347656,
+ "device": "cuda"
+}

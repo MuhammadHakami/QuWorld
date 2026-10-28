@@ -1,0 +1,2 @@
+[s34test] step 849 VALID logged 0.120034 repro 0.120034 (ok); reader diff 0.00e+00 (ok)
+S34_TEST per_channel=0.11969 field_grouped=0.12869 n=960 | raw 0.11969 dfc 0.11717 shg8_dfc 0.10444 all30_dfc 0.10181

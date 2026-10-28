@@ -1,0 +1,182 @@
+{
+ "c22-reg-s1": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.987865,
+  "consistency": 0.952452,
+  "r2_psi": 0.999318,
+  "trainable": 31488
+ },
+ "c22-reg-s2": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.987946,
+  "consistency": 0.952877,
+  "r2_psi": 0.999317,
+  "trainable": 31488
+ },
+ "c22-reg-s3": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.98759,
+  "consistency": 0.951096,
+  "r2_psi": 0.999318,
+  "trainable": 31488
+ },
+ "c22-mlp-s1": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.987851,
+  "consistency": 0.952445,
+  "r2_psi": 0.999315,
+  "trainable": 31483
+ },
+ "c22-mlp-s2": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.987239,
+  "consistency": 0.949597,
+  "r2_psi": 0.999315,
+  "trainable": 31483
+ },
+ "c22-mlp-s3": {
+  "trial": 22,
+  "search_S": 0.987925,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.987608,
+  "consistency": 0.951373,
+  "r2_psi": 0.999314,
+  "trainable": 31483
+ },
+ "c20-reg-s1": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.987551,
+  "consistency": 0.950844,
+  "r2_psi": 0.999319,
+  "trainable": 31488
+ },
+ "c20-reg-s2": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.98798,
+  "consistency": 0.953037,
+  "r2_psi": 0.999318,
+  "trainable": 31488
+ },
+ "c20-reg-s3": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3",
+  "S": 0.987953,
+  "consistency": 0.952978,
+  "r2_psi": 0.999317,
+  "trainable": 31488
+ },
+ "c20-mlp-s1": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.986912,
+  "consistency": 0.947999,
+  "r2_psi": 0.999311,
+  "trainable": 31483
+ },
+ "c20-mlp-s2": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.986784,
+  "consistency": 0.94741,
+  "r2_psi": 0.999312,
+  "trainable": 31483
+ },
+ "c20-mlp-s3": {
+  "trial": 20,
+  "search_S": 0.987902,
+  "quantum": "srr",
+  "qcfg": "q10-part=2x5-geo=ring-sp=1.0-link=independent-L=3-mlp",
+  "S": 0.986819,
+  "consistency": 0.947588,
+  "r2_psi": 0.999311,
+  "trainable": 31483
+ },
+ "c13-reg-s1": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3",
+  "S": 0.987685,
+  "consistency": 0.951737,
+  "r2_psi": 0.999315,
+  "trainable": 15772
+ },
+ "c13-reg-s2": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3",
+  "S": 0.987869,
+  "consistency": 0.952511,
+  "r2_psi": 0.999316,
+  "trainable": 15772
+ },
+ "c13-reg-s3": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3",
+  "S": 0.988009,
+  "consistency": 0.953191,
+  "r2_psi": 0.999317,
+  "trainable": 15772
+ },
+ "c13-mlp-s1": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3-mlp",
+  "S": 0.987835,
+  "consistency": 0.952376,
+  "r2_psi": 0.999315,
+  "trainable": 15363
+ },
+ "c13-mlp-s2": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3-mlp",
+  "S": 0.987645,
+  "consistency": 0.951517,
+  "r2_psi": 0.999315,
+  "trainable": 15363
+ },
+ "c13-mlp-s3": {
+  "trial": 13,
+  "search_S": 0.987894,
+  "quantum": "srr",
+  "qcfg": "q5-part=1x5-geo=ring-sp=1.5-link=independent-L=3-mlp",
+  "S": 0.987392,
+  "consistency": 0.950258,
+  "r2_psi": 0.999314,
+  "trainable": 15363
+ }
+}

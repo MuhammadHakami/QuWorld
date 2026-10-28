@@ -1,0 +1,1 @@
+{"target": "analog", "omega": 2.0, "core": "mlp+", "seed": 2, "valid_r2": 0.9865247700772749, "test_r2": 0.986203607654349, "params_core": 93, "seconds": 32.09189963340759}

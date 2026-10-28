@@ -1,0 +1,38 @@
+/home/mohhakami/Documents/paper/quworld/.venv-vrp/lib/python3.12/site-packages/lightning/fabric/utilities/cloud_io.py:73: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+/home/mohhakami/Documents/paper/quworld/.venv-vrp/lib/python3.12/site-packages/lightning/pytorch/utilities/parsing.py:213: Attribute 'env' is an instance of `nn.Module` and is already saved during checkpointing. It is recommended to ignore them using `self.save_hyperparameters(ignore=['env'])`.
+/home/mohhakami/Documents/paper/quworld/.venv-vrp/lib/python3.12/site-packages/lightning/pytorch/utilities/parsing.py:213: Attribute 'policy' is an instance of `nn.Module` and is already saved during checkpointing. It is recommended to ignore them using `self.save_hyperparameters(ignore=['policy'])`.
+Found 16 datasets on the following paths: ['data/cvrp/test/100.npz', 'data/ovrp/test/100.npz', 'data/vrpb/test/100.npz', 'data/vrpl/test/100.npz', 'data/ovrpb/test/100.npz', 'data/ovrpl/test/100.npz', 'data/vrpbl/test/100.npz', 'data/vrptw/test/100.npz', 'data/ovrpbl/test/100.npz', 'data/ovrptw/test/100.npz', 'data/vrpbtw/test/100.npz', 'data/vrpltw/test/100.npz', 'data/ovrpbtw/test/100.npz', 'data/ovrpltw/test/100.npz', 'data/vrpbltw/test/100.npz', 'data/ovrpbltw/test/100.npz']
+Loading checkpoint from  checkpoints/100/rf-transformer.ckpt
+  0%|          | 0/16 [00:00<?, ?it/s]  6%|▋         | 1/16 [00:46<11:39, 46.66s/it] 12%|█▎        | 2/16 [01:31<10:41, 45.84s/it] 19%|█▉        | 3/16 [02:16<09:48, 45.26s/it] 25%|██▌       | 4/16 [03:02<09:04, 45.37s/it] 31%|███▏      | 5/16 [03:48<08:24, 45.90s/it] 38%|███▊      | 6/16 [04:35<07:39, 45.99s/it] 44%|████▍     | 7/16 [05:20<06:52, 45.81s/it] 50%|█████     | 8/16 [06:08<06:13, 46.63s/it] 56%|█████▋    | 9/16 [06:55<05:26, 46.64s/it] 62%|██████▎   | 10/16 [07:46<04:47, 47.95s/it] 69%|██████▉   | 11/16 [08:36<04:03, 48.61s/it] 75%|███████▌  | 12/16 [09:25<03:15, 48.83s/it] 81%|████████▏ | 13/16 [10:18<02:30, 50.11s/it] 88%|████████▊ | 14/16 [11:09<01:40, 50.30s/it] 94%|█████████▍| 15/16 [12:00<00:50, 50.47s/it]100%|██████████| 16/16 [12:53<00:00, 51.19s/it]100%|██████████| 16/16 [12:53<00:00, 48.34s/it]
+Loading data/cvrp/test/100.npz
+CVRP | Cost: 15.856 | Gap: 1.502% | Inference time: 46.639 s
+Loading data/ovrp/test/100.npz
+OVRP | Cost: 10.121 | Gap: 4.059% | Inference time: 45.238 s
+Loading data/vrpb/test/100.npz
+VRPB | Cost: 14.942 | Gap: 3.952% | Inference time: 44.534 s
+Loading data/vrpl/test/100.npz
+VRPL | Cost: 16.050 | Gap: 1.821% | Inference time: 45.512 s
+Loading data/ovrpb/test/100.npz
+OVRPB | Cost: 10.771 | Gap: 4.197% | Inference time: 46.821 s
+Loading data/ovrpl/test/100.npz
+OVRPL | Cost: 10.121 | Gap: 4.055% | Inference time: 46.131 s
+Loading data/vrpbl/test/100.npz
+VRPBL | Cost: 15.529 | Gap: 5.045% | Inference time: 45.414 s
+Loading data/vrptw/test/100.npz
+VRPTW | Cost: 26.234 | Gap: 3.176% | Inference time: 48.338 s
+Loading data/ovrpbl/test/100.npz
+OVRPBL | Cost: 10.779 | Gap: 4.271% | Inference time: 46.617 s
+Loading data/ovrptw/test/100.npz
+OVRPTW | Cost: 17.327 | Gap: 2.344% | Inference time: 50.870 s
+Loading data/vrpbtw/test/100.npz
+VRPBTW | Cost: 30.243 | Gap: 2.626% | Inference time: 50.061 s
+Loading data/vrpltw/test/100.npz
+VRPLTW | Cost: 26.691 | Gap: 3.587% | Inference time: 49.286 s
+Loading data/ovrpbtw/test/100.npz
+OVRPBTW | Cost: 19.550 | Gap: 2.041% | Inference time: 53.038 s
+Loading data/ovrpltw/test/100.npz
+OVRPLTW | Cost: 17.329 | Gap: 2.356% | Inference time: 50.712 s
+Loading data/vrpbltw/test/100.npz
+VRPBLTW | Cost: 30.688 | Gap: 2.925% | Inference time: 50.823 s
+Loading data/ovrpbltw/test/100.npz
+OVRPBLTW | Cost: 19.552 | Gap: 2.052% | Inference time: 52.842 s

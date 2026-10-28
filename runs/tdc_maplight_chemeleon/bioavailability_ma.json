@@ -1,0 +1,28 @@
+{
+ "endpoint": "bioavailability_ma",
+ "model": "MapLight CatBoost CPU exact [maplight+chemeleon]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.7168000000000001,
+ "test_sd": 0.008997777503361603,
+ "test_per_seed": [
+  0.72,
+  0.71,
+  0.706,
+  0.716,
+  0.732
+ ],
+ "official_evaluate_many": [
+  0.717,
+  0.009
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 4611,
+ "seconds": 237.15635752677917
+}

@@ -1,0 +1,4 @@
+[ridge] head_boundary_v8_J1RL_s1: lambda 10.0 (held-out TRAIN mse 0.00347)
+[ridge] head_boundary_v8_J1RL_s1 alone: mean-7 0.98694 -> 0.98692 (-0.00002) | R_axis -0.00000 Z_axis +0.00001 kappa -0.00011 tri_top +0.00001 tri_bot -0.00001 volume -0.00000 li -0.00005
+[ridge] ensemble (F8 proportions): mean-7 0.98768 -> 0.98768 gain -0.00000 CI [-0.00001, +0.00001] R_axis +0.00001 Z_axis +0.00001 kappa -0.00002 tri_top +0.00001 tri_bot -0.00000 volume +0.00001 li -0.00001  REJECT
+RIDGE_REFIT_DONE

@@ -1,0 +1,8 @@
+{
+ "shots": 6668,
+ "length_mismatch": 0,
+ "frac_frames_absIp_gt150kA_fixed": 0.9996565999192637,
+ "frac_frames_absIp_gt150kA_shipped": 0.5761061275578904,
+ "frac_shots_20kHz": 0.6996100779844031,
+ "max_abs_diff_shipped_vs_cache_column": 0.0
+}

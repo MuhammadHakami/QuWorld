@@ -1,0 +1,28 @@
+{
+ "endpoint": "ames",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.869,
+ "test_sd": 0.003033150177620623,
+ "test_per_seed": [
+  0.869,
+  0.873,
+  0.871,
+  0.868,
+  0.864
+ ],
+ "official_evaluate_many": [
+  0.869,
+  0.003
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 124.45637011528015
+}

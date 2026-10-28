@@ -1,0 +1,11 @@
+Uninstalled 1 package in 0.35ms
+Installed 1 package in 1ms
+---
+variant:        mr30hea
+val_vrmse_1:    0.462875
+val_vrmse_8:    1.268166
+train_loss:     0.049124
+num_steps:      4424
+num_params:     1338492
+train_seconds:  300.0
+peak_vram_mb:   414.9

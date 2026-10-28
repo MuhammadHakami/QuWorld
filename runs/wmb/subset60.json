@@ -1,0 +1,422 @@
+[
+ {
+  "domain": "animation",
+  "subdomain": "Drama",
+  "text_first_frame": "A character with long white hair and cat ears is standing in front of a wooden background with eyes closed, appearing calm. The scene is set outdoors with parts of the blue sky and some greenery visible in the background.",
+  "text_instruction": "The character with cat ears touches his own ear gently.",
+  "first_frame": "images/055680b1-e4e9-4195-b12c-1c4fdb365302.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Navigating Around Pedestrians or Stationary Objects (e.g., cones)",
+  "text_first_frame": "A road with yellow stripes and a North Buona Vista Rd street sign standing next to it. Dense vegetation and trees fill the background behind the street sign.",
+  "text_instruction": "\"A motorcycle travels down the road past a street sign and vegetation.\"",
+  "first_frame": "images/0380a039d81b449ca8ee0367163e7008.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "dancing",
+  "text_first_frame": "A pair of dancers, one wearing dark pants and sneakers, and the other in high-heeled boots, are positioned on a glossy blue floor. Their feet are slightly apart, poised as if ready to move.",
+  "text_instruction": "The dancers move rhythmically across the blue floor.",
+  "first_frame": "images/IHe9fdBM20A_000018_000028.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Aerospace and large industrial systems",
+  "text_first_frame": "The first frame shows a large expanse of farmland with multiple wind turbines positioned throughout the landscape. The sky is clear with a few scattered clouds, and shadows of the wind turbines stretch across the fields.",
+  "text_instruction": "The wind turbines rotate steadily in the large industrial system.",
+  "first_frame": "images/pixabay_rural_landscapes_videos_86618_007.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Plant Life and Vegetation",
+  "text_first_frame": "A large sunflower with bright yellow petals stands tall under a clear, blue sky dotted with white clouds. To the left of the large sunflower is a smaller sunflower, also with yellow petals and a dark center.",
+  "text_instruction": "A bee flies closer to the large sunflower.",
+  "first_frame": "images/Dj4fn7ypSRU_49_0to179.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "slide",
+  "text_first_frame": "A robotic arm hovers above a wooden countertop, with a metal can, a metallic pot, a yellow cloth, and two utensils with colored handles nearby. The scene is set in a kitchen environment, showcasing these objects clearly arranged on the surface.",
+  "text_instruction": "The robotic arm slides a metal can toward the pot.",
+  "first_frame": "images/bridge_3251.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Action.",
+  "text_first_frame": "Two characters are flying side by side over a rocky landscape with clear blue skies in the background. The scene is dynamic, indicating rapid motion with blurred elements giving a sense of speed.",
+  "text_instruction": "The two characters fly rapidly side by side over a rocky landscape.",
+  "first_frame": "images/000001364500.0.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Adventure",
+  "text_first_frame": "A girl with a snack in one hand stands in front of a stone wall. In the background, a guard stands holding a spear, also in front of the stone wall.",
+  "text_instruction": "\"The girl holds a snack near her mouth while a guard stands with a spear.\"",
+  "first_frame": "images/b24c19b4-5709-449c-bea8-461f08ccd6a9.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Maintaining Speed (Steady)",
+  "text_first_frame": "A vehicle is seen at a distance on a multi-lane road approaching an intersection with traffic lights. An ambulance is parked to the right, and a modern office building is visible on the left side of the road.",
+  "text_instruction": "The vehicle maintains a steady speed as it approaches an intersection.",
+  "first_frame": "images/59ed00a33c494e499ac276e6caa928c6.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "athletics \u2013 throwing + launching",
+  "text_first_frame": "An athlete is positioned on a javelin runway, preparing to throw. He wears a blue shirt with a label and holds the javelin above his shoulder, poised for action.",
+  "text_instruction": "The athlete throws a javelin with a powerful launch.",
+  "first_frame": "images/a41Z4QMI8xc_000056_000066.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Aerospace and large industrial systems",
+  "text_first_frame": "The rocket is positioned upright at the aerospace facility launch pad, with the support structure visible in the background. Smoke and steam clouds are forming around the base of the rocket as the engines begin to ignite.",
+  "text_instruction": "The rocket begins its launch sequence at the aerospace facility.",
+  "first_frame": "images/pixabay_urban_green_spaces_videos_225_004.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Plant Life and Vegetation",
+  "text_first_frame": "A grasshopper is sitting on the ground surrounded by dense green vegetation. The scene includes various plants and grass stemming from a slightly damp, earthy surface.",
+  "text_instruction": "\"The grasshopper jumps from the ground into the air amidst the surrounding vegetation.\"",
+  "first_frame": "images/033zYstULZI_259_64to178.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "pick",
+  "text_first_frame": "The scene depicts a robotic arm positioned over a blue bowl that contains cookies on a wooden table. A large, blue container and a small oven are visible around the robotic arm.",
+  "text_instruction": "The robotic arm picks a cookie from the blue bowl.",
+  "first_frame": "images/jaco_play_83.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "RPG.",
+  "text_first_frame": "The screen displays the inventory menu with various tabs at the top, including 'JOURNAL,' 'INVENTORY,' 'CRAFTING,' 'SKILLS,' 'FACILITIES,' 'MAILBOX,' and 'SURVIVORS.' At the bottom, there are icons for health, stamina, and loadout, along with various inventory items.",
+  "text_instruction": "The character navigates through inventory and crafting menus to select and craft an energy pistol, then checks the skills and map sections.",
+  "first_frame": "images/000000002388.11.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Comedy",
+  "text_first_frame": "A character with light blonde hair stands in front of a wooden window pane. The window reveals a blurred outdoor view, providing natural light to the scene.",
+  "text_instruction": "The character bursts into uncontrollable laughter.",
+  "first_frame": "images/de55a3ba-b700-438e-91d7-7904c109b761.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Lane Changing (Maneuvering)",
+  "text_first_frame": "An autonomous vehicle is on a multi-lane road with trees and commercial buildings lining the sides. There is another vehicle ahead in the neighboring lane to the right.",
+  "text_instruction": "\"The autonomous vehicle changes lanes to the left.\"",
+  "first_frame": "images/9017506f0e2c47c1b9aa617002703be3.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "athletics \u2013 jumping",
+  "text_first_frame": "An athlete wearing a white shirt and black shorts stands on a paved runway, preparing for a run. The background shows a field with buildings and utility poles under a clear blue sky.",
+  "text_instruction": "The athlete performs a running jump into a sandpit.",
+  "first_frame": "images/b91QyJ0TRAI_000000_000010.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Metalworking and manufacturing processes",
+  "text_first_frame": "A person stands in front of a vertical milling machine, holding a metal component in their hands. The workspace is cluttered with various tools and equipment visible in the background, and the machine's spindle is positioned close to the component.",
+  "text_instruction": "The operator uses a vertical mill to precisely machine a metal component.",
+  "first_frame": "images/MPqj6WaTFOE_25_0to163.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Animal Behavior",
+  "text_first_frame": "Several penguins are seen on a rocky shore with one penguin at the edge of the shore preparing to enter the clear, turquoise water. The rocky terrain is covered in patches of green algae and wet areas from the splashing waves.",
+  "text_instruction": "The penguin enters the water from the rocky shore.",
+  "first_frame": "images/TeaqB2LM0JE_13_0to264.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "move",
+  "text_first_frame": "A robotic arm is positioned above a wooden countertop with a piece of sushi placed nearby. A stainless steel pot sits on the right, accompanied by a blue cloth and a utensil.",
+  "text_instruction": "The robotic arm moves sushi from the countertop into the pot.",
+  "first_frame": "images/bridge_1434.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Adventure.",
+  "text_first_frame": "A heavily armored adventurer is standing at the bottom of a wooden stairway, holding a shield and a sword. The scene is set outdoors during sunset, with a stone fortress visible in the background and surrounded by trees.",
+  "text_instruction": "The armored adventurer ascends the wooden stairs towards the stone fortress.",
+  "first_frame": "images/000000001069.10.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Adventure",
+  "text_first_frame": "A girl with blonde hair stands on a balcony, gazing at the sunset. She holds a juice box in her hands.",
+  "text_instruction": "The girl gazes at the sunset, holding a juice box.",
+  "first_frame": "images/8ce7c3c4-edac-4306-a541-bd1c89221932.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Acceleration",
+  "text_first_frame": "A vehicle is on a winding road surrounded by trees and greenery on the left side. In the background, there are three tall buildings and a clear sky.",
+  "text_instruction": "The vehicle accelerates along a winding road.",
+  "first_frame": "images/d6f4d5fde42542a7a4e35fc6624ba66c.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "hands",
+  "text_first_frame": "A young child in a striped shirt is seated in a pink car seat with a seatbelt fastened. Her arm is raised as she starts to dance, and the sunlight is visible through the car window behind her.",
+  "text_instruction": "The child raises her hand and dances while seated in a car seat.",
+  "first_frame": "images/QyKbhRXblY0_000030_000040.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Food and beverage industrial processes",
+  "text_first_frame": "Several clear plastic bottles are aligned vertically in a rotary filling machine, with water being dispensed into them in a factory setting. The machine has multiple nozzles and mechanical components visible at the top and bottom.",
+  "text_instruction": "Water is dispensed into plastic bottles on a rotary filling machine.",
+  "first_frame": "images/WgrxxdVBEGc_50_64to186.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Water Bodies",
+  "text_first_frame": "Water cascades over the edge of a rock formation, forming a waterfall that flows downwards. The backdrop consists of autumn foliage with trees adorned in shades of yellow, orange, and green.",
+  "text_instruction": "Water cascades over the edge of a rock formation, creating a waterfall amidst a backdrop of autumn foliage.",
+  "first_frame": "images/A-6R3cdp3Bo_26_0to150.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "take",
+  "text_first_frame": "A robotic arm is positioned above a wooden platform with a small, orange and white object inside an amber-colored bowl. Nearby on the platform, there are a green and a red object.",
+  "text_instruction": "The robotic arm takes an orange and white object from the bowl.",
+  "first_frame": "images/bridge_2807.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Action.",
+  "text_first_frame": "The player wearing an orange jacket and a yellow backpack is taking cover behind a large rock in a grassy area with trees in the background. The player is crouched and aiming a gun towards an unseen enemy.",
+  "text_instruction": "\"The player in orange jacket fires at an enemy while taking cover behind a rock in an action video game.\"",
+  "first_frame": "images/000000006154.36.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Comedy",
+  "text_first_frame": "A surreal, glowing cube protrudes from a massive purple building while people gather below observing the spectacle. Several cars are parked nearby as the sun casts a pinkish hue over the scene.",
+  "text_instruction": "A surreal, glowing cube protrudes from a massive building while people gather below observing the spectacle.",
+  "first_frame": "images/8e5a66a6-12e6-4caf-b9fe-1c959283af87.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Stopping",
+  "text_first_frame": "A black autonomous vehicle is positioned on the roadside of a tree-lined street. The background features modern buildings and directional street signs.",
+  "text_instruction": "The autonomous vehicle stops on the roadside.",
+  "first_frame": "images/71abe16f2ea9458da5cd5600a8dec5a8.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "touching person",
+  "text_first_frame": "A person with a light gray shirt is extending their left hand with fingers slightly spread in front of their chest. The background is out of focus, emphasizing the detailed texture of the skin on the hand.",
+  "text_instruction": "The person touches their own hand with the other hand.",
+  "first_frame": "images/SPCQCjpDrB0_000007_000017.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Machinery and equipment operation",
+  "text_first_frame": "A worker in a blue uniform walks down an aisle in an industrial facility. There are various pieces of machinery and pipes lining the walls, with clear signage and control panels visible.",
+  "text_instruction": "The worker inspects the machinery in an industrial facility.",
+  "first_frame": "images/Zez12WfaAYs_8_0to147.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Animal Behavior",
+  "text_first_frame": "A monkey is holding a piece of fruit with both hands in an outdoor environment. The background is filled with lush green foliage, creating a natural setting.",
+  "text_instruction": "The monkey is eating a piece of fruit.",
+  "first_frame": "images/7ZgaBDdTzaE_38_23to150.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "open",
+  "text_first_frame": "A black robotic arm hovers over a partially opened cardboard box labeled 'kitchen set,' placed on a wooden counter. In the background, there are decorative tiles and some fruits next to a sink-like structure, including an ice cream cone in the foreground.",
+  "text_instruction": "The robotic arm opens a cardboard box.",
+  "first_frame": "images/bridge_459.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Action.",
+  "text_first_frame": "A character is seen crawling on a dirt path towards a bunker amidst intense explosions. The surroundings include debris and a fiery explosion illuminates the area ahead.",
+  "text_instruction": "The character advances towards a bunker amidst explosions and then opens a green weapon crate.",
+  "first_frame": "images/000000003915.13.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Comedy",
+  "text_first_frame": "A pair of hands holds a metallic surface reflecting light, seen in an indoor setting with dim lighting and blurred background objects. The character's legs are visible beneath the held surface, indicating they are seated.",
+  "text_instruction": "\"The character reveals a surprised face reflecting on the metallic surface.\"",
+  "first_frame": "images/92ec5d48-97a1-426a-b4e3-818e4d4ac5cf.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Stopping",
+  "text_first_frame": "The autonomous vehicle approaches a traffic light on a bridge surrounded by tall buildings. Construction barriers line the sides of the bridge with a yellow traffic light visible ahead.",
+  "text_instruction": "The autonomous vehicle stops at the traffic light on the bridge.",
+  "first_frame": "images/69620089860948e38a4921dd4869d24f.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "using tools",
+  "text_first_frame": "A man in a brown shirt stands beside a red car at a gas station, interacting with a fuel pump. The area is illuminated by night lights, showcasing the gas station environment.",
+  "text_instruction": "The person is refueling the red car at a gas station.",
+  "first_frame": "images/pygB2uDziD0_000179_000189.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Machinery and equipment operation",
+  "text_first_frame": "A man is seen operating intricate machinery, adjusting several wires and components. The surroundings include large, metallic equipment with blue panels and a prominent button in view.",
+  "text_instruction": "The man operates machinery by adjusting wires and components.",
+  "first_frame": "images/Oq4TT-5Ka_k_20_0to108.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Animal Behavior",
+  "text_first_frame": "A large bear with thick fur is seen bending down over the forest floor, surrounded by dense evergreen trees. The bear's head is close to the ground, seemingly foraging for food.",
+  "text_instruction": "The bear forages the forest floor.",
+  "first_frame": "images/T-xx7tYUGfM_143_271to439.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "place",
+  "text_first_frame": "A metal pot is positioned on a wooden surface next to a folded yellow cloth. Nearby, a green-handled spatula and a cob of corn are placed on the same surface.",
+  "text_instruction": "The robotic arm places a pot on the yellow cloth.",
+  "first_frame": "images/bridge_2873.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "RPG (Role-Playing).",
+  "text_first_frame": "A group of RPG players, dressed in various costumes and armor, gathers around a central statue in a town square. The scene is set in a medieval-themed environment, with cobblestone streets and ornate architecture visible in the background.",
+  "text_instruction": "\"A group of RPG players gathers around a central statue in a town square.\"",
+  "first_frame": "images/000001339958.1.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Mystery",
+  "text_first_frame": "A figure is prominently displayed at the center of the frame, while a person in the background walks towards the right across a darkly lit environment. The figure appears to be seated and operating a device with both hands covered by gloves.",
+  "text_instruction": "The figure operates a device while the person in the background walks towards the right.",
+  "first_frame": "images/50f7177b-5ae1-434d-8ba2-4f50fc599222.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Keeping Safe Distance (Obstacle Avoidance)",
+  "text_first_frame": "A black car is stopped at an intersection with several pedestrians crossing the street in front of it. There are buildings and traffic lights around the intersection.",
+  "text_instruction": "The car stops at an intersection to keep a safe distance from pedestrians crossing the street.",
+  "first_frame": "images/f7678b7083b7460080f61835c678b6f7.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "using tools",
+  "text_first_frame": "In a workshop filled with wooden shelves and tools, a man wearing a cap and apron stands at a table saw. He is preparing to cut a wooden board, which is positioned on the table and guided by a wooden fence.",
+  "text_instruction": "The man uses a table saw to cut a wooden board.",
+  "first_frame": "images/zFI6Jh0LN5Y_000100_000110.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Food and beverage industrial processes",
+  "text_first_frame": "A large industrial mixer with white body and metal whisk attachment is blending dough in a large metal bowl. The dough is thick and creamy, with some of it sticking to the sides of the bowl.",
+  "text_instruction": "The industrial mixer blends dough in a large metal bowl.",
+  "first_frame": "images/KDo2HXlp2Uk_9_74to207.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Plant Life and Vegetation",
+  "text_first_frame": "A bee is perched on a cluster of white flowers amidst green foliage. The bee is positioned close to several blooming white flowers, making contact with them.",
+  "text_instruction": "The bee gathers nectar from the cluster of white flowers.",
+  "first_frame": "images/H7YoHPrUvII_17_0to132.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "take",
+  "text_first_frame": "A robotic arm hovers over a pink bowl filled with cookies on a wooden table. A gray bowl is placed nearby, waiting to receive the cookies.",
+  "text_instruction": "The robotic arm takes cookies from the pink bowl and places them into the gray bowl.",
+  "first_frame": "images/berkeley_autolab_ur5_84.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Simulation.",
+  "text_first_frame": "Two football players in yellow and navy uniforms, with '26' visible on one player's back, converge to tackle an opponent in white and red near the end zone. The opponent is holding a football while trying to maintain balance near the white line.",
+  "text_instruction": "\"Two football players tackle an opponent near the end zone in a football simulation game.\"",
+  "first_frame": "images/000000772155.8.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Action",
+  "text_first_frame": "A man wearing a white dress shirt and black tie points his finger forward. They are situated in a room with orange walls and a yellow strip near the ceiling.",
+  "text_instruction": "The girl clenches her fist in anger.",
+  "first_frame": "images/fe80dd12-204a-4510-b364-fc67d08431e4.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Maintaining Speed (Steady)",
+  "text_first_frame": "A street view with a large building on the right and parked vehicles on both sides. There is a sign with the number 23 on the left side near some trees and poles.",
+  "text_instruction": "The autonomous vehicle maintains a steady speed while driving straight.",
+  "first_frame": "images/2045f096f06b41fd9cb10a168d52670f.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "dancing",
+  "text_first_frame": "Two people are captured in the first frame, performing in front of a brightly lit urban backdrop with a prominent 'hiphol' sign. The scene is lively with the duo positioned in the foreground amidst a crowd in the background.",
+  "text_instruction": "The two people perform synchronized dancing in front of a brightly lit urban setting.",
+  "first_frame": "images/JuFxHyLJdXo_000305_000315.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Machinery and equipment operation",
+  "text_first_frame": "A person stands next to an industrial control panel with various buttons and a screen displaying data. In the background, there is industrial machinery partially visible.",
+  "text_instruction": "The operator demonstrates the control panel of industrial machinery.",
+  "first_frame": "images/dERo6Hg-Izo_0_0to253.jpg"
+ },
+ {
+  "domain": "natural",
+  "subdomain": "Landscape and Scenery",
+  "text_first_frame": "A picturesque seaside scene featuring palm trees with their fronds partially in view swaying gently. The blue sea extends into the horizon, with rocks scattered near the shore and some vegetation in the foreground.",
+  "text_instruction": "The palm trees sway gently in the tropical breeze by the seaside.",
+  "first_frame": "images/2L1qaMc39j0_14_0to136.jpg"
+ },
+ {
+  "domain": "robotics",
+  "subdomain": "pick",
+  "text_first_frame": "A robotic arm is positioned above an open toolbox, which contains a variety of colorful tools. Among the tools is a prominent purple tool that is surrounded by other wrenches and screwdrivers.",
+  "text_instruction": "The robotic arm picks up the purple tool from the toolbox.",
+  "first_frame": "images/bridge_1341.jpg"
+ },
+ {
+  "domain": "video games",
+  "subdomain": "Adventure.",
+  "text_first_frame": "A purple alien with two eyes on stalks sits on a black couch in a living room, beside a pink alien with a spiky crest. The living room background includes a poster on the wall, a plant, and a kitchen area visible behind them.",
+  "text_instruction": "\"The purple alien with two eyes on stalks converses with the pink alien in a living room setting.\"",
+  "first_frame": "images/000000003190.32.jpg"
+ },
+ {
+  "domain": "animation",
+  "subdomain": "Action",
+  "text_first_frame": "An armored character with white hair and visible blood stains on their face and armor is seen against a dark, rocky background. The character's eyes are closed, and they appear to be in pain or exhausted.",
+  "text_instruction": "The armored character turns to face the blonde character.",
+  "first_frame": "images/5e8d1ec4-4ba7-4a3d-9ed2-3bd1629d0b94.jpg"
+ },
+ {
+  "domain": "autonomous vehicle",
+  "subdomain": "Acceleration",
+  "text_first_frame": "A dimly lit street at night with an autonomous vehicle positioned on the left side of the frame. The street is flanked by houses and vegetation, and there are some parked cars in the distance.",
+  "text_instruction": "The autonomous vehicle accelerates along the dimly lit street at night.",
+  "first_frame": "images/b3e01aa169d04c9f894907c36a594654.jpg"
+ },
+ {
+  "domain": "human",
+  "subdomain": "athletics \u2013 throwing + launching",
+  "text_first_frame": "An athlete wearing a yellow jersey and white shorts is standing in a discus cage, preparing to throw. The background shows a stadium with bright yellow seating and a large red building.",
+  "text_instruction": "The athlete throws the discus across the field.",
+  "first_frame": "images/Lt0TIkZdUs4_000003_000013.jpg"
+ },
+ {
+  "domain": "industrial",
+  "subdomain": "Automotive and engine assembly",
+  "text_first_frame": "A red car is positioned in a garage next to a hydraulic lift with a man standing nearby. Various other cars and automotive equipment can be seen in the background.",
+  "text_instruction": "\"The car is being lifted on a hydraulic lift for engine assembly.\"",
+  "first_frame": "images/pus075nqczo_17_0to196.jpg"
+ }
+]

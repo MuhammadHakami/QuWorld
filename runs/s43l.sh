@@ -1,0 +1,6 @@
+#!/bin/bash
+# §43l (registered before any result): the new fast-path register heads as ADDITIONAL members (not replacements) of A = J1RL s1*3 + s2*3 + J1QPIpi_s1.
+# Rule: an arm advances (TRAIN-only build candidate) iff its paired VT delta vs A has CI > 0 and >= +0.00010.
+cd /home/mohhakami/Documents/paper/quworld; export CUDA_VISIBLE_DEVICES=0 PYTHONUNBUFFERED=1; LOG=runs/strat/fusion/s43l.log
+flock runs/strat/vt.lock .venv/bin/python paper/strat/fusion/vt_eval.py shape "head_boundary_v8_J1RL_s1*3+head_boundary_v8_J1RL_s2*3+head_boundary_v8_J1QPIpi_s1*1" "head_boundary_v8_J1RL_s1*3+head_boundary_v8_J1RL_s2*3+head_boundary_v8_J1QPIpi_s1*1+head_boundary_v8_J1QRL_s1*1+head_boundary_v8_J1QRL_s2*1+head_boundary_v8_J1QRL_s3*1" "head_boundary_v8_J1RL_s1*3+head_boundary_v8_J1RL_s2*3+head_boundary_v8_J1QPIpi_s1*1+head_boundary_v8_J1QH_s1*1+head_boundary_v8_J1QH_s2*1+head_boundary_v8_J1QH_s3*1" "head_boundary_v8_J1RL_s1*3+head_boundary_v8_J1RL_s2*3+head_boundary_v8_J1QPIpi_s1*1+head_boundary_v8_J1QRL_s1*1+head_boundary_v8_J1QRL_s2*1+head_boundary_v8_J1QRL_s3*1+head_boundary_v8_J1QH_s1*1+head_boundary_v8_J1QH_s2*1+head_boundary_v8_J1QH_s3*1" >> $LOG 2>&1 || echo "CRASH vt $(date -Is)" >> $LOG
+echo "S43L_DONE $(date -Is)" >> $LOG

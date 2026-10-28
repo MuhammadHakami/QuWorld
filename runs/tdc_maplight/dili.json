@@ -1,0 +1,28 @@
+{
+ "endpoint": "dili",
+ "model": "MapLight CatBoost CPU exact [maplight]",
+ "metric": "roc-auc",
+ "higher_is_better": true,
+ "test_mean": 0.8854,
+ "test_sd": 0.0029393876913398165,
+ "test_per_seed": [
+  0.885,
+  0.885,
+  0.883,
+  0.883,
+  0.891
+ ],
+ "official_evaluate_many": [
+  0.885,
+  0.003
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2563,
+ "seconds": 36.9130425453186
+}

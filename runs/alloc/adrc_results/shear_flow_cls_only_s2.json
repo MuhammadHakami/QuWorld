@@ -1,0 +1,1 @@
+{"row": "shear_flow", "arm": "cls_only", "seed": 2, "trunk_test": 1.059867153710237, "test": 0.1170136791533058, "test_rel_gain": 0.8895959000675883, "test_captured": 0.581343309184424, "valid": 0.10788547448378837, "epochs": 21, "seconds": 4.860836029052734, "tethers": null, "params_core": 224}

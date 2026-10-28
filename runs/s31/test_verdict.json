@@ -1,0 +1,172 @@
+{
+ "active_matter": {
+  "S": 0.07352468660074352,
+  "prediction": "gain in both cores",
+  "route": "proxy",
+  "cores": {
+   "ryd": {
+    "seed_gain": [
+     0.12333,
+     0.13576,
+     0.10844
+    ],
+    "mean_gain": 0.12251,
+    "ci95_cluster": [
+     0.02708,
+     0.18635
+    ],
+    "test_route": [
+     0.088479,
+     0.087534,
+     0.08991
+    ],
+    "test_pooled": [
+     0.100926,
+     0.101284,
+     0.100846
+    ],
+    "trunk_test": 0.102942,
+    "n_test": 2002,
+    "params_core": 680,
+    "seconds_phaseA": [
+     134.9,
+     156.5,
+     254.8,
+     111.2,
+     58.6,
+     49.4
+    ],
+    "test_route_official": [
+     0.088478,
+     0.087533,
+     0.089909
+    ]
+   },
+   "mlp": {
+    "seed_gain": [
+     0.13877,
+     0.14467,
+     0.13924
+    ],
+    "mean_gain": 0.14089,
+    "ci95_cluster": [
+     0.04369,
+     0.20311
+    ],
+    "test_route": [
+     0.08709,
+     0.08673,
+     0.087005
+    ],
+    "test_pooled": [
+     0.101124,
+     0.101399,
+     0.10108
+    ],
+    "trunk_test": 0.102942,
+    "n_test": 2002,
+    "params_core": 635,
+    "seconds_phaseA": [
+     5.6,
+     5.8,
+     6.4,
+     13.9,
+     25.5,
+     16.4
+    ],
+    "test_route_official": [
+     0.087089,
+     0.086729,
+     0.087004
+    ]
+   }
+  },
+  "reg_minus_mlp_mean_gain": -0.01838,
+  "verdict": "prediction held"
+ },
+ "gray_scott_reaction_diffusion": {
+  "S": 0.2905858870702701,
+  "prediction": "gain in both cores",
+  "route": "proxy",
+  "cores": {
+   "ryd": {
+    "seed_gain": [
+     0.17093,
+     0.14985,
+     0.13476
+    ],
+    "mean_gain": 0.15185,
+    "ci95_cluster": [
+     0.14453,
+     0.15409
+    ],
+    "test_route": [
+     0.111565,
+     0.109481,
+     0.108146
+    ],
+    "test_pooled": [
+     0.134566,
+     0.128778,
+     0.12499
+    ],
+    "trunk_test": 0.155972,
+    "n_test": 119640,
+    "params_core": 212,
+    "seconds_phaseA": [
+     286.4,
+     425.3,
+     510.4,
+     171.0,
+     242.9,
+     210.2
+    ],
+    "test_route_official": [
+     0.111562,
+     0.109478,
+     0.108143
+    ]
+   },
+   "mlp": {
+    "seed_gain": [
+     0.23611,
+     0.23223,
+     0.27697
+    ],
+    "mean_gain": 0.24844,
+    "ci95_cluster": [
+     0.2384,
+     0.25137
+    ],
+    "test_route": [
+     0.105936,
+     0.099735,
+     0.097333
+    ],
+    "test_pooled": [
+     0.138679,
+     0.129903,
+     0.134618
+    ],
+    "trunk_test": 0.155972,
+    "n_test": 119640,
+    "params_core": 249,
+    "seconds_phaseA": [
+     5.5,
+     9.7,
+     7.9,
+     31.8,
+     27.6,
+     31.6
+    ],
+    "test_route_official": [
+     0.105933,
+     0.099732,
+     0.09733
+    ]
+   }
+  },
+  "reg_minus_mlp_mean_gain": -0.09659,
+  "verdict": "prediction held"
+ }
+}

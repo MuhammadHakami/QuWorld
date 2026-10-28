@@ -1,0 +1,23 @@
+[I 2026-09-22 13:34:03,278] A new study created in RDB with name: sophelio-mlp_ms2
+[hpo] sophelio/mlp: 0 complete trials on file, target 10
+[hpo] trial 0 q30-mlpref {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256} -> valid -0.696664 (393s)
+[I 2026-09-22 13:40:36,748] Trial 0 finished with value: -0.696664 and parameters: {'lr': 0.00040662579520647096, 'epochs': 30, 'batch': 256}. Best is trial 0 with value: -0.696664.
+[hpo] trial 1 q30-mlpref {'lr': 0.0008141553118632134, 'epochs': 40, 'batch': 128} -> valid -0.705611 (504s)
+[I 2026-09-22 13:49:00,370] Trial 1 finished with value: -0.7056105 and parameters: {'lr': 0.0008141553118632134, 'epochs': 40, 'batch': 128}. Best is trial 1 with value: -0.7056105.
+[hpo] trial 2 q30-mlpref {'lr': 0.0005692784284287945, 'epochs': 60, 'batch': 256} -> valid -0.709934 (714s)
+[I 2026-09-22 14:00:54,075] Trial 2 finished with value: -0.7099344999999999 and parameters: {'lr': 0.0005692784284287945, 'epochs': 60, 'batch': 256}. Best is trial 2 with value: -0.7099344999999999.
+[hpo] trial 3 q30-mlpref {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512} -> valid -0.729266 (815s)
+[I 2026-09-22 14:14:29,637] Trial 3 finished with value: -0.729266 and parameters: {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512}. Best is trial 3 with value: -0.729266.
+[hpo] trial 4 q30-mlpref {'lr': 0.0015669724980111157, 'epochs': 40, 'batch': 256} -> valid -0.709110 (498s)
+[I 2026-09-22 14:22:48,189] Trial 4 finished with value: -0.7091105 and parameters: {'lr': 0.0015669724980111157, 'epochs': 40, 'batch': 256}. Best is trial 3 with value: -0.729266.
+[hpo] trial 5 q30-mlpref {'lr': 0.0018161502093674035, 'epochs': 80, 'batch': 512} -> valid -0.702946 (923s)
+[I 2026-09-22 14:38:11,259] Trial 5 finished with value: -0.7029455 and parameters: {'lr': 0.0018161502093674035, 'epochs': 80, 'batch': 512}. Best is trial 3 with value: -0.729266.
+[hpo] trial 6 q30-mlpref {'lr': 0.00022701988398560684, 'epochs': 60, 'batch': 512} -> valid -0.687462 (714s)
+[I 2026-09-22 14:50:05,272] Trial 6 finished with value: -0.687462 and parameters: {'lr': 0.00022701988398560684, 'epochs': 60, 'batch': 512}. Best is trial 3 with value: -0.729266.
+[hpo] trial 7 q30-mlpref {'lr': 0.0008410390103210753, 'epochs': 70, 'batch': 512} -> valid -0.699649 (820s)
+[I 2026-09-22 15:03:45,388] Trial 7 finished with value: -0.699649 and parameters: {'lr': 0.0008410390103210753, 'epochs': 70, 'batch': 512}. Best is trial 3 with value: -0.729266.
+[hpo] trial 8 q30-mlpref {'lr': 0.002175060907528939, 'epochs': 40, 'batch': 512} -> valid -0.713895 (496s)
+[I 2026-09-22 15:12:01,455] Trial 8 finished with value: -0.713895 and parameters: {'lr': 0.002175060907528939, 'epochs': 40, 'batch': 512}. Best is trial 3 with value: -0.729266.
+[hpo] trial 9 q30-mlpref {'lr': 0.002976233239179063, 'epochs': 60, 'batch': 256} -> valid -0.721233 (711s)
+[I 2026-09-22 15:23:52,389] Trial 9 finished with value: -0.7212335 and parameters: {'lr': 0.002976233239179063, 'epochs': 60, 'batch': 256}. Best is trial 3 with value: -0.729266.
+[hpo] sophelio/mlp search done: best valid -0.729266 {'lr': 0.0016967687625343555, 'epochs': 70, 'batch': 512}

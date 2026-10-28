@@ -1,0 +1,10 @@
+loading hybrid checkpoint, variant=mlp30
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+ckpt:            runs/phase_b2/final/mlp30_s1337.pt
+n_traj:          9
+rollout_6_12:    0.5301   (aggregate sanity check)
+rollout_13_30:   0.9527
+pertraj_6_12:    0.5542 0.4460 0.3415 0.5903 0.5227 0.5722 0.5470 0.5899 0.6071
+pertraj_13_30:   0.8768 0.9073 0.8260 0.9558 0.9135 1.4830 0.9185 0.8721 0.8213
+saved:           /home/mohhakami/Documents/paper/quworld/runs/phase_b2/pertraj_mlp30final_s1337.npz

@@ -1,0 +1,13 @@
+{
+ "bench": "sophelio",
+ "arm": "none",
+ "trials": 10,
+ "best_value": -0.736925,
+ "best_params": {
+  "lr": 0.0029549815896083216,
+  "epochs": 80,
+  "batch": 256
+ },
+ "best_variant": "vanilla",
+ "search_seed": 1337
+}

@@ -1,0 +1,1 @@
+{"row": "rayleigh_benard", "arm": "rand_ryd", "seed": 1, "trunk_test": 0.6401042560488408, "test": 0.5070778239712754, "test_rel_gain": 0.20781994623609457, "test_captured": 0.06949648600351914, "valid": 0.5586300962336642, "epochs": 35, "seconds": 151.81138563156128, "tethers": [0.0, 0.0, 0.0], "params_core": 224}

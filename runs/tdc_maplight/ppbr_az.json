@@ -1,0 +1,28 @@
+{
+ "endpoint": "ppbr_az",
+ "model": "MapLight CatBoost CPU exact [maplight]",
+ "metric": "mae",
+ "higher_is_better": false,
+ "test_mean": 7.679,
+ "test_sd": 0.09353288191860651,
+ "test_per_seed": [
+  7.84,
+  7.576,
+  7.701,
+  7.681,
+  7.597
+ ],
+ "official_evaluate_many": [
+  7.679,
+  0.094
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2563,
+ "seconds": 50.05861496925354
+}

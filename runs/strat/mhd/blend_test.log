@@ -1,0 +1,14 @@
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[load] flowers ckpt runs/phase_b_mhd/flower_s1337.pt step 23100 val 0.12188
+[s37h-test] 0/960
+[s37h-test] 100/960
+[s37h-test] 200/960
+[s37h-test] 300/960
+[s37h-test] 400/960
+[s37h-test] 500/960
+[s37h-test] 600/960
+[s37h-test] 700/960
+[s37h-test] 800/960
+[s37h-test] 900/960
+S37H_TEST blend 0.11686 (grouped 0.12656) blend_shg8 0.10426 (grouped 0.11185) check_F_dfc 0.11906 (grouped 0.12977)

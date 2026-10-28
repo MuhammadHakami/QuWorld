@@ -1,0 +1,18 @@
+{
+ "dataset": "shear_flow",
+ "members": [
+  "shear_flow_mr30ryd_vrmse_gate_s1",
+  "shear_flow_vanilla_vrmse_gate_s1",
+  "shear_flow_mlp30_vrmse_gate_s1"
+ ],
+ "valid": {
+  "shear_flow_mr30ryd_vrmse_gate_s1": 0.027383146807551384,
+  "shear_flow_vanilla_vrmse_gate_s1": 0.02929900400340557,
+  "shear_flow_mlp30_vrmse_gate_s1": 0.028233643621206284,
+  "E-ft": 0.025586839765310287
+ },
+ "selected": "E-ft",
+ "full_test": 0.02521420270204544,
+ "full_test_median": 0.008063385263085365,
+ "full_test_n": 21952
+}

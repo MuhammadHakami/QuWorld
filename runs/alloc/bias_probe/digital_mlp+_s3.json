@@ -1,0 +1,1 @@
+{"target": "digital", "omega": 1.0, "core": "mlp+", "seed": 3, "valid_r2": 0.9055209417049792, "test_r2": 0.9057198565433162, "params_core": 93, "seconds": 32.14302110671997}

@@ -1,0 +1,28 @@
+{
+ "endpoint": "half_life_obach",
+ "model": "MapLight CatBoost CPU exact [maplight]",
+ "metric": "spearman",
+ "higher_is_better": true,
+ "test_mean": 0.5644,
+ "test_sd": 0.008799999999999966,
+ "test_per_seed": [
+  0.569,
+  0.573,
+  0.563,
+  0.569,
+  0.548
+ ],
+ "official_evaluate_many": [
+  0.564,
+  0.009
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2563,
+ "seconds": 42.270665884017944
+}

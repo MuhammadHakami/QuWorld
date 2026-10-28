@@ -1,0 +1,62 @@
+{
+ "row": "MHD_64",
+ "windows": 960,
+ "persistence_mean": 0.418254415737465,
+ "persistence_median": 0.4112953394651413,
+ "trunks": {
+  "runs/phase_b_mhd/test_mlp30_s1337.csv": {
+   "trunk_mean": 0.17708469798477988,
+   "trunk_median": 0.1825404241681099,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.17708469798477988
+  },
+  "runs/phase_b_mhd/test_mlp30_s1338.csv": {
+   "trunk_mean": 0.20209680234547706,
+   "trunk_median": 0.20862765610218048,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.20209680234547706
+  },
+  "runs/phase_b_mhd/test_mlp30_s1339.csv": {
+   "trunk_mean": 0.20224714036254834,
+   "trunk_median": 0.20849067717790604,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.20224714036254834
+  },
+  "runs/phase_b_mhd/test_mr30ryd_s1337.csv": {
+   "trunk_mean": 0.17704766842070968,
+   "trunk_median": 0.18248599767684937,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.17704766842070968
+  },
+  "runs/phase_b_mhd/test_mr30ryd_s1338.csv": {
+   "trunk_mean": 0.1775445172485585,
+   "trunk_median": 0.18289053440093994,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.1775445172485585
+  },
+  "runs/phase_b_mhd/test_mr30ryd_s1339.csv": {
+   "trunk_mean": 0.20214672718041887,
+   "trunk_median": 0.20840102434158325,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.20214672718041887
+  },
+  "runs/phase_b_mhd/test_vanilla_s1337.csv": {
+   "trunk_mean": 0.17707547217141836,
+   "trunk_median": 0.18257175385951996,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.17707547217141836
+  },
+  "runs/phase_b_mhd/test_vanilla_s1338.csv": {
+   "trunk_mean": 0.1770393521602576,
+   "trunk_median": 0.18229521811008453,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.1770393521602576
+  },
+  "runs/phase_b_mhd/test_vanilla_s1339.csv": {
+   "trunk_mean": 0.20225081246656676,
+   "trunk_median": 0.20863230526447296,
+   "trunk_beats_persistence_share": 1.0,
+   "oracle_min_mean": 0.20225081246656676
+  }
+ }
+}

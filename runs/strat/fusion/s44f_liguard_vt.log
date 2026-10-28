@@ -1,0 +1,46 @@
+[vt] inference + post-processing + parts 245s
+GPU_VT PQmix~g_F8K twin: S 0.97886 r2_psi 0.999401 r2_qb 0.97375 dlcfs 0.01641 cons 0.92382 | 16 shots 245s
+GPU_VT PQmix~g_F8Kg twin: S 0.97886 r2_psi 0.999401 r2_qb 0.97375 dlcfs 0.01641 cons 0.92382 | 16 shots 245s
+[decomp] VT 16 shots, 3805 frames; raw arm PQmix~g_ns, final arm PQmix~g_F8K, heads ['J1RL_s1', 'J1RL_s1', 'J1RL_s1', 'J1QPIpi_s1', 'J1QPIpi_s2', 'J1QH_s1', 'J1QH_s2', 'J1QH_s3']
+[decomp]   scalar |   trunk    head   final | final-vs-head | offset share | phase RMSE first10% mid last10%
+[decomp]   R_axis | -0.05792 0.60472 0.61176 |       0.99876 |         0.70 | 0.0041 0.0090 0.0135 (sd 0.0148)
+[decomp]   Z_axis | 0.99106 0.98748 0.98782 |       0.99978 |         0.29 | 0.0046 0.0033 0.0065 (sd 0.0352)
+[decomp]    kappa | 0.90894 0.92028 0.91811 |       0.99735 |         0.02 | 0.0239 0.0195 0.0545 (sd 0.0901)
+[decomp]  tri_top | 0.99301 0.99404 0.99178 |       0.99658 |         0.32 | 0.0231 0.0248 0.0224 (sd 0.2694)
+[decomp]  tri_bot | 0.99362 0.99546 0.99395 |       0.99649 |         0.18 | 0.0483 0.0291 0.0327 (sd 0.4106)
+[decomp]   volume | 0.98534 0.94915 0.95782 |       0.99810 |         0.60 | 0.4924 0.2956 0.3672 (sd 1.6004)
+[decomp]       li | 0.47672 0.85911 0.73621 |       0.76692 |         0.09 | 0.0283 0.0686 0.4398 (sd 0.2989)
+[decomp] transfer slope (edit move / head-trunk gap; 1 = head imposed) and RMSE head -> final by phase:
+[decomp]   R_axis: all slope 1.00 rmse 0.0093->0.0092 | first10 slope 1.01 rmse 0.0040->0.0041 | mid slope 1.01 rmse 0.0090->0.0090 | last10 slope 0.89 rmse 0.0141->0.0135 | top-10% gap frames slope 1.01
+[decomp]   Z_axis: all slope 0.98 rmse 0.0039->0.0039 | first10 slope 1.00 rmse 0.0046->0.0046 | mid slope 0.99 rmse 0.0033->0.0033 | last10 slope 0.96 rmse 0.0067->0.0065 | top-10% gap frames slope 0.98
+[decomp]    kappa: all slope 1.01 rmse 0.0254->0.0258 | first10 slope 1.04 rmse 0.0236->0.0239 | mid slope 1.00 rmse 0.0190->0.0195 | last10 slope 1.02 rmse 0.0544->0.0545 | top-10% gap frames slope 1.03
+[decomp]  tri_top: all slope 0.81 rmse 0.0208->0.0244 | first10 slope 0.75 rmse 0.0177->0.0231 | mid slope 0.80 rmse 0.0216->0.0248 | last10 slope 0.99 rmse 0.0167->0.0224 | top-10% gap frames slope 0.83
+[decomp]  tri_bot: all slope 0.69 rmse 0.0277->0.0319 | first10 slope 1.07 rmse 0.0410->0.0483 | mid slope 0.60 rmse 0.0250->0.0291 | last10 slope 0.87 rmse 0.0310->0.0327 | top-10% gap frames slope 0.70
+[decomp]   volume: all slope 0.88 rmse 0.3609->0.3287 | first10 slope 0.98 rmse 0.4967->0.4924 | mid slope 0.95 rmse 0.3039->0.2956 | last10 slope 0.47 rmse 0.5563->0.3672 | top-10% gap frames slope 0.87
+[decomp]       li: all slope 0.39 rmse 0.1122->0.1535 | first10 slope 1.00 rmse 0.0283->0.0283 | mid slope 1.00 rmse 0.0686->0.0686 | last10 slope 0.08 rmse 0.2930->0.4398 | top-10% gap frames slope 0.35
+[decomp] mean over 7 (trunk): 0.75583
+[decomp] mean over 7 (head): 0.90146
+[decomp] mean over 7 (final): 0.88535
+STAGE_DECOMP_DONE
+[decomp] VT 16 shots, 3805 frames; raw arm PQmix~g_ns, final arm PQmix~g_F8Kg, heads ['J1RL_s1', 'J1RL_s1', 'J1RL_s1', 'J1QPIpi_s1', 'J1QPIpi_s2', 'J1QH_s1', 'J1QH_s2', 'J1QH_s3']
+[decomp]   scalar |   trunk    head   final | final-vs-head | offset share | phase RMSE first10% mid last10%
+[decomp]   R_axis | -0.05792 0.60472 0.61176 |       0.99876 |         0.70 | 0.0041 0.0090 0.0135 (sd 0.0148)
+[decomp]   Z_axis | 0.99106 0.98748 0.98782 |       0.99978 |         0.29 | 0.0046 0.0033 0.0065 (sd 0.0352)
+[decomp]    kappa | 0.90894 0.92028 0.91811 |       0.99735 |         0.02 | 0.0239 0.0195 0.0545 (sd 0.0901)
+[decomp]  tri_top | 0.99301 0.99404 0.99178 |       0.99658 |         0.32 | 0.0231 0.0248 0.0224 (sd 0.2694)
+[decomp]  tri_bot | 0.99362 0.99546 0.99395 |       0.99649 |         0.18 | 0.0483 0.0291 0.0327 (sd 0.4106)
+[decomp]   volume | 0.98534 0.94915 0.95782 |       0.99810 |         0.60 | 0.4924 0.2956 0.3672 (sd 1.6004)
+[decomp]       li | 0.47672 0.85911 0.73621 |       0.76692 |         0.09 | 0.0283 0.0686 0.4398 (sd 0.2989)
+[decomp] transfer slope (edit move / head-trunk gap; 1 = head imposed) and RMSE head -> final by phase:
+[decomp]   R_axis: all slope 1.00 rmse 0.0093->0.0092 | first10 slope 1.01 rmse 0.0040->0.0041 | mid slope 1.01 rmse 0.0090->0.0090 | last10 slope 0.89 rmse 0.0141->0.0135 | top-10% gap frames slope 1.01
+[decomp]   Z_axis: all slope 0.98 rmse 0.0039->0.0039 | first10 slope 1.00 rmse 0.0046->0.0046 | mid slope 0.99 rmse 0.0033->0.0033 | last10 slope 0.96 rmse 0.0067->0.0065 | top-10% gap frames slope 0.98
+[decomp]    kappa: all slope 1.01 rmse 0.0254->0.0258 | first10 slope 1.04 rmse 0.0236->0.0239 | mid slope 1.00 rmse 0.0190->0.0195 | last10 slope 1.02 rmse 0.0544->0.0545 | top-10% gap frames slope 1.03
+[decomp]  tri_top: all slope 0.81 rmse 0.0208->0.0244 | first10 slope 0.75 rmse 0.0177->0.0231 | mid slope 0.80 rmse 0.0216->0.0248 | last10 slope 0.99 rmse 0.0167->0.0224 | top-10% gap frames slope 0.83
+[decomp]  tri_bot: all slope 0.69 rmse 0.0277->0.0319 | first10 slope 1.07 rmse 0.0410->0.0483 | mid slope 0.60 rmse 0.0250->0.0291 | last10 slope 0.87 rmse 0.0310->0.0327 | top-10% gap frames slope 0.70
+[decomp]   volume: all slope 0.88 rmse 0.3609->0.3287 | first10 slope 0.98 rmse 0.4967->0.4924 | mid slope 0.95 rmse 0.3039->0.2956 | last10 slope 0.47 rmse 0.5563->0.3672 | top-10% gap frames slope 0.87
+[decomp]       li: all slope 0.39 rmse 0.1122->0.1535 | first10 slope 1.00 rmse 0.0283->0.0283 | mid slope 1.00 rmse 0.0686->0.0686 | last10 slope 0.08 rmse 0.2930->0.4398 | top-10% gap frames slope 0.35
+[decomp] mean over 7 (trunk): 0.75583
+[decomp] mean over 7 (head): 0.90146
+[decomp] mean over 7 (final): 0.88535
+STAGE_DECOMP_DONE
+S44F_DONE 2026-10-15T04:54:20+03:00

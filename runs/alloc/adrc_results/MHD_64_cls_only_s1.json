@@ -1,0 +1,1 @@
+{"row": "MHD_64", "arm": "cls_only", "seed": 1, "gate": false, "trunk_test": 0.5446799498366888, "test": 0.5392288043250071, "test_rel_gain": 0.010007979022022218, "test_captured": 0.022672888328475523, "valid": 0.5411651240306705, "epochs": 39, "seconds": 26.514997482299805, "tethers": null, "params_core": 332, "bands_test": null, "trunk0_test": null}

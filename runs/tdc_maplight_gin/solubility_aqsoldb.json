@@ -1,0 +1,28 @@
+{
+ "endpoint": "solubility_aqsoldb",
+ "model": "MapLight CatBoost CPU exact [maplight+gin]",
+ "metric": "mae",
+ "higher_is_better": false,
+ "test_mean": 0.7918000000000001,
+ "test_sd": 0.003487119154832542,
+ "test_per_seed": [
+  0.794,
+  0.792,
+  0.794,
+  0.785,
+  0.794
+ ],
+ "official_evaluate_many": [
+  0.792,
+  0.003
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "n_features": 2863,
+ "seconds": 146.57477188110352
+}

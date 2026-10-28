@@ -1,0 +1,24 @@
+% Industrial benchmark ladder \textemdash{} rows: benchmarks; cols: SoTA/anchor, vanilla, matched control, quantum. "\textemdash{}" = not run at submission.
+\begin{table}[t]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+Benchmark (domain) & Metric & SoTA / anchor & Vanilla & Matched ctrl & Quantum \\
+\midrule
+The Well TRL2D (turbulence) & VRMSE 1-step / 13:30 $\downarrow$ & \LadTRLsota & \LadTRLvan & \LadTRLmlp & \LadTRLq \\
+The Well MHD\_64 (fusion, 3-D) & test VRMSE $\downarrow$ & \LadMHDsota & \LadMHDvan & \LadMHDmlp & \LadMHDq \\
+TORAX-Bench (tokamak transport) & rollout VRMSE@8 $\downarrow$ & \LadTORAXsota & \LadTORAXvan & \LadTORAXmlp & \LadTORAXq \\
+Pelzer 1HP (geothermal plume) & MAE $\downarrow$ & \LadPelzsota & \LadPelzvan & \LadPelzmlp & \LadPelzq \\
+Physics-IQ (video physics, frozen 14B) & score $\uparrow$ orig./verif. & \LadPIQsota & \LadPIQvan & \LadPIQlora & \LadPIQq \\
+WorldModelBench (video physics) & judge $\uparrow$ & KLING 9.10 & \textemdash{} & \textemdash{} & \textemdash{} \\
+TokaMark task 1-1 (equilibrium) & TaskNRMSE $\downarrow$ & CNN 0.2091 / TokaMind 0.150 & \textemdash{} & \textemdash{} & \textemdash{} \\
+Sophelio (DIII-D equilibrium) & official $S$ $\uparrow$ & local starter protocol & \textemdash{} & \textemdash{} & \textemdash{} \\
+rayleigh\_benard (fission proxy) & VRMSE $\downarrow$ & TFNO 0.6566 & \textemdash{} & \textemdash{} & \textemdash{} \\
+shear\_flow (turbulence) & VRMSE $\downarrow$ & CNextU-net 0.8080 & \textemdash{} & \textemdash{} & \textemdash{} \\
+BubbleML 2.0 (boiling; planned) & protocol audit pending & Bubbleformer & \textemdash{} & \textemdash{} & \textemdash{} \\
+\bottomrule
+\end{tabular}}
+\caption{Eleven-benchmark program, including the planned BubbleML extension; pending cells are not results. Completed rows use three arms and three seeds. Pelzer uses a local 700/200/100 split: its published value is context, not a verified same-split comparison. TokaMark backbones share one task and count once.}
+\label{tab:ladder-industrial}
+\end{table}

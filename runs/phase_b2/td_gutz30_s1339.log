@@ -1,0 +1,68 @@
+Uninstalled 1 package in 0.56ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=0 vrmse1=0.1902 vrmse8=0.6073 free=85G (checkpoint start, td k=4, SELECTION=rollout)
+val_check step=310 vrmse1=0.2966 vrmse8=0.6134 loss=0.12419 free=86G
+val_check step=625 vrmse1=0.3383 vrmse8=0.6243 loss=0.04538 free=86G
+val_check step=940 vrmse1=0.3459 vrmse8=0.6206 loss=0.01302 free=85G
+val_check step=1255 vrmse1=0.3424 vrmse8=0.6952 loss=0.04101 free=86G
+val_check step=1570 vrmse1=0.3567 vrmse8=0.6303 loss=0.04910 free=86G
+val_check step=1884 vrmse1=0.3499 vrmse8=0.6726 loss=0.06248 free=86G
+val_check step=2197 vrmse1=0.3540 vrmse8=0.6110 loss=0.13659 free=85G
+val_check step=2512 vrmse1=0.3497 vrmse8=0.6280 loss=0.11393 free=85G
+val_check step=2827 vrmse1=0.3361 vrmse8=0.7008 loss=0.16364 free=86G
+val_check step=3142 vrmse1=0.3661 vrmse8=0.6094 loss=0.10924 free=86G
+val_check step=3457 vrmse1=0.3434 vrmse8=0.6819 loss=0.06564 free=86G
+val_check step=3741 vrmse1=0.3293 vrmse8=0.6559 loss=0.05623 free=83G
+---
+variant:        gutz30
+td_k:           4
+val_vrmse_8:    0.602911  # SELECTION metric (rollout)
+num_steps:      3775
+train_seconds:  2442.3
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/gutz30_s1339.pt
+Uninstalled 1 package in 0.54ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=3775 vrmse=0.6029 free=85G (RESUMED)
+val_check step=4082 vrmse1=0.3402 vrmse8=0.6038 loss=0.08116 free=84G
+val_check step=4394 vrmse1=0.3409 vrmse8=0.6149 loss=0.05348 free=84G
+val_check step=4706 vrmse1=0.3233 vrmse8=0.6326 loss=0.11238 free=85G
+val_check step=5018 vrmse1=0.3581 vrmse8=0.6006 loss=0.11593 free=85G
+val_check step=5330 vrmse1=0.3412 vrmse8=0.6350 loss=0.11436 free=85G
+val_check step=5642 vrmse1=0.3375 vrmse8=0.6324 loss=0.03577 free=85G
+val_check step=5954 vrmse1=0.3389 vrmse8=0.5838 loss=0.14899 free=85G
+val_check step=6266 vrmse1=0.3229 vrmse8=0.7228 loss=0.10325 free=85G
+val_check step=6578 vrmse1=0.3371 vrmse8=0.6091 loss=0.03511 free=85G
+val_check step=6890 vrmse1=0.3407 vrmse8=0.5872 loss=0.01324 free=85G
+val_check step=7202 vrmse1=0.3331 vrmse8=0.7082 loss=0.03166 free=85G
+val_check step=7514 vrmse1=0.3248 vrmse8=0.6530 loss=0.05401 free=85G
+---
+variant:        gutz30
+td_k:           4
+val_vrmse_8:    0.583842  # SELECTION metric (rollout)
+num_steps:      7600
+train_seconds:  2419.7
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/gutz30_s1339.pt
+Uninstalled 1 package in 0.56ms
+Installed 1 package in 2ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+val_check step=7600 vrmse=0.5838 free=88G (RESUMED)
+val_check step=7906 vrmse1=0.3322 vrmse8=0.5853 loss=0.12464 free=85G
+val_check step=8218 vrmse1=0.3455 vrmse8=0.6006 loss=0.03199 free=84G
+val_check step=8531 vrmse1=0.3233 vrmse8=0.6156 loss=0.11721 free=84G
+val_check step=8843 vrmse1=0.3556 vrmse8=0.6625 loss=0.11195 free=85G
+val_check step=9155 vrmse1=0.3361 vrmse8=0.6377 loss=0.10740 free=85G
+val_check step=9467 vrmse1=0.3312 vrmse8=0.5949 loss=0.03675 free=84G
+val_check step=9780 vrmse1=0.3321 vrmse8=0.5875 loss=0.06632 free=85G
+target_reached steps=10000 best=0.583842
+---
+variant:        gutz30
+td_k:           4
+val_vrmse_8:    0.583842  # SELECTION metric (rollout)
+num_steps:      10000
+train_seconds:  1517.5
+checkpoint:     /home/mohhakami/Documents/paper/quworld/runs/phase_b2/gutz30_s1339.pt

@@ -1,0 +1,153 @@
+waveG runner start 2026-09-21T01:23:10+03:00
+train q30 s1337 2026-09-21T01:23:10+03:00
+result q30 s1337: val_vrmse_1: 0.526523 val_vrmse_8: 0.902023 num_params: 1338576 train_seconds: 664.6  2026-09-21T01:34:18+03:00
+train mlp30 s1337 2026-09-21T01:34:18+03:00
+result mlp30 s1337: val_vrmse_1: 0.519256 val_vrmse_8: 1.097804 num_params: 1338442 train_seconds: 261.9  2026-09-21T01:38:43+03:00
+train none s1337 2026-09-21T01:38:43+03:00
+result none s1337: val_vrmse_1: 0.544928 val_vrmse_8: 1.247287 num_params: 1331484 train_seconds: 256.4  2026-09-21T01:43:02+03:00
+train q30-geo=chain s1337 2026-09-21T01:43:03+03:00
+result q30-geo=chain s1337: val_vrmse_1: 0.525387 val_vrmse_8: 0.873049 num_params: 1338576 train_seconds: 667.2  2026-09-21T01:54:14+03:00
+train q30-geo=chain-mlp s1337 2026-09-21T01:54:14+03:00
+result q30-geo=chain-mlp s1337: val_vrmse_1: 0.521640 val_vrmse_8: 1.020456 num_params: 1338552 train_seconds: 263.9  2026-09-21T01:58:41+03:00
+train q30-geo=ring s1337 2026-09-21T01:58:41+03:00
+result q30-geo=ring s1337: val_vrmse_1: 0.527406 val_vrmse_8: 0.902854 num_params: 1338576 train_seconds: 666.8  2026-09-21T02:09:52+03:00
+train q30-geo=ring-mlp s1337 2026-09-21T02:09:52+03:00
+result q30-geo=ring-mlp s1337: val_vrmse_1: 0.521703 val_vrmse_8: 1.020789 num_params: 1338552 train_seconds: 263.8  2026-09-21T02:14:19+03:00
+train q30-geo=tri s1337 2026-09-21T02:14:19+03:00
+result q30-geo=tri s1337: val_vrmse_1: 0.527029 val_vrmse_8: 0.902474 num_params: 1338576 train_seconds: 671.9  2026-09-21T02:25:35+03:00
+train q30-geo=tri-mlp s1337 2026-09-21T02:25:35+03:00
+result q30-geo=tri-mlp s1337: val_vrmse_1: 0.521621 val_vrmse_8: 1.020425 num_params: 1338552 train_seconds: 260.5  2026-09-21T02:29:59+03:00
+train q30-sp=0.7 s1337 2026-09-21T02:29:59+03:00
+result q30-sp=0.7 s1337: val_vrmse_1: 0.530617 val_vrmse_8: 0.929788 num_params: 1338576 train_seconds: 693.8  2026-09-21T02:41:37+03:00
+train q30-sp=0.7-mlp s1337 2026-09-21T02:41:37+03:00
+result q30-sp=0.7-mlp s1337: val_vrmse_1: 0.521578 val_vrmse_8: 1.019225 num_params: 1338552 train_seconds: 318.2  2026-09-21T02:46:58+03:00
+train q30-sp=1.5 s1337 2026-09-21T02:46:58+03:00
+result q30-sp=1.5 s1337: val_vrmse_1: 0.527377 val_vrmse_8: 0.884878 num_params: 1338576 train_seconds: 746.1  2026-09-21T02:59:29+03:00
+train q30-sp=1.5-mlp s1337 2026-09-21T02:59:29+03:00
+result q30-sp=1.5-mlp s1337: val_vrmse_1: 0.521514 val_vrmse_8: 1.018247 num_params: 1338552 train_seconds: 308.2  2026-09-21T03:04:40+03:00
+train q30-part=6x5 s1337 2026-09-21T03:04:40+03:00
+result q30-part=6x5 s1337: val_vrmse_1: 0.516692 val_vrmse_8: 1.011514 num_params: 1338600 train_seconds: 764.8  2026-09-21T03:17:29+03:00
+train q30-part=6x5-mlp s1337 2026-09-21T03:17:29+03:00
+result q30-part=6x5-mlp s1337: val_vrmse_1: 0.512396 val_vrmse_8: 0.920454 num_params: 1338552 train_seconds: 308.0  2026-09-21T03:22:41+03:00
+train q30-part=2x15 s1337 2026-09-21T03:22:41+03:00
+result q30-part=2x15 s1337: val_vrmse_1: 0.512060 val_vrmse_8: 0.880509 num_params: 1338568 train_seconds: 1601.9  2026-09-21T03:49:28+03:00
+train q30-part=2x15-mlp s1337 2026-09-21T03:49:28+03:00
+result q30-part=2x15-mlp s1337: val_vrmse_1: 0.515606 val_vrmse_8: 1.060085 num_params: 1338552 train_seconds: 312.3  2026-09-21T03:54:43+03:00
+train q30-link=cascade s1337 2026-09-21T03:54:43+03:00
+result q30-link=cascade s1337: val_vrmse_1: 0.545875 val_vrmse_8: 1.324952 num_params: 1340176 train_seconds: 750.6  2026-09-21T04:07:18+03:00
+train q30-link=cascade-mlp s1337 2026-09-21T04:07:18+03:00
+result q30-link=cascade-mlp s1337: val_vrmse_1: 0.506101 val_vrmse_8: 0.850135 num_params: 1340147 train_seconds: 313.1  2026-09-21T04:12:34+03:00
+train q30-link=shared s1337 2026-09-21T04:12:34+03:00
+result q30-link=shared s1337: val_vrmse_1: 0.524291 val_vrmse_8: 0.865114 num_params: 1334400 train_seconds: 748.2  2026-09-21T04:25:07+03:00
+train q30-link=shared-mlp s1337 2026-09-21T04:25:07+03:00
+result q30-link=shared-mlp s1337: val_vrmse_1: 0.521034 val_vrmse_8: 1.120530 num_params: 1334372 train_seconds: 304.4  2026-09-21T04:30:14+03:00
+train q30-gate s1337 2026-09-21T04:30:14+03:00
+result q30-gate s1337: val_vrmse_1: 0.516085 val_vrmse_8: 0.935011 num_params: 1339326 train_seconds: 660.2 participation: 0.9851  2026-09-21T04:41:19+03:00
+train q30-gate-mlp s1337 2026-09-21T04:41:19+03:00
+result q30-gate-mlp s1337: val_vrmse_1: 0.531607 val_vrmse_8: 1.194873 num_params: 1339322 train_seconds: 239.8  2026-09-21T04:45:22+03:00
+train q30-gate-link=cascade s1337 2026-09-21T04:45:22+03:00
+result q30-gate-link=cascade s1337: val_vrmse_1: 0.523435 val_vrmse_8: 0.996188 num_params: 1341126 train_seconds: 645.3 participation: 0.9863  2026-09-21T04:56:11+03:00
+train q30-gate-link=cascade-mlp s1337 2026-09-21T04:56:11+03:00
+result q30-gate-link=cascade-mlp s1337: val_vrmse_1: 0.523070 val_vrmse_8: 0.987856 num_params: 1341082 train_seconds: 255.2  2026-09-21T05:00:29+03:00
+train q30-geo=tri-sp=0.7 s1337 2026-09-21T05:00:29+03:00
+result q30-geo=tri-sp=0.7 s1337: val_vrmse_1: 0.530967 val_vrmse_8: 0.925052 num_params: 1338576 train_seconds: 642.3  2026-09-21T05:11:16+03:00
+train q30-geo=tri-sp=0.7-mlp s1337 2026-09-21T05:11:16+03:00
+result q30-geo=tri-sp=0.7-mlp s1337: val_vrmse_1: 0.521569 val_vrmse_8: 1.019360 num_params: 1338552 train_seconds: 261.9  2026-09-21T05:15:40+03:00
+WAVEG_STAGE1_DONE 2026-09-21T05:15:40+03:00
+stage2 configs: q30-link=shared q30-geo=chain q30-part=2x15 2026-09-21T05:15:40+03:00
+train q30-link=shared s1338 2026-09-21T05:15:40+03:00
+result q30-link=shared s1338: val_vrmse_1: 0.501345 val_vrmse_8: 0.816629 num_params: 1334400 train_seconds: 643.5  2026-09-21T05:26:28+03:00
+train q30-link=shared-mlp s1338 2026-09-21T05:26:28+03:00
+result q30-link=shared-mlp s1338: val_vrmse_1: 0.535303 val_vrmse_8: 0.909962 num_params: 1334372 train_seconds: 261.4  2026-09-21T05:30:52+03:00
+train q30-geo=chain s1338 2026-09-21T05:30:52+03:00
+result q30-geo=chain s1338: val_vrmse_1: 0.500953 val_vrmse_8: 0.821419 num_params: 1338576 train_seconds: 641.8  2026-09-21T05:41:38+03:00
+train q30-geo=chain-mlp s1338 2026-09-21T05:41:38+03:00
+result q30-geo=chain-mlp s1338: val_vrmse_1: 0.494549 val_vrmse_8: 0.794872 num_params: 1338552 train_seconds: 261.8  2026-09-21T05:46:03+03:00
+train q30-part=2x15 s1338 2026-09-21T05:46:03+03:00
+result q30-part=2x15 s1338: val_vrmse_1: 0.509825 val_vrmse_8: 0.811815 num_params: 1338568 train_seconds: 1357.0  2026-09-21T06:08:44+03:00
+train q30-part=2x15-mlp s1338 2026-09-21T06:08:44+03:00
+result q30-part=2x15-mlp s1338: val_vrmse_1: 0.517371 val_vrmse_8: 0.827814 num_params: 1338552 train_seconds: 253.3  2026-09-21T06:13:01+03:00
+train q30-link=shared s1339 2026-09-21T06:13:01+03:00
+result q30-link=shared s1339: val_vrmse_1: 0.519741 val_vrmse_8: 0.803866 num_params: 1334400 train_seconds: 644.8  2026-09-21T06:23:50+03:00
+train q30-link=shared-mlp s1339 2026-09-21T06:23:50+03:00
+result q30-link=shared-mlp s1339: val_vrmse_1: 0.512247 val_vrmse_8: 0.836725 num_params: 1334372 train_seconds: 255.6  2026-09-21T06:28:09+03:00
+train q30-geo=chain s1339 2026-09-21T06:28:09+03:00
+result q30-geo=chain s1339: val_vrmse_1: 0.520361 val_vrmse_8: 0.802795 num_params: 1338576 train_seconds: 629.5  2026-09-21T06:38:42+03:00
+train q30-geo=chain-mlp s1339 2026-09-21T06:38:42+03:00
+result q30-geo=chain-mlp s1339: val_vrmse_1: 0.512384 val_vrmse_8: 0.873151 num_params: 1338552 train_seconds: 263.6  2026-09-21T06:43:09+03:00
+train q30-part=2x15 s1339 2026-09-21T06:43:09+03:00
+result q30-part=2x15 s1339: val_vrmse_1: 0.533016 val_vrmse_8: 0.862028 num_params: 1338568 train_seconds: 1357.3  2026-09-21T07:05:50+03:00
+train q30-part=2x15-mlp s1339 2026-09-21T07:05:50+03:00
+result q30-part=2x15-mlp s1339: val_vrmse_1: 0.527590 val_vrmse_8: 0.811250 num_params: 1338552 train_seconds: 264.5  2026-09-21T07:10:18+03:00
+WAVEG_DONE 2026-09-21T07:10:18+03:00
+train q30-gate lam=0.03 s1337 2026-09-21T07:12:03+03:00
+transfer runner start 2026-09-21T07:13:02+03:00
+result q30-gate lam=0.03 s1337: gate_penalty: 0.03 val_vrmse_1: 0.530672 val_vrmse_8: 0.988912 participation: 0.0008  2026-09-21T07:23:30+03:00
+train q30-gate lam=0.1 s1337 2026-09-21T07:23:30+03:00
+result q30-gate lam=0.1 s1337: gate_penalty: 0.1 val_vrmse_1: 0.525693 val_vrmse_8: 0.929753 participation: 0.0003  2026-09-21T07:34:53+03:00
+train q30-gate lam=0.3 s1337 2026-09-21T07:34:53+03:00
+result q30-gate lam=0.3 s1337: gate_penalty: 0.3 val_vrmse_1: 0.527784 val_vrmse_8: 0.939797 participation: 0.0001  2026-09-21T07:46:22+03:00
+WAVEG_GATE_DONE 2026-09-21T07:46:22+03:00
+torax q30-link=shared s1337 2026-09-21T07:48:02+03:00
+result torax q30-link=shared s1337: vrmse8=0.0280 vrmse1=0.0050 params=44520 2026-09-21T07:52:05+03:00
+torax q30-link=shared-mlp s1337 2026-09-21T07:52:05+03:00
+result torax q30-link=shared-mlp s1337: vrmse8=0.0302 vrmse1=0.0061 params=44492 2026-09-21T07:53:01+03:00
+torax q30-link=shared s1338 2026-09-21T07:53:01+03:00
+result torax q30-link=shared s1338: vrmse8=0.0318 vrmse1=0.0066 params=44520 2026-09-21T07:57:07+03:00
+torax q30-link=shared-mlp s1338 2026-09-21T07:57:07+03:00
+result torax q30-link=shared-mlp s1338: vrmse8=0.0272 vrmse1=0.0049 params=44492 2026-09-21T07:57:42+03:00
+torax q30-link=shared s1339 2026-09-21T07:57:42+03:00
+result torax q30-link=shared s1339: vrmse8=0.0278 vrmse1=0.0053 params=44520 2026-09-21T08:01:48+03:00
+torax q30-link=shared-mlp s1339 2026-09-21T08:01:48+03:00
+result torax q30-link=shared-mlp s1339: vrmse8=0.0286 vrmse1=0.0055 params=44492 2026-09-21T08:02:43+03:00
+TRANSFER_TORAX_DONE 2026-09-21T08:02:43+03:00
+pelzer q30-link=shared s1337 2026-09-21T08:02:43+03:00
+result pelzer q30-link=shared s1337: mae_c=0.03182 pat01=0.0732 2026-09-21T08:09:38+03:00
+pelzer q30-link=shared-mlp s1337 2026-09-21T08:09:38+03:00
+result pelzer q30-link=shared-mlp s1337: mae_c=0.03177 pat01=0.0715 2026-09-21T08:15:12+03:00
+pelzer q30-link=shared s1338 2026-09-21T08:15:12+03:00
+result pelzer q30-link=shared s1338: mae_c=0.03692 pat01=0.0819 2026-09-21T08:22:05+03:00
+pelzer q30-link=shared-mlp s1338 2026-09-21T08:22:05+03:00
+result pelzer q30-link=shared-mlp s1338: mae_c=0.03609 pat01=0.0784 2026-09-21T08:27:34+03:00
+pelzer q30-link=shared s1339 2026-09-21T08:27:34+03:00
+result pelzer q30-link=shared s1339: mae_c=0.04078 pat01=0.0929 2026-09-21T08:34:30+03:00
+pelzer q30-link=shared-mlp s1339 2026-09-21T08:34:30+03:00
+result pelzer q30-link=shared-mlp s1339: mae_c=0.04053 pat01=0.0903 2026-09-21T08:40:02+03:00
+TRANSFER_PELZER_DONE 2026-09-21T08:40:02+03:00
+sophelio q30-link=shared s1337 2026-09-21T08:40:02+03:00
+result sophelio q30-link=shared s1337: S=0.7735 r2psi=0.9858 cons=0.3376 dlcfs=0.0699 2026-09-21T08:56:55+03:00
+sophelio q30-link=shared-mlp s1337 2026-09-21T08:56:55+03:00
+result sophelio q30-link=shared-mlp s1337: S=0.7781 r2psi=0.9921 cons=0.3406 dlcfs=0.0651 2026-09-21T09:05:00+03:00
+sophelio q30-link=shared s1338 2026-09-21T09:05:00+03:00
+result sophelio q30-link=shared s1338: S=0.7916 r2psi=0.9886 cons=0.4154 dlcfs=0.0598 2026-09-21T09:21:53+03:00
+sophelio q30-link=shared-mlp s1338 2026-09-21T09:21:53+03:00
+result sophelio q30-link=shared-mlp s1338: S=0.7672 r2psi=0.9828 cons=0.3156 dlcfs=0.0723 2026-09-21T09:30:01+03:00
+sophelio q30-link=shared s1339 2026-09-21T09:30:01+03:00
+result sophelio q30-link=shared s1339: S=0.7876 r2psi=0.9882 cons=0.3965 dlcfs=0.0601 2026-09-21T09:46:55+03:00
+sophelio q30-link=shared-mlp s1339 2026-09-21T09:46:55+03:00
+result sophelio q30-link=shared-mlp s1339: S=0.7993 r2psi=0.9920 cons=0.4459 dlcfs=0.0624 2026-09-21T09:55:07+03:00
+TRANSFER_DONE 2026-09-21T09:55:07+03:00
+waveG-k runner start 2026-09-21T09:57:56+03:00
+train q30-k=3 s1337 2026-09-21T09:57:56+03:00
+result q30-k=3 s1337: val_vrmse_1: 0.526452 val_vrmse_8: 1.080248 num_params: 1339326 participation: 0.3000  2026-09-21T10:11:43+03:00
+train q30-k=3-randk s1337 2026-09-21T10:11:43+03:00
+result q30-k=3-randk s1337: val_vrmse_1: 0.533547 val_vrmse_8: 1.082298 num_params: 1339326 participation: 0.3000  2026-09-21T10:25:03+03:00
+train q30-k=3-mlp s1337 2026-09-21T10:25:03+03:00
+result q30-k=3-mlp s1337: val_vrmse_1: 0.554490 val_vrmse_8: 1.104804 num_params: 1339322  2026-09-21T10:33:02+03:00
+train q30-k=5 s1337 2026-09-21T10:33:02+03:00
+result q30-k=5 s1337: val_vrmse_1: 0.527673 val_vrmse_8: 1.089853 num_params: 1339326 participation: 0.5000  2026-09-21T10:47:17+03:00
+train q30-k=5-randk s1337 2026-09-21T10:47:17+03:00
+result q30-k=5-randk s1337: val_vrmse_1: 0.530961 val_vrmse_8: 1.061211 num_params: 1339326 participation: 0.5000  2026-09-21T11:00:54+03:00
+train q30-k=5-mlp s1337 2026-09-21T11:00:54+03:00
+result q30-k=5-mlp s1337: val_vrmse_1: 0.554122 val_vrmse_8: 1.100069 num_params: 1339322  2026-09-21T11:07:22+03:00
+train q30-k=7 s1337 2026-09-21T11:07:22+03:00
+result q30-k=7 s1337: val_vrmse_1: 0.525339 val_vrmse_8: 1.052440 num_params: 1339326 participation: 0.7000  2026-09-21T11:21:29+03:00
+train q30-k=7-randk s1337 2026-09-21T11:21:29+03:00
+result q30-k=7-randk s1337: val_vrmse_1: 0.529844 val_vrmse_8: 1.062829 num_params: 1339326 participation: 0.7000  2026-09-21T11:35:40+03:00
+train q30-k=7-mlp s1337 2026-09-21T11:35:40+03:00
+result q30-k=7-mlp s1337: val_vrmse_1: 0.554173 val_vrmse_8: 1.102308 num_params: 1339322  2026-09-21T11:43:59+03:00
+WAVEGK_STAGE1_DONE 2026-09-21T11:43:59+03:00
+k=3 not promising (q 1.080248, randk 1.082298, ref 0.902023) 2026-09-21T11:43:59+03:00
+k=5 not promising (q 1.089853, randk 1.061211, ref 0.902023) 2026-09-21T11:43:59+03:00
+k=7 not promising (q 1.052440, randk 1.062829, ref 0.902023) 2026-09-21T11:43:59+03:00
+WAVEGK_DONE 2026-09-21T11:43:59+03:00

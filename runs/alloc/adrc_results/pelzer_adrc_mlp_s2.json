@@ -1,0 +1,1 @@
+{"row": "pelzer", "arm": "adrc_mlp", "seed": 2, "trunk_test": 0.11245475790141075, "test": 0.08605477550696111, "test_rel_gain": 0.23476091974333846, "test_captured": 0.3416024616696325, "valid": 0.09176141422478558, "epochs": 34, "seconds": 9.033930540084839, "tethers": [0.0, 0.0, 0.23578405380249023], "params_core": 105}

@@ -1,0 +1,1 @@
+{"row": "shear_flow", "arm": "rand_ryd", "seed": 2, "trunk_test": 1.059867153710237, "test": 0.11861628169492336, "test_rel_gain": 0.8880838213735676, "test_captured": 0.5816234968787845, "valid": 0.107504061819461, "epochs": 21, "seconds": 95.37575769424438, "tethers": [0.0, 0.0, 0.0], "params_core": 224}

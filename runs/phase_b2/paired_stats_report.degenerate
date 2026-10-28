@@ -1,0 +1,16 @@
+--- td_vanilla_s1337 2026-08-17T13:16:47+03:00 ---
+Uninstalled 1 package in 0.38ms
+Installed 1 package in 1ms
+/home/mohhakami/Documents/paper/quworld/.venv/lib/python3.13/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+/home/mohhakami/Documents/paper/quworld/paper/phase_b/paired_stats.py:30: RuntimeWarning: invalid value encountered in scalar divide
+  rank_biserial = 1 - 2 * w2.statistic / (n_nonzero * (n_nonzero + 1) / 2)
+windows:        873
+ours   mean/median: 0.1934 / 0.1772
+base   mean/median: 0.1934 / 0.1772
+mean diff:      +0.0000  (negative = ours better)
+win rate:       0.0% of windows
+wilcoxon two-sided p: nan
+wilcoxon one-sided (ours<base) p: nan
+rank-biserial effect: +nan
+H1d verdict (mean lower AND p<0.05): no pass
